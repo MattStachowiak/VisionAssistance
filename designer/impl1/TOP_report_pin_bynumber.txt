@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Wed Apr 17 22:35:15 2019 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Wed Apr 17 23:09:33 2019 Pinchecksum: NOT-AVAILABLE
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
@@ -425,7 +425,7 @@ U16                  VCC33SDD1                     Reserved
 U17                  SPI_0_DO/GPIO_16              Special
 U18     UART_0_RXD   UART_0_RXD/GPIO_21            Special      LVTTL    ---                ---   None           No               ---   ---               No           Yes
 U19                  VCCMSSIOB2                    Reserved
-U20                  I2C_1_SCL/GPIO_31             Special
+U20     I2C_1_SCL    I2C_1_SCL/GPIO_31             Special      LVTTL    8                  High  None           No               No    35                No           Yes
 U21                  I2C_0_SCL/GPIO_23             Special
 U22                  GND                           Reserved
 V1                   GPIO_0/IO47RSB4V0             Unassigned
@@ -449,7 +449,7 @@ V18                  SPI_0_DI/GPIO_17              Special
 V19                  SPI_1_DI/GPIO_25              Special
 V20                  UART_1_TXD/GPIO_28            Special
 V21                  I2C_0_SDA/GPIO_22             Special
-V22                  I2C_1_SDA/GPIO_30             Special
+V22     I2C_1_SDA    I2C_1_SDA/GPIO_30             Special      LVTTL    8                  High  None           No               No    35                No           Yes
 W1                   GPIO_2/IO45RSB4V0             Unassigned
 W2                   GPIO_7/IO40RSB4V0             Unassigned
 W3                   GND                           Reserved

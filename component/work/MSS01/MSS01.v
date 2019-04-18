@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Wed Apr 17 19:03:33 2019
+// Created by SmartDesign Wed Apr 17 23:07:58 2019
 // Version: v11.9 11.9.0.4
 //////////////////////////////////////////////////////////////////////
 
@@ -21,7 +21,10 @@ module MSS01(
     MSSPSEL,
     MSSPWDATA,
     MSSPWRITE,
-    UART_0_TXD
+    UART_0_TXD,
+    // Inouts
+    I2C_1_SCL,
+    I2C_1_SDA
 );
 
 //--------------------------------------------------------------------
@@ -44,14 +47,25 @@ output [31:0] MSSPWDATA;
 output        MSSPWRITE;
 output        UART_0_TXD;
 //--------------------------------------------------------------------
+// Inout
+//--------------------------------------------------------------------
+inout         I2C_1_SCL;
+inout         I2C_1_SDA;
+//--------------------------------------------------------------------
 // Nets
 //--------------------------------------------------------------------
+wire          I2C_1_SCL;
+wire          I2C_1_SDA;
 wire          MSS_ADLIB_INST_EMCCLK;
 wire          MSS_ADLIB_INST_FCLK;
 wire          MSS_ADLIB_INST_MACCLK;
 wire          MSS_ADLIB_INST_MACCLKCCC;
 wire          MSS_ADLIB_INST_PLLLOCK;
 wire          MSS_ADLIB_INST_SYNCCLKFDBK;
+wire          MSS_I2C_1_SCL_E;
+wire          MSS_I2C_1_SCL_Y;
+wire          MSS_I2C_1_SDA_E;
+wire          MSS_I2C_1_SDA_Y;
 wire          MSS_RESET_0_MSS_RESET_N_Y;
 wire          MSS_RESET_N;
 wire          MSS_UART_0_RXD_Y;
@@ -198,8 +212,8 @@ MSS_ADLIB_INST(
         .SPI1CLKI       ( GND_net ), // tied to 1'b0 from definition
         .SPI1SSI        ( GND_net ), // tied to 1'b0 from definition
         .UART1RXD       ( GND_net ), // tied to 1'b0 from definition
-        .I2C1SDAI       ( GND_net ), // tied to 1'b0 from definition
-        .I2C1SCLI       ( GND_net ), // tied to 1'b0 from definition
+        .I2C1SDAI       ( MSS_I2C_1_SDA_Y ),
+        .I2C1SCLI       ( MSS_I2C_1_SCL_Y ),
         .MACRXD         ( MACRXD_const_net_0 ), // tied to 2'h0 from definition
         .MACCRSDV       ( GND_net ), // tied to 1'b0 from definition
         .MACRXER        ( GND_net ), // tied to 1'b0 from definition
@@ -323,8 +337,8 @@ MSS_ADLIB_INST(
         .SPI1MODE       (  ),
         .SPI1SSO        (  ),
         .UART1TXD       (  ),
-        .I2C1SDAO       (  ),
-        .I2C1SCLO       (  ),
+        .I2C1SDAO       ( MSS_I2C_1_SDA_E ),
+        .I2C1SCLO       ( MSS_I2C_1_SCL_E ),
         .MACTXD         (  ),
         .MACTXEN        (  ),
         .MACMDO         (  ),
@@ -379,6 +393,32 @@ MSS01_tmp_MSS_CCC_0_MSS_CCC MSS_CCC_0(
         .MSS_LOCK       ( MSS_ADLIB_INST_PLLLOCK ),
         .MAC_CLK_CCC    ( MSS_ADLIB_INST_MACCLKCCC ),
         .MAC_CLK_IO     ( MSS_ADLIB_INST_MACCLK ) 
+        );
+
+//--------BIBUF_OPEND_MSS
+BIBUF_OPEND_MSS #( 
+        .ACT_CONFIG ( 0 ),
+        .ACT_PIN    ( "U20" ) )
+MSS_I2C_1_SCL(
+        // Inputs
+        .E   ( MSS_I2C_1_SCL_E ),
+        // Outputs
+        .Y   ( MSS_I2C_1_SCL_Y ),
+        // Inouts
+        .PAD ( I2C_1_SCL ) 
+        );
+
+//--------BIBUF_OPEND_MSS
+BIBUF_OPEND_MSS #( 
+        .ACT_CONFIG ( 0 ),
+        .ACT_PIN    ( "V22" ) )
+MSS_I2C_1_SDA(
+        // Inputs
+        .E   ( MSS_I2C_1_SDA_E ),
+        // Outputs
+        .Y   ( MSS_I2C_1_SDA_Y ),
+        // Inouts
+        .PAD ( I2C_1_SDA ) 
         );
 
 //--------INBUF_MSS

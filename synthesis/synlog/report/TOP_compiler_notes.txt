@@ -10,6 +10,7 @@
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v":1141:7:1141:9|Synthesizing module GND in library work.
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v":1868:7:1868:9|Synthesizing module VCC in library work.
 @N: CG364 :"C:\Users\mtstacho\Desktop\VisonAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:33|Synthesizing module MSS01_tmp_MSS_CCC_0_MSS_CCC in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisonAssistance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":85:7:85:21|Synthesizing module BIBUF_OPEND_MSS in library work.
 @N: CG364 :"C:\Users\mtstacho\Desktop\VisonAssistance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS in library work.
 @N: CG364 :"C:\Users\mtstacho\Desktop\VisonAssistance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS in library work.
 @N: CG364 :"C:\Users\mtstacho\Desktop\VisonAssistance\component\work\MSS01\MSS01.v":9:7:9:11|Synthesizing module MSS01 in library work.

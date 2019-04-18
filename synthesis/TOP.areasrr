@@ -17,6 +17,7 @@ Report for cell MSS01.netlist
      Instance path:  MSS01_0
                                           Cell usage:
                                cell       count     area    count*area
+                    BIBUF_OPEND_MSS         2       0.0        0.0
                                 GND         1       0.0        0.0
                           INBUF_MSS         2       0.0        0.0
           MSS01_tmp_MSS_CCC_0_MSS_CCC         1       0.0        0.0
@@ -24,7 +25,7 @@ Report for cell MSS01.netlist
                          OUTBUF_MSS         1       0.0        0.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL              7                  0.0
+                         TOTAL              9                  0.0
 ----------------------------------------------------------------------
 Report for cell MSS01_tmp_MSS_CCC_0_MSS_CCC.netlist
      Instance path:  MSS01_0.MSS_CCC_0

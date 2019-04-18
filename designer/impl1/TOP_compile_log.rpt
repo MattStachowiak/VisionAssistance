@@ -17,7 +17,7 @@ Imported the files:
    C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\TOP.edn
    C:\Users\mtstacho\Desktop\VisonAssistance\component\work\TOP\TOP.pdc
 
-The Import command succeeded ( 00:00:02 )
+The Import command succeeded ( 00:00:01 )
 =====================================================================
 Parameters used to run compile:
 ===============================
@@ -80,8 +80,6 @@ Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_SPI1DOE drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_SPI1CLKO drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_SPI1MODE drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_UART1TXD drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_I2C1SDAO drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_I2C1SCLO drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_MACTXEN drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_MACMDO drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_MACMDEN drives no load.
@@ -366,7 +364,7 @@ Optimized macros:
 
     Total macros optimized  33
 
-There were 0 error(s) and 300 warning(s) in this design.
+There were 0 error(s) and 298 warning(s) in this design.
 =====================================================================
 
 Reading previous post-compile physical placement constraints.
@@ -390,7 +388,7 @@ Compile report:
     Fabric IO (W/ clocks)      Used:      3  Total:     94   (3.19%)
     Fabric Differential IO     Used:      0  Total:     47   (0.00%)
     Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
-    Dedicated MSS IO           Used:      3  Total:     43   (6.98%)
+    Dedicated MSS IO           Used:      5  Total:     43   (11.63%)
     GLOBAL (Chip+Quadrant)     Used:      2  Total:     15   (13.33%)
     MSS GLOBAL                 Used:      3  Total:      3   (100.00%)
     On-chip RC oscillator      Used:      1  Total:      1   (100.00%)
@@ -512,12 +510,12 @@ Wrote status report to file: TOP_compile_report.txt
 The Report command succeeded ( 00:00:00 )
 Wrote pin report to file: TOP_report_pin_byname.txt
 
-The Report command succeeded ( 00:00:00 )
+The Report command succeeded ( 00:00:01 )
 Wrote pin report to file: TOP_report_pin_bynumber.txt
 
 The Report command succeeded ( 00:00:01 )
 Design saved to file C:\Users\mtstacho\Desktop\VisonAssistance\designer\impl1\TOP.adb.
 
-The Execute Script command succeeded ( 00:00:05 )
+The Execute Script command succeeded ( 00:00:06 )
 Design closed.
 

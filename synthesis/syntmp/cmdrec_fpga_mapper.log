@@ -1,17 +1,17 @@
 C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\mtstacho\Desktop\VisonAssistance\synthesis   -part A2F200M3F  -package FBGA484  -grade STD    -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\synlog\report\TOP_fpga_mapper.xml  -top_level_module  TOP  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\TOP.edn   -freq 100.000   -tcl  C:\Users\mtstacho\Desktop\VisonAssistance\component\work\MSS01\mss_tshell_syn.sdc  C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\synwork\TOP_prem.srd  -sap  C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\TOP.sap  -otap  C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\TOP.tap  -omap  C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\TOP.map  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v  -sap  C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\TOP.sap  -ologparam  C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\syntmp\TOP.plg  -osyn  C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\TOP.srm  -prjdir  C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\  -prjname  TOP_syn  -log  C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\synlog\TOP_fpga_mapper.srr 
 relcom:..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A2F200M3F -package FBGA484 -grade STD -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\TOP_fpga_mapper.xml -top_level_module TOP -licensetype synplifypro_actel -flow mapping -mp 4 -prjfile ..\scratchproject.prs -implementation synthesis -multisrs -oedif ..\TOP.edn -freq 100.000 -tcl ..\..\component\work\MSS01\mss_tshell_syn.sdc ..\synwork\TOP_prem.srd -sap ..\TOP.sap -otap ..\TOP.tap -omap ..\TOP.map -devicelib ..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v -sap ..\TOP.sap -ologparam TOP.plg -osyn ..\TOP.srm -prjdir ..\ -prjname TOP_syn -log ..\synlog\TOP_fpga_mapper.srr
 rc:0 success:1 runtime:2
-file:..\scratchproject.prs|io:o|time:1555554870|size:2962|exec:0|csum:
-file:..\TOP.edn|io:o|time:1555554874|size:508981|exec:0|csum:
-file:..\..\component\work\MSS01\mss_tshell_syn.sdc|io:i|time:1555542214|size:182|exec:0|csum:3C41CB024A7F2332FA9E40F80E3C787F
-file:..\synwork\TOP_prem.srd|io:i|time:1555554872|size:45574|exec:0|csum:333874CA042BCB538B8857361158E70C
-file:..\TOP.sap|io:o|time:1555554872|size:855|exec:0|csum:
+file:..\scratchproject.prs|io:o|time:1555556929|size:2962|exec:0|csum:
+file:..\TOP.edn|io:o|time:1555556933|size:511233|exec:0|csum:
+file:..\..\component\work\MSS01\mss_tshell_syn.sdc|io:i|time:1555556878|size:182|exec:0|csum:3C41CB024A7F2332FA9E40F80E3C787F
+file:..\synwork\TOP_prem.srd|io:i|time:1555556931|size:45146|exec:0|csum:51F61E9D90F674997F24E284CADE3554
+file:..\TOP.sap|io:o|time:1555556931|size:855|exec:0|csum:
 file:..\TOP.tap|io:o|time:0|size:0|exec:0|csum:
-file:..\TOP.map|io:o|time:1555554874|size:28|exec:0|csum:
+file:..\TOP.map|io:o|time:1555556933|size:28|exec:0|csum:
 file:..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v|io:i|time:1509027488|size:72817|exec:0|csum:792D908376FAE59463CBCC67F19D1698
-file:..\TOP.sap|io:o|time:1555554872|size:855|exec:0|csum:
-file:TOP.plg|io:o|time:1555554874|size:846|exec:0|csum:
-file:..\TOP.srm|io:o|time:1555554874|size:69628|exec:0|csum:
-file:..\synlog\TOP_fpga_mapper.srr|io:o|time:1555554874|size:56232|exec:0|csum:
+file:..\TOP.sap|io:o|time:1555556931|size:855|exec:0|csum:
+file:TOP.plg|io:o|time:1555556933|size:846|exec:0|csum:
+file:..\TOP.srm|io:o|time:1555556933|size:69883|exec:0|csum:
+file:..\synlog\TOP_fpga_mapper.srr|io:o|time:1555556933|size:56258|exec:0|csum:
 file:..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509373872|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
 file:..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509375286|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2
