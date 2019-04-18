@@ -1,21 +1,21 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-SP1-5
-#--  Project file C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\TOP_syn.prj
+#--  Project file C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\TOP_syn.prj
 #--  Written on Wed Apr 17 19:05:39 2019
 
 
 #project files
-add_file -verilog "C:/Users/mtstacho/Desktop/VisionAssistance/hdl/sensing.v"
-add_file -verilog "C:/Users/mtstacho/Desktop/VisionAssistance/hdl/LED.v"
-add_file -verilog "C:/Users/mtstacho/Desktop/VisionAssistance/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v"
-add_file -verilog "C:/Users/mtstacho/Desktop/VisionAssistance/component/work/MSS01/MSS_CCC_0/MSS01_tmp_MSS_CCC_0_MSS_CCC.v"
-add_file -verilog "C:/Users/mtstacho/Desktop/VisionAssistance/component/work/MSS01/mss_tshell.v"
-add_file -verilog "C:/Users/mtstacho/Desktop/VisionAssistance/component/work/MSS01/MSS01.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/mtstacho/Desktop/VisionAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/mtstacho/Desktop/VisionAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/mtstacho/Desktop/VisionAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v"
-add_file -verilog "C:/Users/mtstacho/Desktop/VisionAssistance/component/work/TOP/TOP.v"
-add_file -constraint "C:/Users/mtstacho/Desktop/VisionAssistance/component/work/MSS01/mss_tshell_syn.sdc"
+add_file -verilog "C:/Users/mtstacho/Desktop/VisonAssistance/hdl/sensing.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/VisonAssistance/hdl/LED.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/VisonAssistance/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/VisonAssistance/component/work/MSS01/MSS_CCC_0/MSS01_tmp_MSS_CCC_0_MSS_CCC.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/VisonAssistance/component/work/MSS01/mss_tshell.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/VisonAssistance/component/work/MSS01/MSS01.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/mtstacho/Desktop/VisonAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/mtstacho/Desktop/VisonAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/mtstacho/Desktop/VisonAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/VisonAssistance/component/work/TOP/TOP.v"
+add_file -constraint "C:/Users/mtstacho/Desktop/VisonAssistance/component/work/MSS01/mss_tshell_syn.sdc"
 
 
 

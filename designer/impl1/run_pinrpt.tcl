@@ -1,2 +1,2 @@
-report -type "pin" -listby  "name" {C:\Users\darshin\Desktop\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\designer\impl1\TOP_report_pin_byname.txt}
-report -type "pin" -listby  "number" {C:\Users\darshin\Desktop\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\designer\impl1\TOP_report_pin_bynumber.txt}
+report -type "pin" -listby  "name" {C:\Users\mtstacho\Desktop\VisonAssistance\designer\impl1\TOP_report_pin_byname.txt}
+report -type "pin" -listby  "number" {C:\Users\mtstacho\Desktop\VisonAssistance\designer\impl1\TOP_report_pin_bynumber.txt}

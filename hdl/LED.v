@@ -23,7 +23,7 @@ reg [6:0]pwm_counter;
 wire color_write = (PWRITE & PENABLE & PSEL);
 always @(posedge PCLK) begin
 // Restart data
-if (data_counter >= 10024125) begin
+if (data_counter >= 1024125) begin
     data_counter <= 0;
     bit_counter <= 0;
 end

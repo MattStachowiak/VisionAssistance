@@ -1,15 +1,11 @@
 Archive member included because of file (symbol)
 
-C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
-                              C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o (g_mss_uart0)
-C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                              C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o) (g_FrequencyPCLK0)
+C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                              C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o (g_mss_uart0)
+C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                              C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o) (g_FrequencyPCLK0)
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
-                              ./main.o (__aeabi_dsub)
-c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
-                              ./main.o (__aeabi_dmul)
-c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixunsdfsi.o)
-                              ./main.o (__aeabi_d2uiz)
+                              ./main.o (__aeabi_f2d)
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubsf3.o)
                               ./main.o (__aeabi_ui2f)
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivsf3.o)
@@ -19,11 +15,11 @@ c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/th
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixsfsi.o)
                               ./main.o (__aeabi_f2iz)
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
-                              C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o (__errno)
+                              C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o (__errno)
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
                               c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o) (_impure_ptr)
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
-                              C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o (__libc_init_array)
+                              C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o (__libc_init_array)
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o)
                               ./main.o (printf)
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
@@ -96,6 +92,8 @@ c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/th
                               c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o) (__aeabi_uidiv)
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
                               c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
+                              c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o) (__aeabi_dmul)
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
                               c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o) (__aeabi_dcmpeq)
 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
@@ -113,8 +111,8 @@ Allocating common symbols
 Common symbol       size              file
 
 errno               0x4               c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
-g_mss_uart1         0x28              C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
-g_mss_uart0         0x28              C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+g_mss_uart1         0x28              C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+g_mss_uart0         0x28              C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
 
 Discarded input sections
 
@@ -125,78 +123,70 @@ Discarded input sections
  .text          0x00000000        0x0 ./main.o
  .data          0x00000000        0x0 ./main.o
  .bss           0x00000000        0x0 ./main.o
- .text.dist_to_color
-                0x00000000       0xc0 ./main.o
- .text          0x00000000        0x0 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
- .data          0x00000000        0x0 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
- .bss           0x00000000        0x0 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
- .text          0x00000000        0x0 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .data          0x00000000        0x0 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .bss           0x00000000        0x0 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .bss.__env     0x00000000        0x4 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .data.environ  0x00000000        0x4 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._execve  0x00000000       0x28 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._fork    0x00000000       0x18 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._getpid  0x00000000       0x10 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._kill    0x00000000       0x24 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._link    0x00000000       0x24 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._open    0x00000000       0x1c C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._stat    0x00000000       0x24 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._times   0x00000000       0x18 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._unlink  0x00000000       0x24 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text._wait    0x00000000       0x24 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .text          0x00000000        0x0 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .data          0x00000000        0x0 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .bss           0x00000000        0x0 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text          0x00000000        0x0 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .data          0x00000000        0x0 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .bss           0x00000000        0x0 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .text          0x00000000        0x0 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .data          0x00000000        0x0 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss           0x00000000        0x0 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss.__env     0x00000000        0x4 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .data.environ  0x00000000        0x4 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._execve  0x00000000       0x28 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._fork    0x00000000       0x18 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._getpid  0x00000000       0x10 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._kill    0x00000000       0x24 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._link    0x00000000       0x24 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._open    0x00000000       0x1c C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._stat    0x00000000       0x24 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._times   0x00000000       0x18 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._unlink  0x00000000       0x24 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._wait    0x00000000       0x24 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text          0x00000000        0x0 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .data          0x00000000        0x0 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .bss           0x00000000        0x0 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.NVIC_EnableIRQ
-                0x00000000       0x38 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0x38 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.NVIC_DisableIRQ
-                0x00000000       0x3c C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0x3c C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_polled_tx_string
-                0x00000000       0xd0 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0xd0 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_irq_tx
-                0x00000000       0xb0 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0xb0 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_tx_complete
-                0x00000000       0x90 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0x90 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_get_rx
-                0x00000000       0xdc C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0xdc C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_enable_irq
-                0x00000000       0x7c C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0x7c C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_disable_irq
-                0x00000000       0x88 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0x88 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_set_rx_handler
-                0x00000000       0xa8 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0xa8 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_set_loopback
-                0x00000000       0x70 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0x70 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_set_rxstatus_handler
-                0x00000000       0x84 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0x84 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_set_tx_handler
-                0x00000000       0x94 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0x94 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_set_modemstatus_handler
-                0x00000000       0x84 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0x84 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_fill_tx_fifo
-                0x00000000       0xd4 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0xd4 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_get_rx_status
-                0x00000000       0x80 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0x80 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_get_modem_status
-                0x00000000       0x60 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000000       0x60 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_get_tx_status
-                0x00000000       0x78 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .text          0x00000000        0x0 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
- .data          0x00000000        0x0 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
- .bss           0x00000000        0x0 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000000       0x78 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .text          0x00000000        0x0 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .data          0x00000000        0x0 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .bss           0x00000000        0x0 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
  .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
- .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
- .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
- .text          0x00000000       0x40 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixunsdfsi.o)
- .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixunsdfsi.o)
- .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixunsdfsi.o)
  .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubsf3.o)
  .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubsf3.o)
  .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivsf3.o)
  .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivsf3.o)
- .text          0x00000000       0xec c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpsf2.o)
  .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpsf2.o)
  .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpsf2.o)
  .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixsfsi.o)
@@ -279,6 +269,8 @@ Discarded input sections
  .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
  .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
  .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
  .bss           0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
  .data          0x00000000        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
@@ -311,9 +303,9 @@ Linker script and memory map
 LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
 LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
 LOAD ./main.o
-LOAD C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
-LOAD C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
-LOAD C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a
+LOAD C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+LOAD C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+LOAD C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a
 START GROUP
 LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
 LOAD c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
@@ -335,13 +327,13 @@ END GROUP
                 0x20010000                PROVIDE (_estack, __main_stack_start)
                 0x00000000                PROVIDE (__mirrored_nvm, 0x0)
 
-.text           0x20000000     0x7ae0
+.text           0x20000000     0x7c38
  CREATE_OBJECT_SYMBOLS
                 0x20000000                __text_load = LOADADDR (.text)
                 0x20000000                __text_start = .
                 0x20000000                __vector_table_vma_base_address = .
  *(.isr_vector)
- .isr_vector    0x20000000      0x470 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+ .isr_vector    0x20000000      0x470 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
                 0x20000000                g_pfnVectors
                 0x20000298                Reset_Handler
                 0x20000308                NMI_Handler
@@ -500,245 +492,264 @@ END GROUP
  .text.data_to_cm
                 0x200004a0       0x38 ./main.o
                 0x200004a0                data_to_cm
+ .text.dist_to_color
+                0x200004d8       0x7c ./main.o
+                0x200004d8                dist_to_color
  .text.dist_to_LED
-                0x200004d8       0x34 ./main.o
-                0x200004d8                dist_to_LED
- .text.main     0x2000050c      0x130 ./main.o
-                0x2000050c                main
- .text._close   0x2000063c       0x18 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
-                0x2000063c                _close
- .text._exit    0x20000654        0xc C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
-                0x20000654                _exit
- .text._fstat   0x20000660       0x24 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
-                0x20000660                _fstat
- .text._isatty  0x20000684       0x18 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
-                0x20000684                _isatty
- .text._lseek   0x2000069c       0x1c C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
-                0x2000069c                _lseek
- .text._read    0x200006b8       0x1c C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
-                0x200006b8                _read
+                0x20000554       0x34 ./main.o
+                0x20000554                dist_to_LED
+ .text.main     0x20000588      0x11c ./main.o
+                0x20000588                main
+ .text._close   0x200006a4       0x18 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x200006a4                _close
+ .text._exit    0x200006bc        0xc C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x200006bc                _exit
+ .text._fstat   0x200006c8       0x24 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x200006c8                _fstat
+ .text._isatty  0x200006ec       0x18 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x200006ec                _isatty
+ .text._lseek   0x20000704       0x1c C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x20000704                _lseek
+ .text._read    0x20000720       0x1c C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x20000720                _read
  .text._write_r
-                0x200006d4       0x5c C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
-                0x200006d4                _write_r
- .text._sbrk    0x20000730       0x94 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
-                0x20000730                _sbrk
+                0x2000073c       0x5c C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x2000073c                _write_r
+ .text._sbrk    0x20000798       0x94 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x20000798                _sbrk
  .text.NVIC_ClearPendingIRQ
-                0x200007c4       0x3c C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x2000082c       0x3c C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.MSS_UART_init
-                0x20000800      0x204 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
-                0x20000800                MSS_UART_init
+                0x20000868      0x204 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000868                MSS_UART_init
  .text.MSS_UART_polled_tx
-                0x20000a04       0xe4 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
-                0x20000a04                MSS_UART_polled_tx
+                0x20000a6c       0xe4 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000a6c                MSS_UART_polled_tx
  .text.MSS_UART_isr
-                0x20000ae8      0x11c C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000b50      0x11c C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.default_tx_handler
-                0x20000c04      0x108 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000c6c      0x108 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .text.UART0_IRQHandler
-                0x20000d0c       0x2c C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
-                0x20000d0c                UART0_IRQHandler
+                0x20000d74       0x2c C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000d74                UART0_IRQHandler
  .text.UART1_IRQHandler
-                0x20000d38       0x2c C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
-                0x20000d38                UART1_IRQHandler
+                0x20000da0       0x2c C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x20000da0                UART1_IRQHandler
  .text.SystemInit
-                0x20000d64        0xc C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20000d64                SystemInit
+                0x20000dcc        0xc C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000dcc                SystemInit
  .text.SystemCoreClockUpdate
-                0x20000d70      0x150 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20000d70                SystemCoreClockUpdate
+                0x20000dd8      0x150 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20000dd8                SystemCoreClockUpdate
  .text.GetSystemClock
-                0x20000ec0       0xe8 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
- .text          0x20000fa8      0x370 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
-                0x20000fa8                __aeabi_drsub
-                0x20000fb0                __aeabi_dsub
-                0x20000fb0                __subdf3
-                0x20000fb4                __aeabi_dadd
-                0x20000fb4                __adddf3
-                0x2000122c                __floatunsidf
-                0x2000122c                __aeabi_ui2d
-                0x2000124c                __floatsidf
-                0x2000124c                __aeabi_i2d
-                0x20001270                __aeabi_f2d
-                0x20001270                __extendsfdf2
-                0x200012ac                __floatundidf
-                0x200012ac                __aeabi_ul2d
-                0x200012bc                __floatdidf
-                0x200012bc                __aeabi_l2d
- .text          0x20001318      0x424 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
-                0x20001318                __aeabi_dmul
-                0x20001318                __muldf3
-                0x2000156c                __divdf3
-                0x2000156c                __aeabi_ddiv
- .text          0x2000173c      0x21c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubsf3.o)
-                0x2000173c                __aeabi_frsub
-                0x20001744                __subsf3
-                0x20001744                __aeabi_fsub
-                0x20001748                __aeabi_fadd
-                0x20001748                __addsf3
-                0x200018a8                __aeabi_ui2f
-                0x200018a8                __floatunsisf
-                0x200018b0                __aeabi_i2f
-                0x200018b0                __floatsisf
-                0x200018cc                __aeabi_ul2f
-                0x200018cc                __floatundisf
-                0x200018dc                __aeabi_l2f
-                0x200018dc                __floatdisf
- .text          0x20001958      0x2a0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivsf3.o)
-                0x20001958                __mulsf3
-                0x20001958                __aeabi_fmul
-                0x20001ac0                __aeabi_fdiv
-                0x20001ac0                __divsf3
- .text          0x20001bf8       0x4c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixsfsi.o)
-                0x20001bf8                __aeabi_f2iz
-                0x20001bf8                __fixsfsi
- .text          0x20001c44       0x50 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
-                0x20001c44                __libc_init_array
- .text          0x20001c94       0x64 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o)
-                0x20001c94                printf
-                0x20001ccc                _printf_r
- .text          0x20001cf8     0x1940 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
-                0x20001d14                _vfprintf_r
-                0x2000361c                vfprintf
- .text          0x20003638      0x104 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-wsetup.o)
-                0x20003638                __swsetup_r
- *fill*         0x2000373c        0x4 00
- .text          0x20003740      0xfb8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
-                0x20003860                _dtoa_r
- .text          0x200046f8      0x178 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fflush.o)
-                0x200046f8                _fflush_r
-                0x20004848                fflush
- .text          0x20004870      0x1c8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o)
-                0x20004870                __sfp_lock_acquire
-                0x20004874                __sfp_lock_release
-                0x20004878                __sinit_lock_acquire
-                0x2000487c                __sinit_lock_release
-                0x20004888                __fp_unlock_all
-                0x200048a0                __fp_lock_all
-                0x200048b8                _cleanup_r
-                0x200048c4                _cleanup
-                0x20004920                __sfmoreglue
-                0x20004950                __sfp
-                0x200049d8                __sinit
- .text          0x20004a38      0x268 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
-                0x20004a38                _malloc_trim_r
-                0x20004ae0                _free_r
- .text          0x20004ca0      0x334 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fvwrite.o)
-                0x20004ca0                __sfvwrite_r
- .text          0x20004fd4       0xa0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fwalk.o)
-                0x20004fd4                _fwalk_reent
-                0x20005028                _fwalk
- .text          0x20005074       0x74 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
-                0x20005074                __locale_charset
-                0x20005080                _localeconv_r
-                0x20005088                localeconv
-                0x20005090                _setlocale_r
-                0x200050d8                setlocale
- .text          0x200050e8       0xdc c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-makebuf.o)
-                0x200050e8                __smakebuf_r
- .text          0x200051c4       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
-                0x200051c4                free
-                0x200051d4                malloc
- .text          0x200051e4      0x5a4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
-                0x200051e4                _malloc_r
- .text          0x20005788       0x74 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
-                0x20005788                memchr
- .text          0x200057fc      0x190 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
-                0x200057fc                memcpy
- .text          0x2000598c       0xb8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
-                0x2000598c                memmove
- .text          0x20005a44       0xd4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
-                0x20005a44                memset
- .text          0x20005b18        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
-                0x20005b18                __malloc_lock
-                0x20005b1c                __malloc_unlock
- .text          0x20005b20      0x958 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
-                0x20005b20                __hi0bits
-                0x20005b60                __lo0bits
-                0x20005bc4                __mcmp
-                0x20005c04                __ulp
-                0x20005c50                __b2d
-                0x20005cf8                __ratio
-                0x20005d58                _mprec_log10
-                0x20005d90                __copybits
-                0x20005de0                __any_on
-                0x20005e38                _Bfree
-                0x20005e70                _Balloc
-                0x20005edc                __d2b
-                0x20005fac                __mdiff
-                0x200060a4                __lshift
-                0x20006160                __multiply
-                0x20006294                __i2b
-                0x200062a8                __multadd
-                0x20006330                __pow5mult
-                0x200063dc                __s2b
- .text          0x20006478      0x3b4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
-                0x20006478                _realloc_r
- .text          0x2000682c       0x24 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
-                0x2000682c                __isinfd
- .text          0x20006850       0x1c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
-                0x20006850                __isnand
- .text          0x2000686c       0x28 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
-                0x2000686c                _sbrk_r
- .text          0x20006894       0x90 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-stdio.o)
-                0x20006894                __sclose
-                0x2000689c                __sseek
-                0x200068c4                __swrite
-                0x20006900                __sread
- .text          0x20006924      0x1dc c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
-                0x20006924                strcmp
- .text          0x20006b00       0x60 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
-                0x20006b00                strlen
- .text          0x20006b60       0x5c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
-                0x20006b60                _calloc_r
- .text          0x20006bbc       0x28 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-closer.o)
-                0x20006bbc                _close_r
- .text          0x20006be4       0xcc c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fclose.o)
-                0x20006be4                _fclose_r
-                0x20006ca0                fclose
- .text          0x20006cb0       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fstatr.o)
-                0x20006cb0                _fstat_r
- .text          0x20006cdc       0x28 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-isattyr.o)
-                0x20006cdc                _isatty_r
- .text          0x20006d04       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-lseekr.o)
-                0x20006d04                _lseek_r
- .text          0x20006d30       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-readr.o)
-                0x20006d30                _read_r
- *fill*         0x20006d5c        0x4 00
- .text          0x20006d60      0x278 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
-                0x20006d60                __aeabi_uidiv
-                0x20006d60                __udivsi3
-                0x20006fbc                __aeabi_uidivmod
- .text          0x20006fd8        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
-                0x20006fd8                __aeabi_idiv0
-                0x20006fd8                __aeabi_ldiv0
- .text          0x20006fdc      0x110 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
-                0x20006fdc                __gtdf2
-                0x20006fdc                __gedf2
-                0x20006fe4                __ltdf2
-                0x20006fe4                __ledf2
-                0x20006fec                __nedf2
-                0x20006fec                __eqdf2
-                0x20006fec                __cmpdf2
-                0x20007068                __aeabi_cdrcmple
-                0x20007078                __aeabi_cdcmpeq
-                0x20007078                __aeabi_cdcmple
-                0x20007088                __aeabi_dcmpeq
-                0x2000709c                __aeabi_dcmplt
-                0x200070b0                __aeabi_dcmple
-                0x200070c4                __aeabi_dcmpge
-                0x200070d8                __aeabi_dcmpgt
- .text          0x200070ec       0x50 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
-                0x200070ec                __aeabi_d2iz
-                0x200070ec                __fixdfsi
- .text          0x2000713c       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o)
-                0x2000713c                __aeabi_uldivmod
- .text          0x20007168       0x58 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
-                0x20007168                __gnu_uldivmod_helper
-                0x20007194                __gnu_ldivmod_helper
- .text          0x200071c0      0x364 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
-                0x200071c0                __divdi3
- .text          0x20007524      0x300 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
-                0x20007524                __udivdi3
+                0x20000f28       0xe8 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .text          0x20001010      0x370 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
+                0x20001010                __aeabi_drsub
+                0x20001018                __aeabi_dsub
+                0x20001018                __subdf3
+                0x2000101c                __aeabi_dadd
+                0x2000101c                __adddf3
+                0x20001294                __floatunsidf
+                0x20001294                __aeabi_ui2d
+                0x200012b4                __floatsidf
+                0x200012b4                __aeabi_i2d
+                0x200012d8                __aeabi_f2d
+                0x200012d8                __extendsfdf2
+                0x20001314                __floatundidf
+                0x20001314                __aeabi_ul2d
+                0x20001324                __floatdidf
+                0x20001324                __aeabi_l2d
+ .text          0x20001380      0x21c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubsf3.o)
+                0x20001380                __aeabi_frsub
+                0x20001388                __subsf3
+                0x20001388                __aeabi_fsub
+                0x2000138c                __aeabi_fadd
+                0x2000138c                __addsf3
+                0x200014ec                __aeabi_ui2f
+                0x200014ec                __floatunsisf
+                0x200014f4                __aeabi_i2f
+                0x200014f4                __floatsisf
+                0x20001510                __aeabi_ul2f
+                0x20001510                __floatundisf
+                0x20001520                __aeabi_l2f
+                0x20001520                __floatdisf
+ .text          0x2000159c      0x2a0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivsf3.o)
+                0x2000159c                __mulsf3
+                0x2000159c                __aeabi_fmul
+                0x20001704                __aeabi_fdiv
+                0x20001704                __divsf3
+ .text          0x2000183c       0xec c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpsf2.o)
+                0x2000183c                __gesf2
+                0x2000183c                __gtsf2
+                0x20001844                __lesf2
+                0x20001844                __ltsf2
+                0x2000184c                __nesf2
+                0x2000184c                __eqsf2
+                0x2000184c                __cmpsf2
+                0x200018ac                __aeabi_cfrcmple
+                0x200018b4                __aeabi_cfcmpeq
+                0x200018b4                __aeabi_cfcmple
+                0x200018c4                __aeabi_fcmpeq
+                0x200018d8                __aeabi_fcmplt
+                0x200018ec                __aeabi_fcmple
+                0x20001900                __aeabi_fcmpge
+                0x20001914                __aeabi_fcmpgt
+ .text          0x20001928       0x4c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixsfsi.o)
+                0x20001928                __aeabi_f2iz
+                0x20001928                __fixsfsi
+ .text          0x20001974       0x50 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                0x20001974                __libc_init_array
+ .text          0x200019c4       0x64 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o)
+                0x200019c4                printf
+                0x200019fc                _printf_r
+ .text          0x20001a28     0x1940 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
+                0x20001a44                _vfprintf_r
+                0x2000334c                vfprintf
+ .text          0x20003368      0x104 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-wsetup.o)
+                0x20003368                __swsetup_r
+ *fill*         0x2000346c        0x4 00
+ .text          0x20003470      0xfb8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+                0x20003590                _dtoa_r
+ .text          0x20004428      0x178 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fflush.o)
+                0x20004428                _fflush_r
+                0x20004578                fflush
+ .text          0x200045a0      0x1c8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o)
+                0x200045a0                __sfp_lock_acquire
+                0x200045a4                __sfp_lock_release
+                0x200045a8                __sinit_lock_acquire
+                0x200045ac                __sinit_lock_release
+                0x200045b8                __fp_unlock_all
+                0x200045d0                __fp_lock_all
+                0x200045e8                _cleanup_r
+                0x200045f4                _cleanup
+                0x20004650                __sfmoreglue
+                0x20004680                __sfp
+                0x20004708                __sinit
+ .text          0x20004768      0x268 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+                0x20004768                _malloc_trim_r
+                0x20004810                _free_r
+ .text          0x200049d0      0x334 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fvwrite.o)
+                0x200049d0                __sfvwrite_r
+ .text          0x20004d04       0xa0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fwalk.o)
+                0x20004d04                _fwalk_reent
+                0x20004d58                _fwalk
+ .text          0x20004da4       0x74 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+                0x20004da4                __locale_charset
+                0x20004db0                _localeconv_r
+                0x20004db8                localeconv
+                0x20004dc0                _setlocale_r
+                0x20004e08                setlocale
+ .text          0x20004e18       0xdc c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-makebuf.o)
+                0x20004e18                __smakebuf_r
+ .text          0x20004ef4       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
+                0x20004ef4                free
+                0x20004f04                malloc
+ .text          0x20004f14      0x5a4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+                0x20004f14                _malloc_r
+ .text          0x200054b8       0x74 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+                0x200054b8                memchr
+ .text          0x2000552c      0x190 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+                0x2000552c                memcpy
+ .text          0x200056bc       0xb8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
+                0x200056bc                memmove
+ .text          0x20005774       0xd4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+                0x20005774                memset
+ .text          0x20005848        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+                0x20005848                __malloc_lock
+                0x2000584c                __malloc_unlock
+ .text          0x20005850      0x958 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+                0x20005850                __hi0bits
+                0x20005890                __lo0bits
+                0x200058f4                __mcmp
+                0x20005934                __ulp
+                0x20005980                __b2d
+                0x20005a28                __ratio
+                0x20005a88                _mprec_log10
+                0x20005ac0                __copybits
+                0x20005b10                __any_on
+                0x20005b68                _Bfree
+                0x20005ba0                _Balloc
+                0x20005c0c                __d2b
+                0x20005cdc                __mdiff
+                0x20005dd4                __lshift
+                0x20005e90                __multiply
+                0x20005fc4                __i2b
+                0x20005fd8                __multadd
+                0x20006060                __pow5mult
+                0x2000610c                __s2b
+ .text          0x200061a8      0x3b4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
+                0x200061a8                _realloc_r
+ .text          0x2000655c       0x24 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
+                0x2000655c                __isinfd
+ .text          0x20006580       0x1c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
+                0x20006580                __isnand
+ .text          0x2000659c       0x28 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+                0x2000659c                _sbrk_r
+ .text          0x200065c4       0x90 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-stdio.o)
+                0x200065c4                __sclose
+                0x200065cc                __sseek
+                0x200065f4                __swrite
+                0x20006630                __sread
+ .text          0x20006654      0x1dc c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+                0x20006654                strcmp
+ .text          0x20006830       0x60 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+                0x20006830                strlen
+ .text          0x20006890       0x5c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
+                0x20006890                _calloc_r
+ .text          0x200068ec       0x28 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-closer.o)
+                0x200068ec                _close_r
+ .text          0x20006914       0xcc c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fclose.o)
+                0x20006914                _fclose_r
+                0x200069d0                fclose
+ .text          0x200069e0       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fstatr.o)
+                0x200069e0                _fstat_r
+ .text          0x20006a0c       0x28 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-isattyr.o)
+                0x20006a0c                _isatty_r
+ .text          0x20006a34       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-lseekr.o)
+                0x20006a34                _lseek_r
+ .text          0x20006a60       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-readr.o)
+                0x20006a60                _read_r
+ *fill*         0x20006a8c        0x4 00
+ .text          0x20006a90      0x278 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
+                0x20006a90                __aeabi_uidiv
+                0x20006a90                __udivsi3
+                0x20006cec                __aeabi_uidivmod
+ .text          0x20006d08        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
+                0x20006d08                __aeabi_idiv0
+                0x20006d08                __aeabi_ldiv0
+ .text          0x20006d0c      0x424 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
+                0x20006d0c                __aeabi_dmul
+                0x20006d0c                __muldf3
+                0x20006f60                __divdf3
+                0x20006f60                __aeabi_ddiv
+ .text          0x20007130      0x110 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
+                0x20007130                __gtdf2
+                0x20007130                __gedf2
+                0x20007138                __ltdf2
+                0x20007138                __ledf2
+                0x20007140                __nedf2
+                0x20007140                __eqdf2
+                0x20007140                __cmpdf2
+                0x200071bc                __aeabi_cdrcmple
+                0x200071cc                __aeabi_cdcmpeq
+                0x200071cc                __aeabi_cdcmple
+                0x200071dc                __aeabi_dcmpeq
+                0x200071f0                __aeabi_dcmplt
+                0x20007204                __aeabi_dcmple
+                0x20007218                __aeabi_dcmpge
+                0x2000722c                __aeabi_dcmpgt
+ .text          0x20007240       0x50 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
+                0x20007240                __aeabi_d2iz
+                0x20007240                __fixdfsi
+ .text          0x20007290       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o)
+                0x20007290                __aeabi_uldivmod
+ .text          0x200072bc       0x58 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
+                0x200072bc                __gnu_uldivmod_helper
+                0x200072e8                __gnu_ldivmod_helper
+ .text          0x20007314      0x364 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+                0x20007314                __divdi3
+ .text          0x20007678      0x300 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+                0x20007678                __udivdi3
  *(.plt)
  *(.gnu.warning)
  *(.glue_7t)
@@ -747,7 +758,7 @@ END GROUP
  .glue_7        0x00000000        0x0 linker stubs
  *(.vfp11_veneer)
  .vfp11_veneer  0x00000000        0x0 linker stubs
-                0x20007824                . = ALIGN (0x4)
+                0x20007978                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
@@ -757,154 +768,155 @@ END GROUP
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x20007824       0x28 ./main.o
- .rodata        0x2000784c       0x1c C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .rodata        0x20007978       0x28 ./main.o
+ .rodata        0x200079a0       0x1c C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
  .rodata.C.18.2576
-                0x20007868       0x10 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
- .rodata        0x20007878        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
-                0x20007878                _global_impure_ptr
+                0x200079bc       0x10 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .rodata        0x200079cc        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                0x200079cc                _global_impure_ptr
  .rodata.str1.4
-                0x2000787c        0x2 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                0x200079d0        0x2 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
                                   0x4 (size before relaxing)
- *fill*         0x2000787e        0x2 00
- .rodata        0x20007880       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
+ *fill*         0x200079d2        0x2 00
+ .rodata        0x200079d4       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
  .rodata.str1.4
-                0x200078a0       0x42 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
+                0x200079f4       0x42 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
                                  0x44 (size before relaxing)
- *fill*         0x200078e2        0x2 00
+ *fill*         0x20007a36        0x2 00
  .rodata.str1.4
-                0x200078e4       0x10 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+                0x20007a38       0x10 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
                                  0x14 (size before relaxing)
- .rodata        0x200078f4       0x60 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o)
-                0x200078f4                __sf_fake_stdin
-                0x20007914                __sf_fake_stdout
-                0x20007934                __sf_fake_stderr
- .rodata        0x20007954       0x34 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+ .rodata        0x20007a48       0x60 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o)
+                0x20007a48                __sf_fake_stdin
+                0x20007a68                __sf_fake_stdout
+                0x20007a88                __sf_fake_stderr
+ .rodata        0x20007aa8       0x34 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
  .rodata.str1.4
-                0x20007988       0x10 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+                0x20007adc       0x10 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
                                  0x18 (size before relaxing)
- .rodata        0x20007998      0x128 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
-                0x20007998                __mprec_tens
-                0x20007a70                __mprec_bigtens
-                0x20007a98                __mprec_tinytens
+ *fill*         0x20007aec        0x4 00
+ .rodata        0x20007af0      0x128 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+                0x20007af0                __mprec_tens
+                0x20007bc8                __mprec_bigtens
+                0x20007bf0                __mprec_tinytens
  *(.ARM.extab* .gnu.linkonce.armextab.*)
  *(.gcc_except_table)
  *(.eh_frame_hdr)
  *(.eh_frame)
  *(.init)
- .init          0x20007ac0        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
-                0x20007ac0                _init
- .init          0x20007ac4        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .init          0x20007c18        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x20007c18                _init
+ .init          0x20007c1c        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
  *(.fini)
- .fini          0x20007acc        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
-                0x20007acc                _fini
- .fini          0x20007ad0        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
-                0x20007ad8                PROVIDE (__preinit_array_start, .)
+ .fini          0x20007c24        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x20007c24                _fini
+ .fini          0x20007c28        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+                0x20007c30                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
-                0x20007ad8                PROVIDE (__preinit_array_end, .)
-                0x20007ad8                PROVIDE (__init_array_start, .)
+                0x20007c30                PROVIDE (__preinit_array_end, .)
+                0x20007c30                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x20007ad8        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
-                0x20007adc                PROVIDE (__init_array_end, .)
-                0x20007adc                PROVIDE (__fini_array_start, .)
+ .init_array    0x20007c30        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+                0x20007c34                PROVIDE (__init_array_end, .)
+                0x20007c34                PROVIDE (__fini_array_start, .)
  *(.fini_array)
- .fini_array    0x20007adc        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .fini_array    0x20007c34        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
  *(SORT(.fini_array.*))
-                0x20007ae0                PROVIDE (__fini_array_end, .)
-                0x20007ae0                __exidx_start = .
+                0x20007c38                PROVIDE (__fini_array_end, .)
+                0x20007c38                __exidx_start = .
 
-.v4_bx          0x20007ae0        0x0
+.v4_bx          0x20007c38        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.ARM.exidx      0x20007ae0        0x8
+.ARM.exidx      0x20007c38        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x20007ae0        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
- .ARM.exidx     0x20007ae8        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x20007c38        0x8 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x20007c40        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
                                   0x8 (size before relaxing)
-                0x20007ae8                __exidx_end = .
-                0x20007ae8                _etext = .
-                0x20007ae8                PROVIDE (__text_end, .)
+                0x20007c40                __exidx_end = .
+                0x20007c40                _etext = .
+                0x20007c40                PROVIDE (__text_end, .)
 
-.data           0x20007ae8      0x524
-                0x20007ae8                __data_load = LOADADDR (.data)
-                0x20007ae8                _sidata = LOADADDR (.data)
-                0x20007ae8                __data_start = .
-                0x20007ae8                _sdata = .
+.data           0x20007c40      0x524
+                0x20007c40                __data_load = LOADADDR (.data)
+                0x20007c40                _sidata = LOADADDR (.data)
+                0x20007c40                __data_start = .
+                0x20007c40                _sdata = .
  *(.jcr)
- .jcr           0x20007ae8        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
- .jcr           0x20007ae8        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .jcr           0x20007c40        0x0 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .jcr           0x20007c40        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
  *(.got.plt)
  *(.got)
  *(.shdata)
  *(.data .data.* .gnu.linkonce.d.*)
  .data.DATA_READ
-                0x20007aec        0x4 ./main.o
-                0x20007aec                DATA_READ
+                0x20007c44        0x4 ./main.o
+                0x20007c44                DATA_READ
  .data.SystemFrequency
-                0x20007af0        0x4 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20007af0                SystemFrequency
+                0x20007c48        0x4 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20007c48                SystemFrequency
  .data.SystemCoreClock
-                0x20007af4        0x4 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20007af4                SystemCoreClock
+                0x20007c4c        0x4 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20007c4c                SystemCoreClock
  .data.g_FrequencyPCLK0
-                0x20007af8        0x4 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20007af8                g_FrequencyPCLK0
+                0x20007c50        0x4 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20007c50                g_FrequencyPCLK0
  .data.g_FrequencyPCLK1
-                0x20007afc        0x4 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20007afc                g_FrequencyPCLK1
+                0x20007c54        0x4 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20007c54                g_FrequencyPCLK1
  .data.g_FrequencyACE
-                0x20007b00        0x4 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20007b00                g_FrequencyACE
+                0x20007c58        0x4 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20007c58                g_FrequencyACE
  .data.g_FrequencyFPGA
-                0x20007b04        0x4 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                0x20007b04                g_FrequencyFPGA
- .data          0x20007b08       0xf4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
-                0x20007b08                _impure_ptr
- .data          0x20007bfc      0x410 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
-                0x20007bfc                __malloc_av_
-                0x20008004                __malloc_sbrk_base
-                0x20008008                __malloc_trim_threshold
-                0x2000800c                . = ALIGN (0x4)
-                0x2000800c                _edata = .
+                0x20007c5c        0x4 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x20007c5c                g_FrequencyFPGA
+ .data          0x20007c60       0xf4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                0x20007c60                _impure_ptr
+ .data          0x20007d54      0x410 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+                0x20007d54                __malloc_av_
+                0x2000815c                __malloc_sbrk_base
+                0x20008160                __malloc_trim_threshold
+                0x20008164                . = ALIGN (0x4)
+                0x20008164                _edata = .
 
-.bss            0x2000800c       0x94
-                0x2000800c                __bss_start__ = .
-                0x2000800c                _sbss = .
+.bss            0x20008164       0x94
+                0x20008164                __bss_start__ = .
+                0x20008164                _sbss = .
  *(.shbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
- .bss           0x2000800c        0x1 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
- *fill*         0x2000800d        0x3 00
+ .bss           0x20008164        0x1 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ *fill*         0x20008165        0x3 00
  .bss.g_stdio_uart_init_done
-                0x20008010        0x4 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x20008168        0x4 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
  .bss.heap_end.3594
-                0x20008014        0x4 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .bss           0x20008018       0x34 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
-                0x20008018                __malloc_top_pad
-                0x2000801c                __malloc_current_mallinfo
-                0x20008044                __malloc_max_sbrked_mem
-                0x20008048                __malloc_max_total_mem
+                0x2000816c        0x4 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss           0x20008170       0x34 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+                0x20008170                __malloc_top_pad
+                0x20008174                __malloc_current_mallinfo
+                0x2000819c                __malloc_max_sbrked_mem
+                0x200081a0                __malloc_max_total_mem
  *(COMMON)
- COMMON         0x2000804c       0x50 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
-                0x2000804c                g_mss_uart1
-                0x20008074                g_mss_uart0
- COMMON         0x2000809c        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
-                0x2000809c                errno
-                0x200080a0                . = ALIGN (0x8)
-                0x200080a0                __bss_end__ = .
-                0x200080a0                _end = .
-                0x200080a0                __end = _end
-                0x200080a0                _ebss = .
-                0x200080a0                PROVIDE (end, .)
+ COMMON         0x200081a4       0x50 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x200081a4                g_mss_uart1
+                0x200081cc                g_mss_uart0
+ COMMON         0x200081f4        0x4 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+                0x200081f4                errno
+                0x200081f8                . = ALIGN (0x8)
+                0x200081f8                __bss_end__ = .
+                0x200081f8                _end = .
+                0x200081f8                __end = _end
+                0x200081f8                _ebss = .
+                0x200081f8                PROVIDE (end, .)
 
-.stack          0x200080a0     0x3000
-                0x200080a0                . = ALIGN (0x4)
-                0x200090a0                . = (. + PROCESS_STACK_SIZE)
- *fill*         0x200080a0     0x1000 00
-                0x200090a0                . = ALIGN (0x4)
-                0x2000b0a0                . = (. + MAIN_STACK_SIZE)
- *fill*         0x200090a0     0x2000 00
-                0x2000b0a0                . = ALIGN (0x4)
+.stack          0x200081f8     0x3000
+                0x200081f8                . = ALIGN (0x4)
+                0x200091f8                . = (. + PROCESS_STACK_SIZE)
+ *fill*         0x200081f8     0x1000 00
+                0x200091f8                . = ALIGN (0x4)
+                0x2000b1f8                . = (. + MAIN_STACK_SIZE)
+ *fill*         0x200091f8     0x2000 00
+                0x2000b1f8                . = ALIGN (0x4)
 
 .stab
  *(.stab)
@@ -926,20 +938,20 @@ END GROUP
 
 .comment        0x00000000       0xac
  .comment       0x00000000       0x2b ./main.o
- .comment       0x0000002b       0x2b C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .comment       0x00000056       0x2b C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .comment       0x00000081       0x2b C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .comment       0x0000002b       0x2b C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .comment       0x00000056       0x2b C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .comment       0x00000081       0x2b C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_aranges  0x00000000      0x1e8
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0x38 ./main.o
  .debug_aranges
-                0x00000038       0xa8 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x00000038       0xa8 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
  .debug_aranges
-                0x000000e0       0xd8 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x000000e0       0xd8 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .debug_aranges
-                0x000001b8       0x30 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x000001b8       0x30 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_pubnames
                 0x00000000      0x415
@@ -947,39 +959,39 @@ END GROUP
  .debug_pubnames
                 0x00000000       0x5a ./main.o
  .debug_pubnames
-                0x0000005a       0xeb C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x0000005a       0xeb C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
  .debug_pubnames
-                0x00000145      0x21c C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00000145      0x21c C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .debug_pubnames
-                0x00000361       0xb4 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00000361       0xb4 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_info     0x00000000     0x2e2d
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x25d ./main.o
- .debug_info    0x0000025d     0x10f0 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_info    0x0000134d     0x15a4 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .debug_info    0x000028f1      0x53c C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_info    0x0000025d     0x10f0 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_info    0x0000134d     0x15a4 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_info    0x000028f1      0x53c C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_abbrev   0x00000000      0x626
  *(.debug_abbrev)
  .debug_abbrev  0x00000000       0xdc ./main.o
- .debug_abbrev  0x000000dc      0x1f4 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_abbrev  0x000002d0      0x245 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .debug_abbrev  0x00000515      0x111 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_abbrev  0x000000dc      0x1f4 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_abbrev  0x000002d0      0x245 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_abbrev  0x00000515      0x111 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
-.debug_line     0x00000000     0x114d
+.debug_line     0x00000000     0x114a
  *(.debug_line)
- .debug_line    0x00000000      0x454 ./main.o
- .debug_line    0x00000454      0x509 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_line    0x0000095d      0x575 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .debug_line    0x00000ed2      0x27b C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_line    0x00000000      0x451 ./main.o
+ .debug_line    0x00000451      0x509 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_line    0x0000095a      0x575 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_line    0x00000ecf      0x27b C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_frame    0x00000000     0x1200
  *(.debug_frame)
  .debug_frame   0x00000000       0x90 ./main.o
- .debug_frame   0x00000090      0x220 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_frame   0x000002b0      0x2e4 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .debug_frame   0x00000594       0x64 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_frame   0x00000090      0x220 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_frame   0x000002b0      0x2e4 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_frame   0x00000594       0x64 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  .debug_frame   0x000005f8       0x20 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
  .debug_frame   0x00000618       0x2c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
  .debug_frame   0x00000644       0x5c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o)
@@ -1021,34 +1033,34 @@ END GROUP
  .debug_frame   0x00001188       0x3c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
  .debug_frame   0x000011c4       0x3c c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
 
-.debug_str      0x00000000     0x1839
+.debug_str      0x00000000     0x1837
  *(.debug_str)
- .debug_str     0x00000000      0x187 ./main.o
-                                0x1cb (size before relaxing)
- .debug_str     0x00000187      0xf93 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
-                               0x10a9 (size before relaxing)
- .debug_str     0x0000111a      0x628 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
-                               0x14ba (size before relaxing)
- .debug_str     0x00001742       0xf7 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
-                                0x45d (size before relaxing)
+ .debug_str     0x00000000      0x186 ./main.o
+                                0x1ca (size before relaxing)
+ .debug_str     0x00000186      0xf92 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                               0x10a8 (size before relaxing)
+ .debug_str     0x00001118      0x628 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                               0x14b9 (size before relaxing)
+ .debug_str     0x00001740       0xf7 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                                0x45c (size before relaxing)
 
 .debug_loc      0x00000000      0xa4d
  *(.debug_loc)
  .debug_loc     0x00000000       0xde ./main.o
- .debug_loc     0x000000de      0x3c6 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_loc     0x000004a4      0x510 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .debug_loc     0x000009b4       0x99 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_loc     0x000000de      0x3c6 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_loc     0x000004a4      0x510 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_loc     0x000009b4       0x99 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_macinfo  0x00000000    0x1ed2e
  *(.debug_macinfo)
  .debug_macinfo
                 0x00000000     0x954c ./main.o
  .debug_macinfo
-                0x0000954c     0x9965 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x0000954c     0x9965 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
  .debug_macinfo
-                0x00012eb1     0x63e4 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x00012eb1     0x63e4 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .debug_macinfo
-                0x00019295     0x5a99 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x00019295     0x5a99 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
 
 .debug_weaknames
  *(.debug_weaknames)
@@ -1075,121 +1087,119 @@ END GROUP
  .ARM.attributes
                 0x00000042       0x31 ./main.o
  .ARM.attributes
-                0x00000073       0x21 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
+                0x00000073       0x21 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/startup_a2fxxxm3.o
  .ARM.attributes
-                0x00000094       0x31 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                0x00000094       0x31 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
  .ARM.attributes
-                0x000000c5       0x31 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+                0x000000c5       0x31 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
  .ARM.attributes
-                0x000000f6       0x31 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+                0x000000f6       0x31 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
  .ARM.attributes
                 0x00000127       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x00000142       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
+                0x00000142       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x0000015d       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixunsdfsi.o)
+                0x0000015d       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivsf3.o)
  .ARM.attributes
-                0x00000178       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_addsubsf3.o)
+                0x00000178       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpsf2.o)
  .ARM.attributes
-                0x00000193       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivsf3.o)
+                0x00000193       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixsfsi.o)
  .ARM.attributes
-                0x000001ae       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpsf2.o)
+                0x000001ae       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
  .ARM.attributes
-                0x000001c9       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixsfsi.o)
+                0x000001d7       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
  .ARM.attributes
-                0x000001e4       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+                0x00000200       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
  .ARM.attributes
-                0x0000020d       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                0x00000229       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o)
  .ARM.attributes
-                0x00000236       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                0x00000252       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
  .ARM.attributes
-                0x0000025f       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-printf.o)
+                0x0000027b       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-wsetup.o)
  .ARM.attributes
-                0x00000288       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-vfprintf.o)
+                0x000002a4       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
  .ARM.attributes
-                0x000002b1       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-wsetup.o)
+                0x000002cd       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fflush.o)
  .ARM.attributes
-                0x000002da       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-dtoa.o)
+                0x000002f6       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o)
  .ARM.attributes
-                0x00000303       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fflush.o)
+                0x0000031f       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
  .ARM.attributes
-                0x0000032c       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-findfp.o)
+                0x00000348       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fvwrite.o)
  .ARM.attributes
-                0x00000355       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-freer.o)
+                0x00000371       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fwalk.o)
  .ARM.attributes
-                0x0000037e       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fvwrite.o)
+                0x0000039a       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
  .ARM.attributes
-                0x000003a7       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fwalk.o)
+                0x000003c3       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-makebuf.o)
  .ARM.attributes
-                0x000003d0       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-locale.o)
+                0x000003ec       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
  .ARM.attributes
-                0x000003f9       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-makebuf.o)
+                0x00000415       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
  .ARM.attributes
-                0x00000422       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-malloc.o)
+                0x0000043e       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
  .ARM.attributes
-                0x0000044b       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mallocr.o)
+                0x00000467       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x00000474       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memchr.o)
+                0x00000490       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
  .ARM.attributes
-                0x0000049d       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memcpy.o)
+                0x000004b9       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
  .ARM.attributes
-                0x000004c6       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memmove.o)
+                0x000004e2       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
  .ARM.attributes
-                0x000004ef       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-memset.o)
+                0x0000050b       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
  .ARM.attributes
-                0x00000518       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mlock.o)
+                0x00000534       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
  .ARM.attributes
-                0x00000541       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-mprec.o)
+                0x0000055d       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
  .ARM.attributes
-                0x0000056a       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reallocr.o)
+                0x00000586       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
  .ARM.attributes
-                0x00000593       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isinfd.o)
+                0x000005af       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x000005bc       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-s_isnand.o)
+                0x000005d8       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-stdio.o)
  .ARM.attributes
-                0x000005e5       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-sbrkr.o)
+                0x00000601       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
  .ARM.attributes
-                0x0000060e       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-stdio.o)
+                0x0000062a       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
  .ARM.attributes
-                0x00000637       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strcmp.o)
+                0x00000653       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
  .ARM.attributes
-                0x00000660       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-strlen.o)
+                0x0000067c       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-closer.o)
  .ARM.attributes
-                0x00000689       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-callocr.o)
+                0x000006a5       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fclose.o)
  .ARM.attributes
-                0x000006b2       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-closer.o)
+                0x000006ce       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fstatr.o)
  .ARM.attributes
-                0x000006db       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fclose.o)
+                0x000006f7       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-isattyr.o)
  .ARM.attributes
-                0x00000704       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-fstatr.o)
+                0x00000720       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-lseekr.o)
  .ARM.attributes
-                0x0000072d       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-isattyr.o)
+                0x00000749       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-readr.o)
  .ARM.attributes
-                0x00000756       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-lseekr.o)
+                0x00000772       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
  .ARM.attributes
-                0x0000077f       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-readr.o)
+                0x0000079b       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
  .ARM.attributes
-                0x000007a8       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-reent.o)
+                0x000007b6       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000007d1       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivsi3.o)
+                0x000007d1       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x000007ec       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_dvmd_tls.o)
+                0x000007ec       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x00000807       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_cmpdf2.o)
+                0x00000807       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
  .ARM.attributes
-                0x00000822       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_arm_fixdfsi.o)
+                0x00000822       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x0000083d       0x1b c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_aeabi_uldivmod.o)
+                0x0000083d       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
  .ARM.attributes
-                0x00000858       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(bpabi.o)
+                0x00000866       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
  .ARM.attributes
-                0x00000881       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_divdi3.o)
+                0x0000088f       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
  .ARM.attributes
-                0x000008aa       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a(_udivdi3.o)
+                0x000008b8       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
  .ARM.attributes
-                0x000008d3       0x29 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
- .ARM.attributes
-                0x000008fc       0x19 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+                0x000008e1       0x19 c:/microsemi/softconsole v3.3/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
 
 /DISCARD/
  *(.note.GNU-stack)
@@ -1198,6 +1208,6 @@ OUTPUT(MSS01_MSS_CM3_0_app elf32-littlearm)
 
 .debug_ranges   0x00000000      0x1c8
  .debug_ranges  0x00000000       0x30 ./main.o
- .debug_ranges  0x00000030       0xa0 C:/Users/mtstacho/Desktop/VisionAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
- .debug_ranges  0x000000d0       0xd0 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
- .debug_ranges  0x000001a0       0x28 C:\Users\mtstacho\Desktop\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)
+ .debug_ranges  0x00000030       0xa0 C:/Users/mtstacho/Desktop/VisonAssistance/SoftConsole/MSS01_MSS_CM3_0/MSS01_MSS_CM3_0_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_ranges  0x000000d0       0xd0 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(mss_uart.o)
+ .debug_ranges  0x000001a0       0x28 C:\Users\mtstacho\Desktop\VisonAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug\libMSS01_MSS_CM3_0_hw_platform.a(system_a2fxxxm3.o)

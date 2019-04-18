@@ -38,16 +38,20 @@ uint32_t dist_to_color(float in_dist){
 	uint32_t blue_amount = 0;
 	uint32_t green_amount = 0;
 
-	if(in_dist < 10.0){
-		blue_amount = 0xFF;
+	if(in_dist < 20.0){
+		green_amount = 0xFF;
 	//} else if(in_dist > 20.0){
 		//green_amount = 0xFF;
-	}else{
-		blue_amount = 0xFF - (in_dist - 10.0) * 10;
-		//green_amount = (in_dist - 10.0)* 25.5;
 	}
+	else if (in_dist < 40.0)
+		green_amount = 0x01;
+	/*}else{
+		//blue_amount = 0xFF - (in_dist - 10.0) * 10;
+		//green_amount = (in_dist - 10.0)* 25.5;
+	}*/
 
-	uint32_t result = (blue_amount << 16) | green_amount;
+	//uint32_t result = (blue_amount << 16) | green_amount;
+	uint32_t result = green_amount;
 	return result;
 
 }
@@ -88,11 +92,15 @@ int main()
 		uint32_t DATA = *DATA_READ;
 		cm_dist = data_to_cm(DATA);
 		LED_num = dist_to_LED(cm_dist);
-		for(i = 0; i < 8; ++i){
+		color = dist_to_color(cm_dist);
+		/*for(i = 0; i < 8; ++i){
 			if(i== LED_num)
 				LED1[i] = blue;
 			else
 				LED1[i] = off;
+		}*/
+		for(i = 0; i < 8; ++i){
+			LED1[i] = color;
 		}
 
 		printf("Distance = %5.2f cm; Raw Data = %ld\r\n",cm_dist ,DATA);
