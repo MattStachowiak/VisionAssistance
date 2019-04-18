@@ -53,6 +53,7 @@ float data_to_cm(uint32_t in_data){
 
 }
 
+// TESTING FUNCTION
 // This is a function for testing color interaction with distance
 uint32_t dist_to_color(float in_dist){
 
@@ -79,11 +80,12 @@ uint32_t dist_to_color(float in_dist){
 
 }
 
+// TESTING FUNCTION
 // Function for testing distance controlling LED number
 // Each LED is 10 cm of distance
 int dist_to_LED(float in_dist){
-	return (int)in_dist / 10;
 
+	return (int)in_dist / 10;
 }
 
 //--- Grideye Functions ---
@@ -97,11 +99,11 @@ void gridEYE_write(uint8_t* reg_addr, uint8_t* data){
 
 	MSS_I2C_write
 		(
-				&g_mss_i2c1,
-				gridEYE_ADDR,
-				signal,
-				sizeof(signal),
-				MSS_I2C_RELEASE_BUS
+			&g_mss_i2c1,
+			gridEYE_ADDR,
+			signal,
+			sizeof(signal),
+			MSS_I2C_RELEASE_BUS
 		);
 
 	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
@@ -115,13 +117,13 @@ void gridEYE_read(uint8_t* reg_addr, uint8_t* recieved_data ){
 
 	MSS_I2C_write_read
 		(
-				&g_mss_i2c1,
-				gridEYE_ADDR,
-				reg_addr,
-				1,
-				recieved_data,
-				128,
-				MSS_I2C_RELEASE_BUS
+			&g_mss_i2c1,
+			gridEYE_ADDR,
+			reg_addr,
+			1,
+			recieved_data,
+			128,
+			MSS_I2C_RELEASE_BUS
 		);
 
 	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
@@ -250,10 +252,15 @@ int main()
 		LED_num = dist_to_LED(cm_dist);
 		//color = dist_to_color(cm_dist);
 
+		if(temps[3][3] > 24.00)
+			color = red;
+		else
+			color = blue;
+
 		// Write to LEDs
 		for(i = 0; i < 8; ++i){
 			if(i== LED_num)
-				LED[i] = blue;
+				LED[i] = color;
 			else
 				LED[i] = off;
 		}
