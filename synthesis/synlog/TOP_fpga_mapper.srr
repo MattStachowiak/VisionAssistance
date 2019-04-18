@@ -1,0 +1,839 @@
+# Wed Apr 17 19:05:38 2019
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+@N: MO111 :"c:\users\darshin\desktop\373projectled-338726cff5c560a56fb0ec581fe34a73cec59c05\373projectled-338726cff5c560a56fb0ec581fe34a73cec59c05\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net LPXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\darshin\desktop\373projectled-338726cff5c560a56fb0ec581fe34a73cec59c05\373projectled-338726cff5c560a56fb0ec581fe34a73cec59c05\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net MAINXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\darshin\desktop\373projectled-338726cff5c560a56fb0ec581fe34a73cec59c05\373projectled-338726cff5c560a56fb0ec581fe34a73cec59c05\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net RCOSC_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+@N: MO231 :"c:\users\darshin\desktop\373projectled-338726cff5c560a56fb0ec581fe34a73cec59c05\373projectled-338726cff5c560a56fb0ec581fe34a73cec59c05\hdl\sensing.v":76:4:76:9|Found counter in view:work.DistanceSensor(verilog) instance data_buffer[31:0] 
+@N: MF238 :"c:\users\darshin\desktop\373projectled-338726cff5c560a56fb0ec581fe34a73cec59c05\373projectled-338726cff5c560a56fb0ec581fe34a73cec59c05\hdl\sensing.v":60:21:60:30|Found 17-bit incrementor, 'count_2[16:0]'
+@N: MO231 :"c:\users\darshin\desktop\373projectled-338726cff5c560a56fb0ec581fe34a73cec59c05\373projectled-338726cff5c560a56fb0ec581fe34a73cec59c05\hdl\led.v":24:0:24:5|Found counter in view:work.LED_VERILOG(verilog) instance bit_counter[7:0] 
+@N: MO231 :"c:\users\darshin\desktop\373projectled-338726cff5c560a56fb0ec581fe34a73cec59c05\373projectled-338726cff5c560a56fb0ec581fe34a73cec59c05\hdl\led.v":24:0:24:5|Found counter in view:work.LED_VERILOG(verilog) instance pwm_counter[6:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 115MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 120MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 120MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 120MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 120MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 120MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 120MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 118MB peak: 120MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 121MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name             Fanout, notes
+----------------------------------------------------
+LED_VERILOG_0.bit_counter[4] / Q       34           
+LED_VERILOG_0.bit_counter[5] / Q       66           
+LED_VERILOG_0.bit_counter[7] / Q       65           
+DistanceSensor_0.data_1_sqmuxa / Y     32           
+DistanceSensor_0.data_0_sqmuxa / Y     33           
+CoreAPB3_0.CAPB3l0OI_0[1] / Y          32           
+CoreAPB3_0.CAPB3l0OI_1[1] / Y          32           
+====================================================
+
+@N: FP130 |Promoting Net LED_VERILOG_0.bit_counter[5] on CLKINT  I_32 
+@N: FP130 |Promoting Net LED_VERILOG_0.bit_counter[7] on CLKINT  I_33 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 120MB peak: 121MB)
+
+Replicating Combinational Instance CoreAPB3_0.CAPB3l0OI_1[1], fanout 32 segments 2
+Replicating Combinational Instance CoreAPB3_0.CAPB3l0OI_0[1], fanout 32 segments 2
+Replicating Combinational Instance DistanceSensor_0.data_0_sqmuxa, fanout 33 segments 2
+Replicating Combinational Instance DistanceSensor_0.data_1_sqmuxa, fanout 32 segments 2
+Replicating Sequential Instance LED_VERILOG_0.bit_counter[4], fanout 34 segments 2
+
+Added 0 Buffers
+Added 5 Cells via replication
+	Added 1 Sequential Cells via replication
+	Added 4 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 120MB peak: 121MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 317 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+======================================== Non-Gated/Non-Generated Clocks =========================================
+Clock Tree ID     Driving Element     Drive Element Type                Fanout     Sample Instance               
+-----------------------------------------------------------------------------------------------------------------
+@K:CKID0001       MSS01_0             clock definition on hierarchy     317        LED_VERILOG_0.data_counter[23]
+=================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 118MB peak: 121MB)
+
+Writing Analyst data base C:\Users\darshin\Desktop\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\synthesis\synwork\TOP_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 118MB peak: 121MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 119MB peak: 121MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 118MB peak: 121MB)
+
+@N: MT615 |Found clock FCLK with period 10.00ns 
+@N: MT615 |Found clock FAB_CLK with period 10.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Apr 17 19:05:39 2019
+#
+
+
+Top view:               TOP
+Library name:           smartfusion
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.74, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        smartfusion
+Paths requested:        5
+Constraint File(s):    C:\Users\darshin\Desktop\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\component\work\MSS01\mss_tshell_syn.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -13.135
+
+                   Requested     Estimated     Requested     Estimated                 Clock        Clock          
+Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group          
+-------------------------------------------------------------------------------------------------------------------
+FAB_CLK            100.0 MHz     43.2 MHz      10.000        23.135        -13.135     declared     clk_group_0    
+FCLK               100.0 MHz     NA            10.000        NA            NA          declared     clk_group_0    
+System             100.0 MHz     215.5 MHz     10.000        4.640         5.360       system       system_clkgroup
+===================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------
+System    System   |  10.000      5.360    |  No paths    -      |  No paths    -      |  No paths    -    
+System    FAB_CLK  |  10.000      2.362    |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   System   |  10.000      7.979    |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   FAB_CLK  |  10.000      -13.135  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FAB_CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                    Starting                                            Arrival            
+Instance                            Reference     Type     Pin     Net                  Time        Slack  
+                                    Clock                                                                  
+-----------------------------------------------------------------------------------------------------------
+DistanceSensor_0.data_buffer[0]     FAB_CLK       DFN1     Q       data_buffer[0]       0.737       -13.135
+LED_VERILOG_0.data_counter[2]       FAB_CLK       DFN1     Q       data_counter[2]      0.737       -12.996
+DistanceSensor_0.data_buffer[1]     FAB_CLK       DFN1     Q       data_buffer[1]       0.737       -12.870
+LED_VERILOG_0.data_counter[4]       FAB_CLK       DFN1     Q       data_counter[4]      0.737       -12.842
+LED_VERILOG_0.data_counter[21]      FAB_CLK       DFN1     Q       data_counter[21]     0.737       -12.682
+LED_VERILOG_0.data_counter[11]      FAB_CLK       DFN1     Q       data_counter[11]     0.737       -12.636
+LED_VERILOG_0.data_counter[15]      FAB_CLK       DFN1     Q       data_counter[15]     0.737       -12.616
+LED_VERILOG_0.data_counter[5]       FAB_CLK       DFN1     Q       data_counter[5]      0.737       -12.577
+LED_VERILOG_0.data_counter[20]      FAB_CLK       DFN1     Q       data_counter[20]     0.737       -12.572
+LED_VERILOG_0.data_counter[22]      FAB_CLK       DFN1     Q       data_counter[22]     0.737       -12.542
+===========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                     Starting                                              Required            
+Instance                             Reference     Type     Pin     Net                    Time         Slack  
+                                     Clock                                                                     
+---------------------------------------------------------------------------------------------------------------
+DistanceSensor_0.data_buffer[31]     FAB_CLK       DFN1     D       data_buffer_n31        9.461        -13.135
+LED_VERILOG_0.data_counter[23]       FAB_CLK       DFN1     D       data_counter_5[23]     9.461        -12.996
+DistanceSensor_0.data_buffer[30]     FAB_CLK       DFN1     D       data_buffer_n30        9.427        -12.851
+DistanceSensor_0.data_buffer[29]     FAB_CLK       DFN1     D       data_buffer_n29        9.427        -11.951
+DistanceSensor_0.data_buffer[21]     FAB_CLK       DFN1     D       data_buffer_n21        9.427        -11.887
+LED_VERILOG_0.data_counter[19]       FAB_CLK       DFN1     D       data_counter_5[19]     9.461        -11.675
+LED_VERILOG_0.data_counter[22]       FAB_CLK       DFN1     D       I_89                   9.461        -11.351
+LED_VERILOG_0.data_counter[15]       FAB_CLK       DFN1     D       data_counter_5[15]     9.461        -11.298
+LED_VERILOG_0.data_counter[21]       FAB_CLK       DFN1     D       I_81                   9.461        -11.286
+LED_VERILOG_0.data_counter[20]       FAB_CLK       DFN1     D       data_counter_5[20]     9.461        -11.260
+===============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      22.596
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -13.135
+
+    Number of logic level(s):                21
+    Starting point:                          DistanceSensor_0.data_buffer[0] / Q
+    Ending point:                            DistanceSensor_0.data_buffer[31] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                          Type      Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+DistanceSensor_0.data_buffer[0]               DFN1      Q        Out     0.737     0.737       -         
+data_buffer[0]                                Net       -        -       1.184     -           4         
+DistanceSensor_0.data_buffer_RNIR065[1]       NOR2B     A        In      -         1.921       -         
+DistanceSensor_0.data_buffer_RNIR065[1]       NOR2B     Y        Out     0.514     2.435       -         
+data_buffer_c1                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIQ2P7[2]       NOR2B     A        In      -         2.821       -         
+DistanceSensor_0.data_buffer_RNIQ2P7[2]       NOR2B     Y        Out     0.514     3.335       -         
+data_buffer_c2                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIQ5CA[3]       NOR2B     A        In      -         3.721       -         
+DistanceSensor_0.data_buffer_RNIQ5CA[3]       NOR2B     Y        Out     0.514     4.235       -         
+data_buffer_c3                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIR9VC[4]       NOR2B     B        In      -         4.621       -         
+DistanceSensor_0.data_buffer_RNIR9VC[4]       NOR2B     Y        Out     0.627     5.248       -         
+data_buffer_c4                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNITEIF[5]       NOR2B     B        In      -         5.634       -         
+DistanceSensor_0.data_buffer_RNITEIF[5]       NOR2B     Y        Out     0.627     6.262       -         
+data_buffer_c5                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNI0L5I[6]       NOR2B     A        In      -         6.648       -         
+DistanceSensor_0.data_buffer_RNI0L5I[6]       NOR2B     Y        Out     0.514     7.162       -         
+data_buffer_c6                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNI4SOK[7]       NOR2B     B        In      -         7.548       -         
+DistanceSensor_0.data_buffer_RNI4SOK[7]       NOR2B     Y        Out     0.627     8.175       -         
+data_buffer_c7                                Net       -        -       0.806     -           3         
+DistanceSensor_0.data_buffer_RNIFDVP[9]       NOR2B     B        In      -         8.982       -         
+DistanceSensor_0.data_buffer_RNIFDVP[9]       NOR2B     Y        Out     0.627     9.609       -         
+data_buffer_c9                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIT0IV[10]      NOR2B     A        In      -         9.995       -         
+DistanceSensor_0.data_buffer_RNIT0IV[10]      NOR2B     Y        Out     0.514     10.509      -         
+data_buffer_c10                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNICL451[11]     NOR2B     A        In      -         10.895      -         
+DistanceSensor_0.data_buffer_RNICL451[11]     NOR2B     Y        Out     0.514     11.409      -         
+data_buffer_c11                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNISANA1[12]     NOR2B     A        In      -         11.795      -         
+DistanceSensor_0.data_buffer_RNISANA1[12]     NOR2B     Y        Out     0.514     12.310      -         
+data_buffer_c12                               Net       -        -       0.806     -           3         
+DistanceSensor_0.data_buffer_RNI7A2T2[12]     NOR2B     B        In      -         13.116      -         
+DistanceSensor_0.data_buffer_RNI7A2T2[12]     NOR2B     Y        Out     0.627     13.743      -         
+data_buffer_c21                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIO1M23[22]     NOR2B     A        In      -         14.129      -         
+DistanceSensor_0.data_buffer_RNIO1M23[22]     NOR2B     Y        Out     0.514     14.644      -         
+data_buffer_c22                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIAQ983[23]     NOR2B     A        In      -         15.029      -         
+DistanceSensor_0.data_buffer_RNIAQ983[23]     NOR2B     Y        Out     0.514     15.544      -         
+data_buffer_c23                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNITJTD3[24]     NOR2B     A        In      -         15.930      -         
+DistanceSensor_0.data_buffer_RNITJTD3[24]     NOR2B     Y        Out     0.514     16.444      -         
+data_buffer_c24                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIHEHJ3[25]     NOR2B     A        In      -         16.830      -         
+DistanceSensor_0.data_buffer_RNIHEHJ3[25]     NOR2B     Y        Out     0.514     17.344      -         
+data_buffer_c25                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNI6A5P3[26]     NOR2B     A        In      -         17.730      -         
+DistanceSensor_0.data_buffer_RNI6A5P3[26]     NOR2B     Y        Out     0.514     18.244      -         
+data_buffer_c26                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIS6PU3[27]     NOR2B     A        In      -         18.630      -         
+DistanceSensor_0.data_buffer_RNIS6PU3[27]     NOR2B     Y        Out     0.514     19.145      -         
+data_buffer_c27                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIJ4D44[28]     NOR2B     A        In      -         19.530      -         
+DistanceSensor_0.data_buffer_RNIJ4D44[28]     NOR2B     Y        Out     0.514     20.045      -         
+data_buffer_c28                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIB31A4[29]     NOR2B     A        In      -         20.430      -         
+DistanceSensor_0.data_buffer_RNIB31A4[29]     NOR2B     Y        Out     0.514     20.945      -         
+data_buffer_c29                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNO[31]          AX1C      A        In      -         21.331      -         
+DistanceSensor_0.data_buffer_RNO[31]          AX1C      Y        Out     0.944     22.274      -         
+data_buffer_n31                               Net       -        -       0.322     -           1         
+DistanceSensor_0.data_buffer[31]              DFN1      D        In      -         22.596      -         
+=========================================================================================================
+Total path delay (propagation time + setup) of 23.135 is 13.072(56.5%) logic and 10.062(43.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      22.458
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -12.996
+
+    Number of logic level(s):                15
+    Starting point:                          LED_VERILOG_0.data_counter[2] / Q
+    Ending point:                            LED_VERILOG_0.data_counter[23] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                        Type      Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+LED_VERILOG_0.data_counter[2]               DFN1      Q        Out     0.737     0.737       -         
+data_counter[2]                             Net       -        -       1.184     -           4         
+LED_VERILOG_0.data_counter_RNIP7JM[3]       OR2B      B        In      -         1.921       -         
+LED_VERILOG_0.data_counter_RNIP7JM[3]       OR2B      Y        Out     0.627     2.548       -         
+un1_data_counter_1lto5_1                    Net       -        -       0.322     -           1         
+LED_VERILOG_0.data_counter_RNIBNP32[0]      OR3       C        In      -         2.869       -         
+LED_VERILOG_0.data_counter_RNIBNP32[0]      OR3       Y        Out     0.683     3.552       -         
+un1_N_4                                     Net       -        -       0.386     -           2         
+LED_VERILOG_0.data_counter_RNISLHA3[6]      NOR3C     C        In      -         3.938       -         
+LED_VERILOG_0.data_counter_RNISLHA3[6]      NOR3C     Y        Out     0.666     4.604       -         
+un1_N_5                                     Net       -        -       0.322     -           1         
+LED_VERILOG_0.data_counter_RNI07LP5[13]     OA1       A        In      -         4.925       -         
+LED_VERILOG_0.data_counter_RNI07LP5[13]     OA1       Y        Out     0.984     5.909       -         
+data_counter_RNI07LP5[13]                   Net       -        -       1.669     -           9         
+LED_VERILOG_0.data_counter_RNI590FG[23]     MX2C      S        In      -         7.577       -         
+LED_VERILOG_0.data_counter_RNI590FG[23]     MX2C      Y        Out     0.480     8.057       -         
+un1_N_7_mux_0                               Net       -        -       1.994     -           12        
+LED_VERILOG_0.un1_data_counter_4.I_1        NOR2A     B        In      -         10.051      -         
+LED_VERILOG_0.un1_data_counter_4.I_1        NOR2A     Y        Out     0.386     10.436      -         
+DWACT_ADD_CI_0_TMP[0]                       Net       -        -       0.386     -           2         
+LED_VERILOG_0.un1_data_counter_4.I_99       NOR2B     A        In      -         10.822      -         
+LED_VERILOG_0.un1_data_counter_4.I_99       NOR2B     Y        Out     0.514     11.337      -         
+DWACT_ADD_CI_0_g_array_1[0]                 Net       -        -       0.806     -           3         
+LED_VERILOG_0.un1_data_counter_4.I_117      NOR2B     A        In      -         12.143      -         
+LED_VERILOG_0.un1_data_counter_4.I_117      NOR2B     Y        Out     0.514     12.657      -         
+DWACT_ADD_CI_0_g_array_2[0]                 Net       -        -       1.184     -           4         
+LED_VERILOG_0.un1_data_counter_4.I_122      NOR2B     A        In      -         13.841      -         
+LED_VERILOG_0.un1_data_counter_4.I_122      NOR2B     Y        Out     0.514     14.355      -         
+DWACT_ADD_CI_0_g_array_3[0]                 Net       -        -       1.279     -           5         
+LED_VERILOG_0.un1_data_counter_4.I_102      NOR2B     A        In      -         15.635      -         
+LED_VERILOG_0.un1_data_counter_4.I_102      NOR2B     Y        Out     0.514     16.149      -         
+DWACT_ADD_CI_0_g_array_4[0]                 Net       -        -       1.184     -           4         
+LED_VERILOG_0.un1_data_counter_4.I_133      NOR2B     A        In      -         17.333      -         
+LED_VERILOG_0.un1_data_counter_4.I_133      NOR2B     Y        Out     0.514     17.847      -         
+DWACT_ADD_CI_0_g_array_10_1[0]              Net       -        -       0.806     -           3         
+LED_VERILOG_0.un1_data_counter_4.I_109      NOR2B     A        In      -         18.653      -         
+LED_VERILOG_0.un1_data_counter_4.I_109      NOR2B     Y        Out     0.514     19.168      -         
+DWACT_ADD_CI_0_g_array_11_4[0]              Net       -        -       0.386     -           2         
+LED_VERILOG_0.un1_data_counter_4.I_114      NOR2B     A        In      -         19.554      -         
+LED_VERILOG_0.un1_data_counter_4.I_114      NOR2B     Y        Out     0.514     20.068      -         
+DWACT_ADD_CI_0_g_array_12_10[0]             Net       -        -       0.322     -           1         
+LED_VERILOG_0.un1_data_counter_4.I_96       XOR2      B        In      -         20.390      -         
+LED_VERILOG_0.un1_data_counter_4.I_96       XOR2      Y        Out     0.937     21.326      -         
+I_96                                        Net       -        -       0.322     -           1         
+LED_VERILOG_0.data_counter_RNO[23]          NOR2B     A        In      -         21.648      -         
+LED_VERILOG_0.data_counter_RNO[23]          NOR2B     Y        Out     0.488     22.136      -         
+data_counter_5[23]                          Net       -        -       0.322     -           1         
+LED_VERILOG_0.data_counter[23]              DFN1      D        In      -         22.458      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 22.996 is 10.127(44.0%) logic and 12.870(56.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      22.332
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -12.870
+
+    Number of logic level(s):                21
+    Starting point:                          DistanceSensor_0.data_buffer[1] / Q
+    Ending point:                            DistanceSensor_0.data_buffer[31] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                          Type      Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+DistanceSensor_0.data_buffer[1]               DFN1      Q        Out     0.737     0.737       -         
+data_buffer[1]                                Net       -        -       0.806     -           3         
+DistanceSensor_0.data_buffer_RNIR065[1]       NOR2B     B        In      -         1.543       -         
+DistanceSensor_0.data_buffer_RNIR065[1]       NOR2B     Y        Out     0.627     2.171       -         
+data_buffer_c1                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIQ2P7[2]       NOR2B     A        In      -         2.557       -         
+DistanceSensor_0.data_buffer_RNIQ2P7[2]       NOR2B     Y        Out     0.514     3.071       -         
+data_buffer_c2                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIQ5CA[3]       NOR2B     A        In      -         3.457       -         
+DistanceSensor_0.data_buffer_RNIQ5CA[3]       NOR2B     Y        Out     0.514     3.971       -         
+data_buffer_c3                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIR9VC[4]       NOR2B     B        In      -         4.357       -         
+DistanceSensor_0.data_buffer_RNIR9VC[4]       NOR2B     Y        Out     0.627     4.984       -         
+data_buffer_c4                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNITEIF[5]       NOR2B     B        In      -         5.370       -         
+DistanceSensor_0.data_buffer_RNITEIF[5]       NOR2B     Y        Out     0.627     5.997       -         
+data_buffer_c5                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNI0L5I[6]       NOR2B     A        In      -         6.383       -         
+DistanceSensor_0.data_buffer_RNI0L5I[6]       NOR2B     Y        Out     0.514     6.898       -         
+data_buffer_c6                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNI4SOK[7]       NOR2B     B        In      -         7.284       -         
+DistanceSensor_0.data_buffer_RNI4SOK[7]       NOR2B     Y        Out     0.627     7.911       -         
+data_buffer_c7                                Net       -        -       0.806     -           3         
+DistanceSensor_0.data_buffer_RNIFDVP[9]       NOR2B     B        In      -         8.717       -         
+DistanceSensor_0.data_buffer_RNIFDVP[9]       NOR2B     Y        Out     0.627     9.345       -         
+data_buffer_c9                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIT0IV[10]      NOR2B     A        In      -         9.730       -         
+DistanceSensor_0.data_buffer_RNIT0IV[10]      NOR2B     Y        Out     0.514     10.245      -         
+data_buffer_c10                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNICL451[11]     NOR2B     A        In      -         10.631      -         
+DistanceSensor_0.data_buffer_RNICL451[11]     NOR2B     Y        Out     0.514     11.145      -         
+data_buffer_c11                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNISANA1[12]     NOR2B     A        In      -         11.531      -         
+DistanceSensor_0.data_buffer_RNISANA1[12]     NOR2B     Y        Out     0.514     12.045      -         
+data_buffer_c12                               Net       -        -       0.806     -           3         
+DistanceSensor_0.data_buffer_RNI7A2T2[12]     NOR2B     B        In      -         12.852      -         
+DistanceSensor_0.data_buffer_RNI7A2T2[12]     NOR2B     Y        Out     0.627     13.479      -         
+data_buffer_c21                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIO1M23[22]     NOR2B     A        In      -         13.865      -         
+DistanceSensor_0.data_buffer_RNIO1M23[22]     NOR2B     Y        Out     0.514     14.379      -         
+data_buffer_c22                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIAQ983[23]     NOR2B     A        In      -         14.765      -         
+DistanceSensor_0.data_buffer_RNIAQ983[23]     NOR2B     Y        Out     0.514     15.280      -         
+data_buffer_c23                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNITJTD3[24]     NOR2B     A        In      -         15.665      -         
+DistanceSensor_0.data_buffer_RNITJTD3[24]     NOR2B     Y        Out     0.514     16.180      -         
+data_buffer_c24                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIHEHJ3[25]     NOR2B     A        In      -         16.566      -         
+DistanceSensor_0.data_buffer_RNIHEHJ3[25]     NOR2B     Y        Out     0.514     17.080      -         
+data_buffer_c25                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNI6A5P3[26]     NOR2B     A        In      -         17.466      -         
+DistanceSensor_0.data_buffer_RNI6A5P3[26]     NOR2B     Y        Out     0.514     17.980      -         
+data_buffer_c26                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIS6PU3[27]     NOR2B     A        In      -         18.366      -         
+DistanceSensor_0.data_buffer_RNIS6PU3[27]     NOR2B     Y        Out     0.514     18.880      -         
+data_buffer_c27                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIJ4D44[28]     NOR2B     A        In      -         19.266      -         
+DistanceSensor_0.data_buffer_RNIJ4D44[28]     NOR2B     Y        Out     0.514     19.781      -         
+data_buffer_c28                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIB31A4[29]     NOR2B     A        In      -         20.166      -         
+DistanceSensor_0.data_buffer_RNIB31A4[29]     NOR2B     Y        Out     0.514     20.681      -         
+data_buffer_c29                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNO[31]          AX1C      A        In      -         21.067      -         
+DistanceSensor_0.data_buffer_RNO[31]          AX1C      Y        Out     0.944     22.010      -         
+data_buffer_n31                               Net       -        -       0.322     -           1         
+DistanceSensor_0.data_buffer[31]              DFN1      D        In      -         22.332      -         
+=========================================================================================================
+Total path delay (propagation time + setup) of 22.870 is 13.185(57.7%) logic and 9.685(42.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.573
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.427
+
+    - Propagation time:                      22.278
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -12.851
+
+    Number of logic level(s):                21
+    Starting point:                          DistanceSensor_0.data_buffer[0] / Q
+    Ending point:                            DistanceSensor_0.data_buffer[30] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                          Type      Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+DistanceSensor_0.data_buffer[0]               DFN1      Q        Out     0.737     0.737       -         
+data_buffer[0]                                Net       -        -       1.184     -           4         
+DistanceSensor_0.data_buffer_RNIR065[1]       NOR2B     A        In      -         1.921       -         
+DistanceSensor_0.data_buffer_RNIR065[1]       NOR2B     Y        Out     0.514     2.435       -         
+data_buffer_c1                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIQ2P7[2]       NOR2B     A        In      -         2.821       -         
+DistanceSensor_0.data_buffer_RNIQ2P7[2]       NOR2B     Y        Out     0.514     3.335       -         
+data_buffer_c2                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIQ5CA[3]       NOR2B     A        In      -         3.721       -         
+DistanceSensor_0.data_buffer_RNIQ5CA[3]       NOR2B     Y        Out     0.514     4.235       -         
+data_buffer_c3                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIR9VC[4]       NOR2B     B        In      -         4.621       -         
+DistanceSensor_0.data_buffer_RNIR9VC[4]       NOR2B     Y        Out     0.627     5.248       -         
+data_buffer_c4                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNITEIF[5]       NOR2B     B        In      -         5.634       -         
+DistanceSensor_0.data_buffer_RNITEIF[5]       NOR2B     Y        Out     0.627     6.262       -         
+data_buffer_c5                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNI0L5I[6]       NOR2B     A        In      -         6.648       -         
+DistanceSensor_0.data_buffer_RNI0L5I[6]       NOR2B     Y        Out     0.514     7.162       -         
+data_buffer_c6                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNI4SOK[7]       NOR2B     B        In      -         7.548       -         
+DistanceSensor_0.data_buffer_RNI4SOK[7]       NOR2B     Y        Out     0.627     8.175       -         
+data_buffer_c7                                Net       -        -       0.806     -           3         
+DistanceSensor_0.data_buffer_RNIFDVP[9]       NOR2B     B        In      -         8.982       -         
+DistanceSensor_0.data_buffer_RNIFDVP[9]       NOR2B     Y        Out     0.627     9.609       -         
+data_buffer_c9                                Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIT0IV[10]      NOR2B     A        In      -         9.995       -         
+DistanceSensor_0.data_buffer_RNIT0IV[10]      NOR2B     Y        Out     0.514     10.509      -         
+data_buffer_c10                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNICL451[11]     NOR2B     A        In      -         10.895      -         
+DistanceSensor_0.data_buffer_RNICL451[11]     NOR2B     Y        Out     0.514     11.409      -         
+data_buffer_c11                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNISANA1[12]     NOR2B     A        In      -         11.795      -         
+DistanceSensor_0.data_buffer_RNISANA1[12]     NOR2B     Y        Out     0.514     12.310      -         
+data_buffer_c12                               Net       -        -       0.806     -           3         
+DistanceSensor_0.data_buffer_RNI7A2T2[12]     NOR2B     B        In      -         13.116      -         
+DistanceSensor_0.data_buffer_RNI7A2T2[12]     NOR2B     Y        Out     0.627     13.743      -         
+data_buffer_c21                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIO1M23[22]     NOR2B     A        In      -         14.129      -         
+DistanceSensor_0.data_buffer_RNIO1M23[22]     NOR2B     Y        Out     0.514     14.644      -         
+data_buffer_c22                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIAQ983[23]     NOR2B     A        In      -         15.029      -         
+DistanceSensor_0.data_buffer_RNIAQ983[23]     NOR2B     Y        Out     0.514     15.544      -         
+data_buffer_c23                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNITJTD3[24]     NOR2B     A        In      -         15.930      -         
+DistanceSensor_0.data_buffer_RNITJTD3[24]     NOR2B     Y        Out     0.514     16.444      -         
+data_buffer_c24                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIHEHJ3[25]     NOR2B     A        In      -         16.830      -         
+DistanceSensor_0.data_buffer_RNIHEHJ3[25]     NOR2B     Y        Out     0.514     17.344      -         
+data_buffer_c25                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNI6A5P3[26]     NOR2B     A        In      -         17.730      -         
+DistanceSensor_0.data_buffer_RNI6A5P3[26]     NOR2B     Y        Out     0.514     18.244      -         
+data_buffer_c26                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIS6PU3[27]     NOR2B     A        In      -         18.630      -         
+DistanceSensor_0.data_buffer_RNIS6PU3[27]     NOR2B     Y        Out     0.514     19.145      -         
+data_buffer_c27                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIJ4D44[28]     NOR2B     A        In      -         19.530      -         
+DistanceSensor_0.data_buffer_RNIJ4D44[28]     NOR2B     Y        Out     0.514     20.045      -         
+data_buffer_c28                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNIB31A4[29]     NOR2B     A        In      -         20.430      -         
+DistanceSensor_0.data_buffer_RNIB31A4[29]     NOR2B     Y        Out     0.514     20.945      -         
+data_buffer_c29                               Net       -        -       0.386     -           2         
+DistanceSensor_0.data_buffer_RNO[30]          XA1B      B        In      -         21.331      -         
+DistanceSensor_0.data_buffer_RNO[30]          XA1B      Y        Out     0.626     21.956      -         
+data_buffer_n30                               Net       -        -       0.322     -           1         
+DistanceSensor_0.data_buffer[30]              DFN1      D        In      -         22.278      -         
+=========================================================================================================
+Total path delay (propagation time + setup) of 22.851 is 12.789(56.0%) logic and 10.062(44.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.539
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.461
+
+    - Propagation time:                      22.303
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -12.842
+
+    Number of logic level(s):                15
+    Starting point:                          LED_VERILOG_0.data_counter[4] / Q
+    Ending point:                            LED_VERILOG_0.data_counter[23] / D
+    The start point is clocked by            FAB_CLK [rising] on pin CLK
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                                        Pin      Pin               Arrival     No. of    
+Name                                        Type      Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------
+LED_VERILOG_0.data_counter[4]               DFN1      Q        Out     0.737     0.737       -         
+data_counter[4]                             Net       -        -       1.184     -           4         
+LED_VERILOG_0.data_counter_RNITBJM[5]       OR2B      A        In      -         1.921       -         
+LED_VERILOG_0.data_counter_RNITBJM[5]       OR2B      Y        Out     0.514     2.435       -         
+un1_data_counter_1lto5_2_0                  Net       -        -       0.322     -           1         
+LED_VERILOG_0.data_counter_RNIBNP32[0]      OR3       B        In      -         2.756       -         
+LED_VERILOG_0.data_counter_RNIBNP32[0]      OR3       Y        Out     0.641     3.398       -         
+un1_N_4                                     Net       -        -       0.386     -           2         
+LED_VERILOG_0.data_counter_RNISLHA3[6]      NOR3C     C        In      -         3.784       -         
+LED_VERILOG_0.data_counter_RNISLHA3[6]      NOR3C     Y        Out     0.666     4.449       -         
+un1_N_5                                     Net       -        -       0.322     -           1         
+LED_VERILOG_0.data_counter_RNI07LP5[13]     OA1       A        In      -         4.771       -         
+LED_VERILOG_0.data_counter_RNI07LP5[13]     OA1       Y        Out     0.984     5.754       -         
+data_counter_RNI07LP5[13]                   Net       -        -       1.669     -           9         
+LED_VERILOG_0.data_counter_RNI590FG[23]     MX2C      S        In      -         7.423       -         
+LED_VERILOG_0.data_counter_RNI590FG[23]     MX2C      Y        Out     0.480     7.902       -         
+un1_N_7_mux_0                               Net       -        -       1.994     -           12        
+LED_VERILOG_0.un1_data_counter_4.I_1        NOR2A     B        In      -         9.896       -         
+LED_VERILOG_0.un1_data_counter_4.I_1        NOR2A     Y        Out     0.386     10.282      -         
+DWACT_ADD_CI_0_TMP[0]                       Net       -        -       0.386     -           2         
+LED_VERILOG_0.un1_data_counter_4.I_99       NOR2B     A        In      -         10.668      -         
+LED_VERILOG_0.un1_data_counter_4.I_99       NOR2B     Y        Out     0.514     11.182      -         
+DWACT_ADD_CI_0_g_array_1[0]                 Net       -        -       0.806     -           3         
+LED_VERILOG_0.un1_data_counter_4.I_117      NOR2B     A        In      -         11.988      -         
+LED_VERILOG_0.un1_data_counter_4.I_117      NOR2B     Y        Out     0.514     12.503      -         
+DWACT_ADD_CI_0_g_array_2[0]                 Net       -        -       1.184     -           4         
+LED_VERILOG_0.un1_data_counter_4.I_122      NOR2B     A        In      -         13.686      -         
+LED_VERILOG_0.un1_data_counter_4.I_122      NOR2B     Y        Out     0.514     14.201      -         
+DWACT_ADD_CI_0_g_array_3[0]                 Net       -        -       1.279     -           5         
+LED_VERILOG_0.un1_data_counter_4.I_102      NOR2B     A        In      -         15.480      -         
+LED_VERILOG_0.un1_data_counter_4.I_102      NOR2B     Y        Out     0.514     15.994      -         
+DWACT_ADD_CI_0_g_array_4[0]                 Net       -        -       1.184     -           4         
+LED_VERILOG_0.un1_data_counter_4.I_133      NOR2B     A        In      -         17.178      -         
+LED_VERILOG_0.un1_data_counter_4.I_133      NOR2B     Y        Out     0.514     17.692      -         
+DWACT_ADD_CI_0_g_array_10_1[0]              Net       -        -       0.806     -           3         
+LED_VERILOG_0.un1_data_counter_4.I_109      NOR2B     A        In      -         18.499      -         
+LED_VERILOG_0.un1_data_counter_4.I_109      NOR2B     Y        Out     0.514     19.013      -         
+DWACT_ADD_CI_0_g_array_11_4[0]              Net       -        -       0.386     -           2         
+LED_VERILOG_0.un1_data_counter_4.I_114      NOR2B     A        In      -         19.399      -         
+LED_VERILOG_0.un1_data_counter_4.I_114      NOR2B     Y        Out     0.514     19.913      -         
+DWACT_ADD_CI_0_g_array_12_10[0]             Net       -        -       0.322     -           1         
+LED_VERILOG_0.un1_data_counter_4.I_96       XOR2      B        In      -         20.235      -         
+LED_VERILOG_0.un1_data_counter_4.I_96       XOR2      Y        Out     0.937     21.172      -         
+I_96                                        Net       -        -       0.322     -           1         
+LED_VERILOG_0.data_counter_RNO[23]          NOR2B     A        In      -         21.493      -         
+LED_VERILOG_0.data_counter_RNO[23]          NOR2B     Y        Out     0.488     21.981      -         
+data_counter_5[23]                          Net       -        -       0.322     -           1         
+LED_VERILOG_0.data_counter[23]              DFN1      D        In      -         22.303      -         
+=======================================================================================================
+Total path delay (propagation time + setup) of 22.842 is 9.972(43.7%) logic and 12.870(56.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                                        Arrival          
+Instance                   Reference     Type        Pin              Net                                  Time        Slack
+                           Clock                                                                                            
+----------------------------------------------------------------------------------------------------------------------------
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPSEL          MSS01_0_MSS_MASTER_APB_PSELx         0.000       2.362
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[9]      MSS01_0_MSS_MASTER_APB_PADDR[9]      0.000       2.370
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[11]     MSS01_0_MSS_MASTER_APB_PADDR[11]     0.000       2.412
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[8]      MSS01_0_MSS_MASTER_APB_PADDR[8]      0.000       2.525
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[10]     MSS01_0_MSS_MASTER_APB_PADDR[10]     0.000       2.654
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPWRITE        CoreAPB3_0_APBmslave0_PWRITE         0.000       2.734
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPENABLE       CoreAPB3_0_APBmslave0_PENABLE        0.000       2.768
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[3]      CoreAPB3_0_APBmslave0_PADDR[3]       0.000       4.087
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[4]      CoreAPB3_0_APBmslave0_PADDR[4]       0.000       4.087
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[2]      CoreAPB3_0_APBmslave0_PADDR[2]       0.000       4.823
+============================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                         Required          
+Instance                   Reference     Type       Pin     Net             Time         Slack
+                           Clock                                                              
+----------------------------------------------------------------------------------------------
+LED_VERILOG_0.color[0]     System        DFN1E1     E       color_210_e     9.392        2.362
+LED_VERILOG_0.color[1]     System        DFN1E1     E       color_210_e     9.392        2.362
+LED_VERILOG_0.color[2]     System        DFN1E1     E       color_210_e     9.392        2.362
+LED_VERILOG_0.color[3]     System        DFN1E1     E       color_210_e     9.392        2.362
+LED_VERILOG_0.color[4]     System        DFN1E1     E       color_210_e     9.392        2.362
+LED_VERILOG_0.color[5]     System        DFN1E1     E       color_210_e     9.392        2.362
+LED_VERILOG_0.color[6]     System        DFN1E1     E       color_210_e     9.392        2.362
+LED_VERILOG_0.color[7]     System        DFN1E1     E       color_210_e     9.392        2.362
+LED_VERILOG_0.color[8]     System        DFN1E1     E       color_210_e     9.392        2.362
+LED_VERILOG_0.color[9]     System        DFN1E1     E       color_210_e     9.392        2.362
+==============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.608
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.392
+
+    - Propagation time:                      7.030
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 2.362
+
+    Number of logic level(s):                3
+    Starting point:                          MSS01_0.MSS_ADLIB_INST / MSSPSEL
+    Ending point:                            LED_VERILOG_0.color[0] / E
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            FAB_CLK [rising] on pin CLK
+
+Instance / Net                               Pin         Pin               Arrival     No. of    
+Name                             Type        Name        Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+MSS01_0.MSS_ADLIB_INST           MSS_APB     MSSPSEL     Out     0.000     0.000       -         
+MSS01_0_MSS_MASTER_APB_PSELx     Net         -           -       0.806     -           3         
+LED_VERILOG_0.color_write_2      NOR2B       A           In      -         0.806       -         
+LED_VERILOG_0.color_write_2      NOR2B       Y           Out     0.514     1.321       -         
+color_write_2                    Net         -           -       0.322     -           1         
+LED_VERILOG_0.color_write        NOR3C       C           In      -         1.642       -         
+LED_VERILOG_0.color_write        NOR3C       Y           Out     0.641     2.284       -         
+color_write                      Net         -           -       1.639     -           8         
+LED_VERILOG_0.color_210_e        NOR3B       A           In      -         3.922       -         
+LED_VERILOG_0.color_210_e        NOR3B       Y           Out     0.641     4.564       -         
+color_210_e                      Net         -           -       2.466     -           24        
+LED_VERILOG_0.color[0]           DFN1E1      E           In      -         7.030       -         
+=================================================================================================
+Total path delay (propagation time + setup) of 7.638 is 2.405(31.5%) logic and 5.233(68.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 118MB peak: 121MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 118MB peak: 121MB)
+
+--------------------------------------------------------------------------------
+Target Part: A2F200M3F_FBGA484_STD
+Report for cell TOP.verilog
+  Core Cell usage:
+              cell count     area count*area
+              AND2    19      1.0       19.0
+              AND3    18      1.0       18.0
+               AO1     4      1.0        4.0
+              AO1A     1      1.0        1.0
+              AO1C     1      1.0        1.0
+             AOI1B     2      1.0        2.0
+              AX1C     4      1.0        4.0
+            CLKINT     2      0.0        0.0
+               GND     7      0.0        0.0
+           MSS_APB     1      0.0        0.0
+           MSS_CCC     1      0.0        0.0
+               MX2   191      1.0      191.0
+              MX2C     1      1.0        1.0
+              NOR2    12      1.0       12.0
+             NOR2A    23      1.0       23.0
+             NOR2B    91      1.0       91.0
+              NOR3     2      1.0        2.0
+             NOR3A     4      1.0        4.0
+             NOR3B     6      1.0        6.0
+             NOR3C    45      1.0       45.0
+               OA1     4      1.0        4.0
+              OA1A     3      1.0        3.0
+              OA1C     3      1.0        3.0
+               OR2     3      1.0        3.0
+              OR2B     7      1.0        7.0
+               OR3     5      1.0        5.0
+              OR3A     1      1.0        1.0
+              OR3B     2      1.0        2.0
+              OR3C     2      1.0        2.0
+             RCOSC     1      0.0        0.0
+               VCC     7      0.0        0.0
+               XA1     7      1.0        7.0
+              XA1B    30      1.0       30.0
+             XNOR2     1      1.0        1.0
+              XOR2    42      1.0       42.0
+
+
+              DFN1    76      1.0       76.0
+            DFN1E0     1      1.0        1.0
+            DFN1E1   240      1.0      240.0
+                   -----          ----------
+             TOTAL   870               851.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     1
+         INBUF_MSS     2
+            OUTBUF     2
+        OUTBUF_MSS     1
+                   -----
+             TOTAL     6
+
+
+Core Cells         : 851 of 4608 (18%)
+IO Cells           : 6
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 29MB peak: 121MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Apr 17 19:05:39 2019
+
+###########################################################]

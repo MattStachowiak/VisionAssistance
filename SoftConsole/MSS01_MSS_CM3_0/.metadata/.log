@@ -1,0 +1,44 @@
+!SESSION 2019-04-17 18:32:39.529 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\darshin\Desktop\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\SoftConsole\MSS01_MSS_CM3_0\projects\MSS01_MSS_CM3_0_hw_platform
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/darshin/Desktop/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/SoftConsole/MSS01_MSS_CM3_0 -import C:\Users\darshin\Desktop\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\SoftConsole\MSS01_MSS_CM3_0\projects\MSS01_MSS_CM3_0_hw_platform
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-17 18:32:41.497
+!MESSAGE Indexed 'MSS01_MSS_CM3_0_hw_platform' (16 sources, 55 headers) in 0.54 sec: 3,914 declarations; 7,647 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)
+!SESSION 2019-04-17 18:32:42.403 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\darshin\Desktop\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\SoftConsole\MSS01_MSS_CM3_0\projects\MSS01_MSS_CM3_0_app
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/darshin/Desktop/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/SoftConsole/MSS01_MSS_CM3_0 -import C:\Users\darshin\Desktop\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\SoftConsole\MSS01_MSS_CM3_0\projects\MSS01_MSS_CM3_0_app
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-17 18:32:43.059
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-17 18:32:43.903
+!MESSAGE Indexed 'MSS01_MSS_CM3_0_app' (1 sources, 8 headers) in 0.09 sec: 1 declarations; 0 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2019-04-17 18:32:49.749 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:/Users/darshin/Desktop/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/SoftConsole/MSS01_MSS_CM3_0
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-17 18:32:50.531
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2019-04-17 20:17:42.512 -----------------------------------------------
+eclipse.buildId=M20101209-1200
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:/Users/mtstacho/Desktop/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/SoftConsole/MSS01_MSS_CM3_0
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-17 20:17:45.949
+!MESSAGE Indexed 'MSS01_MSS_CM3_0_app' (1 sources, 30 headers) in 0.27 sec: 2,160 declarations; 2,926 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.02%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-04-17 20:17:46.293
+!MESSAGE Indexed 'MSS01_MSS_CM3_0_hw_platform' (17 sources, 56 headers) in 0.33 sec: 4,093 declarations; 8,576 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.01%)

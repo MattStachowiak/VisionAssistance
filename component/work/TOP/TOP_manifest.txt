@@ -1,0 +1,17 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
+
+Date      :  Wed Apr 17 19:04:57 2019
+Project   :  C:\Users\darshin\Desktop\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05\373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05
+Component :  TOP
+Family    :  SmartFusion
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/darshin/Desktop/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v
+    C:/Users/darshin/Desktop/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v
+    C:/Users/darshin/Desktop/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v
+    C:/Users/darshin/Desktop/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/component/work/TOP/TOP.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/darshin/Desktop/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/373ProjectLED-338726cff5c560a56fb0ec581fe34a73cec59c05/component/work/TOP/subsystem.bfm
+
