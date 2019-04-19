@@ -13,7 +13,7 @@
 
 // LED Globals
 #define LED_ADDR 0x40050000
-#define NUMLEDS 8
+#define NUMLEDS 24
 #define blue 0xff0000
 #define red 0x00ff00
 #define green 0x0000ff
@@ -258,12 +258,16 @@ int main()
 			color = blue;
 
 		// Write to LEDs
-		for(i = 0; i < 8; ++i){
-			if(i== LED_num)
+		LED[0] = red;
+		LED[1] = blue;
+		/*for(i = 0; i < NUMLEDS; ++i){
+			if((i % 8)== LED_num)
 				LED[i] = color;
 			else
 				LED[i] = off;
-		}
+		}*/
+
+
 		/*for(i = 0; i < 8; ++i){
 			LED[i] = color;
 		}*/

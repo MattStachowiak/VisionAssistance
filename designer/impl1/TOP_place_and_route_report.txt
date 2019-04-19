@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Wed Apr 17 23:09:31 2019 ***************************************************************************
+                          Thu Apr 18 20:05:03 2019 ***************************************************************************
 
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
-File Name: C:\Users\mtstacho\Desktop\VisonAssistance\designer\impl1\TOP.adb
+File Name: C:\Users\mtstacho\Desktop\VisionAssistance\designer\impl1\TOP.adb
 Design Name: TOP  Design State: layout
-Last Saved: Wed Apr 17 23:09:09 2019
+Last Saved: Thu Apr 18 20:04:36 2019
 
 ***** Device Data **************************************************
 
@@ -22,9 +22,9 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Wed Apr 17 23:09:04 2019:
-        C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\TOP.edn
-        C:\Users\mtstacho\Desktop\VisonAssistance\component\work\TOP\TOP.pdc
+Source File(s) Imported on Thu Apr 18 20:04:31 2019:
+        C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\TOP.edn
+        C:\Users\mtstacho\Desktop\VisionAssistance\component\work\TOP\TOP.pdc
 
 
 ***** CAE Variables ************************************************
@@ -50,8 +50,8 @@ Parameters used to run compile:
 Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
-Source      : C:\Users\mtstacho\Desktop\VisonAssistance\synthesis\TOP.edn
-              C:\Users\mtstacho\Desktop\VisonAssistance\component\work\TOP\TOP.pdc
+Source      : C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\TOP.edn
+              C:\Users\mtstacho\Desktop\VisionAssistance\component\work\TOP\TOP.pdc
 Format      : EDIF
 Topcell     : TOP
 Speed grade : STD
@@ -352,8 +352,6 @@ Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_FABPRDATA[30] drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_FABPRDATA[31] drives no load.
 Warning: CMP201: Net MSS01_0/MSSPADDR[0] drives no load.
 Warning: CMP201: Net MSS01_0/MSSPADDR[1] drives no load.
-Warning: CMP201: Net MSS01_0/MSSPADDR[5] drives no load.
-Warning: CMP201: Net MSS01_0/MSSPADDR[6] drives no load.
 Warning: CMP201: Net MSS01_0/MSSPADDR[7] drives no load.
 Warning: CMP201: Net MSS01_0/MSSPADDR[12] drives no load.
 Warning: CMP201: Net MSS01_0/MSSPADDR[13] drives no load.
@@ -385,11 +383,11 @@ Optimized macros:
   - Buffers:                0
   - Inverters:              0
   - Tieoff:                 0
-  - Logic combining:        33
+  - Logic combining:        32
 
-    Total macros optimized  33
+    Total macros optimized  32
 
-There were 0 error(s) and 298 warning(s) in this design.
+There were 0 error(s) and 296 warning(s) in this design.
 =====================================================================
 
 Reading previous post-compile physical placement constraints.
@@ -409,12 +407,12 @@ Compile report:
 ===============
 
     Microcontroller Subsystem  Used:      1  Total:      1   (100.00%)
-    Fabric                     Used:    789  Total:   4608   (17.12%)
+    Fabric                     Used:   1382  Total:   4608   (29.99%)
     Fabric IO (W/ clocks)      Used:      3  Total:     94   (3.19%)
     Fabric Differential IO     Used:      0  Total:     47   (0.00%)
     Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
     Dedicated MSS IO           Used:      5  Total:     43   (11.63%)
-    GLOBAL (Chip+Quadrant)     Used:      2  Total:     15   (13.33%)
+    GLOBAL (Chip+Quadrant)     Used:      3  Total:     15   (20.00%)
     MSS GLOBAL                 Used:      3  Total:      3   (100.00%)
     On-chip RC oscillator      Used:      1  Total:      1   (100.00%)
     Main Crystal oscillator    Used:      0  Total:      1   (0.00%)
@@ -426,7 +424,7 @@ Global Information:
 
     Type            | Used   | Total
     ----------------|--------|--------------
-    Chip global     | 2      | 3  (66.67%)*
+    Chip global     | 3      | 3  (100.00%)*
     Quadrant global | 0      | 12 (0.00%)
     MSS global      | 3      | 3  (100.00%)
 
@@ -438,8 +436,8 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 476          | 476
-    SEQ     | 313          | 313
+    COMB    | 1003         | 1003
+    SEQ     | 379          | 379
 
 I/O Function:
 
@@ -471,63 +469,66 @@ Net information report:
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    314     CLK_NET       Net   : FAB_CLK
+    380     CLK_NET       Net   : FAB_CLK
                           Driver: MSS01_0/MSS_CCC_0/I_MSSCCC
                           Source: ESSENTIAL
-    67      INT_NET       Net   : LED_VERILOG_0/bit_counter[5]
-                          Driver: LED_VERILOG_0/bit_counter_RNIKCC2[5]/U_CLKSRC
+    256     INT_NET       Net   : LED_VERILOG_0/un1_color105_4_RNI8V0P1_0
+                          Driver: LED_VERILOG_0/un1_color105_4_RNI8V0P1_0/U_CLKSRC
                           Source: NETLIST
-    65      INT_NET       Net   : LED_VERILOG_0/bit_counter[7]
+    129     INT_NET       Net   : CoreAPB3_0_APBmslave0_PADDR[4]
+                          Driver: MSS01_0/MSS_ADLIB_INST_RNIS4O6/U_CLKSRC
+                          Source: NETLIST
+    129     INT_NET       Net   : LED_VERILOG_0/bit_counter[7]
                           Driver: LED_VERILOG_0/bit_counter_RNIMEC2[7]/U_CLKSRC
                           Source: NETLIST
 
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
-    24      INT_NET       Net   : LED_VERILOG_0/color_210_e
-                          Driver: LED_VERILOG_0/color_210_e
-    24      INT_NET       Net   : LED_VERILOG_0/color_234_e
-                          Driver: LED_VERILOG_0/color_234_e
-    24      INT_NET       Net   : LED_VERILOG_0/color_258_e
-                          Driver: LED_VERILOG_0/color_258_e
-    24      INT_NET       Net   : LED_VERILOG_0/color_282_e
-                          Driver: LED_VERILOG_0/color_282_e
-    24      INT_NET       Net   : LED_VERILOG_0/color_306_e
-                          Driver: LED_VERILOG_0/color_306_e
-    24      INT_NET       Net   : LED_VERILOG_0/color_330_e
-                          Driver: LED_VERILOG_0/color_330_e
-    24      INT_NET       Net   : LED_VERILOG_0/color_354_e
-                          Driver: LED_VERILOG_0/color_354_e
-    24      INT_NET       Net   : LED_VERILOG_0/color_378_e
-                          Driver: LED_VERILOG_0/color_378_e
-    21      INT_NET       Net   : LED_VERILOG_0/N_2048_i_0
-                          Driver: LED_VERILOG_0/data_counter_RNIMPHP5[14]
-    19      INT_NET       Net   : LED_VERILOG_0/bit_counter[3]
-                          Driver: LED_VERILOG_0/bit_counter[3]
+    24      INT_NET       Net   : LED_VERILOG_0/color76
+                          Driver: LED_VERILOG_0/color76_0_a2
+    24      INT_NET       Net   : LED_VERILOG_0/N_60
+                          Driver: LED_VERILOG_0/color_29_i_a2[168]
+    24      INT_NET       Net   : LED_VERILOG_0/color77
+                          Driver: LED_VERILOG_0/color77_0_a2
+    24      INT_NET       Net   : LED_VERILOG_0/color78
+                          Driver: LED_VERILOG_0/color78_0_a2
+    24      INT_NET       Net   : LED_VERILOG_0/N_56
+                          Driver: LED_VERILOG_0/color_29_i_a2[72]
+    24      INT_NET       Net   : LED_VERILOG_0/N_57
+                          Driver: LED_VERILOG_0/color_29_i_a2[100]
+    24      INT_NET       Net   : LED_VERILOG_0/N_58
+                          Driver: LED_VERILOG_0/color_29_i_a2[120]
+    24      INT_NET       Net   : LED_VERILOG_0/N_59
+                          Driver: LED_VERILOG_0/color_29_i_a2[144]
+    24      INT_NET       Net   : LED_VERILOG_0/N_61
+                          Driver: LED_VERILOG_0/color_29_i_a2[192]
+    24      INT_NET       Net   : LED_VERILOG_0/N_62
+                          Driver: LED_VERILOG_0/color_29_i_a2[216]
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
-    24      INT_NET       Net   : LED_VERILOG_0/color_210_e
-                          Driver: LED_VERILOG_0/color_210_e
-    24      INT_NET       Net   : LED_VERILOG_0/color_234_e
-                          Driver: LED_VERILOG_0/color_234_e
-    24      INT_NET       Net   : LED_VERILOG_0/color_258_e
-                          Driver: LED_VERILOG_0/color_258_e
-    24      INT_NET       Net   : LED_VERILOG_0/color_282_e
-                          Driver: LED_VERILOG_0/color_282_e
-    24      INT_NET       Net   : LED_VERILOG_0/color_306_e
-                          Driver: LED_VERILOG_0/color_306_e
-    24      INT_NET       Net   : LED_VERILOG_0/color_330_e
-                          Driver: LED_VERILOG_0/color_330_e
-    24      INT_NET       Net   : LED_VERILOG_0/color_354_e
-                          Driver: LED_VERILOG_0/color_354_e
-    24      INT_NET       Net   : LED_VERILOG_0/color_378_e
-                          Driver: LED_VERILOG_0/color_378_e
-    21      INT_NET       Net   : LED_VERILOG_0/N_2048_i_0
-                          Driver: LED_VERILOG_0/data_counter_RNIMPHP5[14]
-    19      INT_NET       Net   : LED_VERILOG_0/bit_counter[3]
-                          Driver: LED_VERILOG_0/bit_counter[3]
+    58      INT_NET       Net   : CoreAPB3_0_APBmslave0_PADDR[5]
+                          Driver: MSS01_0/MSS_ADLIB_INST
+    34      INT_NET       Net   : CoreAPB3_0_APBmslave0_PADDR[2]
+                          Driver: MSS01_0/MSS_ADLIB_INST
+    24      INT_NET       Net   : LED_VERILOG_0/color76
+                          Driver: LED_VERILOG_0/color76_0_a2
+    24      INT_NET       Net   : LED_VERILOG_0/N_60
+                          Driver: LED_VERILOG_0/color_29_i_a2[168]
+    24      INT_NET       Net   : LED_VERILOG_0/color77
+                          Driver: LED_VERILOG_0/color77_0_a2
+    24      INT_NET       Net   : LED_VERILOG_0/color78
+                          Driver: LED_VERILOG_0/color78_0_a2
+    24      INT_NET       Net   : LED_VERILOG_0/N_56
+                          Driver: LED_VERILOG_0/color_29_i_a2[72]
+    24      INT_NET       Net   : LED_VERILOG_0/N_57
+                          Driver: LED_VERILOG_0/color_29_i_a2[100]
+    24      INT_NET       Net   : LED_VERILOG_0/N_58
+                          Driver: LED_VERILOG_0/color_29_i_a2[120]
+    24      INT_NET       Net   : LED_VERILOG_0/N_59
+                          Driver: LED_VERILOG_0/color_29_i_a2[144]
 
 
 Layout Output:
@@ -553,16 +554,16 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Wed Apr 17 23:09:17 2019
+Timing-driven Placer Started: Thu Apr 18 20:04:42 2019
 
-Placer Finished: Wed Apr 17 23:09:21 2019
-Total Placer CPU Time:     00:00:04
+Placer Finished: Thu Apr 18 20:04:52 2019
+Total Placer CPU Time:     00:00:10
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: TOP                             Started: Wed Apr 17 23:09:23 2019
+Design: TOP                             Started: Thu Apr 18 20:04:53 2019
 
  
 Iterative improvement...
@@ -570,9 +571,9 @@ Iterative improvement...
 Timing-driven Router completed successfully.
 
 Design: TOP                             
-Finished: Wed Apr 17 23:09:28 2019
-Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:05
-Total Memory Usage: 176.7 Mbytes
+Finished: Thu Apr 18 20:05:01 2019
+Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:08
+Total Memory Usage: 184.6 Mbytes
                         o - o - o - o - o - o
 
 

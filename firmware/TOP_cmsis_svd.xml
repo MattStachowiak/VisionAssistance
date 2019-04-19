@@ -2,7 +2,7 @@
 <device>
   <name>TOP</name>
   <version>1.0</version>
-  <description>CMSIS description for TOP.  Created by Microsemi SmartDesign on Wed Apr 17 23:08:35 2019</description>
+  <description>CMSIS description for TOP.  Created by Microsemi SmartDesign on Thu Apr 18 18:27:57 2019</description>
   <addressUnitBits>8</addressUnitBits>
   <width>32</width>
   <peripherals>

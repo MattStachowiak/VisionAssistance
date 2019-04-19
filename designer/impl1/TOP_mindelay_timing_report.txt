@@ -2,7 +2,7 @@ Timing Report Min Delay Analysis
 
 SmartTime Version v11.9
 Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
-Date: Wed Apr 17 23:09:39 2019
+Date: Thu Apr 18 20:05:10 2019
 
 
 Design: TOP
@@ -44,8 +44,8 @@ Min Clock-To-Out (ns):      N/A
 Clock Domain:               mss_ccc_gla1
 Required Period (ns):       10.000
 Required Frequency (MHz):   100.000
-External Hold (ns):         2.986
-Min Clock-To-Out (ns):      6.227
+External Hold (ns):         3.447
+Min Clock-To-Out (ns):      6.151
 
 Clock Domain:               mss_ccc_gla0
 Required Period (ns):       10.000
@@ -121,56 +121,56 @@ SET Register to Register
 
 Path 1
   From:                  MSS01_0/MSS_ADLIB_INST/U_CORE:GLB
-  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[14]
-  Delay (ns):            3.208
-  Slack (ns):            1.827
-  Arrival (ns):          5.765
-  Required (ns):         3.938
-  Hold (ns):             1.381
+  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[17]
+  Delay (ns):            4.032
+  Slack (ns):            2.649
+  Arrival (ns):          6.589
+  Required (ns):         3.940
+  Hold (ns):             1.383
 
 Path 2
   From:                  MSS01_0/MSS_ADLIB_INST/U_CORE:GLB
-  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[11]
-  Delay (ns):            3.211
-  Slack (ns):            1.830
-  Arrival (ns):          5.768
-  Required (ns):         3.938
-  Hold (ns):             1.381
+  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[12]
+  Delay (ns):            4.157
+  Slack (ns):            2.771
+  Arrival (ns):          6.714
+  Required (ns):         3.943
+  Hold (ns):             1.386
 
 Path 3
   From:                  MSS01_0/MSS_ADLIB_INST/U_CORE:GLB
-  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[10]
-  Delay (ns):            3.213
-  Slack (ns):            1.831
-  Arrival (ns):          5.770
-  Required (ns):         3.939
-  Hold (ns):             1.382
+  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[0]
+  Delay (ns):            4.210
+  Slack (ns):            2.833
+  Arrival (ns):          6.767
+  Required (ns):         3.934
+  Hold (ns):             1.377
 
 Path 4
   From:                  MSS01_0/MSS_ADLIB_INST/U_CORE:GLB
-  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[7]
-  Delay (ns):            3.315
-  Slack (ns):            1.934
-  Arrival (ns):          5.872
+  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[14]
+  Delay (ns):            4.245
+  Slack (ns):            2.864
+  Arrival (ns):          6.802
   Required (ns):         3.938
   Hold (ns):             1.381
 
 Path 5
   From:                  MSS01_0/MSS_ADLIB_INST/U_CORE:GLB
-  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[12]
-  Delay (ns):            3.328
-  Slack (ns):            1.942
-  Arrival (ns):          5.885
-  Required (ns):         3.943
-  Hold (ns):             1.386
+  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[5]
+  Delay (ns):            4.355
+  Slack (ns):            2.975
+  Arrival (ns):          6.912
+  Required (ns):         3.937
+  Hold (ns):             1.380
 
 
 Expanded Path 1
   From: MSS01_0/MSS_ADLIB_INST/U_CORE:GLB
-  To: MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[14]
-  data arrival time                              5.765
-  data required time                         -   3.938
-  slack                                          1.827
+  To: MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[17]
+  data arrival time                              6.589
+  data required time                         -   3.940
+  slack                                          2.649
   ________________________________________________________
   Data arrival time calculation
   0.000                        mss_fabric_interface_clock
@@ -178,28 +178,28 @@ Expanded Path 1
   0.000                        MSS01_0/MSS_ADLIB_INST/U_CORE:GLB (r)
                +     2.557          Clock generation
   2.557
-               +     1.391          cell: ADLIB:MSS_APB_IP
-  3.948                        MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPSEL (f)
-               +     0.079          net: MSS01_0/MSS_ADLIB_INST/MSSPSELINT_NET
-  4.027                        MSS01_0/MSS_ADLIB_INST/U_42:PIN1INT (f)
+               +     1.677          cell: ADLIB:MSS_APB_IP
+  4.234                        MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPADDR[9] (r)
+               +     0.060          net: MSS01_0/MSS_ADLIB_INST/MSSPADDR[9]INT_NET
+  4.294                        MSS01_0/MSS_ADLIB_INST/U_33:PIN1INT (r)
                +     0.042          cell: ADLIB:MSS_IF
-  4.069                        MSS01_0/MSS_ADLIB_INST/U_42:PIN1 (f)
-               +     0.469          net: MSS01_0_MSS_MASTER_APB_PSELx
-  4.538                        CoreAPB3_0/CAPB3l0OI_1_0[1]:A (f)
-               +     0.279          cell: ADLIB:NOR3A
-  4.817                        CoreAPB3_0/CAPB3l0OI_1_0[1]:Y (f)
-               +     0.302          net: CoreAPB3_0/CAPB3l0OI_1_0[1]
-  5.119                        CoreAPB3_0/CAPB3IIII/PRDATA_14:B (f)
-               +     0.263          cell: ADLIB:NOR3C
-  5.382                        CoreAPB3_0/CAPB3IIII/PRDATA_14:Y (f)
-               +     0.135          net: MSS01_0_MSS_MASTER_APB_PRDATA[14]
-  5.517                        MSS01_0/MSS_ADLIB_INST/U_41:PIN4 (f)
+  4.336                        MSS01_0/MSS_ADLIB_INST/U_33:PIN1 (r)
+               +     0.842          net: MSS01_0_MSS_MASTER_APB_PADDR[9]
+  5.178                        CoreAPB3_0/CAPB3l0OI_0[1]:B (r)
+               +     0.168          cell: ADLIB:NOR2A
+  5.346                        CoreAPB3_0/CAPB3l0OI_0[1]:Y (f)
+               +     0.157          net: CoreAPB3_0/CAPB3l0OI_0[1]
+  5.503                        CoreAPB3_0/CAPB3IIII/PRDATA_17:A (f)
+               +     0.157          cell: ADLIB:NOR3C
+  5.660                        CoreAPB3_0/CAPB3IIII/PRDATA_17:Y (f)
+               +     0.679          net: MSS01_0_MSS_MASTER_APB_PRDATA[17]
+  6.339                        MSS01_0/MSS_ADLIB_INST/U_53:PIN4 (f)
                +     0.045          cell: ADLIB:MSS_IF
-  5.562                        MSS01_0/MSS_ADLIB_INST/U_41:PIN4INT (f)
-               +     0.203          net: MSS01_0/MSS_ADLIB_INST/MSSPRDATA[14]INT_NET
-  5.765                        MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[14] (f)
+  6.384                        MSS01_0/MSS_ADLIB_INST/U_53:PIN4INT (f)
+               +     0.205          net: MSS01_0/MSS_ADLIB_INST/MSSPRDATA[17]INT_NET
+  6.589                        MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[17] (f)
                                     
-  5.765                        data arrival time
+  6.589                        data arrival time
   ________________________________________________________
   Data required time calculation
   0.000                        mss_fabric_interface_clock
@@ -207,10 +207,10 @@ Expanded Path 1
   0.000                        MSS01_0/MSS_ADLIB_INST/U_CORE:GLB (r)
                +     2.557          Clock generation
   2.557
-               +     1.381          Library hold time: ADLIB:MSS_APB_IP
-  3.938                        MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[14]
+               +     1.383          Library hold time: ADLIB:MSS_APB_IP
+  3.940                        MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[17]
                                     
-  3.938                        data required time
+  3.940                        data required time
 
 
 END SET Register to Register
@@ -260,57 +260,57 @@ END SET Asynchronous to Register
 SET mss_ccc_gla1 to mss_fabric_interface_clock
 
 Path 1
-  From:                  DistanceSensor_0/data[14]:CLK
-  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[14]
-  Delay (ns):            1.125
-  Slack (ns):            1.032
-  Arrival (ns):          4.987
+  From:                  DistanceSensor_0/data[11]:CLK
+  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[11]
+  Delay (ns):            1.589
+  Slack (ns):            1.504
+  Arrival (ns):          5.459
   Required (ns):         3.955
   Hold (ns):             1.398
 
 Path 2
-  From:                  DistanceSensor_0/data[17]:CLK
-  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[17]
-  Delay (ns):            1.125
-  Slack (ns):            1.033
-  Arrival (ns):          4.990
-  Required (ns):         3.957
-  Hold (ns):             1.400
+  From:                  DistanceSensor_0/data[5]:CLK
+  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[5]
+  Delay (ns):            1.644
+  Slack (ns):            1.561
+  Arrival (ns):          5.514
+  Required (ns):         3.953
+  Hold (ns):             1.396
 
 Path 3
-  From:                  DistanceSensor_0/data[11]:CLK
-  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[11]
-  Delay (ns):            1.126
-  Slack (ns):            1.033
-  Arrival (ns):          4.988
+  From:                  DistanceSensor_0/data[10]:CLK
+  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[10]
+  Delay (ns):            1.661
+  Slack (ns):            1.576
+  Arrival (ns):          5.531
   Required (ns):         3.955
   Hold (ns):             1.398
 
 Path 4
   From:                  DistanceSensor_0/data[1]:CLK
   To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[1]
-  Delay (ns):            1.124
-  Slack (ns):            1.033
-  Arrival (ns):          4.986
+  Delay (ns):            1.651
+  Slack (ns):            1.583
+  Arrival (ns):          5.536
   Required (ns):         3.953
   Hold (ns):             1.396
 
 Path 5
-  From:                  DistanceSensor_0/data[10]:CLK
-  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[10]
-  Delay (ns):            1.128
-  Slack (ns):            1.035
-  Arrival (ns):          4.990
-  Required (ns):         3.955
-  Hold (ns):             1.398
+  From:                  DistanceSensor_0/data[17]:CLK
+  To:                    MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[17]
+  Delay (ns):            1.660
+  Slack (ns):            1.588
+  Arrival (ns):          5.545
+  Required (ns):         3.957
+  Hold (ns):             1.400
 
 
 Expanded Path 1
-  From: DistanceSensor_0/data[14]:CLK
-  To: MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[14]
-  data arrival time                              4.987
+  From: DistanceSensor_0/data[11]:CLK
+  To: MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[11]
+  data arrival time                              5.459
   data required time                         -   3.955
-  slack                                          1.032
+  slack                                          1.504
   ________________________________________________________
   Data arrival time calculation
   0.000                        mss_ccc_gla1
@@ -322,22 +322,22 @@ Expanded Path 1
   3.558                        MSS01_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   3.558                        MSS01_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
-               +     0.304          net: FAB_CLK
-  3.862                        DistanceSensor_0/data[14]:CLK (r)
+               +     0.312          net: FAB_CLK
+  3.870                        DistanceSensor_0/data[11]:CLK (r)
                +     0.249          cell: ADLIB:DFN1E1
-  4.111                        DistanceSensor_0/data[14]:Q (r)
-               +     0.167          net: CoreAPB3_0_APBmslave1_PRDATA[14]
-  4.278                        CoreAPB3_0/CAPB3IIII/PRDATA_14:C (r)
+  4.119                        DistanceSensor_0/data[11]:Q (r)
+               +     0.146          net: CoreAPB3_0_APBmslave1_PRDATA[11]
+  4.265                        CoreAPB3_0/CAPB3IIII/PRDATA_11:C (r)
                +     0.322          cell: ADLIB:NOR3C
-  4.600                        CoreAPB3_0/CAPB3IIII/PRDATA_14:Y (r)
-               +     0.137          net: MSS01_0_MSS_MASTER_APB_PRDATA[14]
-  4.737                        MSS01_0/MSS_ADLIB_INST/U_41:PIN4 (r)
+  4.587                        CoreAPB3_0/CAPB3IIII/PRDATA_11:Y (r)
+               +     0.621          net: MSS01_0_MSS_MASTER_APB_PRDATA[11]
+  5.208                        MSS01_0/MSS_ADLIB_INST/U_40:PIN4 (r)
                +     0.037          cell: ADLIB:MSS_IF
-  4.774                        MSS01_0/MSS_ADLIB_INST/U_41:PIN4INT (r)
-               +     0.213          net: MSS01_0/MSS_ADLIB_INST/MSSPRDATA[14]INT_NET
-  4.987                        MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[14] (r)
+  5.245                        MSS01_0/MSS_ADLIB_INST/U_40:PIN4INT (r)
+               +     0.214          net: MSS01_0/MSS_ADLIB_INST/MSSPRDATA[11]INT_NET
+  5.459                        MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[11] (r)
                                     
-  4.987                        data arrival time
+  5.459                        data arrival time
   ________________________________________________________
   Data required time calculation
   0.000                        mss_fabric_interface_clock
@@ -346,7 +346,7 @@ Expanded Path 1
                +     2.557          Clock generation
   2.557
                +     1.398          Library hold time: ADLIB:MSS_APB_IP
-  3.955                        MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[14]
+  3.955                        MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPRDATA[11]
                                     
   3.955                        data required time
 
@@ -410,57 +410,57 @@ Clock Domain mss_ccc_gla1
 SET Register to Register
 
 Path 1
-  From:                  DistanceSensor_0/data_buffer[20]:CLK
-  To:                    DistanceSensor_0/data[20]:D
-  Delay (ns):            0.447
-  Slack (ns):            0.426
-  Arrival (ns):          4.329
-  Required (ns):         3.903
+  From:                  DistanceSensor_0/data_buffer[26]:CLK
+  To:                    DistanceSensor_0/data[26]:D
+  Delay (ns):            0.420
+  Slack (ns):            0.400
+  Arrival (ns):          4.299
+  Required (ns):         3.899
   Hold (ns):             0.000
 
 Path 2
-  From:                  DistanceSensor_0/data_buffer[26]:CLK
-  To:                    DistanceSensor_0/data[26]:D
-  Delay (ns):            0.447
-  Slack (ns):            0.427
-  Arrival (ns):          4.323
-  Required (ns):         3.896
+  From:                  DistanceSensor_0/data_buffer[6]:CLK
+  To:                    DistanceSensor_0/data[6]:D
+  Delay (ns):            0.423
+  Slack (ns):            0.400
+  Arrival (ns):          4.314
+  Required (ns):         3.914
   Hold (ns):             0.000
 
 Path 3
-  From:                  DistanceSensor_0/data_buffer[4]:CLK
-  To:                    DistanceSensor_0/data[4]:D
-  Delay (ns):            0.447
-  Slack (ns):            0.428
-  Arrival (ns):          4.314
-  Required (ns):         3.886
+  From:                  DistanceSensor_0/data_buffer[31]:CLK
+  To:                    DistanceSensor_0/data[31]:D
+  Delay (ns):            0.421
+  Slack (ns):            0.401
+  Arrival (ns):          4.296
+  Required (ns):         3.895
   Hold (ns):             0.000
 
 Path 4
-  From:                  DistanceSensor_0/data_buffer[3]:CLK
-  To:                    DistanceSensor_0/data[3]:D
-  Delay (ns):            0.477
-  Slack (ns):            0.458
-  Arrival (ns):          4.344
-  Required (ns):         3.886
+  From:                  DistanceSensor_0/data_buffer[20]:CLK
+  To:                    DistanceSensor_0/data[20]:D
+  Delay (ns):            0.451
+  Slack (ns):            0.412
+  Arrival (ns):          4.326
+  Required (ns):         3.914
   Hold (ns):             0.000
 
 Path 5
-  From:                  DistanceSensor_0/data_buffer[9]:CLK
-  To:                    DistanceSensor_0/data[9]:D
-  Delay (ns):            0.504
-  Slack (ns):            0.470
-  Arrival (ns):          4.364
-  Required (ns):         3.894
+  From:                  DistanceSensor_0/data_buffer[29]:CLK
+  To:                    DistanceSensor_0/data[29]:D
+  Delay (ns):            0.449
+  Slack (ns):            0.428
+  Arrival (ns):          4.331
+  Required (ns):         3.903
   Hold (ns):             0.000
 
 
 Expanded Path 1
-  From: DistanceSensor_0/data_buffer[20]:CLK
-  To: DistanceSensor_0/data[20]:D
-  data arrival time                              4.329
-  data required time                         -   3.903
-  slack                                          0.426
+  From: DistanceSensor_0/data_buffer[26]:CLK
+  To: DistanceSensor_0/data[26]:D
+  data arrival time                              4.299
+  data required time                         -   3.899
+  slack                                          0.400
   ________________________________________________________
   Data arrival time calculation
   0.000                        mss_ccc_gla1
@@ -472,14 +472,14 @@ Expanded Path 1
   3.558                        MSS01_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   3.558                        MSS01_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
-               +     0.324          net: FAB_CLK
-  3.882                        DistanceSensor_0/data_buffer[20]:CLK (r)
+               +     0.321          net: FAB_CLK
+  3.879                        DistanceSensor_0/data_buffer[26]:CLK (r)
                +     0.249          cell: ADLIB:DFN1
-  4.131                        DistanceSensor_0/data_buffer[20]:Q (r)
-               +     0.198          net: DistanceSensor_0/data_buffer[20]
-  4.329                        DistanceSensor_0/data[20]:D (r)
+  4.128                        DistanceSensor_0/data_buffer[26]:Q (r)
+               +     0.171          net: DistanceSensor_0/data_buffer[26]
+  4.299                        DistanceSensor_0/data[26]:D (r)
                                     
-  4.329                        data arrival time
+  4.299                        data arrival time
   ________________________________________________________
   Data required time calculation
   0.000                        mss_ccc_gla1
@@ -491,12 +491,12 @@ Expanded Path 1
   3.558                        MSS01_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   3.558                        MSS01_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
-               +     0.345          net: FAB_CLK
-  3.903                        DistanceSensor_0/data[20]:CLK (r)
+               +     0.341          net: FAB_CLK
+  3.899                        DistanceSensor_0/data[26]:CLK (r)
                +     0.000          Library hold time: ADLIB:DFN1E1
-  3.903                        DistanceSensor_0/data[20]:D
+  3.899                        DistanceSensor_0/data[26]:D
                                     
-  3.903                        data required time
+  3.899                        data required time
 
 
 END SET Register to Register
@@ -508,18 +508,18 @@ SET External Hold
 Path 1
   From:                  echo
   To:                    DistanceSensor_0/echo_0:D
-  Delay (ns):            0.922
+  Delay (ns):            0.461
   Slack (ns):
-  Arrival (ns):          0.922
+  Arrival (ns):          0.461
   Required (ns):
   Hold (ns):             0.000
-  External Hold (ns):    2.986
+  External Hold (ns):    3.447
 
 
 Expanded Path 1
   From: echo
   To: DistanceSensor_0/echo_0:D
-  data arrival time                              0.922
+  data arrival time                              0.461
   data required time                         -   N/C
   slack                                          N/C
   ________________________________________________________
@@ -533,10 +533,10 @@ Expanded Path 1
   0.293                        echo_pad/U0/U1:YIN (f)
                +     0.017          cell: ADLIB:IOIN_IB
   0.310                        echo_pad/U0/U1:Y (f)
-               +     0.612          net: echo_c
-  0.922                        DistanceSensor_0/echo_0:D (f)
+               +     0.151          net: echo_c
+  0.461                        DistanceSensor_0/echo_0:D (f)
                                     
-  0.922                        data arrival time
+  0.461                        data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          mss_ccc_gla1
@@ -563,26 +563,26 @@ SET Clock to Output
 Path 1
   From:                  DistanceSensor_0/trigger:CLK
   To:                    trigger
-  Delay (ns):            2.368
+  Delay (ns):            2.291
   Slack (ns):
-  Arrival (ns):          6.227
+  Arrival (ns):          6.151
   Required (ns):
-  Clock to Out (ns):     6.227
+  Clock to Out (ns):     6.151
 
 Path 2
   From:                  LED_VERILOG_0/LED:CLK
   To:                    LED
-  Delay (ns):            2.689
+  Delay (ns):            2.635
   Slack (ns):
-  Arrival (ns):          6.548
+  Arrival (ns):          6.502
   Required (ns):
-  Clock to Out (ns):     6.548
+  Clock to Out (ns):     6.502
 
 
 Expanded Path 1
   From: DistanceSensor_0/trigger:CLK
   To: trigger
-  data arrival time                              6.227
+  data arrival time                              6.151
   data required time                         -   N/C
   slack                                          N/C
   ________________________________________________________
@@ -596,22 +596,22 @@ Expanded Path 1
   3.558                        MSS01_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   3.558                        MSS01_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
-               +     0.301          net: FAB_CLK
-  3.859                        DistanceSensor_0/trigger:CLK (r)
+               +     0.302          net: FAB_CLK
+  3.860                        DistanceSensor_0/trigger:CLK (r)
                +     0.249          cell: ADLIB:DFN1
-  4.108                        DistanceSensor_0/trigger:Q (r)
-               +     0.743          net: trigger_c
-  4.851                        trigger_pad/U0/U1:D (r)
+  4.109                        DistanceSensor_0/trigger:Q (r)
+               +     0.666          net: trigger_c
+  4.775                        trigger_pad/U0/U1:D (r)
                +     0.257          cell: ADLIB:IOTRI_OB_EB
-  5.108                        trigger_pad/U0/U1:DOUT (r)
+  5.032                        trigger_pad/U0/U1:DOUT (r)
                +     0.000          net: trigger_pad/U0/NET1
-  5.108                        trigger_pad/U0/U0:D (r)
+  5.032                        trigger_pad/U0/U0:D (r)
                +     1.119          cell: ADLIB:IOPAD_TRI
-  6.227                        trigger_pad/U0/U0:PAD (r)
+  6.151                        trigger_pad/U0/U0:PAD (r)
                +     0.000          net: trigger
-  6.227                        trigger (r)
+  6.151                        trigger (r)
                                     
-  6.227                        data arrival time
+  6.151                        data arrival time
   ________________________________________________________
   Data required time calculation
   N/C                          mss_ccc_gla1
@@ -655,56 +655,56 @@ SET mss_fabric_interface_clock to mss_ccc_gla1
 
 Path 1
   From:                  MSS01_0/MSS_ADLIB_INST/U_CORE:GLB
-  To:                    LED_VERILOG_0/color[97]:D
-  Delay (ns):            2.211
-  Slack (ns):            0.868
-  Arrival (ns):          4.768
-  Required (ns):         3.900
+  To:                    LED_VERILOG_0/color[34]:D
+  Delay (ns):            2.703
+  Slack (ns):            1.368
+  Arrival (ns):          5.260
+  Required (ns):         3.892
   Hold (ns):             0.000
 
 Path 2
   From:                  MSS01_0/MSS_ADLIB_INST/U_CORE:GLB
-  To:                    LED_VERILOG_0/color[109]:D
-  Delay (ns):            2.291
-  Slack (ns):            0.931
-  Arrival (ns):          4.848
-  Required (ns):         3.917
+  To:                    LED_VERILOG_0/color[30]:D
+  Delay (ns):            2.743
+  Slack (ns):            1.408
+  Arrival (ns):          5.300
+  Required (ns):         3.892
   Hold (ns):             0.000
 
 Path 3
   From:                  MSS01_0/MSS_ADLIB_INST/U_CORE:GLB
-  To:                    LED_VERILOG_0/color[87]:D
-  Delay (ns):            2.317
-  Slack (ns):            0.953
-  Arrival (ns):          4.874
-  Required (ns):         3.921
+  To:                    LED_VERILOG_0/color[49]:D
+  Delay (ns):            2.757
+  Slack (ns):            1.418
+  Arrival (ns):          5.314
+  Required (ns):         3.896
   Hold (ns):             0.000
 
 Path 4
   From:                  MSS01_0/MSS_ADLIB_INST/U_CORE:GLB
-  To:                    LED_VERILOG_0/color[111]:D
-  Delay (ns):            2.317
-  Slack (ns):            0.953
-  Arrival (ns):          4.874
-  Required (ns):         3.921
+  To:                    LED_VERILOG_0/color[55]:D
+  Delay (ns):            2.838
+  Slack (ns):            1.509
+  Arrival (ns):          5.395
+  Required (ns):         3.886
   Hold (ns):             0.000
 
 Path 5
   From:                  MSS01_0/MSS_ADLIB_INST/U_CORE:GLB
-  To:                    LED_VERILOG_0/color[77]:D
-  Delay (ns):            2.315
-  Slack (ns):            0.955
-  Arrival (ns):          4.872
-  Required (ns):         3.917
+  To:                    LED_VERILOG_0/color[3]:D
+  Delay (ns):            2.857
+  Slack (ns):            1.524
+  Arrival (ns):          5.414
+  Required (ns):         3.890
   Hold (ns):             0.000
 
 
 Expanded Path 1
   From: MSS01_0/MSS_ADLIB_INST/U_CORE:GLB
-  To: LED_VERILOG_0/color[97]:D
-  data arrival time                              4.768
-  data required time                         -   3.900
-  slack                                          0.868
+  To: LED_VERILOG_0/color[34]:D
+  data arrival time                              5.260
+  data required time                         -   3.892
+  slack                                          1.368
   ________________________________________________________
   Data arrival time calculation
   0.000                        mss_fabric_interface_clock
@@ -712,16 +712,20 @@ Expanded Path 1
   0.000                        MSS01_0/MSS_ADLIB_INST/U_CORE:GLB (r)
                +     2.557          Clock generation
   2.557
-               +     1.644          cell: ADLIB:MSS_APB_IP
-  4.201                        MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPWDATA[1] (f)
-               +     0.079          net: MSS01_0/MSS_ADLIB_INST/MSSPWDATA[1]INT_NET
-  4.280                        MSS01_0/MSS_ADLIB_INST/U_37:PIN1INT (f)
+               +     1.620          cell: ADLIB:MSS_APB_IP
+  4.177                        MSS01_0/MSS_ADLIB_INST/U_CORE:MSSPWDATA[10] (f)
+               +     0.079          net: MSS01_0/MSS_ADLIB_INST/MSSPWDATA[10]INT_NET
+  4.256                        MSS01_0/MSS_ADLIB_INST/U_40:PIN1INT (f)
                +     0.042          cell: ADLIB:MSS_IF
-  4.322                        MSS01_0/MSS_ADLIB_INST/U_37:PIN1 (f)
-               +     0.446          net: CoreAPB3_0_APBmslave0_PWDATA[1]
-  4.768                        LED_VERILOG_0/color[97]:D (f)
+  4.298                        MSS01_0/MSS_ADLIB_INST/U_40:PIN1 (f)
+               +     0.566          net: CoreAPB3_0_APBmslave0_PWDATA[10]
+  4.864                        LED_VERILOG_0/color_RNO[34]:B (f)
+               +     0.248          cell: ADLIB:MX2
+  5.112                        LED_VERILOG_0/color_RNO[34]:Y (f)
+               +     0.148          net: LED_VERILOG_0/color_29[34]
+  5.260                        LED_VERILOG_0/color[34]:D (f)
                                     
-  4.768                        data arrival time
+  5.260                        data arrival time
   ________________________________________________________
   Data required time calculation
   0.000                        mss_ccc_gla1
@@ -733,12 +737,12 @@ Expanded Path 1
   3.558                        MSS01_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5INT (r)
                +     0.000          cell: ADLIB:MSS_CCC_GL_IF
   3.558                        MSS01_0/MSS_CCC_0/I_MSSCCC/U_TILE1:PIN5 (r)
-               +     0.342          net: FAB_CLK
-  3.900                        LED_VERILOG_0/color[97]:CLK (r)
-               +     0.000          Library hold time: ADLIB:DFN1E1
-  3.900                        LED_VERILOG_0/color[97]:D
+               +     0.334          net: FAB_CLK
+  3.892                        LED_VERILOG_0/color[34]:CLK (r)
+               +     0.000          Library hold time: ADLIB:DFN1E0
+  3.892                        LED_VERILOG_0/color[34]:D
                                     
-  3.900                        data required time
+  3.892                        data required time
 
 
 END SET mss_fabric_interface_clock to mss_ccc_gla1

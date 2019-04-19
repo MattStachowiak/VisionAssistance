@@ -1,2 +1,2 @@
-@E: CS153 :"C:\Users\mmanceor\Desktop\LEDV3\hdl\LED.v":101:13:101:13|Can't mix blocking and non-blocking assignments to a variable
+@E: CS171 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":96:15:96:25|Reversed range
 

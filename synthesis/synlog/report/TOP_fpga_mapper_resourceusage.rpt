@@ -2,47 +2,50 @@ Target Part: A2F200M3F_FBGA484_STD
 Report for cell TOP.verilog
   Core Cell usage:
               cell count     area count*area
-              AND2    16      1.0       16.0
+              AND2    17      1.0       17.0
               AND3    18      1.0       18.0
                AO1     4      1.0        4.0
-             AOI1B     2      1.0        2.0
+              AO1A   188      1.0      188.0
+              AO1B     1      1.0        1.0
+              AO1D     1      1.0        1.0
+             AOI1B     1      1.0        1.0
               AX1C    14      1.0       14.0
-            CLKINT     2      0.0        0.0
+              BUFF     3      1.0        3.0
+            CLKINT     3      0.0        0.0
                GND     7      0.0        0.0
            MSS_APB     1      0.0        0.0
            MSS_CCC     1      0.0        0.0
-               MX2   191      1.0      191.0
-              MX2C     1      1.0        1.0
-              NOR2     9      1.0        9.0
-             NOR2A    31      1.0       31.0
-             NOR2B    60      1.0       60.0
-              NOR3     4      1.0        4.0
-             NOR3A     5      1.0        5.0
-             NOR3B     7      1.0        7.0
-             NOR3C    54      1.0       54.0
+               MX2   328      1.0      328.0
+              NOR2    11      1.0       11.0
+             NOR2A    49      1.0       49.0
+             NOR2B    64      1.0       64.0
+              NOR3     3      1.0        3.0
+             NOR3A    28      1.0       28.0
+             NOR3B    33      1.0       33.0
+             NOR3C   169      1.0      169.0
                OA1     4      1.0        4.0
-              OA1A     1      1.0        1.0
+              OA1A     3      1.0        3.0
               OA1C     1      1.0        1.0
               OAI1     1      1.0        1.0
-               OR2     5      1.0        5.0
-              OR2B     6      1.0        6.0
-               OR3     3      1.0        3.0
-              OR3A     2      1.0        2.0
+               OR2     4      1.0        4.0
+              OR2A     3      1.0        3.0
+              OR2B    10      1.0       10.0
+               OR3     5      1.0        5.0
+              OR3A     1      1.0        1.0
               OR3B     1      1.0        1.0
-              OR3C     3      1.0        3.0
+              OR3C     4      1.0        4.0
              RCOSC     1      0.0        0.0
                VCC     7      0.0        0.0
-               XA1     8      1.0        8.0
+               XA1    10      1.0       10.0
               XA1B    20      1.0       20.0
-             XNOR2     1      1.0        1.0
-              XOR2    37      1.0       37.0
+              XOR2    36      1.0       36.0
 
 
               DFN1    72      1.0       72.0
-            DFN1E0     1      1.0        1.0
-            DFN1E1   240      1.0      240.0
+            DFN1E0   267      1.0      267.0
+            DFN1E1    40      1.0       40.0
                    -----          ----------
-             TOTAL   841               822.0
+             TOTAL  1434              1414.0
 
 
   IO Cell usage:
@@ -56,7 +59,7 @@ Report for cell TOP.verilog
              TOTAL     8
 
 
-Core Cells         : 822 of 4608 (18%)
+Core Cells         : 1414 of 4608 (31%)
 IO Cells           : 8
 
   RAM/ROM Usage Summary

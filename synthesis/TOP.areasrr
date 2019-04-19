@@ -2,22 +2,24 @@
 Report for cell TOP.verilog
                                           Cell usage:
                                cell       count     area    count*area
-                        CoreAPB3_Z1         1      36.0       36.0
+                        CoreAPB3_Z1         1      37.0       37.0
                      DistanceSensor         1     221.0      221.0
                                 GND         1       0.0        0.0
                               INBUF         1       0.0        0.0
-                        LED_VERILOG         1     565.0      565.0
-                              MSS01         1       0.0        0.0
+                        LED_VERILOG         1    1153.0     1153.0
+                              MSS01         1       3.0        3.0
                              OUTBUF         2       0.0        0.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL              9                822.0
+                         TOTAL              9               1414.0
 ----------------------------------------------------------------------
 Report for cell MSS01.netlist
      Instance path:  MSS01_0
                                           Cell usage:
                                cell       count     area    count*area
                     BIBUF_OPEND_MSS         2       0.0        0.0
+                               BUFF         3       1.0        3.0
+                             CLKINT         1       0.0        0.0
                                 GND         1       0.0        0.0
                           INBUF_MSS         2       0.0        0.0
           MSS01_tmp_MSS_CCC_0_MSS_CCC         1       0.0        0.0
@@ -25,7 +27,7 @@ Report for cell MSS01.netlist
                          OUTBUF_MSS         1       0.0        0.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL              9                  0.0
+                         TOTAL             13                  3.0
 ----------------------------------------------------------------------
 Report for cell MSS01_tmp_MSS_CCC_0_MSS_CCC.netlist
      Instance path:  MSS01_0.MSS_CCC_0
@@ -42,39 +44,41 @@ Report for cell LED_VERILOG.netlist
      Instance path:  LED_VERILOG_0
                                           Cell usage:
                                cell       count     area    count*area
-                               AND2        12       1.0       12.0
+                               AND2        13       1.0       13.0
                                 AO1         3       1.0        3.0
-                              AOI1B         2       1.0        2.0
+                               AO1A       188       1.0      188.0
+                               AO1B         1       1.0        1.0
+                               AO1D         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
                                AX1C         3       1.0        3.0
                              CLKINT         2       0.0        0.0
                                DFN1        20       1.0       20.0
-                             DFN1E0         1       1.0        1.0
-                             DFN1E1       208       1.0      208.0
+                             DFN1E0       267       1.0      267.0
+                             DFN1E1         8       1.0        8.0
                                 GND         1       0.0        0.0
-                                MX2       191       1.0      191.0
-                               MX2C         1       1.0        1.0
-                               NOR2         6       1.0        6.0
-                              NOR2A         6       1.0        6.0
-                              NOR2B        43       1.0       43.0
-                               NOR3         3       1.0        3.0
-                              NOR3A         3       1.0        3.0
-                              NOR3B         6       1.0        6.0
-                              NOR3C         9       1.0        9.0
+                                MX2       328       1.0      328.0
+                               NOR2         7       1.0        7.0
+                              NOR2A        24       1.0       24.0
+                              NOR2B        45       1.0       45.0
+                               NOR3         2       1.0        2.0
+                              NOR3A        28       1.0       28.0
+                              NOR3B        32       1.0       32.0
+                              NOR3C       124       1.0      124.0
                                 OA1         1       1.0        1.0
-                               OA1A         1       1.0        1.0
+                               OA1A         3       1.0        3.0
                                OAI1         1       1.0        1.0
-                                OR2         4       1.0        4.0
-                               OR2B         5       1.0        5.0
-                                OR3         1       1.0        1.0
-                               OR3A         2       1.0        2.0
+                                OR2         3       1.0        3.0
+                               OR2A         3       1.0        3.0
+                               OR2B         9       1.0        9.0
+                                OR3         3       1.0        3.0
+                               OR3A         1       1.0        1.0
                                OR3B         1       1.0        1.0
-                               OR3C         2       1.0        2.0
+                               OR3C         3       1.0        3.0
                                 VCC         1       0.0        0.0
-                                XA1         8       1.0        8.0
-                              XNOR2         1       1.0        1.0
-                               XOR2        21       1.0       21.0
+                                XA1        10       1.0       10.0
+                               XOR2        20       1.0       20.0
                             
-                         TOTAL            569                565.0
+                         TOTAL           1157               1153.0
 ----------------------------------------------------------------------
 Report for cell DistanceSensor.netlist
      Instance path:  DistanceSensor_0
@@ -111,11 +115,12 @@ Report for cell CoreAPB3_Z1.netlist
                                cell       count     area    count*area
                             CAPB3II         1      32.0       32.0
                                 GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
                               NOR2A         2       1.0        2.0
-                              NOR3A         2       1.0        2.0
+                              NOR2B         2       1.0        2.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL              7                 36.0
+                         TOTAL              8                 37.0
 ----------------------------------------------------------------------
 Report for cell CAPB3II.netlist
      Instance path:  CoreAPB3_0.CAPB3IIII
