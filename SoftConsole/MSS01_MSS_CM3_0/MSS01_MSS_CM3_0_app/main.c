@@ -76,7 +76,9 @@ uint32_t dist_to_color(float in_dist){
 		//green_amount = 0xFF;
 	//}
 	//else
-	green_amount = 0xFF - 4*((int)in_dist);
+	if(in_dist < 100.0){
+		green_amount = 0xFF - (int)(2.55*in_dist);
+	}
 	/*}else{
 		//blue_amount = 0xFF - (in_dist - 10.0) * 10;
 		//green_amount = (in_dist - 10.0)* 25.5;
@@ -84,7 +86,7 @@ uint32_t dist_to_color(float in_dist){
 
 	//uint32_t result = (blue_amount << 16) | green_amount;
 	uint32_t result = byte_reverse(green_amount);
-	printf("dist: %5.2f  green_amount: %lu\r\n", in_dist, green_amount);
+	printf("dist: %5.2f	green: %d	r: %x	n: %x\r\n", in_dist, green_amount, result, green_amount);
 	return result;
 
 }

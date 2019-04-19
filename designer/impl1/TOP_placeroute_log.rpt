@@ -33,16 +33,16 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Thu Apr 18 20:39:15 2019
+Timing-driven Placer Started: Fri Apr 19 17:01:15 2019
 
-Placer Finished: Thu Apr 18 20:39:26 2019
+Placer Finished: Fri Apr 19 17:01:26 2019
 Total Placer CPU Time:     00:00:11
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: TOP                             Started: Thu Apr 18 20:39:28 2019
+Design: TOP                             Started: Fri Apr 19 17:01:28 2019
 
  
 Iterative improvement...
@@ -50,20 +50,18 @@ Iterative improvement...
 Timing-driven Router completed successfully.
 
 Design: TOP                             
-Finished: Thu Apr 18 20:39:35 2019
+Finished: Fri Apr 19 17:01:35 2019
 Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:07
-Total Memory Usage: 188.3 Mbytes
+Total Memory Usage: 188.2 Mbytes
                         o - o - o - o - o - o
 
-status 257
-status 257
 status 257
 Loading the Timing data for the design.
 Finished loading the Timing data.
 TIMER: Max delay timing requirements have NOT been met.
 TIMER: Min delay timing requirements have been met.
 
-The Layout command succeeded ( 00:00:25 )
+The Layout command succeeded ( 00:00:24 )
 Wrote status report to file: TOP_place_and_route_report.txt
 
 The Report command succeeded ( 00:00:00 )

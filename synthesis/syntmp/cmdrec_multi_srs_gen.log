@@ -1,8 +1,8 @@
 C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  TOP  -multisrs  C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\synwork\TOP_comp.srs  -osyn  C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\synwork\TOP_mult.srs  -log  C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\synlog\TOP_multi_srs_gen.srr 
 relcom:..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top TOP -multisrs ..\synwork\TOP_comp.srs -osyn ..\synwork\TOP_mult.srs -log ..\synlog\TOP_multi_srs_gen.srr
-rc:0 success:1 runtime:0
-file:..\synwork\TOP_comp.srs|io:i|time:1555634330|size:41284|exec:0|csum:31D01BC4CCD01716FE4EA9F6CBFAD252
-file:..\synwork\TOP_mult.srs|io:o|time:1555634332|size:7400|exec:0|csum:
-file:..\synlog\TOP_multi_srs_gen.srr|io:o|time:1555634332|size:511|exec:0|csum:
+rc:0 success:1 runtime:1
+file:..\synwork\TOP_comp.srs|io:i|time:1555707650|size:41317|exec:0|csum:4FC32BF5758F9F65A21F6EB27639F5BD
+file:..\synwork\TOP_mult.srs|io:o|time:1555707651|size:7323|exec:0|csum:
+file:..\synlog\TOP_multi_srs_gen.srr|io:o|time:1555707651|size:511|exec:0|csum:
 file:..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1509029812|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
 file:..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1509030084|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0
