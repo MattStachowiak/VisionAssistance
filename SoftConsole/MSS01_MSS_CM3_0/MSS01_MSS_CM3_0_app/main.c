@@ -54,6 +54,13 @@ float data_to_cm(uint32_t in_data){
 
 }
 
+// Function reverses bits in the byte
+uint8_t byte_reverse(uint8_t x)
+{
+	return  0xFF & ((x & 0b10000000) >> 7) | ((x & 0b01000000) >> 5) | ((x & 0b00100000) >> 3) | ((x & 0b00010000) >> 1) |
+		((x & 0b00001000) << 1) | ((x & 0b000000100) << 3) | ((x & 0b000000010) << 5) | ((x & 0b00000001) << 7);
+}
+
 // TESTING FUNCTION
 // This is a function for testing color interaction with distance
 uint32_t dist_to_color(float in_dist){
@@ -61,32 +68,35 @@ uint32_t dist_to_color(float in_dist){
 	// 10 cm and less is full blue, 20 cm and more is full red
 	// in between is a combination of the two
 	// uint32_t blue_amount = 0;
-	uint32_t green_amount = 0;
+	uint8_t green_amount = 0;
 
-	if(in_dist < 20.0){
-		green_amount = 0xFF;
+	//if(in_dist < 20.0){
+		//green_amount = 0xFF;
 	//} else if(in_dist > 20.0){
 		//green_amount = 0xFF;
-	}
-	else if (in_dist < 40.0)
-		green_amount = 0x0F;
+	//}
+	//else
+	green_amount = 0xFF - 4*((int)in_dist);
 	/*}else{
 		//blue_amount = 0xFF - (in_dist - 10.0) * 10;
 		//green_amount = (in_dist - 10.0)* 25.5;
 	}*/
 
 	//uint32_t result = (blue_amount << 16) | green_amount;
-	uint32_t result = green_amount;
+	uint32_t result = byte_reverse(green_amount);
+	printf("dist: %5.2f  green_amount: %lu\r\n", in_dist, green_amount);
 	return result;
 
 }
 
+
+
 // TESTING FUNCTION
 // Function for testing distance controlling LED number
-// Each LED is 10 cm of distance
+// Each LED is 2.5 cm of distance
 int dist_to_LED(float in_dist){
 
-	return (int)in_dist / 10;
+	return (int)in_dist / 3;
 }
 
 //--- Grideye Functions ---
@@ -251,33 +261,31 @@ int main()
 		uint32_t DATA = *SONIC_READ;
 		cm_dist = data_to_cm(DATA);
 		LED_num = dist_to_LED(cm_dist);
-		//color = dist_to_color(cm_dist);
+		color = dist_to_color(cm_dist);
 
-		if(temps[3][3] > 24.00)
+		/*if(temps[3][3] > 24.00)
 			color = red;
 		else
 			color = blue;
-
+		*/
 		// Write to LEDs
-		LED[0] = red;
-		LED[1] = blue;
-		LED[23] = yellow;
+
 		/*for(i = 0; i < NUMLEDS; ++i){
-			if((i % 8)== LED_num)
+			if(i== LED_num)
 				LED[i] = color;
 			else
 				LED[i] = off;
 		}*/
 
 
-		/*for(i = 0; i < 8; ++i){
+		for (i = 0; i < NUMLEDS; ++i) {
 			LED[i] = color;
-		}*/
+		}
 
 		//printf("Distance = %5.2f cm; Raw Data = %ld\r\n",cm_dist ,DATA);
 
 		// Print grideye data
-		printf("\r\n\n\n");
+		/*printf("\r\n\n\n");
 		int i = 0;
 		int j = 0;
 		for (i = 0; i < 8; ++i){
@@ -289,6 +297,7 @@ int main()
 			}
 			printf("\r\n");
 		}
+		*/
 	}//while(1)
 	return 0;
 }

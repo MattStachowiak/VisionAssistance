@@ -383,8 +383,8 @@ SIZE="891392"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP.fdb,fdb"
 STATE="utd"
-TIME="1555626544"
-SIZE="57577"
+TIME="1555634395"
+SIZE="73277"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP.ide_des,ide_des"
 STATE="utd"
@@ -413,23 +413,23 @@ SIZE="2372"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1555626527"
-SIZE="2627"
+TIME="1555634380"
+SIZE="2640"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_prgdata_log.rpt,log"
 STATE="utd"
-TIME="1555626544"
+TIME="1555634396"
 SIZE="661"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1555626533"
+TIME="1555634385"
 SIZE="1118"
 ENDFILE
 VALUE "<project>\hdl\LED.v,hdl"
 STATE="utd"
-TIME="1555625197"
-SIZE="2184"
+TIME="1555634263"
+SIZE="2988"
 ENDFILE
 VALUE "<project>\hdl\sensing.v,hdl"
 STATE="utd"
@@ -683,8 +683,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\synplify_pro.exe"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -756,8 +756,13 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Generate Programming Data:TOP_prgdata_log.rpt
+HDL;hdl\LED.v;0
+SmartDesign;TOP;0
+SmartDesign;MSS01;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+ACTIVEVIEW;hdl\LED.v
 ENDLIST
 LIST ModuleSubBlockList
 LIST "BIBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
@@ -839,9 +844,9 @@ LIST "SmartFusion_CMSIS_PAL::work","","FALSE","FALSE"
 ENDLIST
 LIST "TOP::work","component\work\TOP\TOP.v","TRUE","FALSE"
 SUBBLOCK "DistanceSensor::work","hdl\sensing.v","FALSE","FALSE"
-SUBBLOCK "LED_VERILOG::work","hdl\LED.v","FALSE","FALSE"
 SUBBLOCK "MSS01::work","component\work\MSS01\MSS01.v","TRUE","FALSE"
 SUBBLOCK "CoreAPB3::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v","FALSE","FALSE"
+SUBBLOCK "LED_VERILOG::work","hdl\LED.v","FALSE","FALSE"
 ENDLIST
 LIST "TRIBUFF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
 ENDLIST
