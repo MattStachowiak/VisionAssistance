@@ -18,6 +18,7 @@
 #define red 0x00ff00
 #define green 0x0000ff
 #define yellow 0x00ffff
+#define purple 0xffff00
 #define off 0x0
 
 volatile uint32_t* LED = (uint32_t*)LED_ADDR;
@@ -260,6 +261,7 @@ int main()
 		// Write to LEDs
 		LED[0] = red;
 		LED[1] = blue;
+		LED[23] = yellow;
 		/*for(i = 0; i < NUMLEDS; ++i){
 			if((i % 8)== LED_num)
 				LED[i] = color;

@@ -426,7 +426,6 @@
 @W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 997 of color
 @W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 998 of color
 @W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 999 of color
-@W: CL271 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":66:0:66:5|Pruning unused bits 575 to 256 of color_31[575:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @W: CL157 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
 @W: CL157 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
 @W: CL157 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.

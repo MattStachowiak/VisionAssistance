@@ -536,7 +536,6 @@ Selecting top level module TOP
 @W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 997 of color
 @W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 998 of color
 @W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 999 of color
-@W: CL271 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":66:0:66:5|Pruning unused bits 575 to 256 of color_31[575:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\mss_tshell.v":1:7:1:13|Synthesizing module MSS_APB in library work.
 
 @N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC in library work.
@@ -655,23 +654,23 @@ Selecting top level module TOP
 @N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":690:0:690:9|Input PSLVERRS14 is unused.
 @N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":692:0:692:9|Input PSLVERRS15 is unused.
 
-At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 79MB peak: 89MB)
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 84MB peak: 104MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Apr 18 20:04:19 2019
+# Thu Apr 18 20:38:50 2019
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
 @N|Running in 64-bit mode
 
-At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Apr 18 20:04:19 2019
+# Thu Apr 18 20:38:50 2019
 
 ###########################################################]
 @END
@@ -681,6 +680,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Apr 18 20:04:19 2019
+# Thu Apr 18 20:38:50 2019
 
 ###########################################################]

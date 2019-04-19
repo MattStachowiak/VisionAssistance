@@ -17,7 +17,7 @@ assign PSLVERR = 0;
 assign PREADY = 1;
 reg [999:0]color;
 reg [23:0]data_counter;
-reg [7:0]bit_counter;
+reg [9:0]bit_counter;
 reg [6:0]pwm_counter;
 // Initializing stuff
 wire color_write = (PWRITE & PENABLE & PSEL);

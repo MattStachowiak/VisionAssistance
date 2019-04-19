@@ -6,14 +6,14 @@
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-1 non-gated/non-generated clock tree(s) driving 379 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 701 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
 ======================================== Non-Gated/Non-Generated Clocks =========================================
 Clock Tree ID     Driving Element     Drive Element Type                Fanout     Sample Instance               
 -----------------------------------------------------------------------------------------------------------------
-@K:CKID0001       MSS01_0             clock definition on hierarchy     379        LED_VERILOG_0.data_counter[19]
+@K:CKID0001       MSS01_0             clock definition on hierarchy     701        LED_VERILOG_0.data_counter[19]
 =================================================================================================================
 
 
