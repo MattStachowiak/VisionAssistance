@@ -263,31 +263,30 @@ int main()
 		uint32_t DATA = *SONIC_READ;
 		cm_dist = data_to_cm(DATA);
 		LED_num = dist_to_LED(cm_dist);
-		color = dist_to_color(cm_dist);
+		//color = dist_to_color(cm_dist);
 
-		/*if(temps[3][3] > 24.00)
+		if(temps[3][3] > 24.00 || temps[4][4] > 24.0)
 			color = red;
 		else
 			color = blue;
-		*/
+
 		// Write to LEDs
 
-		/*for(i = 0; i < NUMLEDS; ++i){
+		for(i = 0; i < NUMLEDS; ++i){
 			if(i== LED_num)
 				LED[i] = color;
 			else
 				LED[i] = off;
-		}*/
-
-
-		for (i = 0; i < NUMLEDS; ++i) {
-			LED[i] = color;
 		}
+
+		/*for (i = 0; i < NUMLEDS; ++i) {
+			LED[i] = color;
+		}*/
 
 		//printf("Distance = %5.2f cm; Raw Data = %ld\r\n",cm_dist ,DATA);
 
 		// Print grideye data
-		/*printf("\r\n\n\n");
+		printf("\r\n\n\n");
 		int i = 0;
 		int j = 0;
 		for (i = 0; i < 8; ++i){
@@ -299,7 +298,7 @@ int main()
 			}
 			printf("\r\n");
 		}
-		*/
+
 	}//while(1)
 	return 0;
 }
