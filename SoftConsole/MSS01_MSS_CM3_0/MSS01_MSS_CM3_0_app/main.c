@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <inttypes.h>
 #include <assert.h>
+#include <math.h>
 #include "drivers/mss_uart/mss_uart.h"
 #include "drivers/mss_i2c/mss_i2c.h"
 #include "gridEYE.h"
@@ -39,22 +40,25 @@ uint8_t byte_reverse(uint8_t x)
 
 // TESTING FUNCTION
 // This is a function for testing color interaction with distance
-uint32_t dist_to_color(float in_dist){
+uint32_t scale_brightness(int32_t color, float in_dist){
+	uint i;
+	uint32_t result = 0;
+	double scale_factor;
 
-	uint8_t green_amount = 0;
-
-	if(in_dist > 300){
-
+	for (i = 0; i<3; ++i)
+	{
+		uint8_t ind_value = byte_reverse((color >> 8*(i)) & 0xFF);
+		scale_factor = 2.17 - 0.332*log(in_dist);
+		if (scale_factor > 1) scale_factor = 1;
+		if (scale_factor < 0) scale_factor = 0;
+		printf("Brightness scaling: %f\r\n", scale_factor);
+		result = result | (byte_reverse(ind_value*scale_factor) << 8*(i));
 	}
-	if(in_dist < 100.0){
-		green_amount = 0xFF - (int)(2.55*in_dist);
-	}
+	//	green_amount = 0xFF - (int)(2.55*in_dist);
 
-
-	uint32_t result = byte_reverse(green_amount);
+	//	uint32_t result = byte_reverse(green_amount);
 	//uint32_t result = (blue_amount << 16) | (red_amount << 8) | green_amount;
 	return result;
-
 }
 
 
@@ -98,16 +102,16 @@ int main()
 		gridEYE_read(pixel_addr, pixel_data);
 		get_temps_reversed(pixel_data, temps);
 
+		if(temps[3][3] > 24.00 || temps[4][4] > 24.0)
+			color = yellow;
+		else
+			color = green;
+
 		// Sonic: calculate dist and set brightness
 		uint32_t DATA = *SONIC_READ;
 		cm_dist = data_to_cm(DATA);
 //		LED_num = dist_to_LED(cm_dist);
 		//color = dist_to_color(cm_dist);
-
-		if(temps[3][3] > 24.00 || temps[4][4] > 24.0)
-			color = yellow;
-		else
-			color = blue;
 
 		// IMUs: read and calculate angle at which to display
 		display_angle = calc_display_angle(GLASSES_IMU_ADDR, WAND_IMU_ADDR, set_heading_baseline);
@@ -123,16 +127,17 @@ int main()
 
 		// Write to LEDs
 		for(i = 0; i < NUMLEDS; ++i){
-			if(i >= LED_num && i < LED_num + DISPLAY_POINT_WIDTH)
-				LED[i] = color;
+			if (i >= LED_num && i < LED_num + DISPLAY_POINT_WIDTH)
+				LED[i] = scale_brightness(color, cm_dist);
 			else
 				LED[i] = off;
 		}
-		/*for (i = 0; i < NUMLEDS; ++i) {
-			LED[i] = color;
-		}*/
+//		for (i = 0; i < NUMLEDS; ++i) {
+//			LED[i] = color;
+//		}
 
-		// gridEYE_print(temps);
+		gridEYE_print(temps);
+		printf("%x\r\n", color);
 
 	}//while(1)
 	return 0;
