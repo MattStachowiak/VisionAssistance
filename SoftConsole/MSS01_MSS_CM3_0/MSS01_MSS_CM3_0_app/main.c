@@ -1,10 +1,19 @@
 #include <stdio.h>
 #include <inttypes.h>
+#include <assert.h>
 #include "drivers/mss_uart/mss_uart.h"
 #include "drivers/mss_i2c/mss_i2c.h"
 #include "gridEYE.h"
 #include "LED.h"
 #include "sonic_dist.h"
+#include "imu_interface.h"
+
+#define WAND_IMU_ADDR 		0x28
+#define GLASSES_IMU_ADDR 	0x29
+
+#define DISPLAY_FOV 72 // degrees
+#define DISPLAY_POINT_WIDTH 2 // num of LEDs to light up at a time
+#define NO_LED -1000
 
 /*
     Authored by:
@@ -34,6 +43,9 @@ uint32_t dist_to_color(float in_dist){
 
 	uint8_t green_amount = 0;
 
+	if(in_dist > 300){
+
+	}
 	if(in_dist < 100.0){
 		green_amount = 0xFF - (int)(2.55*in_dist);
 	}
@@ -61,8 +73,10 @@ int main()
 	// Setup
 	LED_reset(LED);
 	// Initialize with a clock frequency of ~ 400kHz
-	MSS_I2C_init(&g_mss_i2c1 , gridEYE_ADDR, MSS_I2C_PCLK_DIV_256 );
+	MSS_I2C_init(&g_mss_i2c1 , 0x0, MSS_I2C_PCLK_DIV_256 );
 	gridEYE_init();
+	if (init_BNO055(WAND_IMU_ADDR)) assert("IMU init error");
+	if (init_BNO055(GLASSES_IMU_ADDR)) assert("IMU init error");
 
 	// Base pixel register is 0x80
 	uint8_t pixel_addr[] = {0x80};
@@ -71,40 +85,54 @@ int main()
 	float temps[8][8];
 
 
-	// testing
+	// Loop variables
 	float cm_dist = 0;
 	uint32_t color = 0;
 	int LED_num = 0;
 	int i = 0;
+	double display_angle;
+	int8_t set_heading_baseline = 1;
 
 	while( 1 ) {
 		// gridEYE
 		gridEYE_read(pixel_addr, pixel_data);
 		get_temps_reversed(pixel_data, temps);
-		// Sonic
+
+		// Sonic: calculate dist and set brightness
 		uint32_t DATA = *SONIC_READ;
 		cm_dist = data_to_cm(DATA);
-		LED_num = dist_to_LED(cm_dist);
+//		LED_num = dist_to_LED(cm_dist);
 		//color = dist_to_color(cm_dist);
 
 		if(temps[3][3] > 24.00 || temps[4][4] > 24.0)
-			color = red;
+			color = yellow;
 		else
 			color = blue;
 
-		// Write to LEDs
+		// IMUs: read and calculate angle at which to display
+		display_angle = calc_display_angle(GLASSES_IMU_ADDR, WAND_IMU_ADDR, set_heading_baseline);
+		set_heading_baseline = 0;
+		if (display_angle < -DISPLAY_FOV/2 || display_angle >= DISPLAY_FOV/2){
+			LED_num = display_angle < 0 ? NUMLEDS-1 : 0 - (DISPLAY_POINT_WIDTH-1);
+			color = red;
+		}
+		else
+			LED_num = (NUMLEDS-1) - (int)(display_angle/(DISPLAY_FOV/NUMLEDS) + NUMLEDS/2);
 
+
+
+		// Write to LEDs
 		for(i = 0; i < NUMLEDS; ++i){
-			if(i== LED_num)
+			if(i >= LED_num && i < LED_num + DISPLAY_POINT_WIDTH)
 				LED[i] = color;
 			else
 				LED[i] = off;
 		}
-
 		/*for (i = 0; i < NUMLEDS; ++i) {
 			LED[i] = color;
 		}*/
-		gridEYE_print(temps);
+
+		// gridEYE_print(temps);
 
 	}//while(1)
 	return 0;

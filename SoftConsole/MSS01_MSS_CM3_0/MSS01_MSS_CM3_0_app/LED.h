@@ -11,6 +11,12 @@
 #define purple 0xffff00
 #define off 0x0
 
+/* Integration note:
+ * The LEDs are addressed from left to right, but
+ * since they're upside-down on the head piece, this is reversed.
+ * thus, LED[0] is the rightmost, LED[23] is the leftmost.
+ */
+
 // Reset LED values
 void LED_reset(volatile uint32_t* LED){
 	int i;
