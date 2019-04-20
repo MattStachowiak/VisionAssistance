@@ -1,0 +1,10 @@
+#ifndef SONIC_DIST_H_
+#define SONIC_DIST_H_
+
+// Sonic globals
+#define SONIC_ADDR 0x40050100;
+volatile uint32_t* SONIC_READ = (uint32_t*) SONIC_ADDR;
+
+
+
+#endif /* SONIC_DIST_H_ */

@@ -378,8 +378,8 @@ SIZE="286"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP.adb,adb"
 STATE="utd"
-TIME="1555707619"
-SIZE="1405952"
+TIME="1555707715"
+SIZE="1452032"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP.fdb,fdb"
 STATE="utd"
@@ -388,27 +388,27 @@ SIZE="73276"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP.ide_des,ide_des"
 STATE="utd"
-TIME="1555707619"
+TIME="1555707715"
 SIZE="1046"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_compile_log.rpt,log"
 STATE="utd"
-TIME="1555707619"
+TIME="1555707669"
 SIZE="30214"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_fp\projectData\TOP.pdb,pdb"
 STATE="utd"
-TIME="1555707619"
-SIZE="78781"
+TIME="1555707773"
+SIZE="78773"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_fp\TOP.pdb,pdb"
 STATE="utd"
-TIME="1555707619"
-SIZE="78781"
+TIME="1555707735"
+SIZE="78773"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_fp\TOP.pro,pro"
 STATE="utd"
-TIME="1555707619"
+TIME="1555707773"
 SIZE="2372"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_placeroute_log.rpt,log"
@@ -479,22 +479,22 @@ SIZE="159"
 ENDFILE
 VALUE "<project>\synthesis\TOP.edn,syn_edn"
 STATE="utd"
-TIME="1555707619"
-SIZE="807786"
+TIME="1555707656"
+SIZE="807785"
 ENDFILE
 VALUE "<project>\synthesis\TOP.so,so"
 STATE="utd"
-TIME="1555707619"
+TIME="1555707656"
 SIZE="218"
 ENDFILE
 VALUE "<project>\synthesis\TOP_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1555707619"
+TIME="1555707656"
 SIZE="528"
 ENDFILE
 VALUE "<project>\synthesis\TOP_syn.prj,prj"
 STATE="utd"
-TIME="1555707619"
+TIME="1555707656"
 SIZE="2919"
 ENDFILE
 ENDLIST
@@ -683,8 +683,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\synplify_pro.exe"
-PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
-BATCH=1
+PARAM=""
+BATCH=0
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -756,13 +756,8 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
-Reports;Reports;0
-ReportsCurrentItem;Generate Programming Data:TOP_prgdata_log.rpt
-HDL;hdl\LED.v;0
-SmartDesign;TOP;0
-SmartDesign;MSS01;0
 StartPage;StartPage;0
-ACTIVEVIEW;Reports
+ACTIVEVIEW;StartPage
 ENDLIST
 LIST ModuleSubBlockList
 LIST "BIBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
