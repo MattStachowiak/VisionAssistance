@@ -4,6 +4,7 @@
 #include <math.h>
 #include "drivers/mss_uart/mss_uart.h"
 #include "drivers/mss_i2c/mss_i2c.h"
+#include "drivers/mss_gpio/mss_gpio.h"
 #include "gridEYE.h"
 #include "LED.h"
 #include "sonic_dist.h"
@@ -70,12 +71,20 @@ int dist_to_LED(float in_dist){
 	return (int)in_dist / 3;
 }
 
-
+void GPIO0_IRQHandler (void){
+	printf("Interrupt Happened");
+}
 
 int main()
 {
 	// Setup
 	LED_reset(LED);
+	// Initialize GPIO for interrupts
+	MSS_GPIO_init();
+	MSS_GPIO_config( MSS_GPIO_0, MSS_GPIO_INPUT_MODE | MSS_GPIO_IRQ_EDGE_POSITIVE );
+	MSS_GPIO_config( MSS_GPIO_1, MSS_GPIO_INPUT_MODE | MSS_GPIO_IRQ_EDGE_POSITIVE );
+	MSS_GPIO_enable_irq( MSS_GPIO_0 );
+	MSS_GPIO_enable_irq( MSS_GPIO_1 );
 	// Initialize with a clock frequency of ~ 400kHz
 	MSS_I2C_init(&g_mss_i2c1 , 0x0, MSS_I2C_PCLK_DIV_256 );
 	gridEYE_init();
@@ -99,6 +108,7 @@ int main()
 
 	while( 1 ) {
 		// gridEYE
+		GPIO0_IRQHandler();
 		gridEYE_read(pixel_addr, pixel_data);
 		get_temps_reversed(pixel_data, temps);
 

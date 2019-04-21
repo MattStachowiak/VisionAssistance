@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Fri Apr 19 17:01:07 2019 ***************************************************************************
+                          Sat Apr 20 21:37:13 2019 ***************************************************************************
 
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
-File Name: C:\Users\mtstacho\Desktop\VisionAssistance\designer\impl1\TOP.adb
+File Name: C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\designer\impl1\TOP.adb
 Design Name: TOP  Design State: compile
-Last Saved: Fri Apr 19 17:00:19 2019
+Last Saved: Sat Apr 20 21:33:20 2019
 
 ***** Device Data **************************************************
 
@@ -22,9 +22,9 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Fri Apr 19 17:01:04 2019:
-        C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\TOP.edn
-        C:\Users\mtstacho\Desktop\VisionAssistance\component\work\TOP\TOP.pdc
+Source File(s) Imported on Sat Apr 20 21:37:09 2019:
+        C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\synthesis\TOP.edn
+        C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\TOP\TOP.pdc
 
 
 ***** CAE Variables ************************************************
@@ -50,8 +50,9 @@ Parameters used to run compile:
 Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
-Source      : C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\TOP.edn
-              C:\Users\mtstacho\Desktop\VisionAssistance\component\work\TOP\TOP.pdc
+Source      : C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\synthesis\TOP.edn
+
+C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\TOP\TOP.pdc
 Format      : EDIF
 Topcell     : TOP
 Speed grade : STD
@@ -82,7 +83,6 @@ Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_EMCRWn drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_EMCDBOE drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_CALIBOUT drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_WDINT drives no load.
-Warning: CMP201: Net MSS01_0/M2F_RESET_N drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_DEEPSLEEP drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_SLEEP drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_TXEV drives no load.
@@ -196,70 +196,67 @@ Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_EMCWDB[14] drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_EMCWDB[15] drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_EMCCS0n drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_EMCCS1n drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[0] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[1] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[2] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[3] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[4] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[5] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[6] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[7] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[8] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[9] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[10] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[11] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[12] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[13] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[14] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[15] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[16] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[17] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[18] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[19] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[20] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[21] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[22] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[23] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[24] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[25] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[26] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[27] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[28] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[29] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[30] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPOE[31] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[0] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[1] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[2] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[3] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[4] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[5] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[6] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[7] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[8] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[9] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[10] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[11] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[12] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[13] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[14] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[15] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[16] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[17] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[18] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[19] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[20] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[21] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[22] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[23] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[24] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[25] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[26] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[27] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[28] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[29] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[30] drives no load.
-Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_GPO[31] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[0] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[1] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[2] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[3] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[4] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[5] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[6] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[7] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[8] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[9] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[11] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[12] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[13] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[14] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[15] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[16] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[17] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[18] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[19] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[20] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[21] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[22] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[23] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[24] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[25] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[26] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[27] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[28] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[29] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[30] drives no load.
+Warning: CMP201: Net MSS01_0/GPOE_net_0[31] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[0] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[1] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[2] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[3] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[4] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[5] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[6] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[8] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[9] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[11] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[12] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[13] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[14] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[15] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[16] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[17] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[18] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[19] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[20] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[21] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[22] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[23] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[24] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[25] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[26] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[27] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[28] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[29] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[30] drives no load.
+Warning: CMP201: Net MSS01_0/GPO_net_0[31] drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_MSSINT[0] drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_MSSINT[1] drives no load.
 Warning: CMP201: Net MSS01_0/MSS_ADLIB_INST_MSSINT[2] drives no load.
@@ -374,20 +371,21 @@ Warning: CMP201: Net MSS01_0/MSS_CCC_0/I_MSSCCC_GLC drives no load.
 Warning: CMP201: Net MSS01_0/MSS_CCC_0/I_MSSCCC_LOCK drives no load.
 Warning: CMP201: Net MSS01_0/MSS_CCC_0/I_MSSCCC_YB drives no load.
 Warning: CMP201: Net MSS01_0/MSS_CCC_0/I_MSSCCC_YC drives no load.
+Warning: Top level port dbsw is not connected to any IO pad
 
 Netlist Optimization Report
 ===========================
 
 Optimized macros:
   - Dangling net drivers:   0
-  - Buffers:                0
+  - Buffers:                2
   - Inverters:              0
   - Tieoff:                 0
   - Logic combining:        32
 
-    Total macros optimized  32
+    Total macros optimized  34
 
-There were 0 error(s) and 296 warning(s) in this design.
+There were 0 error(s) and 293 warning(s) in this design.
 =====================================================================
 
 Reading previous post-compile physical placement constraints.
@@ -407,11 +405,11 @@ Compile report:
 ===============
 
     Microcontroller Subsystem  Used:      1  Total:      1   (100.00%)
-    Fabric                     Used:   1594  Total:   4608   (34.59%)
-    Fabric IO (W/ clocks)      Used:      3  Total:     94   (3.19%)
+    Fabric                     Used:   1709  Total:   4608   (37.09%)
+    Fabric IO (W/ clocks)      Used:      4  Total:     94   (4.26%)
     Fabric Differential IO     Used:      0  Total:     47   (0.00%)
     Dedicated Analog IO        Used:      0  Total:     32   (0.00%)
-    Dedicated MSS IO           Used:      5  Total:     43   (11.63%)
+    Dedicated MSS IO           Used:      7  Total:     43   (16.28%)
     GLOBAL (Chip+Quadrant)     Used:      3  Total:     15   (20.00%)
     MSS GLOBAL                 Used:      3  Total:      3   (100.00%)
     On-chip RC oscillator      Used:      1  Total:      1   (100.00%)
@@ -436,14 +434,14 @@ Core Information:
 
     Type    | Instances    | Core tiles
     --------|--------------|-----------
-    COMB    | 893          | 893
-    SEQ     | 701          | 701
+    COMB    | 964          | 964
+    SEQ     | 745          | 745
 
 I/O Function:
 
     Type                                  | w/o register  | w/ register  | w/ DDR register
     --------------------------------------|---------------|--------------|----------------
-    Input I/O                             | 1             | 0            | 0
+    Input I/O                             | 2             | 0            | 0
     Output I/O                            | 2             | 0            | 0
     Bidirectional I/O                     | 0             | 0            | 0
     Differential Input I/O Pairs          | 0             | 0            | 0
@@ -455,13 +453,15 @@ I/O Technology:
     --------------------------------|-------|-------|-------|--------|--------------
     I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
     --------------------------------|-------|-------|-------|--------|--------------
-    LVTTL                           | 3.30v | N/A   | 1     | 2      | 0
+    LVTTL                           | 3.30v | N/A   | 2     | 2      | 0
 
 I/O Placement:
 
-    Locked  :   3 ( 100.00% )
-    Placed  :   0
+    Locked  :   3 ( 75.00% )
+    Placed  :   1 ( 25.00% )
     UnPlaced:   0
+
+Warning: Only some I/Os are locked
 
 Net information report:
 =======================
@@ -469,22 +469,24 @@ Net information report:
 The following nets have been assigned to a chip global resource:
     Fanout  Type          Name
     --------------------------
-    702     CLK_NET       Net   : FAB_CLK
+    746     CLK_NET       Net   : FAB_CLK
                           Driver: MSS01_0/MSS_CCC_0/I_MSSCCC
                           Source: ESSENTIAL
-    254     INT_NET       Net   : LED_VERILOG_0/bit_counter[5]
+    255     INT_NET       Net   : LED_VERILOG_0/bit_counter[5]
                           Driver: LED_VERILOG_0/bit_counter_RNIKCC2[5]/U_CLKSRC
                           Source: NETLIST
     134     INT_NET       Net   : LED_VERILOG_0/bit_counter[4]
                           Driver: LED_VERILOG_0/bit_counter_RNIJBC2[4]/U_CLKSRC
                           Source: NETLIST
-    67      INT_NET       Net   : LED_VERILOG_0/bit_counter[3]
+    66      INT_NET       Net   : LED_VERILOG_0/bit_counter[3]
                           Driver: LED_VERILOG_0/bit_counter_RNIIAC2[3]/U_CLKSRC
                           Source: NETLIST
 
 High fanout nets in the post compile netlist:
     Fanout  Type          Name
     --------------------------
+    24      INT_NET       Net   : CoreAPB3_0_APBmslave0_PADDR[3]
+                          Driver: MSS01_0/MSS_ADLIB_INST
     24      INT_NET       Net   : CoreAPB3_0_APBmslave0_PWDATA[0]
                           Driver: MSS01_0/MSS_ADLIB_INST
     24      INT_NET       Net   : CoreAPB3_0_APBmslave0_PWDATA[1]
@@ -502,13 +504,13 @@ High fanout nets in the post compile netlist:
     24      INT_NET       Net   : CoreAPB3_0_APBmslave0_PWDATA[7]
                           Driver: MSS01_0/MSS_ADLIB_INST
     24      INT_NET       Net   : CoreAPB3_0_APBmslave0_PWDATA[8]
-                          Driver: MSS01_0/MSS_ADLIB_INST
-    24      INT_NET       Net   : CoreAPB3_0_APBmslave0_PWDATA[9]
                           Driver: MSS01_0/MSS_ADLIB_INST
 
 Nets that are candidates for clock assignment and the resulting fanout:
     Fanout  Type          Name
     --------------------------
+    24      INT_NET       Net   : CoreAPB3_0_APBmslave0_PADDR[3]
+                          Driver: MSS01_0/MSS_ADLIB_INST
     24      INT_NET       Net   : CoreAPB3_0_APBmslave0_PWDATA[0]
                           Driver: MSS01_0/MSS_ADLIB_INST
     24      INT_NET       Net   : CoreAPB3_0_APBmslave0_PWDATA[1]
@@ -526,8 +528,6 @@ Nets that are candidates for clock assignment and the resulting fanout:
     24      INT_NET       Net   : CoreAPB3_0_APBmslave0_PWDATA[7]
                           Driver: MSS01_0/MSS_ADLIB_INST
     24      INT_NET       Net   : CoreAPB3_0_APBmslave0_PWDATA[8]
-                          Driver: MSS01_0/MSS_ADLIB_INST
-    24      INT_NET       Net   : CoreAPB3_0_APBmslave0_PWDATA[9]
                           Driver: MSS01_0/MSS_ADLIB_INST
 
 

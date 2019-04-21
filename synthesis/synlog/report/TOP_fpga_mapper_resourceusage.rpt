@@ -5,58 +5,67 @@ Report for cell TOP.verilog
               AND2    17      1.0       17.0
               AND3    18      1.0       18.0
                AO1     4      1.0        4.0
-              AO1A     3      1.0        3.0
+              AO1A     4      1.0        4.0
               AO1B     2      1.0        2.0
+              AOI1     2      1.0        2.0
              AOI1B     1      1.0        1.0
+               AX1     1      1.0        1.0
               AX1C    13      1.0       13.0
             CLKINT     3      0.0        0.0
-               GND     7      0.0        0.0
+               GND    10      0.0        0.0
+               INV     3      1.0        3.0
+            MSSINT     2      0.0        0.0
            MSS_APB     1      0.0        0.0
            MSS_CCC     1      0.0        0.0
-               MX2   576      1.0      576.0
+               MX2   577      1.0      577.0
               NOR2     9      1.0        9.0
              NOR2A    29      1.0       29.0
-             NOR2B    65      1.0       65.0
-              NOR3     5      1.0        5.0
-             NOR3A     5      1.0        5.0
-             NOR3B    15      1.0       15.0
-             NOR3C    61      1.0       61.0
-               OA1     4      1.0        4.0
-              OA1A     3      1.0        3.0
-              OA1C     1      1.0        1.0
+             NOR2B    64      1.0       64.0
+              NOR3     6      1.0        6.0
+             NOR3A     9      1.0        9.0
+             NOR3B    24      1.0       24.0
+             NOR3C    63      1.0       63.0
+               OA1     5      1.0        5.0
+              OA1A     5      1.0        5.0
+              OA1C    10      1.0       10.0
               OAI1     2      1.0        2.0
-               OR2     6      1.0        6.0
+               OR2     5      1.0        5.0
+              OR2A     6      1.0        6.0
               OR2B     6      1.0        6.0
                OR3     5      1.0        5.0
               OR3A     1      1.0        1.0
-              OR3C     5      1.0        5.0
+              OR3B     9      1.0        9.0
+              OR3C     7      1.0        7.0
              RCOSC     1      0.0        0.0
-               VCC     7      0.0        0.0
-               XA1    13      1.0       13.0
-              XA1B    20      1.0       20.0
-              XOR2    36      1.0       36.0
+               VCC    10      0.0        0.0
+               XA1    14      1.0       14.0
+              XA1A     7      1.0        7.0
+              XA1B    21      1.0       21.0
+              XA1C    10      1.0       10.0
+              XOR2    37      1.0       37.0
 
 
-              DFN1    72      1.0       72.0
+              DFN1   116      1.0      116.0
             DFN1E0    13      1.0       13.0
             DFN1E1   616      1.0      616.0
                    -----          ----------
-             TOTAL  1646              1626.0
+             TOTAL  1769              1741.0
 
 
   IO Cell usage:
               cell count
+         BIBUF_MSS     1
    BIBUF_OPEND_MSS     2
-             INBUF     1
+             INBUF     2
          INBUF_MSS     2
             OUTBUF     2
-        OUTBUF_MSS     1
+        OUTBUF_MSS     2
                    -----
-             TOTAL     8
+             TOTAL    11
 
 
-Core Cells         : 1626 of 4608 (35%)
-IO Cells           : 8
+Core Cells         : 1741 of 4608 (38%)
+IO Cells           : 11
 
   RAM/ROM Usage Summary
 Block Rams : 0 of 8 (0%)

@@ -1,8 +1,8 @@
 
 Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synbatch.exe
 Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
-Hostname:    EECS373-08
-Date:        Fri Apr 19 17:00:49 2019
+Hostname:    EECS373-06
+Date:        Sat Apr 20 21:36:56 2019
 Version:     L-2016.09M-SP1-5
 
 Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log TOP_syn.tcl
@@ -16,9 +16,22 @@ License Option: actel_oem
 Running in Vendor Mode
 
 
+Warning: File already exists in project: "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc"
+Warning: File already exists in project: "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc"
+Warning: File already exists in project: "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc"
+Warning: File already exists in project: "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc"
+Warning: File already exists in project: "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc"
+Warning: File already exists in project: "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc"
+Warning: File already exists in project: "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc"
+Warning: File already exists in project: "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc"
+Warning: File already exists in project: "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc"
+Warning: File already exists in project: "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc"
+Warning: File already exists in project: "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc"
+Warning: File already exists in project: "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc"
+Warning: File already exists in project: "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc"
 auto_infer_blackbox is not supported in current product.
 
-log file: "C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\TOP.srr"
+log file: "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\synthesis\TOP.srr"
 
 Running: synthesis in foreground
 
@@ -28,47 +41,47 @@ Running TOP_syn|synthesis
 
 
 Running: compile (Compile) on TOP_syn|synthesis
-# Fri Apr 19 17:00:49 2019
+# Sat Apr 20 21:36:56 2019
 
 
 Running: compile_flow (Compile Process) on TOP_syn|synthesis
-# Fri Apr 19 17:00:49 2019
+# Sat Apr 20 21:36:56 2019
 
 
 Running: compiler (Compile Input) on TOP_syn|synthesis
-# Fri Apr 19 17:00:49 2019
+# Sat Apr 20 21:36:56 2019
 
-Copied C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\synwork\TOP_comp.srs to C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\TOP.srs
+Copied C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\synthesis\synwork\TOP_comp.srs to C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\synthesis\TOP.srs
 
 
 compiler completed
-# Fri Apr 19 17:00:51 2019
-
-Return Code: 0
-Run Time:00h:00m:02s
-
-
-Running: multi_srs_gen (Multi-srs Generator) on TOP_syn|synthesis
-# Fri Apr 19 17:00:51 2019
-
-
-multi_srs_gen completed
-# Fri Apr 19 17:00:52 2019
+# Sat Apr 20 21:36:57 2019
 
 Return Code: 0
 Run Time:00h:00m:01s
 
-Copied C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\synwork\TOP_mult.srs to C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\TOP.srs
+
+Running: multi_srs_gen (Multi-srs Generator) on TOP_syn|synthesis
+# Sat Apr 20 21:36:57 2019
+
+
+multi_srs_gen completed
+# Sat Apr 20 21:36:57 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Copied C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\synthesis\synwork\TOP_mult.srs to C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\synthesis\TOP.srs
 
 Complete: Compile Process on TOP_syn|synthesis
 
 
 Running: premap (Pre-mapping) on TOP_syn|synthesis
-# Fri Apr 19 17:00:52 2019
+# Sat Apr 20 21:36:57 2019
 
 
 premap completed
-# Fri Apr 19 17:00:53 2019
+# Sat Apr 20 21:36:58 2019
 
 Return Code: 0
 Run Time:00h:00m:01s
@@ -77,22 +90,22 @@ Complete: Compile on TOP_syn|synthesis
 
 
 Running: map (Map) on TOP_syn|synthesis
-# Fri Apr 19 17:00:53 2019
+# Sat Apr 20 21:36:59 2019
 
 License granted for 4 parallel jobs
 
 
 Running: fpga_mapper (Map & Optimize) on TOP_syn|synthesis
-# Fri Apr 19 17:00:53 2019
+# Sat Apr 20 21:36:59 2019
 
-Copied C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\synwork\TOP_m.srm to C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\TOP.srm
+Copied C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\synthesis\synwork\TOP_m.srm to C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\synthesis\TOP.srm
 
 
-fpga_mapper completed
-# Fri Apr 19 17:00:56 2019
+fpga_mapper completed with warnings
+# Sat Apr 20 21:37:01 2019
 
-Return Code: 0
-Run Time:00h:00m:03s
+Return Code: 1
+Run Time:00h:00m:02s
 
 Complete: Map on TOP_syn|synthesis
 

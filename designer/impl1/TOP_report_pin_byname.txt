@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Fri Apr 19 17:01:39 2019 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Sat Apr 20 21:37:47 2019 Pinchecksum: NOT-AVAILABLE
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
@@ -8,13 +8,16 @@ Family: SmartFusion
 Die: A2F200M3F
 Package: 484 FBGA
 *****************************************************************
-Port        |Pin |Fixed |Function           |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
-------------|----|------|-------------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
-echo         E3   Yes    GFA2/IO68PDB5V0     LVTTL    ---                ---   None           No               ---   ---               No           No
-I2C_1_SCL    U20  Yes    I2C_1_SCL/GPIO_31   LVTTL    8                  High  None           No               No    35                No           Yes
-I2C_1_SDA    V22  Yes    I2C_1_SDA/GPIO_30   LVTTL    8                  High  None           No               No    35                No           Yes
-LED          J19  Yes    GCA0/IO28NDB1V0     LVTTL    12                 High  None           ---              No    35                No           No
-MSS_RESET_N  R1   Yes    MSS_RESET_N         LVTTL    ---                ---   None           No               ---   ---               No           Yes
-trigger      F3   Yes    GFB2/IO68NDB5V0     LVTTL    12                 High  None           ---              No    35                No           No
-UART_0_RXD   U18  Yes    UART_0_RXD/GPIO_21  LVTTL    ---                ---   None           No               ---   ---               No           Yes
-UART_0_TXD   Y22  Yes    UART_0_TXD/GPIO_20  LVTTL    8                  High  None           ---              No    35                No           Yes
+Port        |Pin |Fixed |Function                  |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+------------|----|------|--------------------------|--------|------------------|-----|--------------|----------------|-----|-----------------|------------|--------------|
+echo         E3   Yes    GFA2/IO68PDB5V0            LVTTL    ---                ---   None           No               ---   ---               No           No
+GPIO_7_OUT   W2   Yes    GPIO_7/IO40RSB4V0          LVTTL    8                  High  None           ---              No    35                No           Yes
+GPIO_10_BI   U3   Yes    GPIO_10/IO58RSB4V0         LVTTL    8                  High  None           No               No    35                No           Yes
+I2C_1_SCL    U20  Yes    I2C_1_SCL/GPIO_31          LVTTL    8                  High  None           No               No    35                No           Yes
+I2C_1_SDA    V22  Yes    I2C_1_SDA/GPIO_30          LVTTL    8                  High  None           No               No    35                No           Yes
+LED          J19  Yes    GCA0/IO28NDB1V0            LVTTL    12                 High  None           ---              No    35                No           No
+MSS_RESET_N  R1   Yes    MSS_RESET_N                LVTTL    ---                ---   None           No               ---   ---               No           Yes
+SW           H3   No     EMC_DB[8]/GEC0/IO63NDB5V0  LVTTL    ---                ---   None           No               ---   ---               No           No
+trigger      F3   Yes    GFB2/IO68NDB5V0            LVTTL    12                 High  None           ---              No    35                No           No
+UART_0_RXD   U18  Yes    UART_0_RXD/GPIO_21         LVTTL    ---                ---   None           No               ---   ---               No           Yes
+UART_0_TXD   Y22  Yes    UART_0_TXD/GPIO_20         LVTTL    8                  High  None           ---              No    35                No           Yes

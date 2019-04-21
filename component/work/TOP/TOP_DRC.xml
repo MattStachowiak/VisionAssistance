@@ -5,22 +5,8 @@
   <drc>
     <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
     <StatusMessage>Warning</StatusMessage>
-    <message>Unconnected Bus Interface</message>
-    <detail>Unconnected bus interface pin CoreAPB3_0:APB3mmaster</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/TOP/pins/CoreAPB3_0:APB3mmaster</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Unconnected Bus Interface</message>
-    <detail>Unconnected bus interface pin CoreAPB3_0:APBmslave0</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/TOP/pins/CoreAPB3_0:APBmslave0</crossprobe>
-  </drc>
-  <drc>
-    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
-    <StatusMessage>Warning</StatusMessage>
-    <message>Unconnected Bus Interface</message>
-    <detail>Unconnected bus interface pin MSS01_0:MSS_MASTER_APB</detail>
-    <crossprobe>liberoaction://cross_probe/smartdesign/TOP/pins/MSS01_0:MSS_MASTER_APB</crossprobe>
+    <message>Floating Driver</message>
+    <detail>Floating output pin TOP:dbsw</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TOP/pins/TOP:dbsw</crossprobe>
   </drc>
 </drcreport>

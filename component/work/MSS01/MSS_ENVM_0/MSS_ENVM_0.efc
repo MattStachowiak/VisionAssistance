@@ -215,18 +215,23 @@
             000000000000000000000000000000000000000000000000001f1f004245
             45007e7f0100000002000008200100e1f505010000d2000000000000001e
             1a0707000500100005001000000000002bacb0c20a1828b0c20a2bacb0c2
-            0a2bac0000002bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c2
-            0a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c2
+            0a2bac0000002bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a18acb002
+            002bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c2
             0a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb0c20a2bacb002
-            0000000078cf080090d0030080ff030088ff13000000a6230000d040
+            00000000788f080090d0030000ff030088ff23000000663500002421
             <crc>
-                6122
+                f4c4
             </crc>
         </region>
-        <region name="ACTEL_INIT_CONFIG" address="0x07ff00" retrieveAddressFromFile="false" size="16" format="HEX" type="Data Storage" wordSize="32" numberWords="4" memFile="" memType="" memFileTimeStamp="" clientType="private" program="true">
-            10600040fa556e4c83ff130002000000
+        <region name="ACTEL_INIT_CONFIG" address="0x07fe00" retrieveAddressFromFile="false" size="152" format="HEX" type="Data Storage" wordSize="32" numberWords="38" memFile="" memType="" memFileTimeStamp="" clientType="private" program="true">
+            020000000200000000000000000000000000000000000000000000000500
+            000000000000000000000700000000000000000000000000000000000000
+            000000000000000000000000000000000000000000000000000000000000
+            000000000000000000000000000000000000000000000000000000000000
+            000000000000000010600040fa556e4c03ff03020130014083ff13000200
+            0000
             <crc>
-                0e8b
+                5261
             </crc>
         </region>
     </nvm>

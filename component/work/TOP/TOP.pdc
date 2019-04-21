@@ -3,7 +3,7 @@
 
 # Version: v11.9 11.9.0.4
 # Family: SmartFusion , Die: A2F200M3F , Package: 484 FBGA
-# Date generated: Thu Apr 18 18:27:53 2019 
+# Date generated: Sat Apr 20 20:21:08 2019 
 
 
 # 
@@ -36,28 +36,14 @@ define_group -name I2C_1_PADs
 # Dedicated Peripheral I/O Settings
 # 
 
-
-# 
-# Unlocked I/O settings
-# The I/Os in this section are unplaced or placed but are not locked
-# the other listed attributes have been applied
-# 
-
-set_io MSS_RESET_N    \
-    -iostd LVTTL      \
-    -DIRECTION INPUT
-
-
 # User Group I2C_1_PADs
 
 set_io I2C_1_SCL            \
-    -iostd LVTTL            \
     -GROUP_NAME I2C_1_PADs  \
     -DIRECTION INOUT
 
 
 set_io I2C_1_SDA            \
-    -iostd LVTTL            \
     -GROUP_NAME I2C_1_PADs  \
     -DIRECTION INOUT
 
@@ -65,16 +51,21 @@ set_io I2C_1_SDA            \
 # User Group UART_0_PADs
 
 set_io UART_0_RXD            \
-    -iostd LVTTL             \
     -GROUP_NAME UART_0_PADs  \
     -DIRECTION INPUT
 
 
 set_io UART_0_TXD            \
-    -iostd LVTTL             \
     -GROUP_NAME UART_0_PADs  \
     -DIRECTION OUTPUT
 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
 
 
 #
@@ -86,6 +77,19 @@ set_io UART_0_TXD            \
 # Old IO constraints, commented out for reference
 #
 
+# set_io MSS_RESET_N -iostd LVTTL -DIRECTION INPUT 
+# set_io I2C_1_SCL -iostd LVTTL -GROUP_NAME I2C_1_PADs -DIRECTION INOUT 
+# set_io I2C_1_SDA -iostd LVTTL -GROUP_NAME I2C_1_PADs -DIRECTION INOUT 
+# set_io UART_0_RXD -iostd LVTTL -GROUP_NAME UART_0_PADs -DIRECTION INPUT 
+# set_io UART_0_TXD -iostd LVTTL -GROUP_NAME UART_0_PADs -DIRECTION OUTPUT 
+# set_io I2C_1_SCL -GROUP_NAME I2C_1_PADs -DIRECTION INOUT 
+# set_io I2C_1_SDA -GROUP_NAME I2C_1_PADs -DIRECTION INOUT 
+# set_io UART_0_RXD -GROUP_NAME UART_0_PADs -DIRECTION INPUT 
+# set_io UART_0_TXD -GROUP_NAME UART_0_PADs -DIRECTION OUTPUT 
+# set_io I2C_1_SCL -GROUP_NAME I2C_1_PADs -DIRECTION INOUT 
+# set_io I2C_1_SDA -GROUP_NAME I2C_1_PADs -DIRECTION INOUT 
+# set_io UART_0_RXD -GROUP_NAME UART_0_PADs -DIRECTION INPUT 
+# set_io UART_0_TXD -GROUP_NAME UART_0_PADs -DIRECTION OUTPUT 
 # set_io I2C_1_SCL -GROUP_NAME I2C_1_PADs -DIRECTION INOUT 
 # set_io I2C_1_SDA -GROUP_NAME I2C_1_PADs -DIRECTION INOUT 
 # set_io UART_0_RXD -GROUP_NAME UART_0_PADs -DIRECTION INPUT 

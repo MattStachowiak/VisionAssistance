@@ -1,10 +1,10 @@
-# Fri Apr 19 17:00:53 2019
+# Sat Apr 20 21:36:59 2019
 
 Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 Product Version L-2016.09M-SP1-5
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
@@ -18,75 +18,79 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 
 Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 128MB)
 
-@N: MO111 :"c:\users\mtstacho\desktop\visionassistance\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net LPXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\mtstacho\desktop\visionassistance\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net MAINXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\mtstacho\desktop\visionassistance\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net RCOSC_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\mmanceor\desktop\visionassistance\visionassistance\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net LPXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\mmanceor\desktop\visionassistance\visionassistance\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net MAINXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\mmanceor\desktop\visionassistance\visionassistance\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net RCOSC_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
 
 Available hyper_sources - for debug and ip models
 	None Found
 
 
-Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 131MB)
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 131MB)
 
-@N: MO231 :"c:\users\mtstacho\desktop\visionassistance\hdl\sensing.v":76:4:76:9|Found counter in view:work.DistanceSensor(verilog) instance data_buffer[31:0] 
-@N: MF238 :"c:\users\mtstacho\desktop\visionassistance\hdl\sensing.v":60:21:60:30|Found 17-bit incrementor, 'count_2[16:0]'
-@N: MO231 :"c:\users\mtstacho\desktop\visionassistance\hdl\led.v":24:0:24:5|Found counter in view:work.LED_VERILOG(verilog) instance bit_counter[9:0] 
-@N: MO231 :"c:\users\mtstacho\desktop\visionassistance\hdl\led.v":24:0:24:5|Found counter in view:work.LED_VERILOG(verilog) instance pwm_counter[6:0] 
+@N: MO231 :"c:\users\mmanceor\desktop\visionassistance\visionassistance\hdl\sensing.v":76:4:76:9|Found counter in view:work.DistanceSensor(verilog) instance data_buffer[31:0] 
+@N: MF238 :"c:\users\mmanceor\desktop\visionassistance\visionassistance\hdl\sensing.v":60:21:60:30|Found 17-bit incrementor, 'count_2[16:0]'
+@N: MO231 :"c:\users\mmanceor\desktop\visionassistance\visionassistance\hdl\led.v":24:0:24:5|Found counter in view:work.LED_VERILOG(verilog) instance bit_counter[9:0] 
+@N: MO231 :"c:\users\mmanceor\desktop\visionassistance\visionassistance\hdl\led.v":24:0:24:5|Found counter in view:work.LED_VERILOG(verilog) instance pwm_counter[6:0] 
+@N: MO231 :"c:\users\mmanceor\desktop\visionassistance\visionassistance\hdl\switch_0.v":103:0:103:5|Found counter in view:work.Button_Debouncer_1(verilog) instance PB_cnt[15:0] 
+@N: MO231 :"c:\users\mmanceor\desktop\visionassistance\visionassistance\hdl\switch_0.v":103:0:103:5|Found counter in view:work.Button_Debouncer_0(verilog) instance PB_cnt[15:0] 
+@W: MO129 :"c:\users\mmanceor\desktop\visionassistance\visionassistance\hdl\switch_0.v":94:0:94:5|Sequential instance Switch_0_0.b1.sync[0] is reduced to a combinational gate by constant propagation.
+@W: MO129 :"c:\users\mmanceor\desktop\visionassistance\visionassistance\hdl\switch_0.v":94:0:94:5|Sequential instance Switch_0_0.b1.sync[1] is reduced to a combinational gate by constant propagation.
 
-Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 131MB)
-
-
-Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 139MB)
-
-
-Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 125MB peak: 139MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 131MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 125MB peak: 139MB)
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 139MB)
 
 
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 129MB peak: 139MB)
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 126MB peak: 140MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 129MB peak: 139MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 126MB peak: 140MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 130MB peak: 139MB)
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 128MB peak: 140MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 129MB peak: 139MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 129MB peak: 140MB)
 
 
-Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 128MB peak: 139MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 129MB peak: 140MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 128MB peak: 139MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 129MB peak: 140MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 128MB peak: 140MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 129MB peak: 140MB)
 
 
 High Fanout Net Report
 **********************
 
-Driver Instance / Pin Name             Fanout, notes
-----------------------------------------------------
-LED_VERILOG_0.bit_counter[2] / Q       34           
-LED_VERILOG_0.bit_counter[3] / Q       67           
-LED_VERILOG_0.bit_counter[4] / Q       134          
-LED_VERILOG_0.bit_counter[5] / Q       254          
-LED_VERILOG_0.bit_counter[9] / Q       65           
-DistanceSensor_0.data_1_sqmuxa / Y     32           
-DistanceSensor_0.data_0_sqmuxa / Y     33           
-CoreAPB3_0.CAPB3l0OI_0[1] / Y          32           
-CoreAPB3_0.CAPB3l0OI_1[1] / Y          32           
-====================================================
+Driver Instance / Pin Name                Fanout, notes
+-------------------------------------------------------
+LED_VERILOG_0.bit_counter[2] / Q          34           
+LED_VERILOG_0.bit_counter[3] / Q          66           
+LED_VERILOG_0.bit_counter[4] / Q          134          
+LED_VERILOG_0.bit_counter[5] / Q          255          
+LED_VERILOG_0.bit_counter[9] / Q          65           
+DistanceSensor_0.data_1_sqmuxa / Y        32           
+DistanceSensor_0.data_0_sqmuxa / Y        33           
+CoreAPB3_0.CAPB3IIII.CAPB3O1I27_1 / Y     32           
+CoreAPB3_0.CAPB3IIII.CAPB3O1I27_2 / Y     32           
+=======================================================
 
-@N: FP130 |Promoting Net LED_VERILOG_0.bit_counter[5] on CLKINT  I_34 
-@N: FP130 |Promoting Net LED_VERILOG_0.bit_counter[4] on CLKINT  I_35 
-@N: FP130 |Promoting Net LED_VERILOG_0.bit_counter[3] on CLKINT  I_36 
+@N: FP130 |Promoting Net LED_VERILOG_0.bit_counter[5] on CLKINT  I_81 
+@N: FP130 |Promoting Net LED_VERILOG_0.bit_counter[4] on CLKINT  I_82 
+@N: FP130 |Promoting Net LED_VERILOG_0.bit_counter[3] on CLKINT  I_83 
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 129MB peak: 139MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 130MB peak: 140MB)
 
-Replicating Combinational Instance CoreAPB3_0.CAPB3l0OI_1[1], fanout 32 segments 2
-Replicating Combinational Instance CoreAPB3_0.CAPB3l0OI_0[1], fanout 32 segments 2
+Replicating Combinational Instance CoreAPB3_0.CAPB3IIII.CAPB3O1I27_2, fanout 32 segments 2
+Replicating Combinational Instance CoreAPB3_0.CAPB3IIII.CAPB3O1I27_1, fanout 32 segments 2
 Replicating Combinational Instance DistanceSensor_0.data_0_sqmuxa, fanout 33 segments 2
 Replicating Combinational Instance DistanceSensor_0.data_1_sqmuxa, fanout 32 segments 2
 Replicating Sequential Instance LED_VERILOG_0.bit_counter[9], fanout 65 segments 3
@@ -97,7 +101,7 @@ Added 7 Cells via replication
 	Added 3 Sequential Cells via replication
 	Added 4 Combinational Cells via replication
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 129MB peak: 139MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 130MB peak: 140MB)
 
 
 
@@ -107,40 +111,41 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-1 non-gated/non-generated clock tree(s) driving 701 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 745 clock pin(s) of sequential element(s)
 0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
 0 instances converted, 0 sequential instances remain driven by gated/generated clocks
 
-======================================== Non-Gated/Non-Generated Clocks =========================================
-Clock Tree ID     Driving Element     Drive Element Type                Fanout     Sample Instance               
------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       MSS01_0             clock definition on hierarchy     701        LED_VERILOG_0.data_counter[19]
-=================================================================================================================
+================================= Non-Gated/Non-Generated Clocks =================================
+Clock Tree ID     Driving Element     Drive Element Type                Fanout     Sample Instance
+--------------------------------------------------------------------------------------------------
+@K:CKID0001       MSS01_0             clock definition on hierarchy     745        Switch_0_0.INT1
+==================================================================================================
 
 
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 123MB peak: 139MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 124MB peak: 140MB)
 
-Writing Analyst data base C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\synwork\TOP_m.srm
+Writing Analyst data base C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\synthesis\synwork\TOP_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 124MB peak: 139MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 125MB peak: 140MB)
 
 Writing EDIF Netlist and constraint files
 L-2016.09M-SP1-5
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 126MB peak: 139MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 127MB peak: 140MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 124MB peak: 139MB)
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 125MB peak: 140MB)
 
+@W: MT246 :"c:\users\mmanceor\desktop\visionassistance\visionassistance\component\work\mss01\mss01.v":523:7:523:18|Blackbox MSSINT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
 @N: MT615 |Found clock FCLK with period 10.00ns 
 @N: MT615 |Found clock FAB_CLK with period 10.00ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Fri Apr 19 17:00:56 2019
+# Timing Report written on Sat Apr 20 21:37:01 2019
 #
 
 
@@ -151,7 +156,7 @@ Requested Frequency:    100.0 MHz
 Wire load mode:         top
 Wire load model:        smartfusion
 Paths requested:        5
-Constraint File(s):    C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc
+Constraint File(s):    C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc
                        
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
@@ -163,14 +168,14 @@ Performance Summary
 *******************
 
 
-Worst slack in design: -11.467
+Worst slack in design: -11.439
 
                    Requested     Estimated     Requested     Estimated                 Clock        Clock          
 Starting Clock     Frequency     Frequency     Period        Period        Slack       Type         Group          
 -------------------------------------------------------------------------------------------------------------------
-FAB_CLK            100.0 MHz     46.6 MHz      10.000        21.467        -11.467     declared     clk_group_0    
+FAB_CLK            100.0 MHz     46.6 MHz      10.000        21.439        -11.439     declared     clk_group_0    
 FCLK               100.0 MHz     NA            10.000        NA            NA          declared     clk_group_0    
-System             100.0 MHz     188.3 MHz     10.000        5.309         4.691       system       system_clkgroup
+System             100.0 MHz     191.2 MHz     10.000        5.231         4.769       system       system_clkgroup
 ===================================================================================================================
 @N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
 
@@ -185,10 +190,10 @@ Clocks             |    rise  to  rise     |    fall  to  fall   |    rise  to  
 -----------------------------------------------------------------------------------------------------------
 Starting  Ending   |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 -----------------------------------------------------------------------------------------------------------
-System    System   |  10.000      4.691    |  No paths    -      |  No paths    -      |  No paths    -    
-System    FAB_CLK  |  10.000      -0.860   |  No paths    -      |  No paths    -      |  No paths    -    
+System    System   |  10.000      4.769    |  No paths    -      |  No paths    -      |  No paths    -    
+System    FAB_CLK  |  10.000      0.238    |  No paths    -      |  No paths    -      |  No paths    -    
 FAB_CLK   System   |  10.000      7.979    |  No paths    -      |  No paths    -      |  No paths    -    
-FAB_CLK   FAB_CLK  |  10.000      -11.467  |  No paths    -      |  No paths    -      |  No paths    -    
+FAB_CLK   FAB_CLK  |  10.000      -11.439  |  No paths    -      |  No paths    -      |  No paths    -    
 ===========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -215,16 +220,16 @@ Starting Points with Worst Slack
 Instance                           Reference     Type     Pin     Net                  Time        Slack  
                                    Clock                                                                  
 ----------------------------------------------------------------------------------------------------------
-LED_VERILOG_0.data_counter[16]     FAB_CLK       DFN1     Q       data_counter[16]     0.737       -11.467
-LED_VERILOG_0.data_counter[9]      FAB_CLK       DFN1     Q       data_counter[9]      0.737       -11.354
-LED_VERILOG_0.data_counter[2]      FAB_CLK       DFN1     Q       data_counter[2]      0.580       -11.345
-LED_VERILOG_0.data_counter[0]      FAB_CLK       DFN1     Q       data_counter[0]      0.580       -11.159
-LED_VERILOG_0.data_counter[1]      FAB_CLK       DFN1     Q       data_counter[1]      0.580       -11.060
-LED_VERILOG_0.data_counter[7]      FAB_CLK       DFN1     Q       data_counter[7]      0.737       -11.020
-LED_VERILOG_0.data_counter[8]      FAB_CLK       DFN1     Q       data_counter[8]      0.737       -10.994
-LED_VERILOG_0.data_counter[14]     FAB_CLK       DFN1     Q       data_counter[14]     0.737       -10.979
-LED_VERILOG_0.data_counter[15]     FAB_CLK       DFN1     Q       data_counter[15]     0.737       -10.600
-LED_VERILOG_0.data_counter[4]      FAB_CLK       DFN1     Q       data_counter[4]      0.737       -10.560
+LED_VERILOG_0.data_counter[16]     FAB_CLK       DFN1     Q       data_counter[16]     0.737       -11.439
+LED_VERILOG_0.data_counter[9]      FAB_CLK       DFN1     Q       data_counter[9]      0.737       -11.326
+LED_VERILOG_0.data_counter[2]      FAB_CLK       DFN1     Q       data_counter[2]      0.580       -11.317
+LED_VERILOG_0.data_counter[0]      FAB_CLK       DFN1     Q       data_counter[0]      0.580       -11.131
+LED_VERILOG_0.data_counter[1]      FAB_CLK       DFN1     Q       data_counter[1]      0.580       -11.032
+LED_VERILOG_0.data_counter[7]      FAB_CLK       DFN1     Q       data_counter[7]      0.737       -10.992
+LED_VERILOG_0.data_counter[8]      FAB_CLK       DFN1     Q       data_counter[8]      0.737       -10.966
+LED_VERILOG_0.data_counter[14]     FAB_CLK       DFN1     Q       data_counter[14]     0.737       -10.951
+LED_VERILOG_0.data_counter[15]     FAB_CLK       DFN1     Q       data_counter[15]     0.737       -10.572
+LED_VERILOG_0.data_counter[4]      FAB_CLK       DFN1     Q       data_counter[4]      0.737       -10.532
 ==========================================================================================================
 
 
@@ -235,13 +240,13 @@ Ending Points with Worst Slack
 Instance                           Reference     Type     Pin     Net                    Time         Slack  
                                    Clock                                                                     
 -------------------------------------------------------------------------------------------------------------
-LED_VERILOG_0.data_counter[15]     FAB_CLK       DFN1     D       data_counter_5[15]     9.461        -11.467
-LED_VERILOG_0.data_counter[19]     FAB_CLK       DFN1     D       data_counter_5[19]     9.461        -11.467
-LED_VERILOG_0.data_counter[18]     FAB_CLK       DFN1     D       data_counter_5[18]     9.461        -10.631
-LED_VERILOG_0.data_counter[13]     FAB_CLK       DFN1     D       data_counter_5[13]     9.461        -10.567
-LED_VERILOG_0.data_counter[17]     FAB_CLK       DFN1     D       data_counter_5[17]     9.461        -10.567
+LED_VERILOG_0.data_counter[15]     FAB_CLK       DFN1     D       data_counter_5[15]     9.461        -11.439
+LED_VERILOG_0.data_counter[19]     FAB_CLK       DFN1     D       data_counter_5[19]     9.461        -11.439
+LED_VERILOG_0.data_counter[18]     FAB_CLK       DFN1     D       data_counter_5[18]     9.461        -10.603
+LED_VERILOG_0.data_counter[13]     FAB_CLK       DFN1     D       data_counter_5[13]     9.461        -10.539
+LED_VERILOG_0.data_counter[17]     FAB_CLK       DFN1     D       data_counter_5[17]     9.461        -10.539
 LED_VERILOG_0.data_counter[14]     FAB_CLK       DFN1     D       I_74                   9.461        -9.793 
-LED_VERILOG_0.data_counter[16]     FAB_CLK       DFN1     D       data_counter_5[16]     9.461        -9.731 
+LED_VERILOG_0.data_counter[16]     FAB_CLK       DFN1     D       data_counter_5[16]     9.461        -9.703 
 LED_VERILOG_0.data_counter[11]     FAB_CLK       DFN1     D       I_81                   9.461        -9.308 
 LED_VERILOG_0.data_counter[12]     FAB_CLK       DFN1     D       I_78                   9.461        -8.893 
 LED_VERILOG_0.data_counter[10]     FAB_CLK       DFN1     D       I_71                   9.461        -8.472 
@@ -259,9 +264,9 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.461
 
-    - Propagation time:                      20.928
+    - Propagation time:                      20.900
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -11.467
+    = Slack (critical) :                     -11.439
 
     Number of logic level(s):                14
     Starting point:                          LED_VERILOG_0.data_counter[16] / Q
@@ -286,9 +291,9 @@ un1_data_counter_1lto19_2_3                 Net       -        -       0.322    
 LED_VERILOG_0.data_counter_RNIVOER6[16]     NOR3B     B        In      -         5.089       -         
 LED_VERILOG_0.data_counter_RNIVOER6[16]     NOR3B     Y        Out     0.624     5.713       -         
 data_counter_RNIVOER6[16]                   Net       -        -       1.669     -           9         
-LED_VERILOG_0.pwm_counter_RNIRG08F[2]       MX2       S        In      -         7.381       -         
-LED_VERILOG_0.pwm_counter_RNIRG08F[2]       MX2       Y        Out     0.396     7.777       -         
-pwm_counter_RNIRG08F[2]                     Net       -        -       2.172     -           16        
+LED_VERILOG_0.pwm_counter_RNIRG08F[3]       MX2       S        In      -         7.381       -         
+LED_VERILOG_0.pwm_counter_RNIRG08F[3]       MX2       Y        Out     0.396     7.777       -         
+pwm_counter_RNIRG08F[3]                     Net       -        -       2.172     -           16        
 LED_VERILOG_0.un1_data_counter_4.I_1        AND2      B        In      -         9.950       -         
 LED_VERILOG_0.un1_data_counter_4.I_1        AND2      Y        Out     0.627     10.577      -         
 DWACT_ADD_CI_0_TMP[0]                       Net       -        -       0.386     -           2         
@@ -313,12 +318,12 @@ DWACT_ADD_CI_0_g_array_12_6[0]              Net       -        -       0.322    
 LED_VERILOG_0.un1_data_counter_4.I_68       XOR2      B        In      -         18.832      -         
 LED_VERILOG_0.un1_data_counter_4.I_68       XOR2      Y        Out     0.937     19.769      -         
 I_68                                        Net       -        -       0.322     -           1         
-LED_VERILOG_0.data_counter_RNO[15]          NOR2B     B        In      -         20.090      -         
-LED_VERILOG_0.data_counter_RNO[15]          NOR2B     Y        Out     0.516     20.607      -         
+LED_VERILOG_0.data_counter_RNO[15]          NOR2B     A        In      -         20.090      -         
+LED_VERILOG_0.data_counter_RNO[15]          NOR2B     Y        Out     0.488     20.579      -         
 data_counter_5[15]                          Net       -        -       0.322     -           1         
-LED_VERILOG_0.data_counter[15]              DFN1      D        In      -         20.928      -         
+LED_VERILOG_0.data_counter[15]              DFN1      D        In      -         20.900      -         
 =======================================================================================================
-Total path delay (propagation time + setup) of 21.467 is 9.211(42.9%) logic and 12.256(57.1%) route.
+Total path delay (propagation time + setup) of 21.439 is 9.183(42.8%) logic and 12.256(57.2%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -328,9 +333,9 @@ Path information for path number 2:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.461
 
-    - Propagation time:                      20.928
+    - Propagation time:                      20.900
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -11.467
+    = Slack (critical) :                     -11.439
 
     Number of logic level(s):                14
     Starting point:                          LED_VERILOG_0.data_counter[16] / Q
@@ -355,9 +360,9 @@ un1_data_counter_1lto19_2_3                 Net       -        -       0.322    
 LED_VERILOG_0.data_counter_RNIVOER6[16]     NOR3B     B        In      -         5.089       -         
 LED_VERILOG_0.data_counter_RNIVOER6[16]     NOR3B     Y        Out     0.624     5.713       -         
 data_counter_RNIVOER6[16]                   Net       -        -       1.669     -           9         
-LED_VERILOG_0.pwm_counter_RNIRG08F[2]       MX2       S        In      -         7.381       -         
-LED_VERILOG_0.pwm_counter_RNIRG08F[2]       MX2       Y        Out     0.396     7.777       -         
-pwm_counter_RNIRG08F[2]                     Net       -        -       2.172     -           16        
+LED_VERILOG_0.pwm_counter_RNIRG08F[3]       MX2       S        In      -         7.381       -         
+LED_VERILOG_0.pwm_counter_RNIRG08F[3]       MX2       Y        Out     0.396     7.777       -         
+pwm_counter_RNIRG08F[3]                     Net       -        -       2.172     -           16        
 LED_VERILOG_0.un1_data_counter_4.I_1        AND2      B        In      -         9.950       -         
 LED_VERILOG_0.un1_data_counter_4.I_1        AND2      Y        Out     0.627     10.577      -         
 DWACT_ADD_CI_0_TMP[0]                       Net       -        -       0.386     -           2         
@@ -382,12 +387,12 @@ DWACT_ADD_CI_0_g_array_12_8[0]              Net       -        -       0.322    
 LED_VERILOG_0.un1_data_counter_4.I_77       XOR2      B        In      -         18.832      -         
 LED_VERILOG_0.un1_data_counter_4.I_77       XOR2      Y        Out     0.937     19.769      -         
 I_77                                        Net       -        -       0.322     -           1         
-LED_VERILOG_0.data_counter_RNO[19]          NOR2B     B        In      -         20.090      -         
-LED_VERILOG_0.data_counter_RNO[19]          NOR2B     Y        Out     0.516     20.607      -         
+LED_VERILOG_0.data_counter_RNO[19]          NOR2B     A        In      -         20.090      -         
+LED_VERILOG_0.data_counter_RNO[19]          NOR2B     Y        Out     0.488     20.579      -         
 data_counter_5[19]                          Net       -        -       0.322     -           1         
-LED_VERILOG_0.data_counter[19]              DFN1      D        In      -         20.928      -         
+LED_VERILOG_0.data_counter[19]              DFN1      D        In      -         20.900      -         
 =======================================================================================================
-Total path delay (propagation time + setup) of 21.467 is 9.211(42.9%) logic and 12.256(57.1%) route.
+Total path delay (propagation time + setup) of 21.439 is 9.183(42.8%) logic and 12.256(57.2%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -397,9 +402,9 @@ Path information for path number 3:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.461
 
-    - Propagation time:                      20.815
+    - Propagation time:                      20.787
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -11.354
+    = Slack (non-critical) :                 -11.326
 
     Number of logic level(s):                14
     Starting point:                          LED_VERILOG_0.data_counter[9] / Q
@@ -424,9 +429,9 @@ un1_data_counter_1lto19_2_3                 Net       -        -       0.322    
 LED_VERILOG_0.data_counter_RNIVOER6[16]     NOR3B     B        In      -         4.976       -         
 LED_VERILOG_0.data_counter_RNIVOER6[16]     NOR3B     Y        Out     0.624     5.600       -         
 data_counter_RNIVOER6[16]                   Net       -        -       1.669     -           9         
-LED_VERILOG_0.pwm_counter_RNIRG08F[2]       MX2       S        In      -         7.268       -         
-LED_VERILOG_0.pwm_counter_RNIRG08F[2]       MX2       Y        Out     0.396     7.664       -         
-pwm_counter_RNIRG08F[2]                     Net       -        -       2.172     -           16        
+LED_VERILOG_0.pwm_counter_RNIRG08F[3]       MX2       S        In      -         7.268       -         
+LED_VERILOG_0.pwm_counter_RNIRG08F[3]       MX2       Y        Out     0.396     7.664       -         
+pwm_counter_RNIRG08F[3]                     Net       -        -       2.172     -           16        
 LED_VERILOG_0.un1_data_counter_4.I_1        AND2      B        In      -         9.837       -         
 LED_VERILOG_0.un1_data_counter_4.I_1        AND2      Y        Out     0.627     10.464      -         
 DWACT_ADD_CI_0_TMP[0]                       Net       -        -       0.386     -           2         
@@ -451,12 +456,12 @@ DWACT_ADD_CI_0_g_array_12_6[0]              Net       -        -       0.322    
 LED_VERILOG_0.un1_data_counter_4.I_68       XOR2      B        In      -         18.719      -         
 LED_VERILOG_0.un1_data_counter_4.I_68       XOR2      Y        Out     0.937     19.656      -         
 I_68                                        Net       -        -       0.322     -           1         
-LED_VERILOG_0.data_counter_RNO[15]          NOR2B     B        In      -         19.977      -         
-LED_VERILOG_0.data_counter_RNO[15]          NOR2B     Y        Out     0.516     20.494      -         
+LED_VERILOG_0.data_counter_RNO[15]          NOR2B     A        In      -         19.977      -         
+LED_VERILOG_0.data_counter_RNO[15]          NOR2B     Y        Out     0.488     20.466      -         
 data_counter_5[15]                          Net       -        -       0.322     -           1         
-LED_VERILOG_0.data_counter[15]              DFN1      D        In      -         20.815      -         
+LED_VERILOG_0.data_counter[15]              DFN1      D        In      -         20.787      -         
 =======================================================================================================
-Total path delay (propagation time + setup) of 21.354 is 9.211(43.1%) logic and 12.143(56.9%) route.
+Total path delay (propagation time + setup) of 21.326 is 9.183(43.1%) logic and 12.143(56.9%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -466,9 +471,9 @@ Path information for path number 4:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.461
 
-    - Propagation time:                      20.815
+    - Propagation time:                      20.787
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -11.354
+    = Slack (non-critical) :                 -11.326
 
     Number of logic level(s):                14
     Starting point:                          LED_VERILOG_0.data_counter[9] / Q
@@ -493,9 +498,9 @@ un1_data_counter_1lto19_2_3                 Net       -        -       0.322    
 LED_VERILOG_0.data_counter_RNIVOER6[16]     NOR3B     B        In      -         4.976       -         
 LED_VERILOG_0.data_counter_RNIVOER6[16]     NOR3B     Y        Out     0.624     5.600       -         
 data_counter_RNIVOER6[16]                   Net       -        -       1.669     -           9         
-LED_VERILOG_0.pwm_counter_RNIRG08F[2]       MX2       S        In      -         7.268       -         
-LED_VERILOG_0.pwm_counter_RNIRG08F[2]       MX2       Y        Out     0.396     7.664       -         
-pwm_counter_RNIRG08F[2]                     Net       -        -       2.172     -           16        
+LED_VERILOG_0.pwm_counter_RNIRG08F[3]       MX2       S        In      -         7.268       -         
+LED_VERILOG_0.pwm_counter_RNIRG08F[3]       MX2       Y        Out     0.396     7.664       -         
+pwm_counter_RNIRG08F[3]                     Net       -        -       2.172     -           16        
 LED_VERILOG_0.un1_data_counter_4.I_1        AND2      B        In      -         9.837       -         
 LED_VERILOG_0.un1_data_counter_4.I_1        AND2      Y        Out     0.627     10.464      -         
 DWACT_ADD_CI_0_TMP[0]                       Net       -        -       0.386     -           2         
@@ -520,12 +525,12 @@ DWACT_ADD_CI_0_g_array_12_8[0]              Net       -        -       0.322    
 LED_VERILOG_0.un1_data_counter_4.I_77       XOR2      B        In      -         18.719      -         
 LED_VERILOG_0.un1_data_counter_4.I_77       XOR2      Y        Out     0.937     19.656      -         
 I_77                                        Net       -        -       0.322     -           1         
-LED_VERILOG_0.data_counter_RNO[19]          NOR2B     B        In      -         19.977      -         
-LED_VERILOG_0.data_counter_RNO[19]          NOR2B     Y        Out     0.516     20.494      -         
+LED_VERILOG_0.data_counter_RNO[19]          NOR2B     A        In      -         19.977      -         
+LED_VERILOG_0.data_counter_RNO[19]          NOR2B     Y        Out     0.488     20.466      -         
 data_counter_5[19]                          Net       -        -       0.322     -           1         
-LED_VERILOG_0.data_counter[19]              DFN1      D        In      -         20.815      -         
+LED_VERILOG_0.data_counter[19]              DFN1      D        In      -         20.787      -         
 =======================================================================================================
-Total path delay (propagation time + setup) of 21.354 is 9.211(43.1%) logic and 12.143(56.9%) route.
+Total path delay (propagation time + setup) of 21.326 is 9.183(43.1%) logic and 12.143(56.9%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -535,9 +540,9 @@ Path information for path number 5:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.461
 
-    - Propagation time:                      20.806
+    - Propagation time:                      20.779
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -11.345
+    = Slack (non-critical) :                 -11.317
 
     Number of logic level(s):                14
     Starting point:                          LED_VERILOG_0.data_counter[2] / Q
@@ -562,9 +567,9 @@ un1_N_5_0                                   Net       -        -       0.322    
 LED_VERILOG_0.data_counter_RNIVOER6[16]     NOR3B     C        In      -         5.231       -         
 LED_VERILOG_0.data_counter_RNIVOER6[16]     NOR3B     Y        Out     0.360     5.591       -         
 data_counter_RNIVOER6[16]                   Net       -        -       1.669     -           9         
-LED_VERILOG_0.pwm_counter_RNIRG08F[2]       MX2       S        In      -         7.259       -         
-LED_VERILOG_0.pwm_counter_RNIRG08F[2]       MX2       Y        Out     0.396     7.656       -         
-pwm_counter_RNIRG08F[2]                     Net       -        -       2.172     -           16        
+LED_VERILOG_0.pwm_counter_RNIRG08F[3]       MX2       S        In      -         7.259       -         
+LED_VERILOG_0.pwm_counter_RNIRG08F[3]       MX2       Y        Out     0.396     7.656       -         
+pwm_counter_RNIRG08F[3]                     Net       -        -       2.172     -           16        
 LED_VERILOG_0.un1_data_counter_4.I_1        AND2      B        In      -         9.828       -         
 LED_VERILOG_0.un1_data_counter_4.I_1        AND2      Y        Out     0.627     10.455      -         
 DWACT_ADD_CI_0_TMP[0]                       Net       -        -       0.386     -           2         
@@ -589,12 +594,12 @@ DWACT_ADD_CI_0_g_array_12_6[0]              Net       -        -       0.322    
 LED_VERILOG_0.un1_data_counter_4.I_68       XOR2      B        In      -         18.711      -         
 LED_VERILOG_0.un1_data_counter_4.I_68       XOR2      Y        Out     0.937     19.647      -         
 I_68                                        Net       -        -       0.322     -           1         
-LED_VERILOG_0.data_counter_RNO[15]          NOR2B     B        In      -         19.969      -         
-LED_VERILOG_0.data_counter_RNO[15]          NOR2B     Y        Out     0.516     20.485      -         
+LED_VERILOG_0.data_counter_RNO[15]          NOR2B     A        In      -         19.969      -         
+LED_VERILOG_0.data_counter_RNO[15]          NOR2B     Y        Out     0.488     20.457      -         
 data_counter_5[15]                          Net       -        -       0.322     -           1         
-LED_VERILOG_0.data_counter[15]              DFN1      D        In      -         20.806      -         
+LED_VERILOG_0.data_counter[15]              DFN1      D        In      -         20.779      -         
 =======================================================================================================
-Total path delay (propagation time + setup) of 21.345 is 9.304(43.6%) logic and 12.041(56.4%) route.
+Total path delay (propagation time + setup) of 21.317 is 9.277(43.5%) logic and 12.041(56.5%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -609,41 +614,41 @@ Detailed Report for Clock: System
 Starting Points with Worst Slack
 ********************************
 
-                           Starting                                                                        Arrival           
-Instance                   Reference     Type        Pin              Net                                  Time        Slack 
-                           Clock                                                                                             
------------------------------------------------------------------------------------------------------------------------------
-MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[5]      CoreAPB3_0_APBmslave0_PADDR[5]       0.000       -0.860
-MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[6]      CoreAPB3_0_APBmslave0_PADDR[6]       0.000       -0.810
-MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[11]     MSS01_0_MSS_MASTER_APB_PADDR[11]     0.000       -0.301
-MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[10]     MSS01_0_MSS_MASTER_APB_PADDR[10]     0.000       -0.162
-MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPWRITE        CoreAPB3_0_APBmslave0_PWRITE         0.000       0.089 
-MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPSEL          MSS01_0_MSS_MASTER_APB_PSELx         0.000       0.568 
-MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[9]      MSS01_0_MSS_MASTER_APB_PADDR[9]      0.000       0.617 
-MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[8]      MSS01_0_MSS_MASTER_APB_PADDR[8]      0.000       0.843 
-MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPENABLE       CoreAPB3_0_APBmslave0_PENABLE        0.000       1.011 
-MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[4]      CoreAPB3_0_APBmslave0_PADDR[4]       0.000       2.358 
-=============================================================================================================================
+                           Starting                                                                        Arrival          
+Instance                   Reference     Type        Pin              Net                                  Time        Slack
+                           Clock                                                                                            
+----------------------------------------------------------------------------------------------------------------------------
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[5]      CoreAPB3_0_APBmslave0_PADDR[5]       0.000       0.238
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[6]      CoreAPB3_0_APBmslave0_PADDR[6]       0.000       0.391
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[11]     MSS01_0_MSS_MASTER_APB_PADDR[11]     0.000       1.267
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPWRITE        CoreAPB3_0_APBmslave0_PWRITE         0.000       1.289
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[9]      MSS01_0_MSS_MASTER_APB_PADDR[9]      0.000       1.343
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[10]     MSS01_0_MSS_MASTER_APB_PADDR[10]     0.000       1.406
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[8]      MSS01_0_MSS_MASTER_APB_PADDR[8]      0.000       1.571
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPSEL          MSS01_0_MSS_MASTER_APB_PSELx         0.000       2.132
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPENABLE       CoreAPB3_0_APBmslave0_PENABLE        0.000       2.579
+MSS01_0.MSS_ADLIB_INST     System        MSS_APB     MSSPADDR[4]      CoreAPB3_0_APBmslave0_PADDR[4]       0.000       2.994
+============================================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                             Starting                                         Required           
-Instance                     Reference     Type       Pin     Net             Time         Slack 
-                             Clock                                                               
--------------------------------------------------------------------------------------------------
-LED_VERILOG_0.color[144]     System        DFN1E1     E       color_166_e     9.566        -0.860
-LED_VERILOG_0.color[145]     System        DFN1E1     E       color_166_e     9.566        -0.860
-LED_VERILOG_0.color[146]     System        DFN1E1     E       color_166_e     9.566        -0.860
-LED_VERILOG_0.color[147]     System        DFN1E1     E       color_166_e     9.566        -0.860
-LED_VERILOG_0.color[148]     System        DFN1E1     E       color_166_e     9.566        -0.860
-LED_VERILOG_0.color[149]     System        DFN1E1     E       color_166_e     9.566        -0.860
-LED_VERILOG_0.color[150]     System        DFN1E1     E       color_166_e     9.566        -0.860
-LED_VERILOG_0.color[151]     System        DFN1E1     E       color_166_e     9.566        -0.860
-LED_VERILOG_0.color[152]     System        DFN1E1     E       color_166_e     9.566        -0.860
-LED_VERILOG_0.color[153]     System        DFN1E1     E       color_166_e     9.566        -0.860
-=================================================================================================
+                            Starting                                        Required          
+Instance                    Reference     Type       Pin     Net            Time         Slack
+                            Clock                                                             
+----------------------------------------------------------------------------------------------
+LED_VERILOG_0.color[72]     System        DFN1E1     E       color_94_e     9.566        0.238
+LED_VERILOG_0.color[73]     System        DFN1E1     E       color_94_e     9.566        0.238
+LED_VERILOG_0.color[74]     System        DFN1E1     E       color_94_e     9.566        0.238
+LED_VERILOG_0.color[75]     System        DFN1E1     E       color_94_e     9.566        0.238
+LED_VERILOG_0.color[76]     System        DFN1E1     E       color_94_e     9.566        0.238
+LED_VERILOG_0.color[77]     System        DFN1E1     E       color_94_e     9.566        0.238
+LED_VERILOG_0.color[78]     System        DFN1E1     E       color_94_e     9.566        0.238
+LED_VERILOG_0.color[79]     System        DFN1E1     E       color_94_e     9.566        0.238
+LED_VERILOG_0.color[80]     System        DFN1E1     E       color_94_e     9.566        0.238
+LED_VERILOG_0.color[81]     System        DFN1E1     E       color_94_e     9.566        0.238
+==============================================================================================
 
 
 
@@ -657,14 +662,14 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.566
 
-    - Propagation time:                      10.426
+    - Propagation time:                      9.328
     - Clock delay at starting point:         0.000 (ideal)
     - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 -0.860
+    = Slack (non-critical) :                 0.238
 
-    Number of logic level(s):                5
+    Number of logic level(s):                4
     Starting point:                          MSS01_0.MSS_ADLIB_INST / MSSPADDR[5]
-    Ending point:                            LED_VERILOG_0.color[144] / E
+    Ending point:                            LED_VERILOG_0.color[72] / E
     The start point is clocked by            System [rising]
     The end   point is clocked by            FAB_CLK [rising] on pin CLK
 
@@ -672,197 +677,22 @@ Instance / Net                                 Pin             Pin              
 Name                               Type        Name            Dir     Delay     Time        Fan Out(s)
 -------------------------------------------------------------------------------------------------------
 MSS01_0.MSS_ADLIB_INST             MSS_APB     MSSPADDR[5]     Out     0.000     0.000       -         
-CoreAPB3_0_APBmslave0_PADDR[5]     Net         -               -       1.423     -           6         
-LED_VERILOG_0.un1_color105_2       AO1B        A               In      -         1.423       -         
-LED_VERILOG_0.un1_color105_2       AO1B        Y               Out     0.502     1.926       -         
+CoreAPB3_0_APBmslave0_PADDR[5]     Net         -               -       1.526     -           7         
+LED_VERILOG_0.un1_color105_2       AO1B        A               In      -         1.526       -         
+LED_VERILOG_0.un1_color105_2       AO1B        Y               Out     0.502     2.028       -         
 un1_color105_2                     Net         -               -       0.322     -           1         
-LED_VERILOG_0.un1_color105_4       OR3         C               In      -         2.247       -         
-LED_VERILOG_0.un1_color105_4       OR3         Y               Out     0.751     2.998       -         
-un1_color105_4                     Net         -               -       0.322     -           1         
-LED_VERILOG_0.un1_color105         OR2         A               In      -         3.319       -         
-LED_VERILOG_0.un1_color105         OR2         Y               Out     0.507     3.827       -         
-un1_color105                       Net         -               -       1.184     -           4         
-LED_VERILOG_0.color_22_e_0         NOR2        A               In      -         5.010       -         
-LED_VERILOG_0.color_22_e_0         NOR2        Y               Out     0.507     5.518       -         
-color_22_e_0                       Net         -               -       1.776     -           11        
-LED_VERILOG_0.color_166_e          NOR3C       C               In      -         7.294       -         
-LED_VERILOG_0.color_166_e          NOR3C       Y               Out     0.666     7.960       -         
-color_166_e                        Net         -               -       2.466     -           24        
-LED_VERILOG_0.color[144]           DFN1E1      E               In      -         10.426      -         
+LED_VERILOG_0.un1_color105_4       OR3         C               In      -         2.350       -         
+LED_VERILOG_0.un1_color105_4       OR3         Y               Out     0.751     3.100       -         
+un1_color105_4                     Net         -               -       0.386     -           2         
+LED_VERILOG_0.color_142_e_0        NOR3A       C               In      -         3.486       -         
+LED_VERILOG_0.color_142_e_0        NOR3A       Y               Out     0.716     4.202       -         
+color_46_e_0                       Net         -               -       1.994     -           12        
+LED_VERILOG_0.color_94_e           NOR3C       C               In      -         6.196       -         
+LED_VERILOG_0.color_94_e           NOR3C       Y               Out     0.666     6.861       -         
+color_94_e                         Net         -               -       2.466     -           24        
+LED_VERILOG_0.color[72]            DFN1E1      E               In      -         9.328       -         
 =======================================================================================================
-Total path delay (propagation time + setup) of 10.860 is 3.368(31.0%) logic and 7.492(69.0%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 2: 
-      Requested Period:                      10.000
-    - Setup time:                            0.434
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.566
-
-    - Propagation time:                      10.426
-    - Clock delay at starting point:         0.000 (ideal)
-    - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 -0.860
-
-    Number of logic level(s):                5
-    Starting point:                          MSS01_0.MSS_ADLIB_INST / MSSPADDR[5]
-    Ending point:                            LED_VERILOG_0.color[528] / E
-    The start point is clocked by            System [rising]
-    The end   point is clocked by            FAB_CLK [rising] on pin CLK
-
-Instance / Net                                 Pin             Pin               Arrival     No. of    
-Name                               Type        Name            Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------------
-MSS01_0.MSS_ADLIB_INST             MSS_APB     MSSPADDR[5]     Out     0.000     0.000       -         
-CoreAPB3_0_APBmslave0_PADDR[5]     Net         -               -       1.423     -           6         
-LED_VERILOG_0.un1_color105_2       AO1B        A               In      -         1.423       -         
-LED_VERILOG_0.un1_color105_2       AO1B        Y               Out     0.502     1.926       -         
-un1_color105_2                     Net         -               -       0.322     -           1         
-LED_VERILOG_0.un1_color105_4       OR3         C               In      -         2.247       -         
-LED_VERILOG_0.un1_color105_4       OR3         Y               Out     0.751     2.998       -         
-un1_color105_4                     Net         -               -       0.322     -           1         
-LED_VERILOG_0.un1_color105         OR2         A               In      -         3.319       -         
-LED_VERILOG_0.un1_color105         OR2         Y               Out     0.507     3.827       -         
-un1_color105                       Net         -               -       1.184     -           4         
-LED_VERILOG_0.color_22_e_0         NOR2        A               In      -         5.010       -         
-LED_VERILOG_0.color_22_e_0         NOR2        Y               Out     0.507     5.518       -         
-color_22_e_0                       Net         -               -       1.776     -           11        
-LED_VERILOG_0.color_550_e          NOR3C       C               In      -         7.294       -         
-LED_VERILOG_0.color_550_e          NOR3C       Y               Out     0.666     7.960       -         
-N_6286                             Net         -               -       2.466     -           24        
-LED_VERILOG_0.color[528]           DFN1E1      E               In      -         10.426      -         
-=======================================================================================================
-Total path delay (propagation time + setup) of 10.860 is 3.368(31.0%) logic and 7.492(69.0%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 3: 
-      Requested Period:                      10.000
-    - Setup time:                            0.434
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.566
-
-    - Propagation time:                      10.426
-    - Clock delay at starting point:         0.000 (ideal)
-    - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 -0.860
-
-    Number of logic level(s):                5
-    Starting point:                          MSS01_0.MSS_ADLIB_INST / MSSPADDR[5]
-    Ending point:                            LED_VERILOG_0.color[432] / E
-    The start point is clocked by            System [rising]
-    The end   point is clocked by            FAB_CLK [rising] on pin CLK
-
-Instance / Net                                 Pin             Pin               Arrival     No. of    
-Name                               Type        Name            Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------------
-MSS01_0.MSS_ADLIB_INST             MSS_APB     MSSPADDR[5]     Out     0.000     0.000       -         
-CoreAPB3_0_APBmslave0_PADDR[5]     Net         -               -       1.423     -           6         
-LED_VERILOG_0.un1_color105_2       AO1B        A               In      -         1.423       -         
-LED_VERILOG_0.un1_color105_2       AO1B        Y               Out     0.502     1.926       -         
-un1_color105_2                     Net         -               -       0.322     -           1         
-LED_VERILOG_0.un1_color105_4       OR3         C               In      -         2.247       -         
-LED_VERILOG_0.un1_color105_4       OR3         Y               Out     0.751     2.998       -         
-un1_color105_4                     Net         -               -       0.322     -           1         
-LED_VERILOG_0.un1_color105         OR2         A               In      -         3.319       -         
-LED_VERILOG_0.un1_color105         OR2         Y               Out     0.507     3.827       -         
-un1_color105                       Net         -               -       1.184     -           4         
-LED_VERILOG_0.color_22_e_0         NOR2        A               In      -         5.010       -         
-LED_VERILOG_0.color_22_e_0         NOR2        Y               Out     0.507     5.518       -         
-color_22_e_0                       Net         -               -       1.776     -           11        
-LED_VERILOG_0.color_454_e          NOR3C       C               In      -         7.294       -         
-LED_VERILOG_0.color_454_e          NOR3C       Y               Out     0.666     7.960       -         
-color_454_e                        Net         -               -       2.466     -           24        
-LED_VERILOG_0.color[432]           DFN1E1      E               In      -         10.426      -         
-=======================================================================================================
-Total path delay (propagation time + setup) of 10.860 is 3.368(31.0%) logic and 7.492(69.0%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 4: 
-      Requested Period:                      10.000
-    - Setup time:                            0.434
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.566
-
-    - Propagation time:                      10.426
-    - Clock delay at starting point:         0.000 (ideal)
-    - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 -0.860
-
-    Number of logic level(s):                5
-    Starting point:                          MSS01_0.MSS_ADLIB_INST / MSSPADDR[5]
-    Ending point:                            LED_VERILOG_0.color[336] / E
-    The start point is clocked by            System [rising]
-    The end   point is clocked by            FAB_CLK [rising] on pin CLK
-
-Instance / Net                                 Pin             Pin               Arrival     No. of    
-Name                               Type        Name            Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------------
-MSS01_0.MSS_ADLIB_INST             MSS_APB     MSSPADDR[5]     Out     0.000     0.000       -         
-CoreAPB3_0_APBmslave0_PADDR[5]     Net         -               -       1.423     -           6         
-LED_VERILOG_0.un1_color105_2       AO1B        A               In      -         1.423       -         
-LED_VERILOG_0.un1_color105_2       AO1B        Y               Out     0.502     1.926       -         
-un1_color105_2                     Net         -               -       0.322     -           1         
-LED_VERILOG_0.un1_color105_4       OR3         C               In      -         2.247       -         
-LED_VERILOG_0.un1_color105_4       OR3         Y               Out     0.751     2.998       -         
-un1_color105_4                     Net         -               -       0.322     -           1         
-LED_VERILOG_0.un1_color105         OR2         A               In      -         3.319       -         
-LED_VERILOG_0.un1_color105         OR2         Y               Out     0.507     3.827       -         
-un1_color105                       Net         -               -       1.184     -           4         
-LED_VERILOG_0.color_22_e_0         NOR2        A               In      -         5.010       -         
-LED_VERILOG_0.color_22_e_0         NOR2        Y               Out     0.507     5.518       -         
-color_22_e_0                       Net         -               -       1.776     -           11        
-LED_VERILOG_0.color_358_e          NOR3C       C               In      -         7.294       -         
-LED_VERILOG_0.color_358_e          NOR3C       Y               Out     0.666     7.960       -         
-color_358_e                        Net         -               -       2.466     -           24        
-LED_VERILOG_0.color[336]           DFN1E1      E               In      -         10.426      -         
-=======================================================================================================
-Total path delay (propagation time + setup) of 10.860 is 3.368(31.0%) logic and 7.492(69.0%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
-
-Path information for path number 5: 
-      Requested Period:                      10.000
-    - Setup time:                            0.434
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.566
-
-    - Propagation time:                      10.426
-    - Clock delay at starting point:         0.000 (ideal)
-    - Estimated clock delay at start point:  -0.000
-    = Slack (non-critical) :                 -0.860
-
-    Number of logic level(s):                5
-    Starting point:                          MSS01_0.MSS_ADLIB_INST / MSSPADDR[5]
-    Ending point:                            LED_VERILOG_0.color[240] / E
-    The start point is clocked by            System [rising]
-    The end   point is clocked by            FAB_CLK [rising] on pin CLK
-
-Instance / Net                                 Pin             Pin               Arrival     No. of    
-Name                               Type        Name            Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------------
-MSS01_0.MSS_ADLIB_INST             MSS_APB     MSSPADDR[5]     Out     0.000     0.000       -         
-CoreAPB3_0_APBmslave0_PADDR[5]     Net         -               -       1.423     -           6         
-LED_VERILOG_0.un1_color105_2       AO1B        A               In      -         1.423       -         
-LED_VERILOG_0.un1_color105_2       AO1B        Y               Out     0.502     1.926       -         
-un1_color105_2                     Net         -               -       0.322     -           1         
-LED_VERILOG_0.un1_color105_4       OR3         C               In      -         2.247       -         
-LED_VERILOG_0.un1_color105_4       OR3         Y               Out     0.751     2.998       -         
-un1_color105_4                     Net         -               -       0.322     -           1         
-LED_VERILOG_0.un1_color105         OR2         A               In      -         3.319       -         
-LED_VERILOG_0.un1_color105         OR2         Y               Out     0.507     3.827       -         
-un1_color105                       Net         -               -       1.184     -           4         
-LED_VERILOG_0.color_22_e_0         NOR2        A               In      -         5.010       -         
-LED_VERILOG_0.color_22_e_0         NOR2        Y               Out     0.507     5.518       -         
-color_22_e_0                       Net         -               -       1.776     -           11        
-LED_VERILOG_0.color_262_e          NOR3C       C               In      -         7.294       -         
-LED_VERILOG_0.color_262_e          NOR3C       Y               Out     0.666     7.960       -         
-color_262_e                        Net         -               -       2.466     -           24        
-LED_VERILOG_0.color[240]           DFN1E1      E               In      -         10.426      -         
-=======================================================================================================
-Total path delay (propagation time + setup) of 10.860 is 3.368(31.0%) logic and 7.492(69.0%) route.
+Total path delay (propagation time + setup) of 9.762 is 3.069(31.4%) logic and 6.693(68.6%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -872,10 +702,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 124MB peak: 139MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 125MB peak: 140MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 124MB peak: 139MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 125MB peak: 140MB)
 
 --------------------------------------------------------------------------------
 Target Part: A2F200M3F_FBGA484_STD
@@ -885,67 +715,76 @@ Report for cell TOP.verilog
               AND2    17      1.0       17.0
               AND3    18      1.0       18.0
                AO1     4      1.0        4.0
-              AO1A     3      1.0        3.0
+              AO1A     4      1.0        4.0
               AO1B     2      1.0        2.0
+              AOI1     2      1.0        2.0
              AOI1B     1      1.0        1.0
+               AX1     1      1.0        1.0
               AX1C    13      1.0       13.0
             CLKINT     3      0.0        0.0
-               GND     7      0.0        0.0
+               GND    10      0.0        0.0
+               INV     3      1.0        3.0
+            MSSINT     2      0.0        0.0
            MSS_APB     1      0.0        0.0
            MSS_CCC     1      0.0        0.0
-               MX2   576      1.0      576.0
+               MX2   577      1.0      577.0
               NOR2     9      1.0        9.0
              NOR2A    29      1.0       29.0
-             NOR2B    65      1.0       65.0
-              NOR3     5      1.0        5.0
-             NOR3A     5      1.0        5.0
-             NOR3B    15      1.0       15.0
-             NOR3C    61      1.0       61.0
-               OA1     4      1.0        4.0
-              OA1A     3      1.0        3.0
-              OA1C     1      1.0        1.0
+             NOR2B    64      1.0       64.0
+              NOR3     6      1.0        6.0
+             NOR3A     9      1.0        9.0
+             NOR3B    24      1.0       24.0
+             NOR3C    63      1.0       63.0
+               OA1     5      1.0        5.0
+              OA1A     5      1.0        5.0
+              OA1C    10      1.0       10.0
               OAI1     2      1.0        2.0
-               OR2     6      1.0        6.0
+               OR2     5      1.0        5.0
+              OR2A     6      1.0        6.0
               OR2B     6      1.0        6.0
                OR3     5      1.0        5.0
               OR3A     1      1.0        1.0
-              OR3C     5      1.0        5.0
+              OR3B     9      1.0        9.0
+              OR3C     7      1.0        7.0
              RCOSC     1      0.0        0.0
-               VCC     7      0.0        0.0
-               XA1    13      1.0       13.0
-              XA1B    20      1.0       20.0
-              XOR2    36      1.0       36.0
+               VCC    10      0.0        0.0
+               XA1    14      1.0       14.0
+              XA1A     7      1.0        7.0
+              XA1B    21      1.0       21.0
+              XA1C    10      1.0       10.0
+              XOR2    37      1.0       37.0
 
 
-              DFN1    72      1.0       72.0
+              DFN1   116      1.0      116.0
             DFN1E0    13      1.0       13.0
             DFN1E1   616      1.0      616.0
                    -----          ----------
-             TOTAL  1646              1626.0
+             TOTAL  1769              1741.0
 
 
   IO Cell usage:
               cell count
+         BIBUF_MSS     1
    BIBUF_OPEND_MSS     2
-             INBUF     1
+             INBUF     2
          INBUF_MSS     2
             OUTBUF     2
-        OUTBUF_MSS     1
+        OUTBUF_MSS     2
                    -----
-             TOTAL     8
+             TOTAL    11
 
 
-Core Cells         : 1626 of 4608 (35%)
-IO Cells           : 8
+Core Cells         : 1741 of 4608 (38%)
+IO Cells           : 11
 
   RAM/ROM Usage Summary
 Block Rams : 0 of 8 (0%)
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 31MB peak: 139MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 32MB peak: 140MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Fri Apr 19 17:00:56 2019
+# Sat Apr 20 21:37:01 2019
 
 ###########################################################]
