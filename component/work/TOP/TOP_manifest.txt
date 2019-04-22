@@ -1,17 +1,17 @@
 Microsemi Corporation - Microsemi Libero Software Release v11.9 (Version 11.9.0.4)
 
-Date      :  Sat Apr 20 20:21:12 2019
-Project   :  C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance
+Date      :  Sun Apr 21 19:45:52 2019
+Project   :  C:\Users\mmanceor\Desktop\VisionAssistance
 Component :  TOP
 Family    :  SmartFusion
 
 
 HDL source files for all Synthesis and Simulation tools:
-    C:/Users/mmanceor/Desktop/VisionAssistance/VisionAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v
-    C:/Users/mmanceor/Desktop/VisionAssistance/VisionAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v
-    C:/Users/mmanceor/Desktop/VisionAssistance/VisionAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v
-    C:/Users/mmanceor/Desktop/VisionAssistance/VisionAssistance/component/work/TOP/TOP.v
+    C:/Users/mmanceor/Desktop/VisionAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v
+    C:/Users/mmanceor/Desktop/VisionAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v
+    C:/Users/mmanceor/Desktop/VisionAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v
+    C:/Users/mmanceor/Desktop/VisionAssistance/component/work/TOP/TOP.v
 
 Stimulus files for all Simulation tools:
-    C:/Users/mmanceor/Desktop/VisionAssistance/VisionAssistance/component/work/TOP/subsystem.bfm
+    C:/Users/mmanceor/Desktop/VisionAssistance/component/work/TOP/subsystem.bfm
 

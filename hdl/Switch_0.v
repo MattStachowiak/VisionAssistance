@@ -32,14 +32,14 @@ input PWRITE, // distinguishes read and write cycles
 input [31:0] PADDR, // I/O address
 input wire [31:0] PWDATA, // data from processor to I/O device (32 bits)
 output reg [31:0] PRDATA, // data to processor from I/O device (32-bits)
-input SW[1:0]
+input SW0, SW1
 /*** I/O PORTS DECLARATION ***/
 );
 assign PSLVERR = 0;
 assign PREADY = 1;
 wire [1:0] dbsw;
-Button_Debouncer b0(PCLK, SW[0], dbsw[0]);
-Button_Debouncer b1(PCLK, SW[1], dbsw[1]);
+Button_Debouncer b0(PCLK, SW0, dbsw[0]);
+Button_Debouncer b1(PCLK, SW1, dbsw[1]);
 
 
 //shift debounced switch inputs//

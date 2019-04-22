@@ -11,45 +11,33 @@
     <hdl-type>Verilog</hdl-type>
     <project-description>
     </project-description>
-    <location>C:/Users/mmanceor/Desktop/VisionAssistance/VisionAssistance/component/work/TOP</location>
-    <state>GENERATED ( Sat Apr 20 20:21:12 2019 )</state>
-    <swide-toolchain>SoftConsole workspace generated to C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\SoftConsole</swide-toolchain>
+    <location>C:/Users/mmanceor/Desktop/VisionAssistance/component/work/TOP</location>
+    <state>GENERATED ( Sun Apr 21 19:45:52 2019 )</state>
+    <swide-toolchain>SoftConsole workspace generated to C:\Users\mmanceor\Desktop\VisionAssistance\SoftConsole</swide-toolchain>
   </project-settings>
   <site-map>
   </site-map>
   <fileset>
     <name>HDL File(s)</name>
-    <file>C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v</file>
-    <file>C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v</file>
-    <file>C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v</file>
-    <file>C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v</file>
-    <file>C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\MSS01.v</file>
-    <file>C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v</file>
-    <file>C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\mss_tshell.v</file>
-    <file>C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\TOP\TOP.v</file>
-    <file>C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\hdl\LED.v</file>
-    <file>C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\hdl\sensing.v</file>
-    <file>C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\hdl\Switch_0.v</file>
+    <file>C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v</file>
+    <file>C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v</file>
+    <file>C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v</file>
+    <file>C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v</file>
+    <file>C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\MSS01.v</file>
+    <file>C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v</file>
+    <file>C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\mss_tshell.v</file>
+    <file>C:\Users\mmanceor\Desktop\VisionAssistance\component\work\TOP\TOP.v</file>
+    <file>C:\Users\mmanceor\Desktop\VisionAssistance\hdl\LED.v</file>
+    <file>C:\Users\mmanceor\Desktop\VisionAssistance\hdl\sensing.v</file>
+    <file>C:\Users\mmanceor\Desktop\VisionAssistance\hdl\Switch_0.v</file>
   </fileset>
   <fileset>
     <name>Flash Memory File(s)</name>
-    <file>C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\C:/Users/mmanceor/Desktop/VisionAssistance/VisionAssistance/component/work/MSS01/MSS_ENVM_0/MSS_ENVM_0.efc</file>
+    <file>C:\Users\mmanceor\Desktop\VisionAssistance\component\work\C:/Users/mmanceor/Desktop/VisionAssistance/component/work/MSS01/MSS_ENVM_0/MSS_ENVM_0.efc</file>
   </fileset>
-  <io>
-    <port-name>GPIO_10_BI</port-name>
-    <direction>INOUT</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
   <io>
     <port-name>echo</port-name>
     <direction>IN</direction>
-    <pin-number>-</pin-number>
-    <io-standard>LVTTL</io-standard>
-  </io>
-  <io>
-    <port-name>GPIO_7_OUT</port-name>
-    <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
@@ -60,7 +48,7 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>dbsw</port-name>
+    <port-name>SW0</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -84,7 +72,13 @@
     <io-standard>LVTTL</io-standard>
   </io>
   <io>
-    <port-name>SW</port-name>
+    <port-name>dbsw</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SW1</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -104,6 +98,12 @@
   <io>
     <port-name>UART_0_TXD</port-name>
     <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>SW</port-name>
+    <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
   </io>
@@ -390,7 +390,7 @@ There is one APB3 Master interface.
   <core type="ComponentModule">
     <core-type>ComponentModule</core-type>
     <core-exttype>HierSpiritDesign</core-exttype>
-    <core-location>C:/Users/mmanceor/Desktop/VisionAssistance/VisionAssistance/component/work/MSS01</core-location>
+    <core-location>C:/Users/mmanceor/Desktop/VisionAssistance/component/work/MSS01</core-location>
     <core-name>MSS01_0</core-name>
   </core>
   <core>

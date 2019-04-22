@@ -1,7 +1,7 @@
 KEY IDE_DES_TOOL "Ide"
-KEY IDE_DES_ADB_PATH "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\designer\impl1\MSS01.adb"
+KEY IDE_DES_ADB_PATH "C:\Users\mmanceor\Desktop\VisionAssistance\designer\impl1\MSS01.adb"
 LIST SOURCE_FILES
-VALUE "C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\component\work\MSS01\MSS01.pdc;pdc"
+VALUE "C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\MSS01.pdc;pdc"
 ENDLIST
 LIST OPTIONAL_FILES
 ENDLIST

@@ -89,7 +89,11 @@
         <spirit:right>0</spirit:right>
       </spirit:signal>
       <spirit:signal>
-        <spirit:name>SW</spirit:name>
+        <spirit:name>SW0</spirit:name>
+        <spirit:direction>in</spirit:direction>
+      </spirit:signal>
+      <spirit:signal>
+        <spirit:name>SW1</spirit:name>
         <spirit:direction>in</spirit:direction>
       </spirit:signal>
     </spirit:signals>

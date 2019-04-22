@@ -30,7 +30,7 @@ volatile uint32_t* LED = (uint32_t*)LED_ADDR;
 
 volatile uint32_t* SONIC_READ = (uint32_t*) SONIC_ADDR;
 
-
+int int_count;
 // Function reverses bits in the byte
 uint8_t byte_reverse(uint8_t x)
 {
@@ -52,7 +52,7 @@ uint32_t scale_brightness(int32_t color, float in_dist){
 		scale_factor = 2.17 - 0.332*log(in_dist);
 		if (scale_factor > 1) scale_factor = 1;
 		if (scale_factor < 0) scale_factor = 0;
-		printf("Brightness scaling: %f\r\n", scale_factor);
+		//printf("Brightness scaling: %f\r\n", scale_factor);
 		result = result | (byte_reverse(ind_value*scale_factor) << 8*(i));
 	}
 	//	green_amount = 0xFF - (int)(2.55*in_dist);
@@ -72,11 +72,14 @@ int dist_to_LED(float in_dist){
 }
 
 void GPIO0_IRQHandler (void){
-	printf("Interrupt Happened");
+	printf("Interrupt Happened: %d \r\n", int_count);
+	MSS_GPIO_clear_irq(MSS_GPIO_0);
+	int_count++;
 }
 
 int main()
 {
+	int_count = 0;
 	// Setup
 	LED_reset(LED);
 	// Initialize GPIO for interrupts
@@ -108,7 +111,6 @@ int main()
 
 	while( 1 ) {
 		// gridEYE
-		GPIO0_IRQHandler();
 		gridEYE_read(pixel_addr, pixel_data);
 		get_temps_reversed(pixel_data, temps);
 
@@ -146,8 +148,8 @@ int main()
 //			LED[i] = color;
 //		}
 
-		gridEYE_print(temps);
-		printf("%x\r\n", color);
+		//gridEYE_print(temps);
+		//printf("%x\r\n", color);
 
 	}//while(1)
 	return 0;

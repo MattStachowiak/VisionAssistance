@@ -5,7 +5,7 @@
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
-Date: Sat Apr 20 21:37:46 2019
+Date: Sun Apr 21 19:47:52 2019
 Design Name: TOP  Family: SmartFusion  Die: A2F200M3F  Package: 484 FBGA
 
 
@@ -13,7 +13,7 @@ I/O Function:
 
     Type                                  | w/o register  | w/ register  | w/ DDR register
     --------------------------------------|---------------|--------------|----------------
-    Input I/O                             | 2             | 0            | 0
+    Input I/O                             | 3             | 0            | 0
     Output I/O                            | 2             | 0            | 0
     Bidirectional I/O                     | 0             | 0            | 0
     Differential Input I/O Pairs          | 0             | 0            | 0
@@ -25,7 +25,7 @@ I/O Technology:
     --------------------------------|-------|-------|-------|--------|--------------
     I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
     --------------------------------|-------|-------|-------|--------|--------------
-    LVTTL                           | 3.30v | N/A   | 2     | 2      | 0
+    LVTTL                           | 3.30v | N/A   | 3     | 2      | 0
 
 I/O Bank Resource Usage:
 
@@ -34,11 +34,11 @@ I/O Bank Resource Usage:
           | Vcci  | Vref  | Used | Total | Used  | Total  | Used | Total | Vref Pins
     ------|-------|-------|------|-------|-------|--------|------|-------|----------
     Bank0 | 3.30v | N/A   | 0    | 40    | 0     | 20     | N/A  | N/A   | N/A
-    Bank1 | 3.30v | N/A   | 1    | 28    | 0     | 14     | N/A  | N/A   | N/A
+    Bank1 | 3.30v | N/A   | 3    | 28    | 0     | 14     | N/A  | N/A   | N/A
     Bank2 | MSS   | N/A   | N/A  | N/A   | N/A   | N/A    | N/A  | N/A   | N/A
     Bank3 | ANALOG| N/A   | N/A  | N/A   | N/A   | N/A    | N/A  | N/A   | N/A
     Bank4 | MSS   | N/A   | N/A  | N/A   | N/A   | N/A    | N/A  | N/A   | N/A
-    Bank5 | 3.30v | N/A   | 3    | 26    | 0     | 13     | N/A  | N/A   | N/A
+    Bank5 | 3.30v | N/A   | 2    | 26    | 0     | 13     | N/A  | N/A   | N/A
 
 I/O Voltage Usage:
 
@@ -46,5 +46,5 @@ I/O Voltage Usage:
     -------|-------|------|-------
      Vcci  | Vref  | Used | Total
     -------|-------|------|-------
-     3.30v | N/A   | 4    | 94
+     3.30v | N/A   | 5    | 94
 

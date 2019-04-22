@@ -1,3 +1,1 @@
-@W: MO129 :"c:\users\mmanceor\desktop\visionassistance\visionassistance\hdl\switch_0.v":94:0:94:5|Sequential instance Switch_0_0.b1.sync[0] is reduced to a combinational gate by constant propagation.
-@W: MO129 :"c:\users\mmanceor\desktop\visionassistance\visionassistance\hdl\switch_0.v":94:0:94:5|Sequential instance Switch_0_0.b1.sync[1] is reduced to a combinational gate by constant propagation.
-@W: MT246 :"c:\users\mmanceor\desktop\visionassistance\visionassistance\component\work\mss01\mss01.v":523:7:523:18|Blackbox MSSINT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\mmanceor\desktop\visionassistance\component\work\mss01\mss01.v":477:7:477:18|Blackbox MSSINT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 

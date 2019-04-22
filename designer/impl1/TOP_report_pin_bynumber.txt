@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Sat Apr 20 21:37:48 2019 Pinchecksum: NOT-AVAILABLE
+Pin Report - Date: Sun Apr 21 19:47:54 2019 Pinchecksum: NOT-AVAILABLE
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
@@ -210,7 +210,7 @@ G21                  GCB2/IO24PDB1V0               Special
 G22                  GND                           Reserved
 H1                   EMC_DB[7]/GEB1/IO62PDB5V0     Special
 H2                   VCCFPGAIOB5                   Reserved
-H3      SW           EMC_DB[8]/GEC0/IO63NDB5V0     Special      LVTTL    ---                ---   None           No               ---   ---               No           No
+H3                   EMC_DB[8]/GEC0/IO63NDB5V0     Special
 H4                   GND                           Reserved
 H5                   GFC0/IO66NPB5V0               Special
 H6                   GFA1/IO64PDB5V0               Special
@@ -249,8 +249,8 @@ J16                  GND                           Reserved
 J17                  Not Bonded                    Unconnected
 J18                  VCCFPGAIOB1                   Reserved
 J19     LED          GCA0/IO28NDB1V0               Special      LVTTL    12                 High  None           ---              No    35                No           No
-J20                  GCA1/IO28PDB1V0               Special
-J21                  GCC1/IO26PPB1V0               Special
+J20     SW0          GCA1/IO28PDB1V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
+J21     SW1          GCC1/IO26PPB1V0               Special      LVTTL    ---                ---   None           No               ---   ---               No           No
 J22                  GCB1/IO27PDB1V0               Special
 K1                   GND                           Reserved
 K2                   EMC_DB[0]/GEA2/IO59NDB5V0     Special
@@ -408,7 +408,7 @@ T21                  VCCMSSIOB2                    Reserved
 T22                  GND                           Reserved
 U1                   GND                           Reserved
 U2                   GPIO_5/IO42RSB4V0             Unassigned
-U3      GPIO_10_BI   GPIO_10/IO58RSB4V0            Fixed        LVTTL    8                  High  None           No               No    35                No           Yes
+U3                   GPIO_10/IO58RSB4V0            Unassigned
 U4                   VCCMSSIOB4                    Reserved
 U5                   MAC_RXD[1]/IO53RSB4V0         Unassigned
 U6                   Not Bonded                    Unconnected
@@ -451,7 +451,7 @@ V20                  UART_1_TXD/GPIO_28            Special
 V21                  I2C_0_SDA/GPIO_22             Special
 V22     I2C_1_SDA    I2C_1_SDA/GPIO_30             Special      LVTTL    8                  High  None           No               No    35                No           Yes
 W1                   GPIO_2/IO45RSB4V0             Unassigned
-W2      GPIO_7_OUT   GPIO_7/IO40RSB4V0             Fixed        LVTTL    8                  High  None           ---              No    35                No           Yes
+W2                   GPIO_7/IO40RSB4V0             Unassigned
 W3                   GND                           Reserved
 W4                   MAC_CRSDV/IO51RSB4V0          Unassigned
 W5                   MAC_TXD[1]/IO55RSB4V0         Unassigned

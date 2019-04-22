@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Sat Apr 20 20:20:49 2019
+// Created by SmartDesign Sun Apr 21 19:45:33 2019
 // Version: v11.9 11.9.0.4
 //////////////////////////////////////////////////////////////////////
 
@@ -17,7 +17,6 @@ module MSS01(
     UART_0_RXD,
     // Outputs
     FAB_CLK,
-    GPIO_7_OUT,
     M2F_RESET_N,
     MSSPADDR,
     MSSPENABLE,
@@ -26,7 +25,6 @@ module MSS01(
     MSSPWRITE,
     UART_0_TXD,
     // Inouts
-    GPIO_10_BI,
     I2C_1_SCL,
     I2C_1_SDA
 );
@@ -45,7 +43,6 @@ input         UART_0_RXD;
 // Output
 //--------------------------------------------------------------------
 output        FAB_CLK;
-output        GPIO_7_OUT;
 output        M2F_RESET_N;
 output [19:0] MSSPADDR;
 output        MSSPENABLE;
@@ -56,72 +53,62 @@ output        UART_0_TXD;
 //--------------------------------------------------------------------
 // Inout
 //--------------------------------------------------------------------
-inout         GPIO_10_BI;
 inout         I2C_1_SCL;
 inout         I2C_1_SDA;
 //--------------------------------------------------------------------
 // Nets
 //--------------------------------------------------------------------
-wire           F2M_GPI_0;
-wire           F2M_GPI_1;
-wire           GPIO_7_OUT_net_0;
-wire           GPIO_10_BI;
-wire           I2C_1_SCL;
-wire           I2C_1_SDA;
-wire           MSS_ADLIB_INST_EMCCLK;
-wire           MSS_ADLIB_INST_FCLK;
-wire           MSS_ADLIB_INST_MACCLK;
-wire           MSS_ADLIB_INST_MACCLKCCC;
-wire           MSS_ADLIB_INST_PLLLOCK;
-wire           MSS_ADLIB_INST_SYNCCLKFDBK;
-wire   [7:7]   MSS_GPIO_0_GPIO_7_OUT_D;
-wire   [10:10] MSS_GPIO_0_GPIO_10_BI_D;
-wire   [10:10] MSS_GPIO_0_GPIO_10_BI_E;
-wire           MSS_GPIO_0_GPIO_10_BI_Y;
-wire           MSS_I2C_1_SCL_E;
-wire           MSS_I2C_1_SCL_Y;
-wire           MSS_I2C_1_SDA_E;
-wire           MSS_I2C_1_SDA_Y;
-wire           MSS_RESET_0_MSS_RESET_N_Y;
-wire           MSS_RESET_N;
-wire           MSS_UART_0_RXD_Y;
-wire           MSS_UART_0_TXD_D;
-wire           MSSINT_GPI_0_Y;
-wire           MSSINT_GPI_1_Y;
-wire           net_71;
-wire   [19:0]  net_72_PADDR;
-wire           net_72_PENABLE;
-wire   [31:0]  MSSPRDATA;
-wire           MSSPREADY;
-wire           net_72_PSELx;
-wire           MSSPSLVERR;
-wire   [31:0]  net_72_PWDATA;
-wire           net_72_PWRITE;
-wire           UART_0_RXD;
-wire           UART_0_TXD_net_0;
-wire           MSS_ADLIB_INST_SYNCCLKFDBK_net_0;
-wire           net_72_PSELx_net_0;
-wire           net_72_PENABLE_net_0;
-wire           net_72_PWRITE_net_0;
-wire           net_71_net_0;
-wire   [19:0]  net_72_PADDR_net_0;
-wire   [31:0]  net_72_PWDATA_net_0;
-wire           UART_0_TXD_net_1;
-wire           GPIO_7_OUT_net_1;
-wire   [31:0]  GPI_net_0;
-wire   [31:0]  GPO_net_0;
-wire   [31:0]  GPOE_net_0;
+wire          F2M_GPI_0;
+wire          F2M_GPI_1;
+wire          I2C_1_SCL;
+wire          I2C_1_SDA;
+wire          MSS_ADLIB_INST_EMCCLK;
+wire          MSS_ADLIB_INST_FCLK;
+wire          MSS_ADLIB_INST_MACCLK;
+wire          MSS_ADLIB_INST_MACCLKCCC;
+wire          MSS_ADLIB_INST_PLLLOCK;
+wire          MSS_ADLIB_INST_SYNCCLKFDBK;
+wire          MSS_I2C_1_SCL_E;
+wire          MSS_I2C_1_SCL_Y;
+wire          MSS_I2C_1_SDA_E;
+wire          MSS_I2C_1_SDA_Y;
+wire          MSS_RESET_0_MSS_RESET_N_Y;
+wire          MSS_RESET_N;
+wire          MSS_UART_0_RXD_Y;
+wire          MSS_UART_0_TXD_D;
+wire          MSSINT_GPI_0_Y;
+wire          MSSINT_GPI_1_Y;
+wire          net_71;
+wire   [19:0] net_72_PADDR;
+wire          net_72_PENABLE;
+wire   [31:0] MSSPRDATA;
+wire          MSSPREADY;
+wire          net_72_PSELx;
+wire          MSSPSLVERR;
+wire   [31:0] net_72_PWDATA;
+wire          net_72_PWRITE;
+wire          UART_0_RXD;
+wire          UART_0_TXD_net_0;
+wire          MSS_ADLIB_INST_SYNCCLKFDBK_net_0;
+wire          net_72_PSELx_net_0;
+wire          net_72_PENABLE_net_0;
+wire          net_72_PWRITE_net_0;
+wire          net_71_net_0;
+wire   [19:0] net_72_PADDR_net_0;
+wire   [31:0] net_72_PWDATA_net_0;
+wire          UART_0_TXD_net_1;
+wire   [31:0] GPI_net_0;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
-wire           GND_net;
-wire           VCC_net;
-wire   [1:0]   DMAREADY_const_net_0;
-wire   [1:0]   MACF2MRXD_const_net_0;
-wire   [1:0]   MACRXD_const_net_0;
-wire   [15:0]  EMCRDB_const_net_0;
-wire   [31:0]  FABPADDR_const_net_0;
-wire   [31:0]  FABPWDATA_const_net_0;
+wire          GND_net;
+wire          VCC_net;
+wire   [1:0]  DMAREADY_const_net_0;
+wire   [1:0]  MACF2MRXD_const_net_0;
+wire   [1:0]  MACRXD_const_net_0;
+wire   [15:0] EMCRDB_const_net_0;
+wire   [31:0] FABPADDR_const_net_0;
+wire   [31:0] FABPWDATA_const_net_0;
 //--------------------------------------------------------------------
 // Constant assignments
 //--------------------------------------------------------------------
@@ -152,18 +139,10 @@ assign net_72_PWDATA_net_0              = net_72_PWDATA;
 assign MSSPWDATA[31:0]                  = net_72_PWDATA_net_0;
 assign UART_0_TXD_net_1                 = UART_0_TXD_net_0;
 assign UART_0_TXD                       = UART_0_TXD_net_1;
-assign GPIO_7_OUT_net_1                 = GPIO_7_OUT_net_0;
-assign GPIO_7_OUT                       = GPIO_7_OUT_net_1;
-//--------------------------------------------------------------------
-// Slices assignments
-//--------------------------------------------------------------------
-assign MSS_GPIO_0_GPIO_7_OUT_D[7]  = GPO_net_0[7:7];
-assign MSS_GPIO_0_GPIO_10_BI_D[10] = GPO_net_0[10:10];
-assign MSS_GPIO_0_GPIO_10_BI_E[10] = GPOE_net_0[10:10];
 //--------------------------------------------------------------------
 // Concatenation assignments
 //--------------------------------------------------------------------
-assign GPI_net_0 = { 21'h000000 , MSS_GPIO_0_GPIO_10_BI_Y , 8'h00 , MSSINT_GPI_1_Y , MSSINT_GPI_0_Y };
+assign GPI_net_0 = { 30'h00000000 , MSSINT_GPI_1_Y , MSSINT_GPI_0_Y };
 //--------------------------------------------------------------------
 // Component instances
 //--------------------------------------------------------------------
@@ -312,7 +291,7 @@ MSS_ADLIB_INST(
         .DEEPSLEEP      (  ),
         .SLEEP          (  ),
         .TXEV           (  ),
-        .GPO            ( GPO_net_0 ),
+        .GPO            (  ),
         .UART0RTSn      (  ),
         .UART0DTRn      (  ),
         .UART1RTSn      (  ),
@@ -354,7 +333,7 @@ MSS_ADLIB_INST(
         .PUFABn         (  ),
         .VCC15GOOD      (  ),
         .VCC33GOOD      (  ),
-        .GPOE           ( GPOE_net_0 ),
+        .GPOE           (  ),
         .SPI0DO         (  ),
         .SPI0DOE        (  ),
         .SPI0CLKO       (  ),
@@ -425,31 +404,6 @@ MSS01_tmp_MSS_CCC_0_MSS_CCC MSS_CCC_0(
         .MSS_LOCK       ( MSS_ADLIB_INST_PLLLOCK ),
         .MAC_CLK_CCC    ( MSS_ADLIB_INST_MACCLKCCC ),
         .MAC_CLK_IO     ( MSS_ADLIB_INST_MACCLK ) 
-        );
-
-//--------OUTBUF_MSS
-OUTBUF_MSS #( 
-        .ACT_CONFIG ( 0 ),
-        .ACT_PIN    ( "W2" ) )
-MSS_GPIO_0_GPIO_7_OUT(
-        // Inputs
-        .D   ( MSS_GPIO_0_GPIO_7_OUT_D ),
-        // Outputs
-        .PAD ( GPIO_7_OUT_net_0 ) 
-        );
-
-//--------BIBUF_MSS
-BIBUF_MSS #( 
-        .ACT_CONFIG ( 0 ),
-        .ACT_PIN    ( "U3" ) )
-MSS_GPIO_0_GPIO_10_BI(
-        // Inputs
-        .D   ( MSS_GPIO_0_GPIO_10_BI_D ),
-        .E   ( MSS_GPIO_0_GPIO_10_BI_E ),
-        // Outputs
-        .Y   ( MSS_GPIO_0_GPIO_10_BI_Y ),
-        // Inouts
-        .PAD ( GPIO_10_BI ) 
         );
 
 //--------BIBUF_OPEND_MSS

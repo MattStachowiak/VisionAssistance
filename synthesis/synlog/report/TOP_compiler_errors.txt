@@ -1,2 +1,2 @@
-@E: CS171 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":96:15:96:25|Reversed range
+@E: CS168 :"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\TOP\TOP.v":360:17:360:17|Port SW does not exist
 

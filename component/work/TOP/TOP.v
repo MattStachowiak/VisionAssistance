@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Sat Apr 20 20:21:09 2019
+// Created by SmartDesign Sun Apr 21 19:45:49 2019
 // Version: v11.9 11.9.0.4
 //////////////////////////////////////////////////////////////////////
 
@@ -10,16 +10,16 @@ module TOP(
     // Inputs
     MSS_RESET_N,
     SW,
+    SW0,
+    SW1,
     UART_0_RXD,
     dbsw,
     echo,
     // Outputs
-    GPIO_7_OUT,
     LED,
     UART_0_TXD,
     trigger,
     // Inouts
-    GPIO_10_BI,
     I2C_1_SCL,
     I2C_1_SDA
 );
@@ -29,20 +29,20 @@ module TOP(
 //--------------------------------------------------------------------
 input  MSS_RESET_N;
 input  SW;
+input  SW0;
+input  SW1;
 input  UART_0_RXD;
 input  dbsw;
 input  echo;
 //--------------------------------------------------------------------
 // Output
 //--------------------------------------------------------------------
-output GPIO_7_OUT;
 output LED;
 output UART_0_TXD;
 output trigger;
 //--------------------------------------------------------------------
 // Inout
 //--------------------------------------------------------------------
-inout  GPIO_10_BI;
 inout  I2C_1_SCL;
 inout  I2C_1_SDA;
 //--------------------------------------------------------------------
@@ -66,8 +66,6 @@ wire          CoreAPB3_0_APBmslave2_PSELx;
 wire          CoreAPB3_0_APBmslave2_PSLVERR;
 wire          dbsw;
 wire          echo;
-wire          GPIO_7_OUT_net_0;
-wire          GPIO_10_BI;
 wire          I2C_1_SCL;
 wire          I2C_1_SDA;
 wire          LED_net_0;
@@ -82,6 +80,8 @@ wire   [31:0] MSS01_0_MSS_MASTER_APB_PWDATA;
 wire          MSS01_0_MSS_MASTER_APB_PWRITE;
 wire          MSS_RESET_N;
 wire          SW;
+wire          SW0;
+wire          SW1;
 wire          Switch_0_0_INT0;
 wire          Switch_0_0_INT1;
 wire          trigger_net_0;
@@ -90,7 +90,6 @@ wire          UART_0_TXD_net_0;
 wire          LED_net_1;
 wire          trigger_net_1;
 wire          UART_0_TXD_net_1;
-wire          GPIO_7_OUT_net_1;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
@@ -147,8 +146,6 @@ assign trigger_net_1    = trigger_net_0;
 assign trigger          = trigger_net_1;
 assign UART_0_TXD_net_1 = UART_0_TXD_net_0;
 assign UART_0_TXD       = UART_0_TXD_net_1;
-assign GPIO_7_OUT_net_1 = GPIO_7_OUT_net_0;
-assign GPIO_7_OUT       = GPIO_7_OUT_net_1;
 //--------------------------------------------------------------------
 // Bus Interface Nets Assignments - Unequal Pin Widths
 //--------------------------------------------------------------------
@@ -328,9 +325,9 @@ MSS01 MSS01_0(
         .MSSPREADY   ( MSS01_0_MSS_MASTER_APB_PREADY ),
         .MSSPSLVERR  ( MSS01_0_MSS_MASTER_APB_PSLVERR ),
         .UART_0_RXD  ( UART_0_RXD ),
-        .MSSPRDATA   ( MSS01_0_MSS_MASTER_APB_PRDATA ),
         .F2M_GPI_1   ( Switch_0_0_INT1 ),
         .F2M_GPI_0   ( Switch_0_0_INT0 ),
+        .MSSPRDATA   ( MSS01_0_MSS_MASTER_APB_PRDATA ),
         // Outputs
         .FAB_CLK     ( MSS01_0_FAB_CLK ),
         .MSSPSEL     ( MSS01_0_MSS_MASTER_APB_PSELx ),
@@ -340,11 +337,9 @@ MSS01 MSS01_0(
         .UART_0_TXD  ( UART_0_TXD_net_0 ),
         .MSSPADDR    ( MSS01_0_MSS_MASTER_APB_PADDR ),
         .MSSPWDATA   ( MSS01_0_MSS_MASTER_APB_PWDATA ),
-        .GPIO_7_OUT  ( GPIO_7_OUT_net_0 ),
         // Inouts
         .I2C_1_SCL   ( I2C_1_SCL ),
-        .I2C_1_SDA   ( I2C_1_SDA ),
-        .GPIO_10_BI  ( GPIO_10_BI ) 
+        .I2C_1_SDA   ( I2C_1_SDA ) 
         );
 
 //--------Switch_0
@@ -357,7 +352,8 @@ Switch_0 Switch_0_0(
         .PWRITE  ( CoreAPB3_0_APBmslave0_PWRITE ),
         .PADDR   ( CoreAPB3_0_APBmslave0_PADDR ),
         .PWDATA  ( CoreAPB3_0_APBmslave0_PWDATA ),
-        .SW      ( SW ),
+        .SW0     ( SW0 ),
+        .SW1     ( SW1 ),
         // Outputs
         .PREADY  ( CoreAPB3_0_APBmslave2_PREADY ),
         .PSLVERR ( CoreAPB3_0_APBmslave2_PSLVERR ),

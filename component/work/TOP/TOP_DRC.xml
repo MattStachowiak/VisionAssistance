@@ -9,4 +9,11 @@
     <detail>Floating output pin TOP:dbsw</detail>
     <crossprobe>liberoaction://cross_probe/smartdesign/TOP/pins/TOP:dbsw</crossprobe>
   </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.9\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin TOP:SW</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/TOP/pins/TOP:SW</crossprobe>
+  </drc>
 </drcreport>
