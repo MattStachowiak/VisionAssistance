@@ -135,11 +135,11 @@ int main()
 
 		get_temps_forward(pixel_data, temps);
 
-		/*if(temps[3][3] > 24.00 || temps[4][4] > 24.0)
+		if(temps[3][3] > 24.00 || temps[4][4] > 24.0)
 			color = yellow;
 		else
 			color = green;
-		*/
+
 
 
 
@@ -159,7 +159,7 @@ int main()
 		// Sonic: calculate dist and set brightness
 		uint32_t DATA = *SONIC_READ;
 		cm_dist = data_to_cm(DATA);
-		LED_num = dist_to_LED(cm_dist);
+		//LED_num = dist_to_LED(cm_dist);
 		//color = dist_to_color(cm_dist);
 
 
@@ -173,9 +173,11 @@ int main()
 			else
 				LED[i] = off;
 		}
-//		for (i = 0; i < NUMLEDS; ++i) {
-//			LED[i] = color;
-//		}
+		/*
+		for (i = 0; i < NUMLEDS; ++i) {
+			LED[i] = color;
+		}
+		*/
 
 		//gridEYE_print(temps);
 		//printf("%f\r\n", display_angle);
