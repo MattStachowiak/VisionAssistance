@@ -143,6 +143,24 @@ void get_temps_reversed(uint8_t* data_in, float temps[][8]){
 }//get_temps_reversed()
 
 
+// Function returns the highest temperature in the 8x8 array
+float get_max_temp(float temps[][8]){
+	float current_max = 0;
+
+	int i;
+	int j;
+	for(i = 0; i < 8; ++i){
+		for(j = 0; j < 8; ++j){
+			if (temps[i][j] > current_max){
+				current_max = temps[i][j];
+			}
+		}
+	}
+
+	return current_max;
+}//get_max_temp()
+
+
 // Prints visual interpretation of grideye data to the console
 void gridEYE_print(float temps[8][8]){
 

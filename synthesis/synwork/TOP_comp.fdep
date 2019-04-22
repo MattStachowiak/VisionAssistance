@@ -1,32 +1,32 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\synthesis\\synwork\\TOP_comp.srs|-top|TOP|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\darshin\\Desktop\\vision\\synthesis\\synwork\\TOP_comp.srs|-top|TOP|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\darshin\\Desktop\\vision\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work"
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_ver.exe":1509358336
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\smartfusion.v":1509027488
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\hypermods.v":1509029528
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\umr_capim.v":1509029528
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1509029528
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1509029528
-#CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\hdl\\sensing.v":1555889643
-#CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\hdl\\LED.v":1555889643
-#CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\component\\Actel\\SmartFusionMSS\\MSS\\2.5.200\\mss_comps.v":1536348874
-#CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\component\\work\\MSS01\\MSS_CCC_0\\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":1555890330
-#CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\component\\work\\MSS01\\mss_tshell.v":1555890332
-#CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\component\\work\\MSS01\\MSS01.v":1555890333
-#CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_muxptob3.v":1537386962
-#CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_iaddr_reg.v":1537386962
-#CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3.v":1537386962
-#CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\hdl\\Switch_0.v":1555897182
-#CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\component\\work\\TOP\\TOP.v":1555890349
-0			"C:\Users\mmanceor\Desktop\VisionAssistance\hdl\sensing.v" verilog
-1			"C:\Users\mmanceor\Desktop\VisionAssistance\hdl\LED.v" verilog
-2			"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v" verilog
-3			"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v" verilog
-4			"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\mss_tshell.v" verilog
-5			"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\MSS01.v" verilog
-6			"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" verilog
-7			"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" verilog
-8			"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" verilog
-9			"C:\Users\mmanceor\Desktop\VisionAssistance\hdl\Switch_0.v" verilog
-10			"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\TOP\TOP.v" verilog
+#CUR:"C:\\Users\\darshin\\Desktop\\vision\\hdl\\sensing.v":1555966630
+#CUR:"C:\\Users\\darshin\\Desktop\\vision\\hdl\\LED.v":1555966630
+#CUR:"C:\\Users\\darshin\\Desktop\\vision\\component\\Actel\\SmartFusionMSS\\MSS\\2.5.200\\mss_comps.v":1555966630
+#CUR:"C:\\Users\\darshin\\Desktop\\vision\\component\\work\\MSS01\\MSS_CCC_0\\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":1555966630
+#CUR:"C:\\Users\\darshin\\Desktop\\vision\\component\\work\\MSS01\\mss_tshell.v":1555966630
+#CUR:"C:\\Users\\darshin\\Desktop\\vision\\component\\work\\MSS01\\MSS01.v":1555966630
+#CUR:"C:\\Users\\darshin\\Desktop\\vision\\hdl\\Switch_0.v":1555966630
+#CUR:"C:\\Users\\darshin\\Desktop\\vision\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_muxptob3.v":1555966630
+#CUR:"C:\\Users\\darshin\\Desktop\\vision\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_iaddr_reg.v":1555966630
+#CUR:"C:\\Users\\darshin\\Desktop\\vision\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3.v":1555966630
+#CUR:"C:\\Users\\darshin\\Desktop\\vision\\component\\work\\TOP\\TOP.v":1555966630
+0			"C:\Users\darshin\Desktop\vision\hdl\sensing.v" verilog
+1			"C:\Users\darshin\Desktop\vision\hdl\LED.v" verilog
+2			"C:\Users\darshin\Desktop\vision\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v" verilog
+3			"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v" verilog
+4			"C:\Users\darshin\Desktop\vision\component\work\MSS01\mss_tshell.v" verilog
+5			"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS01.v" verilog
+6			"C:\Users\darshin\Desktop\vision\hdl\Switch_0.v" verilog
+7			"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" verilog
+8			"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" verilog
+9			"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" verilog
+10			"C:\Users\darshin\Desktop\vision\component\work\TOP\TOP.v" verilog
 #Dependency Lists(Uses List)
 0 -1
 1 -1
@@ -36,9 +36,9 @@
 5 2 4 3
 6 -1
 7 -1
-8 7 6
-9 -1
-10 9 5 1 0 8
+8 -1
+9 8 7
+10 6 5 1 0 9
 #Dependency Lists(Users Of)
 0 10
 1 10
@@ -46,18 +46,18 @@
 3 5
 4 5
 5 10
-6 8
-7 8
-8 10
+6 10
+7 9
+8 9
 9 10
 10 -1
 #Design Unit to File Association
-module COREAPB3_LIB CoreAPB3 8
-module COREAPB3_LIB CAPB3O 7
-module COREAPB3_LIB CAPB3II 6
+module COREAPB3_LIB CoreAPB3 9
+module COREAPB3_LIB CAPB3O 8
+module COREAPB3_LIB CAPB3II 7
 module work TOP 10
-module work Switch_0 9
-module work Button_Debouncer 9
+module work Switch_0 6
+module work Button_Debouncer 6
 module work MSS01 5
 module work MSS_APB 4
 module work MSS01_tmp_MSS_CCC_0_MSS_CCC 3

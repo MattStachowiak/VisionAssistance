@@ -17,6 +17,8 @@
 #define DISPLAY_POINT_WIDTH 2 // num of LEDs to light up at a time
 #define NO_LED -1000
 
+enum Mode {STANDARD, SPECTRUM, COMPASS}current_mode;
+
 /*
     Authored by:
     Darshin Patel
@@ -27,12 +29,17 @@
 
 //--- Global Variables ---
 volatile uint32_t* LED = (uint32_t*)LED_ADDR;
+uint32_t color;
 
 volatile uint32_t* SONIC_READ = (uint32_t*) SONIC_ADDR;
+float cm_dist;
 
 double IMU_offset;
 double IMU_temp_offset;
 int8_t set_heading_baseline = 1;
+
+
+
 
 int int_count;
 // Function reverses bits in the byte
@@ -114,8 +121,7 @@ int main()
 
 
 	// Loop variables
-	float cm_dist = 0;
-	uint32_t color = 0;
+
 	int LED_num = 0;
 	int i = 0;
 	double display_angle;
@@ -125,17 +131,23 @@ int main()
 	while( 1 ) {
 		// Hold off interrupts during I2C communication
 		NVIC_DisableIRQ(32);
+		NVIC_DisableIRQ(33);
 		gridEYE_read(pixel_addr, pixel_data);
 		display_angle = calc_display_angle(GLASSES_IMU_ADDR, WAND_IMU_ADDR, set_heading_baseline) - IMU_offset;
 		IMU_temp_offset = display_angle + IMU_offset;
+
+
 		//Testing
 		t1 = read_heading_BNO055(GLASSES_IMU_ADDR);
 		t2 = read_heading_BNO055(WAND_IMU_ADDR);
 		NVIC_EnableIRQ(32);
+		NVIC_EnableIRQ(33);
 
 		get_temps_forward(pixel_data, temps);
 
-		if(temps[3][3] > 24.00 || temps[4][4] > 24.0)
+		if(get_max_temp(temps) > 42.00)
+			color = red;
+		else if((temps[3][3] > 26.00 || temps[4][4] > 26.00) && (temps[3][3] < 35.00 || temps[4][4] < 35.00))
 			color = yellow;
 		else
 			color = green;
@@ -179,7 +191,7 @@ int main()
 		}
 		*/
 
-		//gridEYE_print(temps);
+		gridEYE_print(temps);
 		//printf("%f\r\n", display_angle);
 
 	}//while(1)
