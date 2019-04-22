@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: EECS373-09
 
-# Mon Apr 22 16:58:46 2019
+# Mon Apr 22 18:56:39 2019
 
 #Implementation: synthesis
 
@@ -20,24 +20,24 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
 @I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
 @I::"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
-@I::"C:\Users\darshin\Desktop\vision\hdl\sensing.v" (library work)
-@I::"C:\Users\darshin\Desktop\vision\hdl\LED.v" (library work)
-@I::"C:\Users\darshin\Desktop\vision\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v" (library work)
-@I::"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v" (library work)
-@I::"C:\Users\darshin\Desktop\vision\component\work\MSS01\mss_tshell.v" (library work)
-@I::"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS01.v" (library work)
-@I::"C:\Users\darshin\Desktop\vision\hdl\Switch_0.v" (library work)
-@I::"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" (library COREAPB3_LIB)
-@I::"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
-@I::"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" (library COREAPB3_LIB)
-@I::"C:\Users\darshin\Desktop\vision\component\work\TOP\TOP.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\mss_tshell.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS01.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\Switch_0.v" (library work)
+@I::"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" (library COREAPB3_LIB)
+@I::"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
+@I::"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" (library COREAPB3_LIB)
+@I::"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\TOP\TOP.v" (library work)
 Verilog syntax check successful!
 Options changed - recompiling
 Selecting top level module TOP
-@W: CG775 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
-@N: CG364 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:6|Synthesizing module CAPB3II in library COREAPB3_LIB.
+@W: CG775 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:6|Synthesizing module CAPB3II in library COREAPB3_LIB.
 
-@N: CG364 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
 
 	APB_DWIDTH=6'b100000
 	IADDR_OPTION=32'b00000000000000000000000000000000
@@ -115,440 +115,440 @@ Selecting top level module TOP
 	CAPB3lI1=16'b0000000000000000
    Generated name = CoreAPB3_Z1
 
-@W: CG360 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":1495:0:1495:8|Removing wire CAPB3IlOI, as there is no assignment to it.
-@N: CG364 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":29:7:29:20|Synthesizing module DistanceSensor in library work.
+@W: CG360 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":1495:0:1495:8|Removing wire CAPB3IlOI, as there is no assignment to it.
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":29:7:29:20|Synthesizing module DistanceSensor in library work.
 
-@W: CG133 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":52:8:52:17|Object is_reading is declared but not assigned. Either assign a value or remove the declaration.
-@N: CG364 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":1:7:1:17|Synthesizing module LED_VERILOG in library work.
+@W: CG133 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":52:8:52:17|Object is_reading is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":1:7:1:17|Synthesizing module LED_VERILOG in library work.
 
-@W: CG133 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":12:18:12:23|Object PRDATA is declared but not assigned. Either assign a value or remove the declaration.
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 576 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 577 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 578 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 579 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 580 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 581 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 582 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 583 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 584 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 585 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 586 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 587 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 588 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 589 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 590 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 591 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 592 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 593 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 594 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 595 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 596 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 597 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 598 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 599 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 600 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 601 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 602 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 603 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 604 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 605 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 606 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 607 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 608 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 609 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 610 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 611 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 612 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 613 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 614 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 615 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 616 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 617 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 618 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 619 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 620 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 621 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 622 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 623 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 624 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 625 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 626 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 627 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 628 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 629 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 630 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 631 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 632 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 633 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 634 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 635 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 636 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 637 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 638 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 639 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 640 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 641 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 642 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 643 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 644 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 645 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 646 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 647 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 648 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 649 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 650 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 651 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 652 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 653 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 654 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 655 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 656 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 657 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 658 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 659 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 660 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 661 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 662 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 663 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 664 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 665 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 666 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 667 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 668 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 669 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 670 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 671 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 672 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 673 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 674 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 675 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 676 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 677 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 678 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 679 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 680 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 681 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 682 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 683 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 684 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 685 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 686 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 687 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 688 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 689 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 690 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 691 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 692 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 693 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 694 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 695 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 696 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 697 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 698 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 699 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 700 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 701 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 702 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 703 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 704 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 705 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 706 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 707 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 708 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 709 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 710 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 711 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 712 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 713 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 714 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 715 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 716 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 717 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 718 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 719 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 720 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 721 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 722 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 723 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 724 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 725 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 726 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 727 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 728 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 729 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 730 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 731 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 732 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 733 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 734 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 735 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 736 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 737 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 738 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 739 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 740 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 741 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 742 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 743 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 744 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 745 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 746 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 747 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 748 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 749 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 750 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 751 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 752 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 753 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 754 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 755 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 756 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 757 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 758 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 759 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 760 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 761 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 762 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 763 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 764 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 765 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 766 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 767 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 768 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 769 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 770 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 771 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 772 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 773 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 774 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 775 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 776 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 777 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 778 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 779 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 780 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 781 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 782 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 783 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 784 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 785 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 786 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 787 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 788 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 789 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 790 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 791 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 792 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 793 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 794 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 795 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 796 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 797 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 798 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 799 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 800 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 801 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 802 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 803 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 804 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 805 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 806 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 807 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 808 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 809 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 810 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 811 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 812 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 813 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 814 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 815 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 816 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 817 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 818 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 819 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 820 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 821 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 822 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 823 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 824 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 825 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 826 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 827 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 828 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 829 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 830 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 831 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 832 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 833 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 834 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 835 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 836 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 837 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 838 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 839 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 840 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 841 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 842 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 843 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 844 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 845 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 846 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 847 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 848 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 849 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 850 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 851 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 852 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 853 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 854 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 855 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 856 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 857 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 858 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 859 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 860 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 861 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 862 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 863 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 864 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 865 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 866 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 867 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 868 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 869 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 870 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 871 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 872 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 873 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 874 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 875 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 876 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 877 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 878 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 879 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 880 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 881 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 882 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 883 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 884 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 885 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 886 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 887 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 888 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 889 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 890 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 891 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 892 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 893 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 894 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 895 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 896 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 897 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 898 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 899 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 900 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 901 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 902 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 903 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 904 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 905 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 906 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 907 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 908 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 909 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 910 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 911 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 912 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 913 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 914 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 915 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 916 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 917 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 918 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 919 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 920 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 921 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 922 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 923 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 924 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 925 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 926 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 927 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 928 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 929 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 930 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 931 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 932 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 933 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 934 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 935 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 936 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 937 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 938 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 939 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 940 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 941 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 942 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 943 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 944 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 945 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 946 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 947 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 948 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 949 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 950 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 951 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 952 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 953 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 954 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 955 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 956 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 957 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 958 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 959 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 960 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 961 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 962 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 963 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 964 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 965 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 966 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 967 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 968 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 969 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 970 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 971 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 972 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 973 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 974 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 975 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 976 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 977 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 978 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 979 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 980 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 981 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 982 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 983 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 984 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 985 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 986 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 987 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 988 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 989 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 990 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 991 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 992 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 993 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 994 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 995 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 996 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 997 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 998 of color
-@W: CG134 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":18:11:18:15|No assignment to bit 999 of color
-@N: CG364 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\mss_tshell.v":1:7:1:13|Synthesizing module MSS_APB in library work.
+@W: CG133 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":12:18:12:23|Object PRDATA is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 576 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 577 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 578 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 579 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 580 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 581 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 582 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 583 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 584 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 585 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 586 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 587 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 588 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 589 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 590 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 591 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 592 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 593 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 594 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 595 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 596 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 597 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 598 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 599 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 600 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 601 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 602 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 603 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 604 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 605 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 606 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 607 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 608 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 609 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 610 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 611 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 612 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 613 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 614 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 615 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 616 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 617 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 618 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 619 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 620 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 621 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 622 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 623 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 624 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 625 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 626 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 627 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 628 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 629 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 630 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 631 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 632 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 633 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 634 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 635 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 636 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 637 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 638 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 639 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 640 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 641 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 642 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 643 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 644 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 645 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 646 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 647 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 648 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 649 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 650 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 651 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 652 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 653 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 654 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 655 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 656 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 657 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 658 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 659 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 660 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 661 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 662 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 663 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 664 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 665 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 666 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 667 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 668 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 669 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 670 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 671 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 672 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 673 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 674 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 675 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 676 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 677 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 678 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 679 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 680 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 681 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 682 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 683 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 684 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 685 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 686 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 687 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 688 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 689 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 690 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 691 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 692 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 693 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 694 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 695 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 696 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 697 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 698 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 699 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 700 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 701 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 702 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 703 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 704 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 705 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 706 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 707 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 708 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 709 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 710 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 711 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 712 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 713 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 714 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 715 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 716 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 717 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 718 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 719 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 720 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 721 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 722 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 723 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 724 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 725 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 726 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 727 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 728 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 729 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 730 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 731 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 732 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 733 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 734 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 735 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 736 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 737 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 738 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 739 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 740 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 741 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 742 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 743 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 744 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 745 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 746 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 747 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 748 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 749 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 750 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 751 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 752 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 753 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 754 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 755 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 756 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 757 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 758 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 759 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 760 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 761 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 762 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 763 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 764 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 765 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 766 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 767 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 768 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 769 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 770 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 771 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 772 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 773 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 774 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 775 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 776 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 777 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 778 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 779 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 780 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 781 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 782 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 783 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 784 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 785 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 786 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 787 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 788 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 789 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 790 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 791 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 792 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 793 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 794 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 795 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 796 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 797 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 798 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 799 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 800 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 801 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 802 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 803 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 804 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 805 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 806 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 807 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 808 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 809 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 810 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 811 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 812 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 813 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 814 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 815 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 816 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 817 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 818 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 819 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 820 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 821 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 822 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 823 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 824 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 825 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 826 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 827 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 828 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 829 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 830 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 831 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 832 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 833 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 834 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 835 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 836 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 837 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 838 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 839 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 840 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 841 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 842 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 843 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 844 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 845 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 846 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 847 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 848 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 849 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 850 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 851 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 852 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 853 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 854 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 855 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 856 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 857 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 858 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 859 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 860 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 861 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 862 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 863 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 864 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 865 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 866 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 867 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 868 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 869 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 870 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 871 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 872 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 873 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 874 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 875 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 876 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 877 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 878 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 879 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 880 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 881 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 882 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 883 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 884 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 885 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 886 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 887 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 888 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 889 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 890 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 891 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 892 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 893 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 894 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 895 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 896 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 897 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 898 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 899 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 900 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 901 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 902 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 903 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 904 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 905 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 906 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 907 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 908 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 909 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 910 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 911 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 912 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 913 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 914 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 915 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 916 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 917 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 918 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 919 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 920 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 921 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 922 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 923 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 924 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 925 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 926 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 927 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 928 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 929 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 930 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 931 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 932 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 933 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 934 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 935 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 936 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 937 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 938 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 939 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 940 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 941 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 942 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 943 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 944 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 945 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 946 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 947 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 948 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 949 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 950 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 951 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 952 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 953 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 954 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 955 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 956 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 957 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 958 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 959 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 960 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 961 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 962 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 963 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 964 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 965 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 966 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 967 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 968 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 969 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 970 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 971 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 972 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 973 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 974 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 975 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 976 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 977 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 978 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 979 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 980 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 981 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 982 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 983 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 984 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 985 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 986 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 987 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 988 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 989 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 990 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 991 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 992 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 993 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 994 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 995 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 996 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 997 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 998 of color
+@W: CG134 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":18:11:18:15|No assignment to bit 999 of color
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\mss_tshell.v":1:7:1:13|Synthesizing module MSS_APB in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\vision\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":151:7:151:13|Synthesizing module MSS_CCC in library work.
 
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v":2620:7:2620:11|Synthesizing module RCOSC in library work.
 
@@ -556,132 +556,132 @@ Selecting top level module TOP
 
 @N: CG364 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\smartfusion.v":1868:7:1868:9|Synthesizing module VCC in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:33|Synthesizing module MSS01_tmp_MSS_CCC_0_MSS_CCC in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":5:7:5:33|Synthesizing module MSS01_tmp_MSS_CCC_0_MSS_CCC in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\vision\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":85:7:85:21|Synthesizing module BIBUF_OPEND_MSS in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":85:7:85:21|Synthesizing module BIBUF_OPEND_MSS in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\vision\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":23:7:23:15|Synthesizing module INBUF_MSS in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\vision\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":37:7:37:16|Synthesizing module OUTBUF_MSS in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\vision\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":145:7:145:12|Synthesizing module MSSINT in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v":145:7:145:12|Synthesizing module MSSINT in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS01.v":9:7:9:11|Synthesizing module MSS01 in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS01.v":9:7:9:11|Synthesizing module MSS01 in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\vision\hdl\Switch_0.v":85:7:85:22|Synthesizing module Button_Debouncer in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\Switch_0.v":85:7:85:22|Synthesizing module Button_Debouncer in library work.
 
-@N: CG364 :"C:\Users\darshin\Desktop\vision\hdl\Switch_0.v":21:7:21:14|Synthesizing module Switch_0 in library work.
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\Switch_0.v":21:7:21:14|Synthesizing module Switch_0 in library work.
 
-@W: CG133 :"C:\Users\darshin\Desktop\vision\hdl\Switch_0.v":34:18:34:23|Object PRDATA is declared but not assigned. Either assign a value or remove the declaration.
-@N: CG364 :"C:\Users\darshin\Desktop\vision\component\work\TOP\TOP.v":9:7:9:9|Synthesizing module TOP in library work.
+@W: CG133 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\Switch_0.v":34:18:34:23|Object PRDATA is declared but not assigned. Either assign a value or remove the declaration.
+@N: CG364 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\TOP\TOP.v":9:7:9:9|Synthesizing module TOP in library work.
 
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\TOP\TOP.v":31:7:31:8|Input SW is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\TOP\TOP.v":35:7:35:10|Input dbsw is unused.
-@A: CL153 :"C:\Users\darshin\Desktop\vision\hdl\Switch_0.v":34:18:34:23|*Unassigned bits of PRDATA[31:0] are referenced and tied to 0 -- simulation mismatch possible.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\hdl\Switch_0.v":25:6:25:9|Input PSEL is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\hdl\Switch_0.v":26:6:26:12|Input PENABLE is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\hdl\Switch_0.v":31:6:31:11|Input PWRITE is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\hdl\Switch_0.v":32:13:32:17|Input PADDR is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\hdl\Switch_0.v":33:18:33:23|Input PWDATA is unused.
-@W: CL157 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@W: CL157 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":36:7:36:10|Input CLKA is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":37:7:37:14|Input CLKA_PAD is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":38:7:38:15|Input CLKA_PADP is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":39:7:39:15|Input CLKA_PADN is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":40:7:40:10|Input CLKB is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":41:7:41:14|Input CLKB_PAD is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":42:7:42:15|Input CLKB_PADP is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":43:7:43:15|Input CLKB_PADN is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":44:7:44:10|Input CLKC is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":45:7:45:14|Input CLKC_PAD is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":46:7:46:15|Input CLKC_PADP is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":47:7:47:15|Input CLKC_PADN is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":48:7:48:13|Input MAINXIN is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":49:7:49:11|Input LPXIN is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":50:7:50:13|Input MAC_CLK is unused.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":24:0:24:5|Register bit data_counter[20] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":24:0:24:5|Register bit data_counter[21] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":24:0:24:5|Register bit data_counter[22] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":24:0:24:5|Register bit data_counter[23] is always 0.
-@W: CL279 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":24:0:24:5|Pruning register bits 23 to 20 of data_counter[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL246 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":10:13:10:17|Input port bits 31 to 7 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":10:13:10:17|Input port bits 1 to 0 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":11:18:11:23|Input port bits 31 to 24 of PWDATA[31:0] are unused. Assign logic for all port bits or change the input port size.
-@A: CL153 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":12:18:12:23|*Unassigned bits of PRDATA[31:0] are referenced and tied to 0 -- simulation mismatch possible.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\hdl\LED.v":4:6:4:12|Input PRESERN is unused.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Register bit count[17] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Register bit count[18] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Register bit count[19] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Register bit count[20] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Register bit count[21] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Register bit count[22] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Register bit count[23] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Register bit count[24] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Register bit count[25] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Register bit count[26] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Register bit count[27] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Register bit count[28] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Register bit count[29] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Register bit count[30] is always 0.
-@N: CL189 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Register bit count[31] is always 0.
-@W: CL279 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":58:4:58:9|Pruning register bits 31 to 17 of count[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":31:10:31:16|Input PRESERN is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":33:10:33:13|Input PSEL is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":34:10:34:16|Input PENABLE is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":37:10:37:15|Input PWRITE is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":38:17:38:21|Input PADDR is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\hdl\sensing.v":39:22:39:27|Input PWDATA is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":396:0:396:4|Input IADDR is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":398:0:398:6|Input PRESETN is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":400:0:400:3|Input PCLK is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":535:0:535:7|Input PRDATAS3 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":542:0:542:7|Input PRDATAS4 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":549:0:549:7|Input PRDATAS5 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":556:0:556:7|Input PRDATAS6 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":563:0:563:7|Input PRDATAS7 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":570:0:570:7|Input PRDATAS8 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":577:0:577:7|Input PRDATAS9 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":584:0:584:8|Input PRDATAS10 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":591:0:591:8|Input PRDATAS11 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":598:0:598:8|Input PRDATAS12 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":605:0:605:8|Input PRDATAS13 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":612:0:612:8|Input PRDATAS14 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":619:0:619:8|Input PRDATAS15 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":634:0:634:7|Input PREADYS3 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":636:0:636:7|Input PREADYS4 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":638:0:638:7|Input PREADYS5 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":640:0:640:7|Input PREADYS6 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":642:0:642:7|Input PREADYS7 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":644:0:644:7|Input PREADYS8 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":646:0:646:7|Input PREADYS9 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":648:0:648:8|Input PREADYS10 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":650:0:650:8|Input PREADYS11 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":652:0:652:8|Input PREADYS12 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":654:0:654:8|Input PREADYS13 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":656:0:656:8|Input PREADYS14 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":658:0:658:8|Input PREADYS15 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":668:0:668:8|Input PSLVERRS3 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":670:0:670:8|Input PSLVERRS4 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":672:0:672:8|Input PSLVERRS5 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":674:0:674:8|Input PSLVERRS6 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":676:0:676:8|Input PSLVERRS7 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":678:0:678:8|Input PSLVERRS8 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":680:0:680:8|Input PSLVERRS9 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":682:0:682:9|Input PSLVERRS10 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":684:0:684:9|Input PSLVERRS11 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":686:0:686:9|Input PSLVERRS12 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":688:0:688:9|Input PSLVERRS13 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":690:0:690:9|Input PSLVERRS14 is unused.
-@N: CL159 :"C:\Users\darshin\Desktop\vision\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":692:0:692:9|Input PSLVERRS15 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\TOP\TOP.v":31:7:31:8|Input SW is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\TOP\TOP.v":35:7:35:10|Input dbsw is unused.
+@A: CL153 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\Switch_0.v":34:18:34:23|*Unassigned bits of PRDATA[31:0] are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\Switch_0.v":25:6:25:9|Input PSEL is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\Switch_0.v":26:6:26:12|Input PENABLE is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\Switch_0.v":31:6:31:11|Input PWRITE is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\Switch_0.v":32:13:32:17|Input PADDR is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\Switch_0.v":33:18:33:23|Input PWDATA is unused.
+@W: CL157 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":62:7:62:18|*Output RCOSC_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":63:7:63:20|*Output MAINXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":64:7:64:18|*Output LPXIN_CLKOUT has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":36:7:36:10|Input CLKA is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":37:7:37:14|Input CLKA_PAD is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":38:7:38:15|Input CLKA_PADP is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":39:7:39:15|Input CLKA_PADN is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":40:7:40:10|Input CLKB is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":41:7:41:14|Input CLKB_PAD is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":42:7:42:15|Input CLKB_PADP is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":43:7:43:15|Input CLKB_PADN is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":44:7:44:10|Input CLKC is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":45:7:45:14|Input CLKC_PAD is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":46:7:46:15|Input CLKC_PADP is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":47:7:47:15|Input CLKC_PADN is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":48:7:48:13|Input MAINXIN is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":49:7:49:11|Input LPXIN is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":50:7:50:13|Input MAC_CLK is unused.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":24:0:24:5|Register bit data_counter[20] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":24:0:24:5|Register bit data_counter[21] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":24:0:24:5|Register bit data_counter[22] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":24:0:24:5|Register bit data_counter[23] is always 0.
+@W: CL279 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":24:0:24:5|Pruning register bits 23 to 20 of data_counter[23:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":10:13:10:17|Input port bits 31 to 7 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":10:13:10:17|Input port bits 1 to 0 of PADDR[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":11:18:11:23|Input port bits 31 to 24 of PWDATA[31:0] are unused. Assign logic for all port bits or change the input port size.
+@A: CL153 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":12:18:12:23|*Unassigned bits of PRDATA[31:0] are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\LED.v":4:6:4:12|Input PRESERN is unused.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Register bit count[17] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Register bit count[18] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Register bit count[19] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Register bit count[20] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Register bit count[21] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Register bit count[22] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Register bit count[23] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Register bit count[24] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Register bit count[25] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Register bit count[26] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Register bit count[27] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Register bit count[28] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Register bit count[29] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Register bit count[30] is always 0.
+@N: CL189 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Register bit count[31] is always 0.
+@W: CL279 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":58:4:58:9|Pruning register bits 31 to 17 of count[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":31:10:31:16|Input PRESERN is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":33:10:33:13|Input PSEL is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":34:10:34:16|Input PENABLE is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":37:10:37:15|Input PWRITE is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":38:17:38:21|Input PADDR is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\hdl\sensing.v":39:22:39:27|Input PWDATA is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":396:0:396:4|Input IADDR is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":398:0:398:6|Input PRESETN is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":400:0:400:3|Input PCLK is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":535:0:535:7|Input PRDATAS3 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":542:0:542:7|Input PRDATAS4 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":549:0:549:7|Input PRDATAS5 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":556:0:556:7|Input PRDATAS6 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":563:0:563:7|Input PRDATAS7 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":570:0:570:7|Input PRDATAS8 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":577:0:577:7|Input PRDATAS9 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":584:0:584:8|Input PRDATAS10 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":591:0:591:8|Input PRDATAS11 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":598:0:598:8|Input PRDATAS12 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":605:0:605:8|Input PRDATAS13 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":612:0:612:8|Input PRDATAS14 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":619:0:619:8|Input PRDATAS15 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":634:0:634:7|Input PREADYS3 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":636:0:636:7|Input PREADYS4 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":638:0:638:7|Input PREADYS5 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":640:0:640:7|Input PREADYS6 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":642:0:642:7|Input PREADYS7 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":644:0:644:7|Input PREADYS8 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":646:0:646:7|Input PREADYS9 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":648:0:648:8|Input PREADYS10 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":650:0:650:8|Input PREADYS11 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":652:0:652:8|Input PREADYS12 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":654:0:654:8|Input PREADYS13 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":656:0:656:8|Input PREADYS14 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":658:0:658:8|Input PREADYS15 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":668:0:668:8|Input PSLVERRS3 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":670:0:670:8|Input PSLVERRS4 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":672:0:672:8|Input PSLVERRS5 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":674:0:674:8|Input PSLVERRS6 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":676:0:676:8|Input PSLVERRS7 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":678:0:678:8|Input PSLVERRS8 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":680:0:680:8|Input PSLVERRS9 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":682:0:682:9|Input PSLVERRS10 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":684:0:684:9|Input PSLVERRS11 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":686:0:686:9|Input PSLVERRS12 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":688:0:688:9|Input PSLVERRS13 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":690:0:690:9|Input PSLVERRS14 is unused.
+@N: CL159 :"C:\Users\mtstacho\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":692:0:692:9|Input PSLVERRS15 is unused.
 
 At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 84MB peak: 104MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Apr 22 16:58:47 2019
+# Mon Apr 22 18:56:40 2019
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
@@ -692,7 +692,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Apr 22 16:58:47 2019
+# Mon Apr 22 18:56:40 2019
 
 ###########################################################]
 @END
@@ -702,22 +702,22 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Apr 22 16:58:47 2019
+# Mon Apr 22 18:56:40 2019
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
 @N|Running in 64-bit mode
-File C:\Users\mmanceor\Desktop\VisionAssistance\synthesis\synwork\TOP_comp.srs changed - recompiling
+File C:\Users\darshin\Desktop\vision\synthesis\synwork\TOP_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Apr 22 16:58:49 2019
+# Mon Apr 22 18:56:41 2019
 
 ###########################################################]
-# Mon Apr 22 16:58:49 2019
+# Mon Apr 22 18:56:41 2019
 
 Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -725,9 +725,9 @@ Product Version L-2016.09M-SP1-5
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
-Reading constraint file: C:\Users\darshin\Desktop\vision\component\work\MSS01\mss_tshell_syn.sdc
-@L: C:\Users\darshin\Desktop\vision\synthesis\TOP_scck.rpt 
-Printing clock  summary report in "C:\Users\darshin\Desktop\vision\synthesis\TOP_scck.rpt" file 
+Reading constraint file: C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc
+@L: C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\TOP_scck.rpt 
+Printing clock  summary report in "C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\TOP_scck.rpt" file 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
@@ -736,9 +736,9 @@ Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s
 
 Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 110MB)
 
-@N: MO111 :"c:\users\darshin\desktop\vision\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net LPXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\darshin\desktop\vision\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net MAINXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\darshin\desktop\vision\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net RCOSC_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\mtstacho\desktop\visionassistance\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net LPXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\mtstacho\desktop\visionassistance\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net MAINXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\mtstacho\desktop\visionassistance\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net RCOSC_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
 
 Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 134MB)
 
@@ -755,24 +755,24 @@ FCLK        100.0 MHz     10.000        declared     clk_group_0     0
 ==========================================================================
 
 Finished Pre Mapping Phase.
-@N: BN225 |Writing default property annotation file C:\Users\darshin\Desktop\vision\synthesis\TOP.sap.
+@N: BN225 |Writing default property annotation file C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\TOP.sap.
 
 Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 134MB)
 
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 130MB peak: 135MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 135MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 45MB peak: 135MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 45MB peak: 135MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Apr 22 16:58:50 2019
+# Mon Apr 22 18:56:42 2019
 
 ###########################################################]
-# Mon Apr 22 16:58:50 2019
+# Mon Apr 22 18:56:42 2019
 
 Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -783,18 +783,18 @@ Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:0
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
 
 
 
-Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 127MB)
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 128MB)
 
-@N: MO111 :"c:\users\darshin\desktop\vision\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net LPXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\darshin\desktop\vision\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net MAINXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
-@N: MO111 :"c:\users\darshin\desktop\vision\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net RCOSC_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\mtstacho\desktop\visionassistance\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":64:7:64:18|Tristate driver LPXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net LPXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\mtstacho\desktop\visionassistance\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":63:7:63:20|Tristate driver MAINXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net MAINXIN_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\users\mtstacho\desktop\visionassistance\component\work\mss01\mss_ccc_0\mss01_tmp_mss_ccc_0_mss_ccc.v":62:7:62:18|Tristate driver RCOSC_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) on net RCOSC_CLKOUT (in view: work.MSS01_tmp_MSS_CCC_0_MSS_CCC(verilog)) has its enable tied to GND.
 
 Available hyper_sources - for debug and ip models
 	None Found
@@ -802,16 +802,16 @@ Available hyper_sources - for debug and ip models
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 131MB)
 
-@N: MO231 :"c:\users\darshin\desktop\vision\hdl\sensing.v":76:4:76:9|Found counter in view:work.DistanceSensor(verilog) instance data_buffer[31:0] 
-@N: MF238 :"c:\users\darshin\desktop\vision\hdl\sensing.v":60:21:60:30|Found 17-bit incrementor, 'count_2[16:0]'
-@N: MO231 :"c:\users\darshin\desktop\vision\hdl\led.v":24:0:24:5|Found counter in view:work.LED_VERILOG(verilog) instance bit_counter[9:0] 
-@N: MO231 :"c:\users\darshin\desktop\vision\hdl\led.v":24:0:24:5|Found counter in view:work.LED_VERILOG(verilog) instance pwm_counter[6:0] 
-@N: MO231 :"c:\users\darshin\desktop\vision\hdl\switch_0.v":103:0:103:5|Found counter in view:work.Button_Debouncer(verilog) instance PB_cnt[15:0] 
+@N: MO231 :"c:\users\mtstacho\desktop\visionassistance\hdl\sensing.v":76:4:76:9|Found counter in view:work.DistanceSensor(verilog) instance data_buffer[31:0] 
+@N: MF238 :"c:\users\mtstacho\desktop\visionassistance\hdl\sensing.v":60:21:60:30|Found 17-bit incrementor, 'count_2[16:0]'
+@N: MO231 :"c:\users\mtstacho\desktop\visionassistance\hdl\led.v":24:0:24:5|Found counter in view:work.LED_VERILOG(verilog) instance bit_counter[9:0] 
+@N: MO231 :"c:\users\mtstacho\desktop\visionassistance\hdl\led.v":24:0:24:5|Found counter in view:work.LED_VERILOG(verilog) instance pwm_counter[6:0] 
+@N: MO231 :"c:\users\mtstacho\desktop\visionassistance\hdl\switch_0.v":103:0:103:5|Found counter in view:work.Button_Debouncer(verilog) instance PB_cnt[15:0] 
 
 Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 131MB)
 
 
-Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 139MB)
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 139MB)
 
 
 Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 126MB peak: 139MB)
@@ -835,7 +835,7 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CP
 Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 129MB peak: 139MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 129MB peak: 139MB)
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 129MB peak: 139MB)
 
 
 High Fanout Net Report
@@ -896,9 +896,9 @@ Clock Tree ID     Driving Element     Drive Element Type                Fanout  
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 123MB peak: 139MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 124MB peak: 139MB)
 
-Writing Analyst data base C:\Users\darshin\Desktop\vision\synthesis\synwork\TOP_m.srm
+Writing Analyst data base C:\Users\mtstacho\Desktop\VisionAssistance\synthesis\synwork\TOP_m.srm
 
 Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 124MB peak: 139MB)
 
@@ -908,15 +908,15 @@ L-2016.09M-SP1-5
 Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 126MB peak: 139MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 124MB peak: 139MB)
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 125MB peak: 139MB)
 
-@W: MT246 :"c:\users\darshin\desktop\vision\component\work\mss01\mss01.v":477:7:477:18|Blackbox MSSINT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\mtstacho\desktop\visionassistance\component\work\mss01\mss01.v":477:7:477:18|Blackbox MSSINT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
 @N: MT615 |Found clock FCLK with period 10.00ns 
 @N: MT615 |Found clock FAB_CLK with period 10.00ns 
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Mon Apr 22 16:58:52 2019
+# Timing Report written on Mon Apr 22 18:56:45 2019
 #
 
 
@@ -927,7 +927,7 @@ Requested Frequency:    100.0 MHz
 Wire load mode:         top
 Wire load model:        smartfusion
 Paths requested:        5
-Constraint File(s):    C:\Users\darshin\Desktop\vision\component\work\MSS01\mss_tshell_syn.sdc
+Constraint File(s):    C:\Users\mtstacho\Desktop\VisionAssistance\component\work\MSS01\mss_tshell_syn.sdc
                        
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 
@@ -1473,10 +1473,10 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 124MB peak: 139MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 125MB peak: 139MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 124MB peak: 139MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 125MB peak: 139MB)
 
 --------------------------------------------------------------------------------
 Target Part: A2F200M3F_FBGA484_STD
@@ -1550,9 +1550,9 @@ Block Rams : 0 of 8 (0%)
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 31MB peak: 139MB)
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 32MB peak: 139MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Mon Apr 22 16:58:52 2019
+# Mon Apr 22 18:56:45 2019
 
 ###########################################################]

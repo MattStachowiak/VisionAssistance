@@ -30,15 +30,17 @@ enum Mode {STANDARD, SPECTRUM, COMPASS}current_mode;
 //--- Global Variables ---
 volatile uint32_t* LED = (uint32_t*)LED_ADDR;
 uint32_t color;
+int LED_num;
 
 volatile uint32_t* SONIC_READ = (uint32_t*) SONIC_ADDR;
 float cm_dist;
 
 double IMU_offset;
 double IMU_temp_offset;
+double display_angle;
 int8_t set_heading_baseline = 1;
 
-
+float temps[8][8];
 
 
 int int_count;
@@ -83,22 +85,44 @@ int dist_to_LED(float in_dist){
 }
 // Interrupts for Gyroscope reset functionality (Pin J20)
 void GPIO0_IRQHandler (void){
+
 	IMU_offset = IMU_temp_offset;
 	MSS_GPIO_clear_irq(MSS_GPIO_0);
 }
 
 // Interrupts for Mode cycling (Pin J21)
 void GPIO1_IRQHandler (void){
-	printf("Interrupt 1 Happened: %d \r\n", int_count);
-		MSS_GPIO_clear_irq(MSS_GPIO_1);
-		int_count++;
+
+	current_mode += 1;
+	current_mode %= 3;
+	MSS_GPIO_clear_irq(MSS_GPIO_1);
 }
 
-int main()
-{
-	int_count = 0;
+// Standard cane style behavior
+void standard_execute(){
+
+	if(get_max_temp(temps) > 42.00)
+		color = red;
+	else if((temps[3][3] > 26.00 || temps[4][4] > 26.00) && (temps[3][3] < 35.00 || temps[4][4] < 35.00))
+		color = yellow;
+	else
+		color = green;
+
+	// IMUs: read and calculate angle at which to display
+	set_heading_baseline = 0;
+	if (display_angle < -DISPLAY_FOV/2 || display_angle >= DISPLAY_FOV/2){
+		LED_num = display_angle < 0 ? NUMLEDS-1 : 0 - (DISPLAY_POINT_WIDTH-1);
+		color = red;
+	}
+	else
+		LED_num = (NUMLEDS-1) - (int)(display_angle/(DISPLAY_FOV/NUMLEDS) + NUMLEDS/2);
+
+}
+
+int main(){
 	// Setup
 	LED_reset(LED);
+	current_mode = STANDARD;
 	// Initialize GPIO for interrupts
 	MSS_GPIO_init();
 	MSS_GPIO_config( MSS_GPIO_0, MSS_GPIO_INPUT_MODE | MSS_GPIO_IRQ_EDGE_POSITIVE );
@@ -117,65 +141,43 @@ int main()
 	uint8_t pixel_addr[] = {0x80};
 	uint8_t pixel_data[128] = {0};
 
-	float temps[8][8];
-
 
 	// Loop variables
-
-	int LED_num = 0;
 	int i = 0;
-	double display_angle;
-	double t1;
-	double t2;
 
 	while( 1 ) {
 		// Hold off interrupts during I2C communication
 		NVIC_DisableIRQ(32);
 		NVIC_DisableIRQ(33);
+
+		// Get data from all sensors
 		gridEYE_read(pixel_addr, pixel_data);
 		display_angle = calc_display_angle(GLASSES_IMU_ADDR, WAND_IMU_ADDR, set_heading_baseline) - IMU_offset;
 		IMU_temp_offset = display_angle + IMU_offset;
 
-
-		//Testing
-		t1 = read_heading_BNO055(GLASSES_IMU_ADDR);
-		t2 = read_heading_BNO055(WAND_IMU_ADDR);
 		NVIC_EnableIRQ(32);
 		NVIC_EnableIRQ(33);
 
 		get_temps_forward(pixel_data, temps);
 
-		if(get_max_temp(temps) > 42.00)
-			color = red;
-		else if((temps[3][3] > 26.00 || temps[4][4] > 26.00) && (temps[3][3] < 35.00 || temps[4][4] < 35.00))
-			color = yellow;
-		else
-			color = green;
-
-
-
-
-		// IMUs: read and calculate angle at which to display
-		set_heading_baseline = 0;
-		if (display_angle < -DISPLAY_FOV/2 || display_angle >= DISPLAY_FOV/2){
-			LED_num = display_angle < 0 ? NUMLEDS-1 : 0 - (DISPLAY_POINT_WIDTH-1);
-			color = red;
+		switch(current_mode){
+			case STANDARD:
+				standard_execute();
+				break;
+			case SPECTRUM:
+				break;
+			case COMPASS:
+				break;
+			default:
+				standard_execute();
 		}
-		else
-			LED_num = (NUMLEDS-1) - (int)(display_angle/(DISPLAY_FOV/NUMLEDS) + NUMLEDS/2);
 
-		printf("%f \t %f \r\n", t1, t2);
+
 		printf("Diff: %f \r\n\n", display_angle);
-		//printf("Dist: %f \r\n\n\n", cm_dist);
 
 		// Sonic: calculate dist and set brightness
 		uint32_t DATA = *SONIC_READ;
 		cm_dist = data_to_cm(DATA);
-		//LED_num = dist_to_LED(cm_dist);
-		//color = dist_to_color(cm_dist);
-
-
-
 
 
 		// Write to LEDs
@@ -185,14 +187,8 @@ int main()
 			else
 				LED[i] = off;
 		}
-		/*
-		for (i = 0; i < NUMLEDS; ++i) {
-			LED[i] = color;
-		}
-		*/
 
 		gridEYE_print(temps);
-		//printf("%f\r\n", display_angle);
 
 	}//while(1)
 	return 0;
