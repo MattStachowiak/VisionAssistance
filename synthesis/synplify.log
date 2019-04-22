@@ -2,7 +2,7 @@
 Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synbatch.exe
 Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
 Hostname:    EECS373-07
-Date:        Sun Apr 21 19:45:58 2019
+Date:        Mon Apr 22 00:02:36 2019
 Version:     L-2016.09M-SP1-5
 
 Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log TOP_syn.tcl
@@ -45,35 +45,35 @@ Running TOP_syn|synthesis
 
 
 Running: compile (Compile) on TOP_syn|synthesis
-# Sun Apr 21 19:45:58 2019
+# Mon Apr 22 00:02:36 2019
 
 
 Running: compile_flow (Compile Process) on TOP_syn|synthesis
-# Sun Apr 21 19:45:58 2019
+# Mon Apr 22 00:02:36 2019
 
 
 Running: compiler (Compile Input) on TOP_syn|synthesis
-# Sun Apr 21 19:45:58 2019
+# Mon Apr 22 00:02:36 2019
 
 Copied C:\Users\mmanceor\Desktop\VisionAssistance\synthesis\synwork\TOP_comp.srs to C:\Users\mmanceor\Desktop\VisionAssistance\synthesis\TOP.srs
 
 
 compiler completed
-# Sun Apr 21 19:46:00 2019
+# Mon Apr 22 00:02:38 2019
 
 Return Code: 0
 Run Time:00h:00m:02s
 
 
 Running: multi_srs_gen (Multi-srs Generator) on TOP_syn|synthesis
-# Sun Apr 21 19:46:00 2019
+# Mon Apr 22 00:02:38 2019
 
 
 multi_srs_gen completed
-# Sun Apr 21 19:46:01 2019
+# Mon Apr 22 00:02:38 2019
 
 Return Code: 0
-Run Time:00h:00m:01s
+Run Time:00h:00m:00s
 
 Copied C:\Users\mmanceor\Desktop\VisionAssistance\synthesis\synwork\TOP_mult.srs to C:\Users\mmanceor\Desktop\VisionAssistance\synthesis\TOP.srs
 
@@ -81,11 +81,11 @@ Complete: Compile Process on TOP_syn|synthesis
 
 
 Running: premap (Pre-mapping) on TOP_syn|synthesis
-# Sun Apr 21 19:46:01 2019
+# Mon Apr 22 00:02:38 2019
 
 
 premap completed
-# Sun Apr 21 19:46:02 2019
+# Mon Apr 22 00:02:39 2019
 
 Return Code: 0
 Run Time:00h:00m:01s
@@ -94,19 +94,19 @@ Complete: Compile on TOP_syn|synthesis
 
 
 Running: map (Map) on TOP_syn|synthesis
-# Sun Apr 21 19:46:02 2019
+# Mon Apr 22 00:02:39 2019
 
 License granted for 4 parallel jobs
 
 
 Running: fpga_mapper (Map & Optimize) on TOP_syn|synthesis
-# Sun Apr 21 19:46:02 2019
+# Mon Apr 22 00:02:39 2019
 
 Copied C:\Users\mmanceor\Desktop\VisionAssistance\synthesis\synwork\TOP_m.srm to C:\Users\mmanceor\Desktop\VisionAssistance\synthesis\TOP.srm
 
 
 fpga_mapper completed with warnings
-# Sun Apr 21 19:46:05 2019
+# Mon Apr 22 00:02:42 2019
 
 Return Code: 1
 Run Time:00h:00m:03s

@@ -3,7 +3,7 @@
 #OS: Windows 8 6.2
 #Hostname: EECS373-07
 
-# Sun Apr 21 19:45:58 2019
+# Mon Apr 22 00:02:36 2019
 
 #Implementation: synthesis
 
@@ -26,12 +26,13 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v" (library work)
 @I::"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\mss_tshell.v" (library work)
 @I::"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\MSS01.v" (library work)
-@I::"C:\Users\mmanceor\Desktop\VisionAssistance\hdl\Switch_0.v" (library work)
 @I::"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" (library COREAPB3_LIB)
 @I::"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
 @I::"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" (library COREAPB3_LIB)
+@I::"C:\Users\mmanceor\Desktop\VisionAssistance\hdl\Switch_0.v" (library work)
 @I::"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\TOP\TOP.v" (library work)
 Verilog syntax check successful!
+Options changed - recompiling
 Selecting top level module TOP
 @W: CG775 :"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
 @N: CG364 :"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:6|Synthesizing module CAPB3II in library COREAPB3_LIB.
@@ -680,7 +681,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Apr 21 19:45:59 2019
+# Mon Apr 22 00:02:37 2019
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
@@ -691,34 +692,32 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Apr 21 19:45:59 2019
+# Mon Apr 22 00:02:37 2019
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Apr 21 19:45:59 2019
+# Mon Apr 22 00:02:37 2019
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
 @N|Running in 64-bit mode
-File C:\Users\mmanceor\Desktop\VisionAssistance\VisionAssistance\synthesis\synwork\TOP_comp.srs changed - recompiling
+File C:\Users\mmanceor\Desktop\VisionAssistance\synthesis\synwork\TOP_comp.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Apr 21 19:46:01 2019
+# Mon Apr 22 00:02:38 2019
 
 ###########################################################]
-Pre-mapping Report
-
-# Sun Apr 21 19:46:01 2019
+# Mon Apr 22 00:02:38 2019
 
 Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -763,19 +762,17 @@ Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 135MB)
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 130MB peak: 135MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 45MB peak: 135MB)
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 45MB peak: 135MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Sun Apr 21 19:46:02 2019
+# Mon Apr 22 00:02:39 2019
 
 ###########################################################]
-Map & Optimize Report
-
-# Sun Apr 21 19:46:02 2019
+# Mon Apr 22 00:02:39 2019
 
 Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -811,7 +808,7 @@ Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00
 @N: MO231 :"c:\users\mmanceor\desktop\visionassistance\hdl\led.v":24:0:24:5|Found counter in view:work.LED_VERILOG(verilog) instance pwm_counter[6:0] 
 @N: MO231 :"c:\users\mmanceor\desktop\visionassistance\hdl\switch_0.v":103:0:103:5|Found counter in view:work.Button_Debouncer(verilog) instance PB_cnt[15:0] 
 
-Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 131MB)
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 131MB)
 
 
 Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 139MB peak: 139MB)
@@ -829,10 +826,10 @@ Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CP
 Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 130MB peak: 139MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 130MB peak: 139MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 130MB peak: 139MB)
 
 
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 130MB peak: 139MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 130MB peak: 139MB)
 
 
 Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 129MB peak: 139MB)
@@ -919,7 +916,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Sun Apr 21 19:46:05 2019
+# Timing Report written on Mon Apr 22 00:02:42 2019
 #
 
 
@@ -1556,6 +1553,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 32MB peak: 139MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Sun Apr 21 19:46:05 2019
+# Mon Apr 22 00:02:42 2019
 
 ###########################################################]

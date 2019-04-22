@@ -383,7 +383,7 @@ SIZE="1509888"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP.fdb,fdb"
 STATE="utd"
-TIME="1555890489"
+TIME="1555905868"
 SIZE="75476"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP.ide_des,ide_des"
@@ -393,8 +393,8 @@ SIZE="1098"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_compile_log.rpt,log"
 STATE="utd"
-TIME="1555889643"
-SIZE="29599"
+TIME="1555905821"
+SIZE="30274"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_fp\projectData\TOP.pdb,pdb"
 STATE="utd"
@@ -413,17 +413,17 @@ SIZE="2423"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1555890474"
+TIME="1555905853"
 SIZE="2627"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_prgdata_log.rpt,log"
 STATE="utd"
-TIME="1555890490"
+TIME="1555905869"
 SIZE="661"
 ENDFILE
 VALUE "<project>\designer\impl1\TOP_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1555890479"
+TIME="1555905858"
 SIZE="1118"
 ENDFILE
 VALUE "<project>\hdl\LED.v,hdl"
@@ -438,7 +438,7 @@ SIZE="2836"
 ENDFILE
 VALUE "<project>\hdl\Switch_0.v,hdl"
 STATE="utd"
-TIME="1555890054"
+TIME="1555897182"
 SIZE="3373"
 ENDFILE
 VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
@@ -762,7 +762,7 @@ SmartDesign;TOP;0
 HDL;hdl\LED.v;0
 SmartDesign;MSS01;0
 StartPage;StartPage;0
-ACTIVEVIEW;hdl\Switch_0.v
+ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
 LIST "BIBUF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
@@ -852,8 +852,8 @@ LIST "TOP::work","component\work\TOP\TOP.v","TRUE","FALSE"
 SUBBLOCK "DistanceSensor::work","hdl\sensing.v","FALSE","FALSE"
 SUBBLOCK "LED_VERILOG::work","hdl\LED.v","FALSE","FALSE"
 SUBBLOCK "MSS01::work","component\work\MSS01\MSS01.v","TRUE","FALSE"
-SUBBLOCK "Switch_0::work","hdl\Switch_0.v","FALSE","FALSE"
 SUBBLOCK "CoreAPB3::COREAPB3_LIB","component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v","FALSE","FALSE"
+SUBBLOCK "Switch_0::work","hdl\Switch_0.v","FALSE","FALSE"
 ENDLIST
 LIST "TRIBUFF_MSS::work","component\Actel\SmartFusionMSS\MSS\2.5.200\mss_comps.v","FALSE","FALSE"
 ENDLIST

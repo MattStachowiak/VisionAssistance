@@ -6,7 +6,7 @@
 
 
 // GridEYE address is 0x69
-#define gridEYE_ADDR 0b1101001
+#define gridEYE_ADDR 0x69
 
 
 //--- Grideye Functions ---
@@ -27,7 +27,7 @@ void gridEYE_write(uint8_t* reg_addr, uint8_t* data){
 			MSS_I2C_RELEASE_BUS
 		);
 
-	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
+	MSS_I2C_wait_complete(&g_mss_i2c1, 100);
 }//gridEYE_write()
 
 
@@ -47,7 +47,7 @@ void gridEYE_read(uint8_t* reg_addr, uint8_t* recieved_data ){
 			MSS_I2C_RELEASE_BUS
 		);
 
-	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
+	MSS_I2C_wait_complete(&g_mss_i2c1, 100);
 }//gridEYE_read()
 
 
@@ -152,10 +152,13 @@ void gridEYE_print(float temps[8][8]){
 			int j = 0;
 			for (i = 0; i < 8; ++i){
 				for(j = 0; j < 8; ++j){
+					printf("%4.2f ", temps[i][j]);
+					/*
 					if(temps[i][j] > 24.00)
-						printf("# ");
+						printf("%4.2f", temps[i][j]);
 					else
 						printf(". ");
+						*/
 				}
 				printf("\r\n");
 			}

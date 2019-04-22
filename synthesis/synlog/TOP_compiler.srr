@@ -17,12 +17,13 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 @I::"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v" (library work)
 @I::"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\mss_tshell.v" (library work)
 @I::"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\MSS01.v" (library work)
-@I::"C:\Users\mmanceor\Desktop\VisionAssistance\hdl\Switch_0.v" (library work)
 @I::"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" (library COREAPB3_LIB)
 @I::"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
 @I::"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" (library COREAPB3_LIB)
+@I::"C:\Users\mmanceor\Desktop\VisionAssistance\hdl\Switch_0.v" (library work)
 @I::"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\TOP\TOP.v" (library work)
 Verilog syntax check successful!
+Options changed - recompiling
 Selecting top level module TOP
 @W: CG775 :"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v":13:0:13:7|Found Component CoreAPB3 in library COREAPB3_LIB
 @N: CG364 :"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v":13:0:13:6|Synthesizing module CAPB3II in library COREAPB3_LIB.
@@ -671,7 +672,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Apr 21 19:45:59 2019
+# Mon Apr 22 00:02:37 2019
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
@@ -682,16 +683,16 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Apr 21 19:45:59 2019
+# Mon Apr 22 00:02:37 2019
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Apr 21 19:45:59 2019
+# Mon Apr 22 00:02:37 2019
 
 ###########################################################]

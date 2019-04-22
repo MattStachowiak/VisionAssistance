@@ -1,4 +1,4 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\synthesis\\synwork\\TOP_comp.srs|-top|TOP|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\synthesis\\synwork\\TOP_comp.srs|-top|TOP|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-I|C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\smartfusion.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work"
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_ver.exe":1509358336
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\proasic\\smartfusion.v":1509027488
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vlog\\hypermods.v":1509029528
@@ -11,10 +11,10 @@
 #CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\component\\work\\MSS01\\MSS_CCC_0\\MSS01_tmp_MSS_CCC_0_MSS_CCC.v":1555890330
 #CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\component\\work\\MSS01\\mss_tshell.v":1555890332
 #CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\component\\work\\MSS01\\MSS01.v":1555890333
-#CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\hdl\\Switch_0.v":1555890054
 #CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_muxptob3.v":1537386962
 #CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3_iaddr_reg.v":1537386962
 #CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core_obfuscated\\coreapb3.v":1537386962
+#CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\hdl\\Switch_0.v":1555897182
 #CUR:"C:\\Users\\mmanceor\\Desktop\\VisionAssistance\\component\\work\\TOP\\TOP.v":1555890349
 #numinternalfiles:5
 #defaultlanguage:verilog
@@ -24,10 +24,10 @@
 3			"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\MSS_CCC_0\MSS01_tmp_MSS_CCC_0_MSS_CCC.v" verilog
 4			"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\mss_tshell.v" verilog
 5			"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\MSS01\MSS01.v" verilog
-6			"C:\Users\mmanceor\Desktop\VisionAssistance\hdl\Switch_0.v" verilog
-7			"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" verilog
-8			"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" verilog
-9			"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" verilog
+6			"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_muxptob3.v" verilog
+7			"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3_iaddr_reg.v" verilog
+8			"C:\Users\mmanceor\Desktop\VisionAssistance\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core_obfuscated\coreapb3.v" verilog
+9			"C:\Users\mmanceor\Desktop\VisionAssistance\hdl\Switch_0.v" verilog
 10			"C:\Users\mmanceor\Desktop\VisionAssistance\component\work\TOP\TOP.v" verilog
 #Dependency Lists(Uses List)
 0 -1
@@ -38,9 +38,9 @@
 5 3 4 2
 6 -1
 7 -1
-8 -1
-9 7 8
-10 9 0 1 5 6
+8 6 7
+9 -1
+10 8 0 1 5 9
 #Dependency Lists(Users Of)
 0 10
 1 10
@@ -48,9 +48,9 @@
 3 5
 4 5
 5 10
-6 10
-7 9
-8 9
+6 8
+7 8
+8 10
 9 10
 10 -1
 #Design Unit to File Association
@@ -72,9 +72,9 @@ module work MSS_ALL 2
 module work MSS01_tmp_MSS_CCC_0_MSS_CCC 3
 module work MSS_APB 4
 module work MSS01 5
-module work Button_Debouncer 6
-module work Switch_0 6
+module work Button_Debouncer 9
+module work Switch_0 9
 module work TOP 10
-module COREAPB3_LIB CAPB3II 7
-module COREAPB3_LIB CAPB3O 8
-module COREAPB3_LIB CoreAPB3 9
+module COREAPB3_LIB CAPB3II 6
+module COREAPB3_LIB CAPB3O 7
+module COREAPB3_LIB CoreAPB3 8

@@ -30,6 +30,10 @@ volatile uint32_t* LED = (uint32_t*)LED_ADDR;
 
 volatile uint32_t* SONIC_READ = (uint32_t*) SONIC_ADDR;
 
+double IMU_offset;
+double IMU_temp_offset;
+int8_t set_heading_baseline = 1;
+
 int int_count;
 // Function reverses bits in the byte
 uint8_t byte_reverse(uint8_t x)
@@ -70,11 +74,17 @@ int dist_to_LED(float in_dist){
 
 	return (int)in_dist / 3;
 }
-
+// Interrupts for Gyroscope reset functionality (Pin J20)
 void GPIO0_IRQHandler (void){
-	printf("Interrupt Happened: %d \r\n", int_count);
+	IMU_offset = IMU_temp_offset;
 	MSS_GPIO_clear_irq(MSS_GPIO_0);
-	int_count++;
+}
+
+// Interrupts for Mode cycling (Pin J21)
+void GPIO1_IRQHandler (void){
+	printf("Interrupt 1 Happened: %d \r\n", int_count);
+		MSS_GPIO_clear_irq(MSS_GPIO_1);
+		int_count++;
 }
 
 int main()
@@ -93,6 +103,8 @@ int main()
 	gridEYE_init();
 	if (init_BNO055(WAND_IMU_ADDR)) assert("IMU init error");
 	if (init_BNO055(GLASSES_IMU_ADDR)) assert("IMU init error");
+	IMU_offset = 0;
+	IMU_temp_offset;
 
 	// Base pixel register is 0x80
 	uint8_t pixel_addr[] = {0x80};
@@ -107,26 +119,31 @@ int main()
 	int LED_num = 0;
 	int i = 0;
 	double display_angle;
-	int8_t set_heading_baseline = 1;
+	double t1;
+	double t2;
 
 	while( 1 ) {
-		// gridEYE
+		// Hold off interrupts during I2C communication
+		NVIC_DisableIRQ(32);
 		gridEYE_read(pixel_addr, pixel_data);
-		get_temps_reversed(pixel_data, temps);
+		display_angle = calc_display_angle(GLASSES_IMU_ADDR, WAND_IMU_ADDR, set_heading_baseline) - IMU_offset;
+		IMU_temp_offset = display_angle + IMU_offset;
+		//Testing
+		t1 = read_heading_BNO055(GLASSES_IMU_ADDR);
+		t2 = read_heading_BNO055(WAND_IMU_ADDR);
+		NVIC_EnableIRQ(32);
 
-		if(temps[3][3] > 24.00 || temps[4][4] > 24.0)
+		get_temps_forward(pixel_data, temps);
+
+		/*if(temps[3][3] > 24.00 || temps[4][4] > 24.0)
 			color = yellow;
 		else
 			color = green;
+		*/
 
-		// Sonic: calculate dist and set brightness
-		uint32_t DATA = *SONIC_READ;
-		cm_dist = data_to_cm(DATA);
-//		LED_num = dist_to_LED(cm_dist);
-		//color = dist_to_color(cm_dist);
+
 
 		// IMUs: read and calculate angle at which to display
-		display_angle = calc_display_angle(GLASSES_IMU_ADDR, WAND_IMU_ADDR, set_heading_baseline);
 		set_heading_baseline = 0;
 		if (display_angle < -DISPLAY_FOV/2 || display_angle >= DISPLAY_FOV/2){
 			LED_num = display_angle < 0 ? NUMLEDS-1 : 0 - (DISPLAY_POINT_WIDTH-1);
@@ -134,6 +151,18 @@ int main()
 		}
 		else
 			LED_num = (NUMLEDS-1) - (int)(display_angle/(DISPLAY_FOV/NUMLEDS) + NUMLEDS/2);
+
+		printf("%f \t %f \r\n", t1, t2);
+		printf("Diff: %f \r\n\n", display_angle);
+		//printf("Dist: %f \r\n\n\n", cm_dist);
+
+		// Sonic: calculate dist and set brightness
+		uint32_t DATA = *SONIC_READ;
+		cm_dist = data_to_cm(DATA);
+		LED_num = dist_to_LED(cm_dist);
+		//color = dist_to_color(cm_dist);
+
+
 
 
 
@@ -149,7 +178,7 @@ int main()
 //		}
 
 		//gridEYE_print(temps);
-		//printf("%x\r\n", color);
+		//printf("%f\r\n", display_angle);
 
 	}//while(1)
 	return 0;

@@ -5,7 +5,7 @@ Release: v11.9
 Software Version: 11.9.0.4
 PDB file 'C:\Users\mmanceor\Desktop\VisionAssistance\designer\impl1\TOP_fp\TOP.pdb' has been
 loaded successfully.
-DESIGN : TOP;  CHECKSUM : 0602;  PDB_VERSION : 1.9
+DESIGN : TOP;  CHECKSUM : A0CD;  PDB_VERSION : 1.9
 Driver : 3.0.0 build 1
 programmer '80443' : FlashPro3
 Opened 'C:\Users\mmanceor\Desktop\VisionAssistance\designer\impl1\TOP_fp\TOP.pro'
@@ -36,7 +36,7 @@ programmer '80443' : Verifying FPGA Array
 programmer '80443' :         Verifying FPGA Array -- pass
 programmer '80443' : Program System Init and Boot Clients...
 programmer '80443' : Verify System Init and Boot Clients...
-programmer '80443' : Finished: Sun Apr 21 19:49:06 2019 (Elapsed time 00:00:34)
+programmer '80443' : Finished: Mon Apr 22 00:05:25 2019 (Elapsed time 00:00:34)
 programmer '80443' : Executing action PROGRAM PASSED.
 
                         o - o - o - o - o - o
