@@ -10,6 +10,15 @@
 #include "sonic_dist.h"
 #include "imu_interface.h"
 
+/*
+    Authored by:
+    Darshin Patel
+    Matthew Stachowiak
+    Michael Manceor
+    Nathan Vollbrecht
+*/
+
+
 #define WAND_IMU_ADDR 		0x28
 #define GLASSES_IMU_ADDR 	0x29
 
@@ -19,13 +28,6 @@
 
 enum Mode {STANDARD, SPECTRUM, COMPASS}current_mode;
 
-/*
-    Authored by:
-    Darshin Patel
-    Matthew Stachowiak
-    Michael Manceor
-    Nathan Vollbrecht
-*/
 
 //--- Global Variables ---
 volatile uint32_t* LED = (uint32_t*)LED_ADDR;
@@ -33,6 +35,7 @@ uint32_t color;
 int LED_num;
 
 volatile uint32_t* SONIC_READ = (uint32_t*) SONIC_ADDR;
+uint32_t SONIC_DATA;
 float cm_dist;
 
 double IMU_offset;
@@ -52,9 +55,8 @@ uint8_t byte_reverse(uint8_t x)
 }
 
 
-// TESTING FUNCTION
-// This is a function for testing color interaction with distance
-uint32_t scale_brightness(int32_t color, float in_dist){
+// Function scales brightness based on distance
+uint32_t scale_brightness_dist(int32_t color, float in_dist){
 	uint i;
 	uint32_t result = 0;
 	double scale_factor;
@@ -65,18 +67,12 @@ uint32_t scale_brightness(int32_t color, float in_dist){
 		scale_factor = 2.17 - 0.332*log(in_dist);
 		if (scale_factor > 1) scale_factor = 1;
 		if (scale_factor < 0) scale_factor = 0;
-		//printf("Brightness scaling: %f\r\n", scale_factor);
 		result = result | (byte_reverse(ind_value*scale_factor) << 8*(i));
 	}
-	//	green_amount = 0xFF - (int)(2.55*in_dist);
-
-	//	uint32_t result = byte_reverse(green_amount);
-	//uint32_t result = (blue_amount << 16) | (red_amount << 8) | green_amount;
 	return result;
 }
 
 
-// TESTING FUNCTION
 // Function for testing distance controlling LED number
 // Each LED is 2.5 cm of distance
 int dist_to_LED(float in_dist){
@@ -98,6 +94,19 @@ void GPIO1_IRQHandler (void){
 	MSS_GPIO_clear_irq(MSS_GPIO_1);
 }
 
+
+// Write to LEDs with brightness scaled on the distance
+void write_scaled_LEDs(){
+	// Write to LEDs
+	int i;
+	for(i = 0; i < NUMLEDS; ++i){
+		if (i >= LED_num && i < LED_num + DISPLAY_POINT_WIDTH)
+			LED[i] = scale_brightness_dist(color, cm_dist);
+		else
+			LED[i] = off;
+	}
+}
+
 // Standard cane style behavior
 void standard_execute(){
 
@@ -117,7 +126,22 @@ void standard_execute(){
 	else
 		LED_num = (NUMLEDS-1) - (int)(display_angle/(DISPLAY_FOV/NUMLEDS) + NUMLEDS/2);
 
+	cm_dist = data_to_cm(SONIC_DATA);
+
+	write_scaled_LEDs();
+
 }
+
+
+void spectrum_execute(){
+
+}
+
+
+void compass_execute(){
+
+}
+
 
 int main(){
 	// Setup
@@ -135,7 +159,7 @@ int main(){
 	if (init_BNO055(WAND_IMU_ADDR)) assert("IMU init error");
 	if (init_BNO055(GLASSES_IMU_ADDR)) assert("IMU init error");
 	IMU_offset = 0;
-	IMU_temp_offset;
+
 
 	// Base pixel register is 0x80
 	uint8_t pixel_addr[] = {0x80};
@@ -143,8 +167,6 @@ int main(){
 
 
 	// Loop variables
-	int i = 0;
-
 	while( 1 ) {
 		// Hold off interrupts during I2C communication
 		NVIC_DisableIRQ(32);
@@ -153,10 +175,13 @@ int main(){
 		// Get data from all sensors
 		gridEYE_read(pixel_addr, pixel_data);
 		display_angle = calc_display_angle(GLASSES_IMU_ADDR, WAND_IMU_ADDR, set_heading_baseline) - IMU_offset;
-		IMU_temp_offset = display_angle + IMU_offset;
+
 
 		NVIC_EnableIRQ(32);
 		NVIC_EnableIRQ(33);
+
+		IMU_temp_offset = display_angle + IMU_offset;
+		SONIC_DATA = *SONIC_READ;
 
 		get_temps_forward(pixel_data, temps);
 
@@ -173,22 +198,7 @@ int main(){
 		}
 
 
-		printf("Diff: %f \r\n\n", display_angle);
-
-		// Sonic: calculate dist and set brightness
-		uint32_t DATA = *SONIC_READ;
-		cm_dist = data_to_cm(DATA);
-
-
-		// Write to LEDs
-		for(i = 0; i < NUMLEDS; ++i){
-			if (i >= LED_num && i < LED_num + DISPLAY_POINT_WIDTH)
-				LED[i] = scale_brightness(color, cm_dist);
-			else
-				LED[i] = off;
-		}
-
-		gridEYE_print(temps);
+		//gridEYE_print(temps);
 
 	}//while(1)
 	return 0;
