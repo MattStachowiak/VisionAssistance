@@ -187,8 +187,15 @@ int main(){
 	// Initialize with a clock frequency of ~ 400kHz
 	MSS_I2C_init(&g_mss_i2c1 , 0x0, MSS_I2C_PCLK_DIV_256 );
 	gridEYE_init();
-	if (init_BNO055(WAND_IMU_ADDR)) assert("IMU init error");
-	if (init_BNO055(GLASSES_IMU_ADDR)) assert("IMU init error");
+
+
+	// IMU initialization ------------------------------------------
+	// Set new y-axis to be the former z-axis; set new z-axis to be neg. former y-axis
+	remap_axes_BNO055(WAND_IMU_ADDR, 0x0, 0x2, 0x1, 0x0, 0x0, 0x1);
+	// Set new z-axis to be the former x-axis; set new x-axis to be former z-axis; set ne y-axis to be negative of former y-axis
+	remap_axes_BNO055(GLASSES_IMU_ADDR, 0x2, 0x1, 0x0, 0x0, 0x1, 0x0);
+	if (init_BNO055(WAND_IMU_ADDR, BNO055_OPR_MODE_COMP)) assert("IMU init error");
+	if (init_BNO055(GLASSES_IMU_ADDR, BNO055_OPR_MODE_COMP)) assert("IMU init error");
 	IMU_offset = 0;
 
 

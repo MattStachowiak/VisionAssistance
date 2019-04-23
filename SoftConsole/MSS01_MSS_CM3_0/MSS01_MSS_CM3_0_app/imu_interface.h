@@ -12,11 +12,20 @@
 #include <drivers/mss_uart/mss_uart.h>
 #include "drivers/mss_i2c/mss_i2c.h"
 
-#define OPR_MODE_NDOF	0b1100
-#define OPR_MODE_REG	0x3D
 
-#define EUL_HEADING_MSB 0x1B
-#define EUL_HEADING_LSB 0x1A
+// "Public" constants
+#define BNO055_OPR_MODE_NDOF	0b1100
+#define BNO055_OPR_MODE_COMP	0b1001
+
+// Private constants
+#define OPR_MODE_REG			0x3D
+
+#define AXIS_MAP_CONFIG_REG 	0x41
+#define AXIS_MAP_SIGN_REG		0x42
+
+
+#define EUL_HEADING_MSB 		0x1B
+#define EUL_HEADING_LSB 		0x1A
 
 #define CHIP_ID_REG 0x00
 
@@ -34,7 +43,7 @@ double wrap_angle_180(double x)
 	return x;
 }
 
-int init_BNO055(uint8_t dev_addr)
+int init_BNO055(uint8_t dev_addr, uint8_t mode)
 {
 	// Set up MSS I2C driver struct
 	MSS_I2C_init(&g_mss_i2c1 , 0x0, MSS_I2C_PCLK_DIV_256 );
@@ -57,7 +66,7 @@ int init_BNO055(uint8_t dev_addr)
 	if (chip_id != 0xA0) return -1;
 
 	// Set mode to NDOF
-	uint8_t write_mode_seq[] = { OPR_MODE_REG, OPR_MODE_NDOF };
+	uint8_t write_mode_seq[] = { OPR_MODE_REG, mode };
 	MSS_I2C_write
 	(
 		&g_mss_i2c1,
@@ -69,6 +78,35 @@ int init_BNO055(uint8_t dev_addr)
 	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
 
 	return 0;
+}
+
+void remap_axes_BNO055(uint8_t dev_addr, uint8_t new_x_axis, uint8_t new_y_axis, uint8_t new_z_axis, uint8_t new_x_sign, uint8_t new_y_sign, uint8_t new_z_sign)
+{
+	// Set new axes
+	uint8_t combined_axes = (new_x_axis << 4) + (new_y_axis << 2) + new_z_axis;
+	uint8_t write_axes_seq[] = { AXIS_MAP_CONFIG_REG, combined_axes };
+	MSS_I2C_write
+	(
+		&g_mss_i2c1,
+		dev_addr,
+		write_axes_seq,
+		2,
+		MSS_I2C_RELEASE_BUS
+	);
+	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
+
+	// Set new signs
+	uint8_t combined_signs = (new_x_sign << 2) + (new_y_sign << 1) + new_z_sign;
+	uint8_t write_signs_seq[] = { AXIS_MAP_SIGN_REG, combined_signs };
+	MSS_I2C_write
+	(
+		&g_mss_i2c1,
+		dev_addr,
+		write_signs_seq,
+		2,
+		MSS_I2C_RELEASE_BUS
+	);
+	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
 }
 
 double read_heading_BNO055(uint8_t dev_addr)
