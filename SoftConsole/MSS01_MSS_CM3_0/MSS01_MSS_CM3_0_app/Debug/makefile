@@ -40,7 +40,7 @@ all: MSS01_MSS_CM3_0_app secondary-outputs
 MSS01_MSS_CM3_0_app: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GNU C Linker'
-	arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -L"C:\Users\nlvoll\Documents\Libero\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug" -TC:\Users\nlvoll\Documents\Libero\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\CMSIS\startup_gcc\debug-in-actel-smartfusion-esram.ld -Wl,-Map=$(EXECUTABLE).map -Xlinker -gc-sections -o"MSS01_MSS_CM3_0_app" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -mthumb -mcpu=cortex-m3 -L"C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug" -TC:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\CMSIS\startup_gcc\debug-in-actel-smartfusion-esram.ld -Wl,-Map=$(EXECUTABLE).map -Xlinker -gc-sections -o"MSS01_MSS_CM3_0_app" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

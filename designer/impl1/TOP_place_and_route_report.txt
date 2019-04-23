@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Mon Apr 22 23:51:04 2019 ***************************************************************************
+                          Tue Apr 23 02:11:40 2019 ***************************************************************************
 
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
-File Name: C:\Users\nlvoll\Documents\Libero\VisionAssistance\designer\impl1\TOP.adb
+File Name: C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\designer\impl1\TOP.adb
 Design Name: TOP  Design State: layout
-Last Saved: Mon Apr 22 23:50:29 2019
+Last Saved: Tue Apr 23 02:11:10 2019
 
 ***** Device Data **************************************************
 
@@ -22,9 +22,9 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Mon Apr 22 23:50:22 2019:
-        C:\Users\nlvoll\Documents\Libero\VisionAssistance\synthesis\TOP.edn
-        C:\Users\nlvoll\Documents\Libero\VisionAssistance\component\work\TOP\TOP.pdc
+Source File(s) Imported on Tue Apr 23 02:11:04 2019:
+        C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\synthesis\TOP.edn
+        C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\component\work\TOP\TOP.pdc
 
 
 ***** CAE Variables ************************************************
@@ -50,8 +50,9 @@ Parameters used to run compile:
 Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
-Source      : C:\Users\nlvoll\Documents\Libero\VisionAssistance\synthesis\TOP.edn
-              C:\Users\nlvoll\Documents\Libero\VisionAssistance\component\work\TOP\TOP.pdc
+Source      : C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\synthesis\TOP.edn
+
+C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\component\work\TOP\TOP.pdc
 Format      : EDIF
 Topcell     : TOP
 Speed grade : STD
@@ -555,16 +556,16 @@ Global net placement completed successfully.
 
                         o - o - o - o - o - o
 
-Timing-driven Placer Started: Mon Apr 22 23:50:36 2019
+Timing-driven Placer Started: Tue Apr 23 02:11:17 2019
 
-Placer Finished: Mon Apr 22 23:50:51 2019
-Total Placer CPU Time:     00:00:15
+Placer Finished: Tue Apr 23 02:11:29 2019
+Total Placer CPU Time:     00:00:12
 
                         o - o - o - o - o - o
 
 
 Timing-driven Router 
-Design: TOP                             Started: Mon Apr 22 23:50:53 2019
+Design: TOP                             Started: Tue Apr 23 02:11:30 2019
 
  
 Iterative improvement...
@@ -572,10 +573,11 @@ Iterative improvement...
 Timing-driven Router completed successfully.
 
 Design: TOP                             
-Finished: Mon Apr 22 23:51:01 2019
-Total CPU Time:     00:00:07            Total Elapsed Time: 00:00:08
-Total Memory Usage: 189.2 Mbytes
+Finished: Tue Apr 23 02:11:37 2019
+Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:07
+Total Memory Usage: 189.5 Mbytes
                         o - o - o - o - o - o
 
+status 257
 
 

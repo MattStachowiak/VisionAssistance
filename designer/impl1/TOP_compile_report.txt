@@ -1,13 +1,13 @@
 ***************************************************************************
                                Status Report
-                          Mon Apr 22 23:50:27 2019 ***************************************************************************
+                          Tue Apr 23 02:11:09 2019 ***************************************************************************
 
 Product: Designer
 Release: v11.9
 Version: 11.9.0.4
-File Name: C:\Users\nlvoll\Documents\Libero\VisionAssistance\designer\impl1\TOP.adb
+File Name: C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\designer\impl1\TOP.adb
 Design Name: TOP  Design State: compile
-Last Saved: Mon Apr 22 23:38:08 2019
+Last Saved: Tue Apr 23 02:05:07 2019
 
 ***** Device Data **************************************************
 
@@ -22,9 +22,9 @@ Voltage Range:   COM
 
 ***** Import Variables *********************************************
 
-Source File(s) Imported on Mon Apr 22 23:50:22 2019:
-        C:\Users\nlvoll\Documents\Libero\VisionAssistance\synthesis\TOP.edn
-        C:\Users\nlvoll\Documents\Libero\VisionAssistance\component\work\TOP\TOP.pdc
+Source File(s) Imported on Tue Apr 23 02:11:04 2019:
+        C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\synthesis\TOP.edn
+        C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\component\work\TOP\TOP.pdc
 
 
 ***** CAE Variables ************************************************
@@ -50,8 +50,9 @@ Parameters used to run compile:
 Family      : SmartFusion
 Device      : A2F200M3F
 Package     : 484 FBGA
-Source      : C:\Users\nlvoll\Documents\Libero\VisionAssistance\synthesis\TOP.edn
-              C:\Users\nlvoll\Documents\Libero\VisionAssistance\component\work\TOP\TOP.pdc
+Source      : C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\synthesis\TOP.edn
+
+C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\component\work\TOP\TOP.pdc
 Format      : EDIF
 Topcell     : TOP
 Speed grade : STD

@@ -2,20 +2,24 @@ Microsemi Libero Software
 Version: 11.9.0.4
 Release: v11.9
 
-'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Users\mmanceor\Desktop\VisionAssistance\designer'
+'IDE_DESIGNERVIEW_ROOTDIR' set to
+'C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\designer'
 Info: The design TOP.adb was last modified by software version 11.9.0.4.
 Opened an existing Libero design TOP.adb.
 
-The Execute Script command succeeded ( 00:00:19 )
-Design saved to file C:\Users\mmanceor\Desktop\VisionAssistance\designer\impl1\TOP.adb.
+The Execute Script command succeeded ( 00:00:24 )
+Design saved to file
+C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\designer\impl1\TOP.adb.
 Wrote pin report to file:
-C:\Users\mmanceor\Desktop\VisionAssistance\designer\impl1\TOP_report_pin_byname.txt
+C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\designer\impl1\TOP_report_pin_b\
+yname.txt
 
 The Report command succeeded ( 00:00:00 )
 Wrote pin report to file:
-C:\Users\mmanceor\Desktop\VisionAssistance\designer\impl1\TOP_report_pin_bynumber.txt
+C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\designer\impl1\TOP_report_pin_b\
+ynumber.txt
 
-The Report command succeeded ( 00:00:01 )
+The Report command succeeded ( 00:00:00 )
 
 The Execute Script command succeeded ( 00:00:01 )
 Design closed.

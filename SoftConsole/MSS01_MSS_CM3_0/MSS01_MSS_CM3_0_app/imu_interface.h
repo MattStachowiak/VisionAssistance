@@ -14,8 +14,10 @@
 
 
 // "Public" constants
+#define BNO055_OPR_MODE_INIT	0b0000
 #define BNO055_OPR_MODE_NDOF	0b1100
 #define BNO055_OPR_MODE_COMP	0b1001
+#define BNO055_OPR_MODE_M4G		0b1010
 
 // Private constants
 #define OPR_MODE_REG			0x3D
@@ -31,7 +33,7 @@
 
 double wrap_angle_360(double x)
 {
-	while (x < 0) x += 360.0;
+	while (x < 0.0) x += 360.0;
 	while (x >= 360.0) x -= 360.0;
 	return x;
 }
@@ -77,7 +79,27 @@ int init_BNO055(uint8_t dev_addr, uint8_t mode)
 	);
 	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
 
+	uint i;
+//	for (i = 0; i<10000; ++i);
+
 	return 0;
+}
+
+void reset_BNO055(uint8_t dev_addr)
+{
+	// Set mode to init
+	uint8_t write_mode_seq[] = { OPR_MODE_REG, BNO055_OPR_MODE_INIT };
+	MSS_I2C_write
+	(
+		&g_mss_i2c1,
+		dev_addr,
+		write_mode_seq,
+		2,
+		MSS_I2C_RELEASE_BUS
+	);
+	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_NO_TIMEOUT);
+	uint i;
+//	for (i = 0; i<10000; ++i);
 }
 
 void remap_axes_BNO055(uint8_t dev_addr, uint8_t new_x_axis, uint8_t new_y_axis, uint8_t new_z_axis, uint8_t new_x_sign, uint8_t new_y_sign, uint8_t new_z_sign)
@@ -124,6 +146,7 @@ double read_heading_BNO055(uint8_t dev_addr)
 		MSS_I2C_HOLD_BUS
 	);
 	MSS_I2C_wait_complete(&g_mss_i2c1, MSS_I2C_RELEASE_BUS);
+//	printf("%f\r\n",heading/16.0);
 	return wrap_angle_360(heading/16.0);
 }
 
@@ -132,14 +155,18 @@ double calc_display_angle(const uint8_t display_addr, const uint8_t sensor_addr,
 	static double baseline_heading_display;
 	static double baseline_heading_sensor;
 
+	double sensor_raw = read_heading_BNO055(sensor_addr);
+	double display_raw = read_heading_BNO055(display_addr);
+
 	if (init)
 	{
-		baseline_heading_display = read_heading_BNO055(display_addr);
-		baseline_heading_sensor = read_heading_BNO055(sensor_addr);
+		baseline_heading_display = display_raw;
+		baseline_heading_sensor = sensor_raw;
+		printf("RESET**************************************\n\n\n\n\n\n\n\n\r\n");
 	}
 
-	double heading_sensor = wrap_angle_180(read_heading_BNO055(sensor_addr) - baseline_heading_sensor);
-	double heading_display = wrap_angle_180(read_heading_BNO055(display_addr) - baseline_heading_display);
+	double heading_sensor = wrap_angle_180(sensor_raw - baseline_heading_sensor);
+	double heading_display = wrap_angle_180(display_raw - baseline_heading_display);
 
 	return wrap_angle_180(heading_sensor - heading_display);
 }

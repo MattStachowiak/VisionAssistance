@@ -21,12 +21,14 @@
 
 #define WAND_IMU_ADDR 		0x28
 #define GLASSES_IMU_ADDR 	0x29
+#define LONG_TIMER 1000000
+#define TIMER 100000
 
 #define DISPLAY_FOV 72 // degrees
 #define DISPLAY_POINT_WIDTH 2 // num of LEDs to light up at a time
 #define NO_LED -1000
 
-enum Mode {STANDARD, SPECTRUM, COMPASS}current_mode;
+enum Mode {STANDARD, SPECTRUM, COMPASS}current_mode, prev_mode;
 
 
 //--- Global Variables ---
@@ -40,10 +42,103 @@ float cm_dist;
 
 double IMU_offset;
 double IMU_temp_offset;
-double display_angle;
-int8_t set_heading_baseline = 1;
+double display_angle, glasses_angle;
+int8_t set_heading_baseline;
 
 float temps[8][8];
+
+
+void short_wait(){
+	int i;
+	for (i = 0; i < TIMER; i++){}
+}
+
+void long_wait(){
+	int i;
+	for(i = 0; i < LONG_TIMER; i++){}
+}
+
+void transition1(void){
+	int j;
+	LED[0] = blue;
+	uint32_t color_temp = green;
+	for(j = 0; j < 24; j++){
+		LED_reset(LED);
+		LED[j] = color_temp;
+		short_wait();
+	}
+
+
+	int k;
+	for(j = 0; j < 6; j++){
+		LED_reset(LED);
+		for(k = 8; k < 16; ++k){
+			LED[k] = color_temp;
+		}
+		if (color_temp == green){
+			color_temp = off;
+		}
+		else
+			color_temp = green;
+		long_wait();
+
+
+	}
+}
+
+
+void transition2(){
+	int j;
+	uint32_t color_temp = blue;
+	LED[0] = blue;
+	for(j = 23; j >= 0; j--){
+		LED_reset(LED);
+		LED[j] = color_temp;
+		short_wait();
+	}
+
+
+	int k;
+	for(j = 0; j < 6; j++){
+		LED_reset(LED);
+		for(k = 16; k < 24; ++k){
+			LED[k] = color_temp;
+		}
+		if (color_temp == blue){
+			color_temp = off;
+		}
+		else
+			color_temp = blue;
+		long_wait();
+	}
+}
+
+void transition3(void){
+	int j;
+		uint32_t color_temp = red;
+		LED[0] = red;
+		for(j = 0; j < 24; j++){
+			LED_reset(LED);
+			LED[j] = color_temp;
+			LED[23-j] = color_temp;
+			short_wait();
+		}
+
+
+		int k;
+		for(j = 0; j < 6; j++){
+			LED_reset(LED);
+			for(k = 0; k < 8; ++k){
+				LED[k] = color_temp;
+			}
+			if (color_temp == red){
+				color_temp = off;
+			}
+			else
+				color_temp = red;
+			long_wait();
+		}
+}
 
 
 // Function reverses bits in the byte
@@ -81,13 +176,13 @@ int dist_to_LED(float in_dist){
 // Interrupts for Gyroscope reset functionality (Pin J20)
 void GPIO0_IRQHandler (void){
 
-	IMU_offset = IMU_temp_offset;
+//	IMU_offset = IMU_temp_offset;
+	set_heading_baseline = 1;
 	MSS_GPIO_clear_irq(MSS_GPIO_0);
 }
 
 // Interrupts for Mode cycling (Pin J21)
 void GPIO1_IRQHandler (void){
-
 	current_mode += 1;
 	current_mode %= 3;
 	MSS_GPIO_clear_irq(MSS_GPIO_1);
@@ -132,7 +227,6 @@ void standard_execute(){
 		color = green;
 
 	// IMUs calculate angle at which to display
-	set_heading_baseline = 0;
 	if (display_angle < -DISPLAY_FOV/2 || display_angle >= DISPLAY_FOV/2){
 		LED_num = display_angle < 0 ? NUMLEDS-1 : 0 - (DISPLAY_POINT_WIDTH-1);
 		color = red;
@@ -169,15 +263,84 @@ void spectrum_execute(){
 
 
 void compass_execute(){
+	int i;
 
+	for (i = 0; i<NUMLEDS; ++i)
+	{
+		printf("%f\r\n",glasses_angle);
+		double LED_deg = glasses_angle + (1.0*3)*((12)-1-i);
+		printf("%f\r\n",LED_deg);
+		if ((LED_deg <= 0 && 0 < LED_deg + 1.0*DISPLAY_FOV/NUMLEDS) || (LED_deg <= 360 && 360 < LED_deg + 1.0*DISPLAY_FOV/NUMLEDS))
+			LED[i] = white;
+		else if (LED_deg <= 90 && 90 < LED_deg + 1.0*DISPLAY_FOV/NUMLEDS)
+			LED[i] = red;
+		else if (LED_deg <= 180 && 180 < LED_deg + 1.0*DISPLAY_FOV/NUMLEDS)
+			LED[i] = green;
+		else if (LED_deg <= 270 && 270 < LED_deg + 1.0*DISPLAY_FOV/NUMLEDS)
+			LED[i] = blue;
+		else
+			LED[i] = off;
+	}
 }
+
+int standard_init()
+{
+	transition3();
+	// Reset to standard axes
+	remap_axes_BNO055(WAND_IMU_ADDR, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0);
+	remap_axes_BNO055(GLASSES_IMU_ADDR, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0);
+
+	if (init_BNO055(WAND_IMU_ADDR, BNO055_OPR_MODE_NDOF))
+		while (1) printf("Standard IMU init error");
+
+	if (init_BNO055(GLASSES_IMU_ADDR, BNO055_OPR_MODE_NDOF))
+		while (1) printf("Standard IMU init error");
+
+
+	return 0;
+}
+
+int spectrum_init()
+{
+	transition2();
+	// Reset to standard axes
+	remap_axes_BNO055(WAND_IMU_ADDR, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0);
+	remap_axes_BNO055(GLASSES_IMU_ADDR, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0);
+
+	if (init_BNO055(WAND_IMU_ADDR, BNO055_OPR_MODE_NDOF))
+		while (1) printf("Spectrum IMU init error");
+	if (init_BNO055(GLASSES_IMU_ADDR, BNO055_OPR_MODE_NDOF))
+		while (1) printf("Spectrum IMU init error");
+
+	return 0;
+}
+
+
+int compass_init()
+{
+	transition1();
+	// Set new y-axis to be the former z-axis; set new z-axis to be neg. former y-axis
+	remap_axes_BNO055(WAND_IMU_ADDR, 0x0, 0x2, 0x1, 0x0, 0x0, 0x1);
+	// Set new z-axis to be the former x-axis; set new x-axis to be former z-axis; set new y-axis to be negative of former y-axis
+	remap_axes_BNO055(GLASSES_IMU_ADDR, 0x2, 0x1, 0x0, 0x0, 0x1, 0x0);
+
+	if (init_BNO055(WAND_IMU_ADDR, BNO055_OPR_MODE_M4G))
+		while (1) printf("Compass IMU init error");
+	if (init_BNO055(GLASSES_IMU_ADDR, BNO055_OPR_MODE_M4G))
+		while (1) printf("Compass IMU init error");
+
+	return 0;
+}
+
+
+
 
 
 int main(){
 
 	// Setup
 	LED_reset(LED);
-	current_mode = STANDARD;
+	current_mode = prev_mode = STANDARD;
 	// Initialize GPIO for interrupts
 	MSS_GPIO_init();
 	MSS_GPIO_config( MSS_GPIO_0, MSS_GPIO_INPUT_MODE | MSS_GPIO_IRQ_EDGE_POSITIVE );
@@ -190,14 +353,10 @@ int main(){
 
 
 	// IMU initialization ------------------------------------------
-	// Set new y-axis to be the former z-axis; set new z-axis to be neg. former y-axis
-	remap_axes_BNO055(WAND_IMU_ADDR, 0x0, 0x2, 0x1, 0x0, 0x0, 0x1);
-	// Set new z-axis to be the former x-axis; set new x-axis to be former z-axis; set ne y-axis to be negative of former y-axis
-	remap_axes_BNO055(GLASSES_IMU_ADDR, 0x2, 0x1, 0x0, 0x0, 0x1, 0x0);
-	if (init_BNO055(WAND_IMU_ADDR, BNO055_OPR_MODE_COMP)) assert("IMU init error");
-	if (init_BNO055(GLASSES_IMU_ADDR, BNO055_OPR_MODE_COMP)) assert("IMU init error");
+	if (init_BNO055(WAND_IMU_ADDR, BNO055_OPR_MODE_NDOF)) assert("IMU init error");
+	if (init_BNO055(GLASSES_IMU_ADDR, BNO055_OPR_MODE_NDOF)) assert("IMU init error");
+	set_heading_baseline = 1;
 	IMU_offset = 0;
-
 
 	// Base pixel register is 0x80
 	uint8_t pixel_addr[] = {0x80};
@@ -212,13 +371,37 @@ int main(){
 
 		// Get data from all sensors
 		gridEYE_read(pixel_addr, pixel_data);
-		display_angle = calc_display_angle(GLASSES_IMU_ADDR, WAND_IMU_ADDR, set_heading_baseline) - IMU_offset;
+		display_angle = calc_display_angle(GLASSES_IMU_ADDR, WAND_IMU_ADDR, set_heading_baseline); //- IMU_offset;
+		glasses_angle = read_heading_BNO055(GLASSES_IMU_ADDR);
+//		printf("%f\r\n",display_angle);
+		set_heading_baseline = 0;
 
+		if (prev_mode != current_mode)
+		{
+			reset_BNO055(GLASSES_IMU_ADDR);
+			reset_BNO055(WAND_IMU_ADDR);
+			switch(current_mode){
+				case STANDARD:
+					standard_init();
+					break;
+				case SPECTRUM:
+					spectrum_init();
+					break;
+				case COMPASS:
+					compass_init();
+					break;
+				default:
+					standard_init();
+					break;
+			}
+		}
+		prev_mode = current_mode;
 
 		NVIC_EnableIRQ(32);
 		NVIC_EnableIRQ(33);
 
-		IMU_temp_offset = display_angle + IMU_offset;
+
+//		IMU_temp_offset = display_angle + IMU_offset;
 		SONIC_DATA = *SONIC_READ;
 
 		get_temps_forward(pixel_data, temps);
@@ -238,7 +421,7 @@ int main(){
 				break;
 		}
 
-
+//		printf("%f\r\n",display_angle);
 	}//while(1)
 	return 0;
 }

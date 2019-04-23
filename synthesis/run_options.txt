@@ -1,22 +1,22 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-SP1-5
-#--  Project file C:\Users\nlvoll\Documents\Libero\VisionAssistance\synthesis\run_options.txt
-#--  Written on Mon Apr 22 23:50:06 2019
+#--  Project file C:\Users\mtstacho\Desktop\VisionAssistance(EXP)\VisionAssistance\synthesis\run_options.txt
+#--  Written on Tue Apr 23 02:07:04 2019
 
 
 #project files
-add_file -verilog "C:/Users/nlvoll/Documents/Libero/VisionAssistance/hdl/sensing.v"
-add_file -verilog "C:/Users/nlvoll/Documents/Libero/VisionAssistance/hdl/LED.v"
-add_file -verilog "C:/Users/nlvoll/Documents/Libero/VisionAssistance/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v"
-add_file -verilog "C:/Users/nlvoll/Documents/Libero/VisionAssistance/component/work/MSS01/MSS_CCC_0/MSS01_tmp_MSS_CCC_0_MSS_CCC.v"
-add_file -verilog "C:/Users/nlvoll/Documents/Libero/VisionAssistance/component/work/MSS01/mss_tshell.v"
-add_file -verilog "C:/Users/nlvoll/Documents/Libero/VisionAssistance/component/work/MSS01/MSS01.v"
-add_file -verilog "C:/Users/nlvoll/Documents/Libero/VisionAssistance/hdl/Switch_0.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/nlvoll/Documents/Libero/VisionAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/nlvoll/Documents/Libero/VisionAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
-add_file -verilog -lib COREAPB3_LIB "C:/Users/nlvoll/Documents/Libero/VisionAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v"
-add_file -verilog "C:/Users/nlvoll/Documents/Libero/VisionAssistance/component/work/TOP/TOP.v"
-add_file -constraint "C:/Users/nlvoll/Documents/Libero/VisionAssistance/component/work/MSS01/mss_tshell_syn.sdc"
+add_file -verilog "C:/Users/mtstacho/Desktop/VisionAssistance(EXP)/VisionAssistance/hdl/sensing.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/VisionAssistance(EXP)/VisionAssistance/hdl/LED.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/VisionAssistance(EXP)/VisionAssistance/component/Actel/SmartFusionMSS/MSS/2.5.200/mss_comps.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/VisionAssistance(EXP)/VisionAssistance/component/work/MSS01/MSS_CCC_0/MSS01_tmp_MSS_CCC_0_MSS_CCC.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/VisionAssistance(EXP)/VisionAssistance/component/work/MSS01/mss_tshell.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/VisionAssistance(EXP)/VisionAssistance/component/work/MSS01/MSS01.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/VisionAssistance(EXP)/VisionAssistance/hdl/Switch_0.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/mtstacho/Desktop/VisionAssistance(EXP)/VisionAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_muxptob3.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/mtstacho/Desktop/VisionAssistance(EXP)/VisionAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3_iaddr_reg.v"
+add_file -verilog -lib COREAPB3_LIB "C:/Users/mtstacho/Desktop/VisionAssistance(EXP)/VisionAssistance/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core_obfuscated/coreapb3.v"
+add_file -verilog "C:/Users/mtstacho/Desktop/VisionAssistance(EXP)/VisionAssistance/component/work/TOP/TOP.v"
+add_file -constraint "C:/Users/mtstacho/Desktop/VisionAssistance(EXP)/VisionAssistance/component/work/MSS01/mss_tshell_syn.sdc"
 
 
 

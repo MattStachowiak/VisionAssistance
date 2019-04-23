@@ -23,7 +23,7 @@ SUBDIRS := \
 # Microsemi SoftConsole IDE Variables
 ################################################################################
 
-BUILDCMD = arm-none-eabi-gcc -mthumb -mcpu=cortex-m3  -L"C:\Users\nlvoll\Documents\Libero\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug" -TC:\Users\nlvoll\Documents\Libero\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\CMSIS\startup_gcc\debug-in-actel-smartfusion-esram.ld -Wl,-Map=$(EXECUTABLE).map -Xlinker -gc-sections 
+BUILDCMD = arm-none-eabi-gcc -mthumb -mcpu=cortex-m3  -L"C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\Debug" -TC:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\SoftConsole\MSS01_MSS_CM3_0\MSS01_MSS_CM3_0_hw_platform\CMSIS\startup_gcc\debug-in-actel-smartfusion-esram.ld -Wl,-Map=$(EXECUTABLE).map -Xlinker -gc-sections 
 SHELL := cmd.exe
 EXECUTABLE := MSS01_MSS_CM3_0_app
 

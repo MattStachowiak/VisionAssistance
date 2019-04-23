@@ -3,23 +3,26 @@ Version: 11.9.0.4
 Release: v11.9
 
 Software Version: 11.9.0.4
-PDB file 'C:\Users\nlvoll\Documents\Libero\VisionAssistance\designer\impl1\TOP_fp\TOP.pdb' has
-been loaded successfully.
+PDB file
+'C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\designer\impl1\TOP_fp\TOP.pdb'
+has been loaded successfully.
 DESIGN : TOP;  CHECKSUM : A0CD;  PDB_VERSION : 1.9
 Driver : 3.0.0 build 1
 programmer '80443' : FlashPro3
-Opened 'C:\Users\nlvoll\Documents\Libero\VisionAssistance\designer\impl1\TOP_fp\TOP.pro'
+Opened
+'C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\designer\impl1\TOP_fp\TOP.pro'
 The 'open_project' command succeeded.
 The 'set_programming_file' command succeeded.
 The 'set_device_type' command succeeded.
 The 'set_device_package' command succeeded.
 Info: Adding Flash Memory data from file
-      C:\Users\nlvoll\Documents\Libero\VisionAssistance\component\work\MSS01\MSS_ENVM_0\MSS_ENV\
-      M_0.efc.
+      C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\component\work\MSS01\MSS_\
+      ENVM_0\MSS_ENVM_0.efc.
 Info: Adding FPGA Array data from file
-      C:\Users\nlvoll\Documents\Libero\VisionAssistance\designer\impl1\TOP.fdb.
-PDB file 'C:\Users\nlvoll\Documents\Libero\VisionAssistance\designer\impl1\TOP_fp\TOP.pdb' has
-been loaded successfully.
+      C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\designer\impl1\TOP.fdb.
+PDB file
+'C:\Users\mtstacho\Desktop\VisionAssistanceCOMP\VisionAssistance\designer\impl1\TOP_fp\TOP.pdb'
+has been loaded successfully.
 DESIGN : TOP;  CHECKSUM : A0CD;  PDB_VERSION : 1.9
 The 'update_programming_file' command succeeded.
 The 'set_programming_action' command succeeded.
@@ -37,7 +40,7 @@ programmer '80443' : Verifying FPGA Array
 programmer '80443' :         Verifying FPGA Array -- pass
 programmer '80443' : Program System Init and Boot Clients...
 programmer '80443' : Verify System Init and Boot Clients...
-programmer '80443' : Finished: Mon Apr 22 23:52:13 2019 (Elapsed time 00:00:35)
+programmer '80443' : Finished: Tue Apr 23 02:12:55 2019 (Elapsed time 00:00:34)
 programmer '80443' : Executing action PROGRAM PASSED.
 
                         o - o - o - o - o - o

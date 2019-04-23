@@ -4,6 +4,7 @@
 // LED Globals
 #define LED_ADDR 0x40050000
 #define NUMLEDS 24
+#define white 0xffffff
 #define blue 0xff0000
 #define red 0x00ff00
 #define green 0x0000ff
