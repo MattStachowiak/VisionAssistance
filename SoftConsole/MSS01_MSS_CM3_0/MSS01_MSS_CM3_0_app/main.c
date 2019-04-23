@@ -158,8 +158,8 @@ void spectrum_execute(){
 	uint8_t red_amt = 0;
 	uint8_t green_amt = 0;
 
-	blue_amt = 255 - (255.0/80.0) * avg_temp;
-	red_amt = (255.0/80.0) * avg_temp;
+	blue_amt = exp(-(avg_temp/12) + 5.5);
+	red_amt = exp((avg_temp/12) -1.25);
 
 	color = format_color(blue_amt, red_amt, green_amt);
 
