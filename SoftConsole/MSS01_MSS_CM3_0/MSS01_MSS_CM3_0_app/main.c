@@ -46,7 +46,6 @@ int8_t set_heading_baseline = 1;
 float temps[8][8];
 
 
-int int_count;
 // Function reverses bits in the byte
 uint8_t byte_reverse(uint8_t x)
 {
@@ -56,7 +55,7 @@ uint8_t byte_reverse(uint8_t x)
 
 
 // Function scales brightness based on distance
-uint32_t scale_brightness_dist(int32_t color, float in_dist){
+uint32_t scale_brightness(int32_t color, float in_dist){
 	uint i;
 	uint32_t result = 0;
 	double scale_factor;
@@ -94,16 +93,31 @@ void GPIO1_IRQHandler (void){
 	MSS_GPIO_clear_irq(MSS_GPIO_1);
 }
 
+// Function formats MSB output of input blue, red, and green amounts
+// for LED write transaction
+uint32_t format_color(uint8_t blue_amt, uint8_t red_amt, uint8_t green_amt){
+	return (blue_amt << 16) | (red_amt << 8) | green_amt;
+}
+
+
 
 // Write to LEDs with brightness scaled on the distance
 void write_scaled_LEDs(){
-	// Write to LEDs
+
 	int i;
 	for(i = 0; i < NUMLEDS; ++i){
 		if (i >= LED_num && i < LED_num + DISPLAY_POINT_WIDTH)
-			LED[i] = scale_brightness_dist(color, cm_dist);
+			LED[i] = scale_brightness(color, cm_dist);
 		else
 			LED[i] = off;
+	}
+}
+
+// Write the color variable to all LEDs
+void write_all_LEDs(){
+	int i;
+	for(i = 0; i < NUMLEDS; ++i){
+		LED[i] = color;
 	}
 }
 
@@ -117,7 +131,7 @@ void standard_execute(){
 	else
 		color = green;
 
-	// IMUs: read and calculate angle at which to display
+	// IMUs calculate angle at which to display
 	set_heading_baseline = 0;
 	if (display_angle < -DISPLAY_FOV/2 || display_angle >= DISPLAY_FOV/2){
 		LED_num = display_angle < 0 ? NUMLEDS-1 : 0 - (DISPLAY_POINT_WIDTH-1);
@@ -133,7 +147,23 @@ void standard_execute(){
 }
 
 
+// Determine color based on temperature
+// Spectrum is from blue (0 C) to red (80 C)
 void spectrum_execute(){
+
+	float avg_temp = 0;
+	avg_temp = (temps[3][3] + temps[3][4] + temps[4][3] + temps[4][4]) / 4.0;
+
+	uint8_t blue_amt = 0;
+	uint8_t red_amt = 0;
+	uint8_t green_amt = 0;
+
+	blue_amt = 255 - (255.0/80.0) * avg_temp;
+	red_amt = (255.0/80.0) * avg_temp;
+
+	color = format_color(blue_amt, red_amt, green_amt);
+
+	write_all_LEDs();
 
 }
 
@@ -144,6 +174,7 @@ void compass_execute(){
 
 
 int main(){
+
 	// Setup
 	LED_reset(LED);
 	current_mode = STANDARD;
@@ -190,15 +221,16 @@ int main(){
 				standard_execute();
 				break;
 			case SPECTRUM:
+				spectrum_execute();
 				break;
 			case COMPASS:
+				compass_execute();
 				break;
 			default:
 				standard_execute();
+				break;
 		}
 
-
-		//gridEYE_print(temps);
 
 	}//while(1)
 	return 0;
