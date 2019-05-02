@@ -4,7 +4,4 @@ Demo Video:
   https://youtu.be/kwxuSDILoKI
   
  Authored by:
-    Darshin Patel
-    Matthew Stachowiak
-    Michael Manceor
-    Nathan Vollbrecht
+    Darshin Patel, Matthew Stachowiak, Michael Manceor, Nathan Vollbrecht
